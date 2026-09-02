@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="French Revision">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <title>French Revision — Paris Notebook V1</title>
+  <style>
+    :root{
+      --ink:#20304f;--muted:#6d7690;--line:#dce3f1;--paper:#fff;
+      --sage:#657fbe;--sage-dark:#2f4e87;--sage-soft:#edf3ff;
+      --lav:#c4778f;--lav-soft:#fceff3;--rose:#b95f78;--rose-soft:#fff0f3;
+      --gold:#a57b4f;--gold-soft:#fff7eb;--track:#eef2f8;
+      --heading:"Bodoni 72","Didot","Iowan Old Style","Palatino Linotype",Georgia,serif;
+      --body:"Avenir Next",Avenir,"Gill Sans","Segoe UI",Arial,sans-serif;
+    }
+    *{box-sizing:border-box}
+    html{background:#fff}
+    body{margin:0;background:#fff;color:var(--ink);font-family:var(--body);line-height:1.5}
+    button,textarea,input{font:inherit}
+    button{cursor:pointer;min-height:44px}
+    button:focus-visible,textarea:focus-visible,input:focus-visible{outline:3px solid #9fb5e8;outline-offset:2px}
+    .hidden{display:none!important}
+    .muted{color:var(--muted)}
+    .small{font-size:13px}
+    .eyebrow{color:var(--lav);font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+    h1,h2,h3{font-family:var(--heading);font-weight:600;line-height:1.18}
+    h1{font-size:clamp(29px,5vw,43px);margin:6px 0 8px}
+    h2{font-size:24px;margin:0 0 8px}
+    h3{font-size:18px;margin:0 0 7px}
+    p{margin:8px 0}
+    .app-header{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.96);backdrop-filter:blur(14px);border-bottom:1px solid var(--line);padding:12px max(16px,env(safe-area-inset-left))}
+    .header-inner{max-width:1120px;margin:auto;display:flex;align-items:center;gap:12px}
+    .brand{display:flex;align-items:center;gap:10px;margin-right:auto;font-family:var(--heading);font-size:20px;font-weight:600}
+    .brand-mark{width:40px;height:40px;display:grid;place-items:center;border-radius:14px;background:var(--sage);color:#fff;box-shadow:3px 3px 0 var(--lav-soft);font-family:var(--heading);font-size:22px}
+    .header-tag{display:none;color:var(--muted);font-size:13px}
+    .sound-button{border:1px solid var(--line);border-radius:999px;background:#fff;color:var(--ink);padding:8px 13px;display:flex;align-items:center;gap:7px}
+    .sound-dot{width:9px;height:9px;border-radius:50%;background:var(--sage)}
+    .sound-button[aria-pressed="false"] .sound-dot{background:#b8c0bc}
+    .wrap{max-width:1120px;margin:auto;padding:24px max(16px,env(safe-area-inset-left)) 38px}
+    .hero{position:relative;overflow:hidden;padding:15px 2px 22px}
+    .hero:after{content:"";position:absolute;width:190px;height:190px;border-radius:50%;right:-85px;top:-95px;background:var(--lav-soft);z-index:-1}
+    .hero-row{display:flex;justify-content:space-between;align-items:flex-end;gap:20px}
+    .hero p{max-width:650px;color:var(--muted)}
+    .streak{display:flex;align-items:center;gap:8px;padding:9px 12px;border-radius:999px;background:var(--gold-soft);color:var(--gold);white-space:nowrap}
+    .summary-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:20px}
+    .summary{background:#fff;border:1px solid var(--line);border-radius:18px;padding:17px;min-width:0}
+    .summary:nth-child(1){border-top:4px solid var(--sage)}
+    .summary:nth-child(2){border-top:4px solid var(--lav)}
+    .summary:nth-child(3){border-top:4px solid var(--gold)}
+    .summary:nth-child(4){border-top:4px solid var(--rose)}
+    .summary-label{color:var(--muted);font-size:13px}
+    .summary-value{font-family:var(--heading);font-size:31px;font-weight:600;margin:3px 0}
+    .progress{height:8px;border-radius:999px;background:var(--track);overflow:hidden;margin-top:9px}
+    .progress-bar{height:100%;width:0;background:var(--sage);border-radius:999px;transition:width .2s ease}
+    .primary,.secondary,.ghost{border-radius:999px;padding:10px 16px}
+    .primary{border:1px solid var(--sage);background:var(--sage);color:#fff;box-shadow:0 7px 16px rgba(101,127,190,.18)}
+    .primary:hover{background:var(--sage-dark)}
+    .secondary{border:1px solid var(--line);background:#fff;color:var(--ink)}
+    .ghost{border:0;background:var(--sage-soft);color:var(--sage-dark)}
+    button:disabled{opacity:.45;cursor:not-allowed;box-shadow:none}
+    .action-row{display:flex;align-items:center;gap:9px;flex-wrap:wrap}
+    .between{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap}
+    .dashboard-actions{border:1px solid var(--line);border-radius:19px;padding:16px;margin:17px 0;background:#fff;display:flex;justify-content:space-between;align-items:center;gap:15px;flex-wrap:wrap}
+    .mode-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:13px;margin:4px 0 22px}
+    .mode-card{position:relative;overflow:hidden;border:1px solid var(--line);border-radius:22px;background:#fff;padding:19px;min-height:190px;display:flex;flex-direction:column;box-shadow:0 10px 24px rgba(47,78,135,.06)}
+    .mode-card:nth-child(2){border-color:#e8d4dc}.mode-card:nth-child(3){border-color:#eadfca}
+    .mode-card:before{content:"";position:absolute;width:110px;height:110px;border:1px solid var(--line);border-radius:50%;right:-54px;top:-54px}
+    .mode-no{font-family:var(--heading);font-size:12px;letter-spacing:.13em;color:var(--lav);text-transform:uppercase}
+    .mode-card h2{font-size:23px;margin:9px 0 7px}.mode-card p{font-size:14px;color:var(--muted);margin:0 0 16px;flex:1}
+    .mode-card button{align-self:flex-start}
+    .paris-line{height:28px;width:90px;margin-top:8px;opacity:.65;color:var(--sage-dark)}
+    .phase{margin:28px 2px 11px;color:var(--lav);font-size:12px;letter-spacing:.08em;text-transform:uppercase;font-weight:700}
+    .day-card{position:relative;overflow:hidden;border:1px solid var(--line);border-radius:20px;background:#fff;padding:18px;margin-bottom:12px;box-shadow:0 8px 22px rgba(47,78,135,.065)}
+    .day-card:after{content:"";position:absolute;width:80px;height:80px;border-radius:50%;right:-42px;bottom:-46px;background:var(--sage-soft)}
+    .day-main{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:15px;align-items:center;position:relative;z-index:1}
+    .day-title{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+    .day-title h2{margin:0;font-size:22px}
+    .status{display:inline-flex;padding:5px 9px;border-radius:999px;font-size:12px;font-weight:700}
+    .status.mastered{background:var(--sage-soft);color:var(--sage-dark)}
+    .status.started{background:var(--gold-soft);color:var(--gold)}
+    .status.new{background:var(--rose-soft);color:var(--rose)}
+    .scope{border-top:1px solid var(--line);margin-top:12px;padding-top:11px;color:var(--muted);font-size:13px;position:relative;z-index:1}
+    .cycle-line{display:flex;align-items:center;gap:8px;color:var(--muted);font-size:13px;margin-top:6px;flex-wrap:wrap}
+    .cycle-badge{display:inline-flex;padding:4px 8px;border-radius:999px;background:var(--lav-soft);color:var(--lav)}
+    .notice{border:1px solid #ead7b9;border-left:5px solid var(--gold);border-radius:15px;background:var(--gold-soft);padding:14px;margin-bottom:15px}
+    .parent-panel{border:1px solid var(--line);border-radius:20px;padding:18px;margin-top:22px;background:#fff}
+    .storage-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:12px 0 15px}
+    .storage-item{background:var(--sage-soft);border-radius:14px;padding:12px}
+    .storage-item:nth-child(2){background:var(--lav-soft)}
+    .fileinput{display:none}
+    .notes-shell,.quiz-shell,.results-shell{max-width:880px;margin:auto}
+    .page-card{border:1px solid var(--line);border-radius:24px;background:#fff;padding:clamp(18px,4vw,30px);box-shadow:0 12px 32px rgba(47,78,135,.08)}
+    .notes-header{display:flex;justify-content:space-between;gap:15px;align-items:flex-start;border-bottom:1px solid var(--line);padding-bottom:17px;margin-bottom:17px}
+    .must-box{background:var(--lav-soft);border-radius:20px;padding:18px;margin:15px 0}
+    .must-box h3{color:var(--lav)}
+    .must-box ul,.note-section ul,.feedback-list{margin:7px 0 0;padding-left:22px}
+    .must-box li,.note-section li,.feedback-list li{margin:7px 0}
+    .notes-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:14px 0}
+    .note-section{border:1px solid var(--line);border-radius:18px;padding:16px;background:#fff}
+    .note-section:nth-child(2n){border-color:#ecdbe2}
+    .exact-scope{border-left:4px solid var(--sage);background:var(--sage-soft);border-radius:0 14px 14px 0;padding:13px 15px;margin:15px 0}
+    .quiz-top{margin-bottom:17px}
+    .quiz-meta{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:8px}
+    .quiz-badges{display:flex;gap:7px;flex-wrap:wrap}
+    .question-context{white-space:pre-wrap;overflow-wrap:anywhere;border:1px solid #ecdbe2;border-radius:18px;background:var(--lav-soft);padding:16px;margin:15px 0;font-family:var(--heading);font-size:19px}
+    .direction{display:inline-flex;padding:5px 9px;border-radius:999px;background:var(--sage-soft);color:var(--sage-dark);font-size:12px;font-weight:700}
+    .question-text{font-family:var(--heading);font-size:23px;line-height:1.35;margin:15px 0}
+    .answers{display:grid;gap:9px}
+    .answer-button{border:1px solid var(--line);border-radius:15px;background:#fff;color:var(--ink);text-align:left;padding:12px 14px;min-height:48px}
+    .answer-button:hover{border-color:#9fb5e8;background:#fff8fa}
+    .answer-button.selected{border:2px solid var(--lav);background:var(--lav-soft)}
+    textarea{width:100%;min-height:140px;border:1px solid #aebbd8;border-radius:17px;padding:14px;background:#fff;color:var(--ink);font-size:17px;resize:vertical}
+    .feedback{margin-top:17px;border-radius:20px;padding:18px;border:1px solid var(--line)}
+    .feedback.good{background:var(--sage-soft);border-color:#c6dfd2}
+    .feedback.bad{background:var(--rose-soft);border-color:#efcbd1}
+    .feedback-title{font-family:var(--heading);font-size:22px;margin-bottom:8px}
+    .your-answer{padding:9px 12px;border-radius:12px;background:rgba(255,255,255,.75);margin:9px 0}
+    .answer-example{background:#fff;border-left:4px solid var(--lav);border-radius:0 13px 13px 0;padding:12px 14px;margin:11px 0}
+    .explanation-box{background:#fff;border-radius:15px;padding:14px;margin-top:11px}
+    .memory-box{background:var(--gold-soft);border-radius:14px;padding:12px 14px;margin-top:11px;color:#6f4d29}
+    .review-schedule{font-size:13px;margin-top:11px;color:var(--rose)}
+    .result-score{font-family:var(--heading);font-size:44px;margin:8px 0}
+    .result-message{font-size:17px}
+    .file-note{font-size:12px;color:var(--muted);margin-top:9px}
+    @media(min-width:760px){.header-tag{display:block}}
+    @media(max-width:880px){.summary-grid{grid-template-columns:repeat(2,1fr)}.notes-grid{grid-template-columns:1fr}}
+    @media(max-width:620px){
+      .wrap{padding-top:17px}.hero-row{align-items:flex-start;flex-direction:column}.streak{align-self:flex-start}
+      .summary-grid{grid-template-columns:1fr 1fr;gap:9px}.summary{padding:14px}.summary-value{font-size:27px}
+      .day-main{grid-template-columns:1fr}.day-main .primary{width:100%}.storage-grid{grid-template-columns:1fr}
+      .notes-header{flex-direction:column}.question-text{font-size:21px}.page-card{border-radius:20px}
+      .mode-grid{grid-template-columns:1fr}.mode-card{min-height:0}
+    }
+  </style>
+</head>
+<body>
+  <header class="app-header">
+    <div class="header-inner">
+      <div class="brand"><span class="brand-mark">F</span><span>French Revision</span></div>
+      <span class="header-tag">Paris Notebook V1 · Summer source-locked</span>
+      <button id="soundButton" class="sound-button" type="button" aria-pressed="true" onclick="toggleSound()"><span class="sound-dot"></span><span id="soundLabel">Sound on</span></button>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="dashboard">
+      <div id="migration" class="notice hidden"></div>
+      <div id="resumePanel" class="notice hidden"><div class="between"><div><strong>Practice paused</strong><div id="resumeText" class="small">Your place is saved on this iPad.</div></div><button class="primary" onclick="resumeSession()">Continue practice</button></div></div>
+      <div class="hero">
+        <div class="hero-row">
+          <div><div class="eyebrow">Bonjour · Summer revision</div><h1>Petit à petit, confidence grows.</h1><p>Choose dated revision, the complete vocabulary bank, or controlled 3–5 sentence writing. New questions come first; mistakes return after 2 days and 7 days.</p></div>
+          <div class="streak">✦ <span>Paris Notebook · calm, focused practice</span></div>
+        </div>
+      </div>
+
+      <div class="summary-grid">
+        <div class="summary"><div class="summary-label">Overall mastery</div><div class="summary-value" id="overall">0%</div><div class="progress"><div class="progress-bar" id="overallbar"></div></div></div>
+        <div class="summary"><div class="summary-label">Questions in bank</div><div class="summary-value" id="totalcount">0</div><div class="small muted">Teacher material only</div></div>
+        <div class="summary"><div class="summary-label">Due today</div><div class="summary-value" id="duecount">0</div><button id="duebtn" class="ghost" onclick="startDue()">Review due questions</button></div>
+        <div class="summary"><div class="summary-label">Scheduled reviews</div><div class="summary-value" id="weakcount">0</div><div class="small muted" id="weakSummary">Held out of normal practice</div></div>
+      </div>
+
+      <div class="mode-grid" aria-label="Choose a practice mode">
+        <article class="mode-card"><div class="mode-no">Carnet 01</div><h2>Dated Summer Revision</h2><p>Exact dated topics, longer Quick Notes and a complete no-repeat focus cycle.</p><button class="primary" onclick="scrollToDates()">Choose a date</button></article>
+        <article class="mode-card"><div class="mode-no">Carnet 02</div><h2>Full Vocabulary Bank</h2><p>All learned words and chunks only. French ↔ English, fresh items first, with accent reminders.</p><button class="primary" onclick="startVocabulary()">Practise vocabulary</button></article>
+        <article class="mode-card"><div class="mode-no">Carnet 03</div><h2>3–5 Sentence Writing</h2><p>Controlled writing tasks with automatic requirement-by-requirement feedback and a model answer.</p><button class="primary" onclick="openWritingMenu()">Choose a writing task</button></article>
+      </div>
+
+      <section id="writingMenu" class="parent-panel hidden" style="margin:0 0 22px">
+        <div class="between"><div><div class="eyebrow">Atelier d’écriture</div><h2 style="margin-top:5px">3–5 Sentence Writing</h2></div><button class="secondary" onclick="closeWritingMenu()">Close</button></div>
+        <p class="muted">Every task uses only the taught topic and time frame. The app checks sentence count and each required structure; it does not ask the student to self-mark.</p>
+        <div id="writingList"></div>
+      </section>
+
+      <div id="datedStart" class="dashboard-actions">
+        <div><h3 style="margin-bottom:3px">Dated Summer Revision</h3><div class="small muted">Every card follows the exact sections assigned to that summer date.</div></div>
+        <button class="secondary" onclick="startMixed()">Mixed test from attempted blocks</button>
+      </div>
+
+      <div id="daylist"></div>
+
+      <section class="parent-panel">
+        <div class="between"><div><div class="eyebrow">Parent controls</div><h2 style="margin-top:5px">Progress stays on this iPad</h2></div><span class="cycle-badge">Auto-saved after every answer</span></div>
+        <p class="muted">Closing the app, closing Safari or restarting the iPad does not normally remove progress. Export a backup before a major update or before clearing Safari website data.</p>
+        <div class="storage-grid">
+          <div class="storage-item"><strong>Last saved</strong><br><span id="lastSaved" class="small">Not yet</span></div>
+          <div class="storage-item"><strong>Last backup</strong><br><span id="lastBackup" class="small">No backup exported yet</span></div>
+        </div>
+        <div class="action-row">
+          <button class="primary" onclick="exportProgress()">Backup progress</button>
+          <button class="secondary" onclick="document.getElementById('importfile').click()">Restore backup</button>
+          <input id="importfile" class="fileinput" type="file" accept="application/json" onchange="importProgress(event)">
+          <button class="secondary" onclick="resetProgress()">Reset progress</button>
+        </div>
+        <div class="file-note">Do not use Private Browsing for the installed app. Keep the same GitHub Pages address when updating.</div>
+      </section>
+    </section>
+
+    <section id="notes" class="notes-shell hidden">
+      <article class="page-card">
+        <div class="notes-header">
+          <div><div class="eyebrow">Essentials + detailed revision</div><h1 id="notesTitle" style="font-size:34px"></h1><p id="notesIntro" class="muted"></p></div>
+          <span class="cycle-badge">Read, recall, then test</span>
+        </div>
+        <div class="must-box"><h3>Must memorise</h3><ul id="mustList"></ul></div>
+        <div id="notesSections" class="notes-grid"></div>
+        <div class="exact-scope"><strong>Exact scope today</strong><div id="notesScope" class="small" style="margin-top:4px"></div></div>
+        <div class="action-row"><button id="notesStartButton" class="primary">I’ve reviewed this — start practice</button><button class="secondary" onclick="showDashboard()">Back to home</button></div>
+      </article>
+    </section>
+
+    <section id="quiz" class="quiz-shell hidden">
+      <article class="page-card">
+        <div class="quiz-top">
+          <div class="quiz-meta"><div><div class="eyebrow" id="quizTitle"></div><h2 id="questionCounter" style="margin-top:5px"></h2></div><div class="quiz-badges"><span id="freshBadge" class="cycle-badge">Fresh questions first</span><span class="cycle-badge">Auto-saved</span></div></div>
+          <div class="progress"><div id="quizBar" class="progress-bar"></div></div>
+        </div>
+        <div id="questionContext" class="question-context"></div>
+        <span id="direction" class="direction"></span>
+        <div id="questionText" class="question-text"></div>
+        <div id="inputArea"></div>
+        <div id="feedback" class="feedback hidden"></div>
+        <div class="action-row" style="margin-top:15px"><button id="checkButton" class="primary" onclick="checkAnswer()">Check answer</button><button id="nextButton" class="primary hidden" onclick="nextQuestion()">Next question</button><button class="secondary" onclick="pauseQuiz()">Pause</button></div>
+      </article>
+    </section>
+
+    <section id="results" class="results-shell hidden">
+      <article class="page-card"><div class="eyebrow">Session complete</div><h1>Well done for finishing.</h1><div id="resultScore" class="result-score"></div><p id="resultMessage" class="result-message"></p><div id="cycleResult" class="exact-scope"></div><div class="action-row"><button class="primary" onclick="showDashboard()">Back to home</button><button id="resultDueButton" class="secondary" onclick="startDue()">Do due reviews</button></div></article>
+    </section>
+  </main>
+
+  <script src="question-bank.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
