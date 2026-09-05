@@ -1,0 +1,3710 @@
+[
+  {
+    "id": "18-jul",
+    "day": "18 Jul",
+    "title": "Numbers, age & accuracy diagnostic",
+    "sections": [
+      24,
+      32
+    ],
+    "scope": {
+      "included": [
+        "24. Numbers and age",
+        "32. Accuracy repair"
+      ],
+      "excludedByDefault": [
+        "Only slash/semicolon legacy rows that still need safe atomisation are excluded from automatic scoring. Their vocabulary remains visible in the reference bank."
+      ]
+    },
+    "overview": "A short diagnostic on numbers, age and the latest accuracy targets.",
+    "learningGoals": [
+      "Recall the key vocabulary and sentence chunks for Numbers, age & accuracy diagnostic.",
+      "Apply the named grammar rule before adding extra detail.",
+      "Explain each correction using subject, tense, article or agreement language."
+    ],
+    "mustMemoriseRules": [
+      "Age uses avoir: J’ai treize ans — never je suis treize ans.",
+      "70 = soixante-dix; 80 = quatre-vingts; 81 loses the s: quatre-vingt-un; 91 = quatre-vingt-onze.",
+      "préférer + another action must be followed by an infinitive.",
+      "A sentence needs a capital letter, a subject, a correct verb and a full stop.",
+      "Build 70s from 60 + 10: soixante-dix, soixante-et-onze.",
+      "Build 90s from 80 + 10: quatre-vingt-dix, quatre-vingt-onze.",
+      "Modern school spelling normally hyphenates all parts. Missing accents are not deducted here, but the correct model still shows them.",
+      "Check le/la agreement around nouns and adjective endings.",
+      "After préférer + verb, keep the second verb in the infinitive.",
+      "Give reasons with parce que or car, not a disconnected adjective."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "french": "zéro",
+        "english": "0",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "un",
+        "english": "1",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "deux",
+        "english": "2",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "trois",
+        "english": "3",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "quatre",
+        "english": "4",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "cinq",
+        "english": "5",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "six",
+        "english": "6",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "sept",
+        "english": "7",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "huit",
+        "english": "8",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "neuf",
+        "english": "9",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "dix",
+        "english": "10",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "onze",
+        "english": "11",
+        "sourceStatus": "confirmed_learned"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "Write the source example for this target: 70-99 numbers.",
+        "answer": "71 soixante et onze; 83 quatre-vingt-trois; 95 quatre-vingt-quinze",
+        "why": "Use et in 71; use hyphens in compound numbers.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Write the source example for this target: Gender agreement.",
+        "answer": "un grand gymnase",
+        "why": "gymnase is masculine.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Write the source example for this target: préférer + infinitive.",
+        "answer": "Je préfère regarder la télé.",
+        "why": "Conjugate préférer, then keep the second verb infinitive.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Write the source example for this target: Opinion + reason.",
+        "answer": "J’aime la musique parce que c’est relaxant.",
+        "why": "Answer Pourquoi…? with parce que + a full reason.",
+        "sourceStatus": "confirmed_learned"
+      }
+    ],
+    "commonMistakes": [
+      "Using être for age.",
+      "Adding s to quatre-vingt when another number follows.",
+      "Counting commas as separate sentences.",
+      "Missing the infinitive after préférer.",
+      "Missing accents should trigger a reminder, not a wrong mark; wrong base letters still matter.",
+      "A correct subject + verb answer must not be rejected when the prompt only expected the bare verb form."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "question": "Write the source example for this target: 4-5 sentences.",
+        "answer": "Write five separately punctuated sentences."
+      },
+      {
+        "question": "Write the source example for this target: Noun vs infinitive.",
+        "answer": "J’aime le tennis. / J’aime jouer au tennis."
+      },
+      {
+        "question": "Write the source example for this target: énervé / énervant.",
+        "answer": "Je suis énervée. / Le bruit est énervant."
+      },
+      {
+        "question": "0",
+        "answer": "zéro"
+      },
+      {
+        "question": "zéro",
+        "answer": "0"
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read the must-memorise rules once.",
+      "Cover the English and retrieve at least six French chunks aloud.",
+      "Do the 60-second self-check without looking back.",
+      "Start practice only after identifying the subject and likely time frame."
+    ],
+    "markingReminder": "Accents are taught and shown, but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement and negative order are still marked."
+  },
+  {
+    "id": "19-jul",
+    "day": "19 Jul",
+    "title": "Unit 3 school baseline",
+    "sections": [
+      17,
+      18,
+      19
+    ],
+    "scope": {
+      "included": [
+        "17. Unit 3 overview",
+        "18. School descriptions",
+        "19. Subjects, opinions and reasons"
+      ],
+      "excludedByDefault": [
+        "Only slash/semicolon legacy rows that still need safe atomisation are excluded from automatic scoring. Their vocabulary remains visible in the reference bank."
+      ]
+    },
+    "overview": "Build a safe school paragraph from exact learned chunks.",
+    "learningGoals": [
+      "Recall the key vocabulary and sentence chunks for Unit 3 school baseline.",
+      "Apply the named grammar rule before adding extra detail.",
+      "Explain each correction using subject, tense, article or agreement language."
+    ],
+    "mustMemoriseRules": [
+      "Mon école / mon collège est…",
+      "Il y a… / Il n’y a pas de…",
+      "Ma matière préférée, c’est…",
+      "J’aime… parce que…",
+      "State the type, location and name before adding adjectives.",
+      "École is feminine: une école vieille/petite/amusante. After c’est, use the default adjective form.",
+      "Learn facilities with their articles: un gymnase, une bibliothèque, des laboratoires.",
+      "After il n’y a pas, use de/d’: il n’y a pas d’internat.",
+      "After aimer with a noun, keep le/la/l’/les."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "french": "Comment est ton école ?",
+        "english": "What is your school like?",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Quelle est ta matière préférée ?",
+        "english": "What is your favourite subject?",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Qu’est-ce que tu fais en cours de français ?",
+        "english": "What do you do in French lessons?",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "À quelle heure commencent / finissent les cours ?",
+        "english": "What time do lessons start / finish?",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Qu’est-ce que tu as fait au collège hier ?",
+        "english": "What did you do at school yesterday?",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "À quelle heure t’es-tu réveillé(e) ce matin ?",
+        "english": "What time did you wake up this morning?",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Comme clubs, il y a / il y avait…",
+        "english": "As for clubs, there is / there was…",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "un club de danse / de musique / de sciences / de théâtre / de gymnastique",
+        "english": "a dance / music / science / drama / gymnastics club",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "un club de foot / de netball",
+        "english": "a football / netball club",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "un orchestre / une chorale",
+        "english": "an orchestra / a choir",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "un gymnase / un terrain de sport / une cour",
+        "english": "a gym / a sports field / a playground",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "un CDI / une bibliothèque / une cantine / un internat",
+        "english": "an LRC / library / canteen / boarding house",
+        "sourceStatus": "confirmed_learned"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "Give one taught continuation for: Mon école est…",
+        "answer": "un collège / un lycée / une école primaire",
+        "why": "The answer must be one of the useful choices given beside this exact source frame. Keep noun gender and adjective agreement.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Give one taught continuation for: C’est…",
+        "answer": "une école de filles / une école de garçons / une école mixte",
+        "why": "The answer must be one of the useful choices given beside this exact source frame. Keep noun gender and adjective agreement.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Give one taught continuation for: Elle est…",
+        "answer": "à Kingston / à Londres / dans une grande ville",
+        "why": "The answer must be one of the useful choices given beside this exact source frame. Keep noun gender and adjective agreement.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Give one taught continuation for: Elle s’appelle…",
+        "answer": "Tiffin / [name of school]",
+        "why": "The answer must be one of the useful choices given beside this exact source frame. Keep noun gender and adjective agreement.",
+        "sourceStatus": "confirmed_learned"
+      }
+    ],
+    "commonMistakes": [
+      "Using un/une/des after il n’y a pas instead of de/d’.",
+      "Forgetting école is feminine.",
+      "Keeping le/la after être fort(e) en.",
+      "Using préférer + noun when the intended answer is an action.",
+      "Missing accents should trigger a reminder, not a wrong mark; wrong base letters still matter.",
+      "A correct subject + verb answer must not be rejected when the prompt only expected the bare verb form."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "question": "Give one taught continuation for: Mon école est / n’est pas…",
+        "answer": "moderne, vieille, énorme, petite, géniale, ennuyeuse, amusante, passionnante, folle, tranquille"
+      },
+      {
+        "question": "Give one taught continuation for: Mon école est / n’est pas trop…",
+        "answer": "sévère, grande, petite, ennuyeuse"
+      },
+      {
+        "question": "What is your school like?",
+        "answer": "Comment est ton école ?"
+      },
+      {
+        "question": "Comment est ton école ?",
+        "answer": "What is your school like?"
+      },
+      {
+        "question": "What is your favourite subject?",
+        "answer": "Quelle est ta matière préférée ?"
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read the must-memorise rules once.",
+      "Cover the English and retrieve at least six French chunks aloud.",
+      "Do the 60-second self-check without looking back.",
+      "Start practice only after identifying the subject and likely time frame."
+    ],
+    "markingReminder": "Accents are taught and shown, but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement and negative order are still marked."
+  },
+  {
+    "id": "21-jul",
+    "day": "21 Jul",
+    "title": "Weather, activities & opinions",
+    "sections": [
+      1,
+      2
+    ],
+    "scope": {
+      "included": [
+        "1. Quick rules",
+        "2. Weather, activities and opinions"
+      ],
+      "excludedByDefault": [
+        "Only slash/semicolon legacy rows that still need safe atomisation are excluded from automatic scoring. Their vocabulary remains visible in the reference bank."
+      ]
+    },
+    "overview": "Recall weather, activities and opinions as complete chunks.",
+    "learningGoals": [
+      "Recall the key vocabulary and sentence chunks for Weather, activities & opinions.",
+      "Apply the named grammar rule before adding extra detail.",
+      "Explain each correction using subject, tense, article or agreement language."
+    ],
+    "mustMemoriseRules": [
+      "Quand il fait beau… / Quand il pleut…",
+      "Je joue au… / Je fais du… / Je regarde…",
+      "J’aime le/la/l’/les…",
+      "parce que c’est + adjective",
+      "After an opinion about a noun, use le/la/l’/les.",
+      "Before an activity verb after préférer, use the infinitive: je préfère regarder.",
+      "Link weather to a suitable activity.",
+      "Add an opinion and a reason to turn a short answer into a full sentence."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "french": "Quel temps fait-il ?",
+        "english": "What is the weather like?",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Il fait chaud",
+        "english": "It is hot",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Il fait froid",
+        "english": "It is cold",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Il fait mauvais",
+        "english": "The weather is bad",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Il fait gris",
+        "english": "It is grey",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Il fait beau",
+        "english": "The weather is nice",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Il y a du vent",
+        "english": "It is windy",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Il y a du soleil",
+        "english": "It is sunny",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Il y a du brouillard",
+        "english": "It is foggy",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Il neige",
+        "english": "It is snowing",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Il pleut",
+        "english": "It is raining",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Il gèle",
+        "english": "It is freezing",
+        "sourceStatus": "confirmed_learned"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "Give the taught example for: Opinions.",
+        "answer": "J’aime le riz. / Je préfère regarder la télé.",
+        "why": "With a noun after aimer / adorer / détester / préférer, use the definite article (le / la / l’ / les). With another verb, use the infinitive without an article.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Give the taught example for: Food & drink.",
+        "answer": "Je bois de l’eau. / Je mange des frites.",
+        "why": "When eating or drinking, use du / de la / de l’ / des",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Give the taught example for: Negatives.",
+        "answer": "Je ne bois pas de coca. / Il n’y a plus de pain.",
+        "why": "After ne…pas / ne…plus, change to de / d’",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Give the taught example for: Places after aller.",
+        "answer": "Je vais au cinéma. / à la pharmacie. / à l’épicerie. / aux magasins.",
+        "why": "Choose au / à la / à l’ / aux carefully",
+        "sourceStatus": "confirmed_learned"
+      }
+    ],
+    "commonMistakes": [
+      "Using du/de la after an opinion instead of le/la/les.",
+      "Putting an article before an infinitive after préférer.",
+      "Giving a weather phrase without a matching verb.",
+      "Writing a one-word opinion with no reason.",
+      "Missing accents should trigger a reminder, not a wrong mark; wrong base letters still matter.",
+      "A correct subject + verb answer must not be rejected when the prompt only expected the bare verb form."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "question": "Give the taught example for: Passé composé.",
+        "answer": "J’ai mangé. / Je suis allé(e)."
+      },
+      {
+        "question": "Give the taught example for: Être verbs.",
+        "answer": "Elle est allée. / Ils sont sortis."
+      },
+      {
+        "question": "What is the weather like?",
+        "answer": "Quel temps fait-il ?"
+      },
+      {
+        "question": "Quel temps fait-il ?",
+        "answer": "What is the weather like?"
+      },
+      {
+        "question": "It is hot",
+        "answer": "Il fait chaud"
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read the must-memorise rules once.",
+      "Cover the English and retrieve at least six French chunks aloud.",
+      "Do the 60-second self-check without looking back.",
+      "Start practice only after identifying the subject and likely time frame."
+    ],
+    "markingReminder": "Accents are taught and shown, but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement and negative order are still marked."
+  },
+  {
+    "id": "25-jul",
+    "day": "25 Jul",
+    "title": "Home, family, descriptions & colours",
+    "sections": [
+      3
+    ],
+    "scope": {
+      "included": [
+        "3. Home, family and descriptions"
+      ],
+      "excludedByDefault": [
+        "Only slash/semicolon legacy rows that still need safe atomisation are excluded from automatic scoring. Their vocabulary remains visible in the reference bank."
+      ]
+    },
+    "overview": "Home, family, colours and adjective agreement.",
+    "learningGoals": [
+      "Recall the key vocabulary and sentence chunks for Home, family, descriptions & colours.",
+      "Apply the named grammar rule before adding extra detail.",
+      "Explain each correction using subject, tense, article or agreement language."
+    ],
+    "mustMemoriseRules": [
+      "J’habite dans… / J’habite à…",
+      "Chez moi, il y a…",
+      "mon/ma/mes and son/sa/ses agree with the possessed noun",
+      "Feminine and plural adjective endings must match the noun.",
+      "Choose mon/ma/mes from the noun that follows, not from the owner.",
+      "Use mon before a feminine noun beginning with a vowel sound.",
+      "Learn adjective pairs such as grand/grande and sportif/sportive.",
+      "Colour adjectives normally follow the noun and agree where required."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "french": "Où habites-tu ?",
+        "english": "Where do you live?",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "J’habite",
+        "english": "I live",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Il habite / Elle habite / Nous habitons",
+        "english": "He lives / She lives / We live",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Je voudrais habiter",
+        "english": "I would like to live",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "dans un petit / grand appartement",
+        "english": "in a small / large flat",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "dans une petite / grande maison",
+        "english": "in a small / large house",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "dans une ville",
+        "english": "in a town / city",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "dans un village",
+        "english": "in a village",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "à la montagne",
+        "english": "in the mountains",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "à la mer / au bord de la mer",
+        "english": "by the sea",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "à la campagne",
+        "english": "in the countryside",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "sur la lune",
+        "english": "on the moon",
+        "sourceStatus": "confirmed_learned"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "Where do you live?",
+        "answer": "Où habites-tu ?",
+        "why": "The source-locked French is « Où habites-tu ? ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Où habites-tu ?",
+        "answer": "Where do you live?",
+        "why": "« Où habites-tu ? » means « Where do you live? » in the teacher coverage. Use the complete chunk rather than guessing from one familiar word.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "I live",
+        "answer": "J’habite",
+        "why": "The source-locked French is « J’habite ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "J’habite",
+        "answer": "I live",
+        "why": "« J’habite » means « I live » in the teacher coverage. Use the complete chunk rather than guessing from one familiar word.",
+        "sourceStatus": "confirmed_learned"
+      }
+    ],
+    "commonMistakes": [
+      "Choosing mon/ma from the owner rather than the following noun.",
+      "Forgetting feminine/plural adjective agreement.",
+      "Missing accents should trigger a reminder, not a wrong mark; wrong base letters still matter.",
+      "A correct subject + verb answer must not be rejected when the prompt only expected the bare verb form."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "question": "I would like to live",
+        "answer": "Je voudrais habiter"
+      },
+      {
+        "question": "Je voudrais habiter",
+        "answer": "I would like to live"
+      },
+      {
+        "question": "in a village",
+        "answer": "dans un village"
+      },
+      {
+        "question": "dans un village",
+        "answer": "in a village"
+      },
+      {
+        "question": "in the mountains",
+        "answer": "à la montagne"
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read the must-memorise rules once.",
+      "Cover the English and retrieve at least six French chunks aloud.",
+      "Do the 60-second self-check without looking back.",
+      "Start practice only after identifying the subject and likely time frame."
+    ],
+    "markingReminder": "Accents are taught and shown, but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement and negative order are still marked."
+  },
+  {
+    "id": "26-jul",
+    "day": "26 Jul",
+    "title": "Food, drink, shopping & restaurant",
+    "sections": [
+      4
+    ],
+    "scope": {
+      "included": [
+        "4. Food, drink and restaurants"
+      ],
+      "excludedByDefault": [
+        "Only slash/semicolon legacy rows that still need safe atomisation are excluded from automatic scoring. Their vocabulary remains visible in the reference bank."
+      ]
+    },
+    "overview": "Food and restaurant language uses articles differently from opinions.",
+    "learningGoals": [
+      "Recall the key vocabulary and sentence chunks for Food, drink, shopping & restaurant.",
+      "Apply the named grammar rule before adding extra detail.",
+      "Explain each correction using subject, tense, article or agreement language."
+    ],
+    "mustMemoriseRules": [
+      "Opinion: j’aime le/la/l’/les…",
+      "Eating/drinking: je mange du/de la/de l’/des…",
+      "Negative: je ne mange pas de/d’…",
+      "Je voudrais… s’il vous plaît.",
+      "General liking uses the definite article.",
+      "An unspecified amount after manger/boire/prendre uses a partitive article.",
+      "After a negative quantity, change to de/d’.",
+      "Use au petit déjeuner / au déjeuner / au dîner.",
+      "Build a polite order with je voudrais, the correct noun article and s’il vous plaît."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "french": "Pour le petit déjeuner, je prends …",
+        "english": "For breakfast, I have …",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Pour le déjeuner, je prends …",
+        "english": "For lunch, I have …",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Pour le dîner, je prends …",
+        "english": "For dinner, I have …",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Comme dessert, je prends …",
+        "english": "For dessert, I have …",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Qu’est-ce que tu manges ?",
+        "english": "What do you eat?",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Qu’est-ce que tu bois ?",
+        "english": "What do you drink?",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "je mange / je bois / je prends / j’achète / je me fais",
+        "english": "I eat / drink / have / buy / make myself",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Qu’est-ce que tu as mangé / bu / pris ?",
+        "english": "What did you eat / drink / have?",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "au petit déjeuner",
+        "english": "for breakfast",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "hier / hier soir / ce matin",
+        "english": "yesterday / last night / this morning",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "j’ai mangé / j’ai bu / j’ai pris",
+        "english": "I ate / drank / had",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "c’était …",
+        "english": "it was …",
+        "sourceStatus": "confirmed_learned"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "For breakfast, I have …",
+        "answer": "Pour le petit déjeuner, je prends …",
+        "why": "The source-locked French is « Pour le petit déjeuner, je prends … ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Pour le petit déjeuner, je prends …",
+        "answer": "For breakfast, I have …",
+        "why": "« Pour le petit déjeuner, je prends … » means « For breakfast, I have … » in the teacher coverage. Use the complete chunk rather than guessing from one familiar word.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "For lunch, I have …",
+        "answer": "Pour le déjeuner, je prends …",
+        "why": "The source-locked French is « Pour le déjeuner, je prends … ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Pour le déjeuner, je prends …",
+        "answer": "For lunch, I have …",
+        "why": "« Pour le déjeuner, je prends … » means « For lunch, I have … » in the teacher coverage. Use the complete chunk rather than guessing from one familiar word.",
+        "sourceStatus": "confirmed_learned"
+      }
+    ],
+    "commonMistakes": [
+      "Mixing opinion articles with food quantity articles.",
+      "Forgetting de/d’ after a negative quantity.",
+      "Missing accents should trigger a reminder, not a wrong mark; wrong base letters still matter.",
+      "A correct subject + verb answer must not be rejected when the prompt only expected the bare verb form."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "question": "For dinner, I have …",
+        "answer": "Pour le dîner, je prends …"
+      },
+      {
+        "question": "Pour le dîner, je prends …",
+        "answer": "For dinner, I have …"
+      },
+      {
+        "question": "For dessert, I have …",
+        "answer": "Comme dessert, je prends …"
+      },
+      {
+        "question": "Comme dessert, je prends …",
+        "answer": "For dessert, I have …"
+      },
+      {
+        "question": "What do you eat?",
+        "answer": "Qu’est-ce que tu manges ?"
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read the must-memorise rules once.",
+      "Cover the English and retrieve at least six French chunks aloud.",
+      "Do the 60-second self-check without looking back.",
+      "Start practice only after identifying the subject and likely time frame."
+    ],
+    "markingReminder": "Accents are taught and shown, but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement and negative order are still marked."
+  },
+  {
+    "id": "27-jul",
+    "day": "27 Jul",
+    "title": "Town, time & present tense",
+    "sections": [
+      5,
+      6
+    ],
+    "scope": {
+      "included": [
+        "5. Town, time and aller",
+        "6. Present tense"
+      ],
+      "excludedByDefault": [
+        "Only slash/semicolon legacy rows that still need safe atomisation are excluded from automatic scoring. Their vocabulary remains visible in the reference bank."
+      ]
+    },
+    "overview": "Places in town, time linkers and reliable present-tense endings.",
+    "learningGoals": [
+      "Recall the key vocabulary and sentence chunks for Town, time & present tense.",
+      "Apply the named grammar rule before adding extra detail.",
+      "Explain each correction using subject, tense, article or agreement language."
+    ],
+    "mustMemoriseRules": [
+      "à + le = au; à + les = aux; à + la stays à la",
+      "je vais, tu vas, il/elle/on va, nous allons, vous allez, ils/elles vont",
+      "Regular endings depend on both verb group and subject.",
+      "Put ne…pas around the conjugated verb.",
+      "Learn each town place with its article.",
+      "Use en ville as a fixed chunk.",
+      "Find the subject first, then the infinitive, then the ending.",
+      "Regular -er, -ir and -re patterns are different; do not mix them."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "french": "au centre commercial",
+        "english": "to the shopping centre",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "au cinéma",
+        "english": "to the cinema",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "au collège",
+        "english": "to school",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "au marchand de glaces",
+        "english": "to the ice-cream shop",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "au supermarché",
+        "english": "to the supermarket",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "au tabac",
+        "english": "to the corner shop",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "au café",
+        "english": "to the café",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "à la bibliothèque",
+        "english": "to the library",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "à la boucherie",
+        "english": "to the butcher’s",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "à la boulangerie",
+        "english": "to the bakery",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "à la boutique de vêtements",
+        "english": "to the clothes shop",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "à la librairie",
+        "english": "to the bookshop",
+        "sourceStatus": "confirmed_learned"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "Write the « je » form in the aller column.",
+        "answer": "vais",
+        "why": "The source conjugation table gives je → vais for aller. The subject decides the written ending.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Write the « tu » form in the aller column.",
+        "answer": "vas",
+        "why": "The source conjugation table gives tu → vas for aller. The subject decides the written ending.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Write the « il / elle / on » form in the aller column.",
+        "answer": "va",
+        "why": "The source conjugation table gives il / elle / on → va for aller. The subject decides the written ending.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Write the « nous » form in the aller column.",
+        "answer": "allons",
+        "why": "The source conjugation table gives nous → allons for aller. The subject decides the written ending.",
+        "sourceStatus": "confirmed_learned"
+      }
+    ],
+    "commonMistakes": [
+      "Mixing au, à la, à l’ and aux.",
+      "Forgetting that en ville is a fixed chunk.",
+      "Choosing a verb ending before checking the subject.",
+      "Putting pas after an infinitive instead of around the conjugated verb.",
+      "Missing accents should trigger a reminder, not a wrong mark; wrong base letters still matter.",
+      "A correct subject + verb answer must not be rejected when the prompt only expected the bare verb form."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "question": "Write the « vous » form in the aller column.",
+        "answer": "allez"
+      },
+      {
+        "question": "Write the « ils / elles » form in the aller column.",
+        "answer": "vont"
+      },
+      {
+        "question": "Write the « je » form in the avoir column.",
+        "answer": "ai"
+      },
+      {
+        "question": "Write the « tu » form in the avoir column.",
+        "answer": "as"
+      },
+      {
+        "question": "Write the « il / elle / on » form in the avoir column.",
+        "answer": "a"
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read the must-memorise rules once.",
+      "Cover the English and retrieve at least six French chunks aloud.",
+      "Do the 60-second self-check without looking back.",
+      "Start practice only after identifying the subject and likely time frame."
+    ],
+    "markingReminder": "Accents are taught and shown, but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement and negative order are still marked."
+  },
+  {
+    "id": "28-jul-past",
+    "day": "28 Jul",
+    "title": "Passé composé & past participles",
+    "sections": [
+      7,
+      8
+    ],
+    "scope": {
+      "included": [
+        "7. Passé composé",
+        "8. Expanded past-participle bank"
+      ],
+      "excludedByDefault": [
+        "Only slash/semicolon legacy rows that still need safe atomisation are excluded from automatic scoring. Their vocabulary remains visible in the reference bank."
+      ]
+    },
+    "overview": "Choose the correct auxiliary and past participle before adding detail.",
+    "learningGoals": [
+      "Recall the key vocabulary and sentence chunks for Passé composé & past participles.",
+      "Apply the named grammar rule before adding extra detail.",
+      "Explain each correction using subject, tense, article or agreement language."
+    ],
+    "mustMemoriseRules": [
+      "Passé composé = subject + avoir/être + past participle",
+      "Most verbs use avoir. Movement/reflexive verbs in this course use être.",
+      "With être, the participle agrees with the subject where required.",
+      "Learn irregular participles as exact pairs.",
+      "1. Correct auxiliary for the subject.",
+      "2. Correct past participle.",
+      "3. Agreement only where the taught rule requires it.",
+      "hier, récemment and la semaine dernière usually signal completed past action.",
+      "Do not use an infinitive after the auxiliary."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "french": "aller",
+        "english": "to go",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "venir",
+        "english": "to come",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "arriver",
+        "english": "to arrive",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "partir",
+        "english": "to leave",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "entrer",
+        "english": "to enter",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "sortir",
+        "english": "to go out",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "monter",
+        "english": "to go up / get on",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "descendre",
+        "english": "to go down / get off",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "naître",
+        "english": "to be born",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "mourir",
+        "english": "to die",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "tomber",
+        "english": "to fall",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "rester",
+        "english": "to stay",
+        "sourceStatus": "confirmed_learned"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "Give the past participle of « aller ».",
+        "answer": "allé",
+        "why": "The teacher coverage gives aller → allé (to go). In the passé composé, the past participle follows the correct auxiliary.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Give the past participle of « venir ».",
+        "answer": "venu",
+        "why": "The teacher coverage gives venir → venu (to come). In the passé composé, the past participle follows the correct auxiliary.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Give the past participle of « arriver ».",
+        "answer": "arrivé",
+        "why": "The teacher coverage gives arriver → arrivé (to arrive). In the passé composé, the past participle follows the correct auxiliary.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Give the past participle of « partir ».",
+        "answer": "parti",
+        "why": "The teacher coverage gives partir → parti (to leave). In the passé composé, the past participle follows the correct auxiliary.",
+        "sourceStatus": "confirmed_learned"
+      }
+    ],
+    "commonMistakes": [
+      "Writing a past participle without an auxiliary.",
+      "Using avoir for an être/reflexive pattern.",
+      "Inventing an irregular past participle.",
+      "Adding agreement to every avoir verb.",
+      "Missing accents should trigger a reminder, not a wrong mark; wrong base letters still matter.",
+      "A correct subject + verb answer must not be rejected when the prompt only expected the bare verb form."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "question": "Give the past participle of « entrer ».",
+        "answer": "entré"
+      },
+      {
+        "question": "Give the past participle of « sortir ».",
+        "answer": "sorti"
+      },
+      {
+        "question": "Give the past participle of « monter ».",
+        "answer": "monté"
+      },
+      {
+        "question": "Give the past participle of « descendre ».",
+        "answer": "descendu"
+      },
+      {
+        "question": "Give the past participle of « naître ».",
+        "answer": "né"
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read the must-memorise rules once.",
+      "Cover the English and retrieve at least six French chunks aloud.",
+      "Do the 60-second self-check without looking back.",
+      "Start practice only after identifying the subject and likely time frame."
+    ],
+    "markingReminder": "Accents are taught and shown, but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement and negative order are still marked."
+  },
+  {
+    "id": "28-jul-build",
+    "day": "28 Jul",
+    "title": "Sentence building & accuracy traps",
+    "sections": [
+      9,
+      10
+    ],
+    "scope": {
+      "included": [
+        "9. Sentence building",
+        "10. Accuracy traps"
+      ],
+      "excludedByDefault": [
+        "Only slash/semicolon legacy rows that still need safe atomisation are excluded from automatic scoring. Their vocabulary remains visible in the reference bank."
+      ]
+    },
+    "overview": "Use the taught sentence recipe and repair the most common errors.",
+    "learningGoals": [
+      "Recall the key vocabulary and sentence chunks for Sentence building & accuracy traps.",
+      "Apply the named grammar rule before adding extra detail.",
+      "Explain each correction using subject, tense, article or agreement language."
+    ],
+    "mustMemoriseRules": [
+      "time phrase → subject → tense → detail → opinion/reason",
+      "Accuracy is worth more than inventing unsupported language.",
+      "Proofread articles, auxiliary, participle, negative order and agreement.",
+      "Start with a secure short clause, then add one linker or reason.",
+      "Reuse a strong model chunk and change only one element at a time.",
+      "Do not translate English word-for-word.",
+      "Check every verb has a visible subject and the correct time frame."
+    ],
+    "mustMemoriseVocabulary": [],
+    "workedExamples": [
+      {
+        "prompt": "Correct this: J’aime du pain.",
+        "answer": "J’aime le pain.",
+        "why": "After opinions, use the definite article.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Correct this: Je ne bois pas du coca.",
+        "answer": "Je ne bois pas de coca.",
+        "why": "After ne…pas, change to de / d’.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Correct this: J’ai allé au cinéma.",
+        "answer": "Je suis allé(e) au cinéma.",
+        "why": "aller uses être.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Correct this: Elle a montée.",
+        "answer": "Elle est montée.",
+        "why": "Movement verb → être.",
+        "sourceStatus": "confirmed_learned"
+      }
+    ],
+    "commonMistakes": [
+      "Missing accents should trigger a reminder, not a wrong mark; wrong base letters still matter.",
+      "A correct subject + verb answer must not be rejected when the prompt only expected the bare verb form."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "question": "Correct this: Nous sont arrivés.",
+        "answer": "Nous sommes arrivés."
+      },
+      {
+        "question": "Correct this: Elles sont sorti.",
+        "answer": "Elles sont sorties."
+      },
+      {
+        "question": "Correct this: Il est mouru.",
+        "answer": "Il est mort."
+      },
+      {
+        "question": "Correct this: Tu fini ton travail.",
+        "answer": "Tu as fini ton travail."
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read the must-memorise rules once.",
+      "Cover the English and retrieve at least six French chunks aloud.",
+      "Do the 60-second self-check without looking back.",
+      "Start practice only after identifying the subject and likely time frame."
+    ],
+    "markingReminder": "Accents are taught and shown, but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement and negative order are still marked."
+  },
+  {
+    "id": "31-jul",
+    "day": "31 Jul",
+    "title": "Master vocabulary & verb patterns",
+    "sections": [
+      11,
+      12,
+      30,
+      31
+    ],
+    "scope": {
+      "included": [
+        "11. Master vocabulary",
+        "12. KS3 extension irregular verbs",
+        "30. Supplementary teacher vocabulary",
+        "31. Regular present patterns"
+      ],
+      "excludedByDefault": [
+        "Only slash/semicolon legacy rows that still need safe atomisation are excluded from automatic scoring. Their vocabulary remains visible in the reference bank."
+      ]
+    },
+    "overview": "A broad vocabulary and verb-pattern consolidation day.",
+    "learningGoals": [
+      "Recall the key vocabulary and sentence chunks for Master vocabulary & verb patterns.",
+      "Apply the named grammar rule before adding extra detail.",
+      "Explain each correction using subject, tense, article or agreement language."
+    ],
+    "mustMemoriseRules": [
+      "Retrieve French from English, not only English from French.",
+      "Learn irregular verbs with their subject forms.",
+      "Regular -er/-ir/-re endings must remain separate.",
+      "Say and write complete chunks.",
+      "Cover the French, say it, write it, then compare letter by letter.",
+      "Group words by topic and article.",
+      "Memorise je/nous/ils forms as anchors.",
+      "Accent-free typing is accepted, but the answer screen still shows the source spelling."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "french": "un",
+        "english": "1",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "deux",
+        "english": "2",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "trois",
+        "english": "3",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "quatre",
+        "english": "4",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "cinq",
+        "english": "5",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "six",
+        "english": "6",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "sept",
+        "english": "7",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "huit",
+        "english": "8",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "neuf",
+        "english": "9",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "dix",
+        "english": "10",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "onze",
+        "english": "11",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "douze",
+        "english": "12",
+        "sourceStatus": "confirmed_learned"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "Write the « je » form in the -er: jouer column.",
+        "answer": "joue",
+        "why": "The source conjugation table gives je → joue for -er: jouer. The subject decides the written ending.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Write the « tu » form in the -er: jouer column.",
+        "answer": "joues",
+        "why": "The source conjugation table gives tu → joues for -er: jouer. The subject decides the written ending.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Write the « il / elle / on » form in the -er: jouer column.",
+        "answer": "joue",
+        "why": "The source conjugation table gives il / elle / on → joue for -er: jouer. The subject decides the written ending.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Write the « nous » form in the -er: jouer column.",
+        "answer": "jouons",
+        "why": "The source conjugation table gives nous → jouons for -er: jouer. The subject decides the written ending.",
+        "sourceStatus": "confirmed_learned"
+      }
+    ],
+    "commonMistakes": [
+      "Treating a supplementary word as already taught without confirmation.",
+      "Mixing -er, -ir and -re endings.",
+      "Ignoring silent written endings.",
+      "Missing accents should trigger a reminder, not a wrong mark; wrong base letters still matter.",
+      "A correct subject + verb answer must not be rejected when the prompt only expected the bare verb form."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "question": "Write the « vous » form in the -er: jouer column.",
+        "answer": "jouez"
+      },
+      {
+        "question": "Write the « ils / elles » form in the -er: jouer column.",
+        "answer": "jouent"
+      },
+      {
+        "question": "Write the « je » form in the -ir: finir column.",
+        "answer": "finis"
+      },
+      {
+        "question": "Write the « tu » form in the -ir: finir column.",
+        "answer": "finis"
+      },
+      {
+        "question": "Write the « il / elle / on » form in the -ir: finir column.",
+        "answer": "finit"
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read the must-memorise rules once.",
+      "Cover the English and retrieve at least six French chunks aloud.",
+      "Do the 60-second self-check without looking back.",
+      "Start practice only after identifying the subject and likely time frame."
+    ],
+    "markingReminder": "Accents are taught and shown, but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement and negative order are still marked."
+  },
+  {
+    "id": "9-aug",
+    "day": "9 Aug",
+    "title": "Retrieval checkpoint",
+    "sections": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      17,
+      18,
+      19,
+      24,
+      30,
+      31,
+      32
+    ],
+    "scope": {
+      "included": [
+        "1. Quick rules",
+        "2. Weather, activities and opinions",
+        "3. Home, family and descriptions",
+        "4. Food, drink and restaurants",
+        "5. Town, time and aller",
+        "6. Present tense",
+        "7. Passé composé",
+        "8. Expanded past-participle bank",
+        "9. Sentence building",
+        "10. Accuracy traps",
+        "11. Master vocabulary",
+        "12. KS3 extension irregular verbs",
+        "17. Unit 3 overview",
+        "18. School descriptions",
+        "19. Subjects, opinions and reasons",
+        "24. Numbers and age",
+        "30. Supplementary teacher vocabulary",
+        "31. Regular present patterns",
+        "32. Accuracy repair"
+      ],
+      "excludedByDefault": [
+        "Only slash/semicolon legacy rows that still need safe atomisation are excluded from automatic scoring. Their vocabulary remains visible in the reference bank."
+      ]
+    },
+    "overview": "A cumulative retrieval checkpoint across everything already studied.",
+    "learningGoals": [
+      "Recall the key vocabulary and sentence chunks for Retrieval checkpoint.",
+      "Apply the named grammar rule before adding extra detail.",
+      "Explain each correction using subject, tense, article or agreement language."
+    ],
+    "mustMemoriseRules": [
+      "Answer from memory before looking at a model.",
+      "Slow down on article, auxiliary, agreement and negative order.",
+      "Use errors to choose the next dated block.",
+      "Identify topic and time frame first.",
+      "For vocabulary, retrieve the whole chunk.",
+      "For translation, build subject and verb before details.",
+      "Missing accents do not lose the mark in this app.",
+      "Wrong base letters, article, plural or verb ending still count as an error."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "french": "Quel temps fait-il ?",
+        "english": "What is the weather like?",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Il fait chaud",
+        "english": "It is hot",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Il fait froid",
+        "english": "It is cold",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Il fait mauvais",
+        "english": "The weather is bad",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Il fait gris",
+        "english": "It is grey",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Il fait beau",
+        "english": "The weather is nice",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Il y a du vent",
+        "english": "It is windy",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Il y a du soleil",
+        "english": "It is sunny",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Il y a du brouillard",
+        "english": "It is foggy",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Il neige",
+        "english": "It is snowing",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Il pleut",
+        "english": "It is raining",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Il gèle",
+        "english": "It is freezing",
+        "sourceStatus": "confirmed_learned"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "Give the taught example for: Opinions.",
+        "answer": "J’aime le riz. / Je préfère regarder la télé.",
+        "why": "With a noun after aimer / adorer / détester / préférer, use the definite article (le / la / l’ / les). With another verb, use the infinitive without an article.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Give the taught example for: Food & drink.",
+        "answer": "Je bois de l’eau. / Je mange des frites.",
+        "why": "When eating or drinking, use du / de la / de l’ / des",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Give the taught example for: Negatives.",
+        "answer": "Je ne bois pas de coca. / Il n’y a plus de pain.",
+        "why": "After ne…pas / ne…plus, change to de / d’",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Give the taught example for: Places after aller.",
+        "answer": "Je vais au cinéma. / à la pharmacie. / à l’épicerie. / aux magasins.",
+        "why": "Choose au / à la / à l’ / aux carefully",
+        "sourceStatus": "confirmed_learned"
+      }
+    ],
+    "commonMistakes": [
+      "Using du/de la after an opinion instead of le/la/les.",
+      "Putting an article before an infinitive after préférer.",
+      "Giving a weather phrase without a matching verb.",
+      "Writing a one-word opinion with no reason.",
+      "Choosing mon/ma from the owner rather than the following noun.",
+      "Forgetting feminine/plural adjective agreement.",
+      "Mixing opinion articles with food quantity articles.",
+      "Forgetting de/d’ after a negative quantity.",
+      "Mixing au, à la, à l’ and aux.",
+      "Forgetting that en ville is a fixed chunk."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "question": "Give the taught example for: Passé composé.",
+        "answer": "J’ai mangé. / Je suis allé(e)."
+      },
+      {
+        "question": "Give the taught example for: Être verbs.",
+        "answer": "Elle est allée. / Ils sont sortis."
+      },
+      {
+        "question": "Write the « je » form in the aller column.",
+        "answer": "vais"
+      },
+      {
+        "question": "Write the « tu » form in the aller column.",
+        "answer": "vas"
+      },
+      {
+        "question": "Write the « il / elle / on » form in the aller column.",
+        "answer": "va"
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read the must-memorise rules once.",
+      "Cover the English and retrieve at least six French chunks aloud.",
+      "Do the 60-second self-check without looking back.",
+      "Start practice only after identifying the subject and likely time frame."
+    ],
+    "markingReminder": "Accents are taught and shown, but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement and negative order are still marked."
+  },
+  {
+    "id": "10-aug",
+    "day": "10 Aug",
+    "title": "Reflexive verbs & routine",
+    "sections": [
+      13
+    ],
+    "scope": {
+      "included": [
+        "13. Reflexives and routine"
+      ],
+      "excludedByDefault": [
+        "Only slash/semicolon legacy rows that still need safe atomisation are excluded from automatic scoring. Their vocabulary remains visible in the reference bank."
+      ]
+    },
+    "overview": "Reflexive verbs need both a reflexive pronoun and a correctly conjugated verb.",
+    "learningGoals": [
+      "Recall the key vocabulary and sentence chunks for Reflexive verbs & routine.",
+      "Apply the named grammar rule before adding extra detail.",
+      "Explain each correction using subject, tense, article or agreement language."
+    ],
+    "mustMemoriseRules": [
+      "je me, tu te, il/elle/on se, nous nous, vous vous, ils/elles se",
+      "Present: je me lève. Perfect: je me suis levé(e).",
+      "Body-part phrases use the article: je me brosse les dents.",
+      "Match reflexive pronoun to subject.",
+      "Conjugate the verb itself; do not leave it as an infinitive.",
+      "Use être for taught reflexive perfect forms.",
+      "Place the reflexive pronoun before the auxiliary."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "french": "je me lève",
+        "english": "I get up",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "tu te lèves",
+        "english": "you get up",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "il se lève / elle se lève",
+        "english": "he / she gets up",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "nous nous levons",
+        "english": "we get up",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "vous vous levez",
+        "english": "you get up (pl/polite)",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "ils se lèvent / elles se lèvent",
+        "english": "they get up",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "se réveiller",
+        "english": "to wake up",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "se lever",
+        "english": "to get up",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "se laver",
+        "english": "to wash",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "se doucher",
+        "english": "to have a shower",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "se brosser les dents",
+        "english": "to brush one’s teeth",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "se brosser les cheveux",
+        "english": "to brush one’s hair",
+        "sourceStatus": "confirmed_learned"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "I get up",
+        "answer": "je me lève",
+        "why": "The source-locked French is « je me lève ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "je me lève",
+        "answer": "I get up",
+        "why": "« je me lève » means « I get up » in the teacher coverage. Use the complete chunk rather than guessing from one familiar word.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "you get up",
+        "answer": "tu te lèves",
+        "why": "The source-locked French is « tu te lèves ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "tu te lèves",
+        "answer": "you get up",
+        "why": "« tu te lèves » means « you get up » in the teacher coverage. Use the complete chunk rather than guessing from one familiar word.",
+        "sourceStatus": "confirmed_learned"
+      }
+    ],
+    "commonMistakes": [
+      "Leaving out the reflexive pronoun.",
+      "Putting the reflexive pronoun after the auxiliary.",
+      "Missing accents should trigger a reminder, not a wrong mark; wrong base letters still matter.",
+      "A correct subject + verb answer must not be rejected when the prompt only expected the bare verb form."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "question": "we get up",
+        "answer": "nous nous levons"
+      },
+      {
+        "question": "nous nous levons",
+        "answer": "we get up"
+      },
+      {
+        "question": "you get up (pl/polite)",
+        "answer": "vous vous levez"
+      },
+      {
+        "question": "vous vous levez",
+        "answer": "you get up (pl/polite)"
+      },
+      {
+        "question": "to wake up",
+        "answer": "se réveiller"
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read the must-memorise rules once.",
+      "Cover the English and retrieve at least six French chunks aloud.",
+      "Do the 60-second self-check without looking back.",
+      "Start practice only after identifying the subject and likely time frame."
+    ],
+    "markingReminder": "Accents are taught and shown, but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement and negative order are still marked."
+  },
+  {
+    "id": "11-aug-future",
+    "day": "11 Aug",
+    "title": "Future, imperfect & conditional exposure",
+    "sections": [
+      14,
+      15
+    ],
+    "scope": {
+      "included": [
+        "14. Future time",
+        "15. Imperfect/conditional light exposure"
+      ],
+      "excludedByDefault": [
+        "Only slash/semicolon legacy rows that still need safe atomisation are excluded from automatic scoring. Their vocabulary remains visible in the reference bank."
+      ]
+    },
+    "overview": "Near future is the secure main target; imperfect and conditional are light exposure only.",
+    "learningGoals": [
+      "Recall the key vocabulary and sentence chunks for Future, imperfect & conditional exposure.",
+      "Apply the named grammar rule before adding extra detail.",
+      "Explain each correction using subject, tense, article or agreement language."
+    ],
+    "mustMemoriseRules": [
+      "Near future = aller in present + infinitive",
+      "demain / le week-end prochain / la semaine prochaine",
+      "Imperfect gives background or “used to”.",
+      "Conditional chunks express “would” or polite wishes.",
+      "Only aller changes; the second verb stays infinitive.",
+      "Choose the correct aller form for the subject.",
+      "Recognise taught imperfect chunks rather than inventing new paradigms.",
+      "Learn conditional wishes as complete source chunks."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "french": "ce soir",
+        "english": "tonight",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "demain",
+        "english": "tomorrow",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "demain matin / demain soir",
+        "english": "tomorrow morning / tomorrow evening",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "ce week-end",
+        "english": "this weekend",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "la semaine prochaine",
+        "english": "next week",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "le mois prochain",
+        "english": "next month",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "l’année prochaine",
+        "english": "next year",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "plus tard",
+        "english": "later",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "j’étais",
+        "english": "I was",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "j’avais",
+        "english": "I had",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "c’était",
+        "english": "it was",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "il y avait",
+        "english": "there was / there were",
+        "sourceStatus": "confirmed_learned"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "Write the taught French example meaning « I am going to watch a film. ».",
+        "answer": "Je vais regarder un film.",
+        "why": "Pattern: je vais + infinitive. The example places every grammar word in its taught position.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Write the taught French example meaning « You are going to play tennis. ».",
+        "answer": "Tu vas jouer au tennis.",
+        "why": "Pattern: tu vas + infinitive. The example places every grammar word in its taught position.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Write the taught French example meaning « She is going to buy a pizza. ».",
+        "answer": "Elle va acheter une pizza.",
+        "why": "Pattern: il / elle va + infinitive. The example places every grammar word in its taught position.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Write the taught French example meaning « We are going to go out in town. ».",
+        "answer": "Nous allons sortir en ville.",
+        "why": "Pattern: nous allons + infinitive. The example places every grammar word in its taught position.",
+        "sourceStatus": "confirmed_learned"
+      }
+    ],
+    "commonMistakes": [
+      "Conjugating both verbs in the near future.",
+      "Using future language before it has been unlocked in the schedule.",
+      "Missing accents should trigger a reminder, not a wrong mark; wrong base letters still matter.",
+      "A correct subject + verb answer must not be rejected when the prompt only expected the bare verb form."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "question": "Write the taught French example meaning « You are going to finish your homework. ».",
+        "answer": "Vous allez finir vos devoirs."
+      },
+      {
+        "question": "Write the taught French example meaning « They are going to drink orange juice. ».",
+        "answer": "Ils vont boire du jus d’orange."
+      },
+      {
+        "question": "Change this taught form to the perfect tense: je mange",
+        "answer": "j’ai mangé"
+      },
+      {
+        "question": "Change this taught form to the perfect tense: je suis",
+        "answer": "j’ai été"
+      },
+      {
+        "question": "Change this taught form to the perfect tense: je vais",
+        "answer": "je suis allé(e)"
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read the must-memorise rules once.",
+      "Cover the English and retrieve at least six French chunks aloud.",
+      "Do the 60-second self-check without looking back.",
+      "Start practice only after identifying the subject and likely time frame."
+    ],
+    "markingReminder": "Accents are taught and shown, but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement and negative order are still marked."
+  },
+  {
+    "id": "11-aug-routine",
+    "day": "11 Aug",
+    "title": "Daily routine toolkit",
+    "sections": [
+      16
+    ],
+    "scope": {
+      "included": [
+        "16. Daily routine toolkit"
+      ],
+      "excludedByDefault": [
+        "Only slash/semicolon legacy rows that still need safe atomisation are excluded from automatic scoring. Their vocabulary remains visible in the reference bank."
+      ]
+    },
+    "overview": "Organise a routine by time of day and change time frame safely.",
+    "learningGoals": [
+      "Recall the key vocabulary and sentence chunks for Daily routine toolkit.",
+      "Apply the named grammar rule before adding extra detail.",
+      "Explain each correction using subject, tense, article or agreement language."
+    ],
+    "mustMemoriseRules": [
+      "d’abord / ensuite / puis / enfin",
+      "le matin / l’après-midi / le soir",
+      "Present, perfect and future models use different verb frames.",
+      "Add an exact time to one or two actions.",
+      "Use linkers to avoid a list of disconnected sentences.",
+      "Keep the vocabulary stable while changing only the tense structure.",
+      "Check reflexive pronouns again after changing subject or tense."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "french": "d’habitude",
+        "english": "usually",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "tous les jours",
+        "english": "every day",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "le matin",
+        "english": "in the morning",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "à sept heures",
+        "english": "at seven o’clock",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "vers huit heures",
+        "english": "at around eight o’clock",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "ensuite",
+        "english": "next / then",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "après",
+        "english": "afterwards",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "après le collège",
+        "english": "after school",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "le soir",
+        "english": "in the evening",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "avant de me coucher",
+        "english": "before going to bed",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "finalement",
+        "english": "finally",
+        "sourceStatus": "confirmed_learned"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "usually",
+        "answer": "d’habitude",
+        "why": "The source-locked French is « d’habitude ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "d’habitude",
+        "answer": "usually",
+        "why": "« d’habitude » means « usually » in the teacher coverage. Use the complete chunk rather than guessing from one familiar word.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "every day",
+        "answer": "tous les jours",
+        "why": "The source-locked French is « tous les jours ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "tous les jours",
+        "answer": "every day",
+        "why": "« tous les jours » means « every day » in the teacher coverage. Use the complete chunk rather than guessing from one familiar word.",
+        "sourceStatus": "confirmed_learned"
+      }
+    ],
+    "commonMistakes": [
+      "Missing accents should trigger a reminder, not a wrong mark; wrong base letters still matter.",
+      "A correct subject + verb answer must not be rejected when the prompt only expected the bare verb form."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "question": "in the morning",
+        "answer": "le matin"
+      },
+      {
+        "question": "le matin",
+        "answer": "in the morning"
+      },
+      {
+        "question": "at seven o’clock",
+        "answer": "à sept heures"
+      },
+      {
+        "question": "à sept heures",
+        "answer": "at seven o’clock"
+      },
+      {
+        "question": "at around eight o’clock",
+        "answer": "vers huit heures"
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read the must-memorise rules once.",
+      "Cover the English and retrieve at least six French chunks aloud.",
+      "Do the 60-second self-check without looking back.",
+      "Start practice only after identifying the subject and likely time frame."
+    ],
+    "markingReminder": "Accents are taught and shown, but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement and negative order are still marked."
+  },
+  {
+    "id": "14-aug",
+    "day": "14 Aug",
+    "title": "Your school and primary school",
+    "sections": [
+      17,
+      18
+    ],
+    "scope": {
+      "included": [
+        "17. Unit 3 overview",
+        "18. School descriptions"
+      ],
+      "excludedByDefault": [
+        "Only slash/semicolon legacy rows that still need safe atomisation are excluded from automatic scoring. Their vocabulary remains visible in the reference bank."
+      ]
+    },
+    "overview": "Describe school now and primary school in the past.",
+    "learningGoals": [
+      "Recall the key vocabulary and sentence chunks for Your school and primary school.",
+      "Apply the named grammar rule before adding extra detail.",
+      "Explain each correction using subject, tense, article or agreement language."
+    ],
+    "mustMemoriseRules": [
+      "Mon collège est… / Il y a…",
+      "Mon école primaire était… / Il y avait…",
+      "plus… que / moins… que / aussi… que",
+      "il n’y a pas de / il n’y avait pas de",
+      "Give type, location, description and facilities.",
+      "Use a negative facility sentence for contrast.",
+      "Use était/il y avait for past background.",
+      "A comparison needs two clear sides."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "french": "Comment est ton école ?",
+        "english": "What is your school like?",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Quelle est ta matière préférée ?",
+        "english": "What is your favourite subject?",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Qu’est-ce que tu fais en cours de français ?",
+        "english": "What do you do in French lessons?",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "À quelle heure commencent / finissent les cours ?",
+        "english": "What time do lessons start / finish?",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Qu’est-ce que tu as fait au collège hier ?",
+        "english": "What did you do at school yesterday?",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "À quelle heure t’es-tu réveillé(e) ce matin ?",
+        "english": "What time did you wake up this morning?",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Comme clubs, il y a / il y avait…",
+        "english": "As for clubs, there is / there was…",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "un club de danse / de musique / de sciences / de théâtre / de gymnastique",
+        "english": "a dance / music / science / drama / gymnastics club",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "un club de foot / de netball",
+        "english": "a football / netball club",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "un orchestre / une chorale",
+        "english": "an orchestra / a choir",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "un gymnase / un terrain de sport / une cour",
+        "english": "a gym / a sports field / a playground",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "un CDI / une bibliothèque / une cantine / un internat",
+        "english": "an LRC / library / canteen / boarding house",
+        "sourceStatus": "confirmed_learned"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "Give one taught continuation for: Mon école est…",
+        "answer": "un collège / un lycée / une école primaire",
+        "why": "The answer must be one of the useful choices given beside this exact source frame. Keep noun gender and adjective agreement.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Give one taught continuation for: C’est…",
+        "answer": "une école de filles / une école de garçons / une école mixte",
+        "why": "The answer must be one of the useful choices given beside this exact source frame. Keep noun gender and adjective agreement.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Give one taught continuation for: Elle est…",
+        "answer": "à Kingston / à Londres / dans une grande ville",
+        "why": "The answer must be one of the useful choices given beside this exact source frame. Keep noun gender and adjective agreement.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Give one taught continuation for: Elle s’appelle…",
+        "answer": "Tiffin / [name of school]",
+        "why": "The answer must be one of the useful choices given beside this exact source frame. Keep noun gender and adjective agreement.",
+        "sourceStatus": "confirmed_learned"
+      }
+    ],
+    "commonMistakes": [
+      "Using un/une/des after il n’y a pas instead of de/d’.",
+      "Forgetting école is feminine.",
+      "Missing accents should trigger a reminder, not a wrong mark; wrong base letters still matter.",
+      "A correct subject + verb answer must not be rejected when the prompt only expected the bare verb form."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "question": "Give one taught continuation for: Mon école est / n’est pas…",
+        "answer": "moderne, vieille, énorme, petite, géniale, ennuyeuse, amusante, passionnante, folle, tranquille"
+      },
+      {
+        "question": "Give one taught continuation for: Mon école est / n’est pas trop…",
+        "answer": "sévère, grande, petite, ennuyeuse"
+      },
+      {
+        "question": "What is your school like?",
+        "answer": "Comment est ton école ?"
+      },
+      {
+        "question": "Comment est ton école ?",
+        "answer": "What is your school like?"
+      },
+      {
+        "question": "What is your favourite subject?",
+        "answer": "Quelle est ta matière préférée ?"
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read the must-memorise rules once.",
+      "Cover the English and retrieve at least six French chunks aloud.",
+      "Do the 60-second self-check without looking back.",
+      "Start practice only after identifying the subject and likely time frame."
+    ],
+    "markingReminder": "Accents are taught and shown, but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement and negative order are still marked."
+  },
+  {
+    "id": "15-aug",
+    "day": "15 Aug",
+    "title": "Subjects, opinions, marks & reasons",
+    "sections": [
+      19
+    ],
+    "scope": {
+      "included": [
+        "19. Subjects, opinions and reasons"
+      ],
+      "excludedByDefault": [
+        "Only slash/semicolon legacy rows that still need safe atomisation are excluded from automatic scoring. Their vocabulary remains visible in the reference bank."
+      ]
+    },
+    "overview": "Give subject opinions, performance and reasons with accurate articles.",
+    "learningGoals": [
+      "Recall the key vocabulary and sentence chunks for Subjects, opinions, marks & reasons.",
+      "Apply the named grammar rule before adding extra detail.",
+      "Explain each correction using subject, tense, article or agreement language."
+    ],
+    "mustMemoriseRules": [
+      "Ma matière préférée, c’est…",
+      "Je suis fort/forte en…",
+      "J’ai de bonnes/mauvaises notes.",
+      "J’aime + noun; je préfère + infinitive.",
+      "Keep the article after aimer/adorer/détester with a noun.",
+      "After en for a school subject, do not add le/la/l’.",
+      "Use parce que/car plus a complete reason.",
+      "Link strengths or weaknesses to marks, difficulty or classroom activity."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "french": "le français",
+        "english": "French",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "le théâtre",
+        "english": "drama",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "la chimie",
+        "english": "chemistry",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "la musique",
+        "english": "music",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "la technologie",
+        "english": "DT",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "les arts plastiques",
+        "english": "art",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "l’EPS",
+        "english": "PE",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "l’histoire",
+        "english": "history",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "l’instruction religieuse",
+        "english": "RS",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "le latin",
+        "english": "Latin",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "la biologie",
+        "english": "biology",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "la géographie / la géo",
+        "english": "geography",
+        "sourceStatus": "confirmed_learned"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "French",
+        "answer": "le français",
+        "why": "The source-locked French is « le français ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "le français",
+        "answer": "French",
+        "why": "« le français » means « French » in the teacher coverage. Use the complete chunk rather than guessing from one familiar word.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "drama",
+        "answer": "le théâtre",
+        "why": "The source-locked French is « le théâtre ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "le théâtre",
+        "answer": "drama",
+        "why": "« le théâtre » means « drama » in the teacher coverage. Use the complete chunk rather than guessing from one familiar word.",
+        "sourceStatus": "confirmed_learned"
+      }
+    ],
+    "commonMistakes": [
+      "Keeping le/la after être fort(e) en.",
+      "Using préférer + noun when the intended answer is an action.",
+      "Missing accents should trigger a reminder, not a wrong mark; wrong base letters still matter.",
+      "A correct subject + verb answer must not be rejected when the prompt only expected the bare verb form."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "question": "chemistry",
+        "answer": "la chimie"
+      },
+      {
+        "question": "la chimie",
+        "answer": "chemistry"
+      },
+      {
+        "question": "music",
+        "answer": "la musique"
+      },
+      {
+        "question": "la musique",
+        "answer": "music"
+      },
+      {
+        "question": "DT",
+        "answer": "la technologie"
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read the must-memorise rules once.",
+      "Cover the English and retrieve at least six French chunks aloud.",
+      "Do the 60-second self-check without looking back.",
+      "Start practice only after identifying the subject and likely time frame."
+    ],
+    "markingReminder": "Accents are taught and shown, but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement and negative order are still marked."
+  },
+  {
+    "id": "16-aug",
+    "day": "16 Aug",
+    "title": "School activities — present & past",
+    "sections": [
+      20
+    ],
+    "scope": {
+      "included": [
+        "20. School activities"
+      ],
+      "excludedByDefault": [
+        "Only slash/semicolon legacy rows that still need safe atomisation are excluded from automatic scoring. Their vocabulary remains visible in the reference bank."
+      ]
+    },
+    "overview": "Use on as “we”, but give it an il/elle verb form.",
+    "learningGoals": [
+      "Recall the key vocabulary and sentence chunks for School activities — present & past.",
+      "Apply the named grammar rule before adding extra detail.",
+      "Explain each correction using subject, tense, article or agreement language."
+    ],
+    "mustMemoriseRules": [
+      "on travaille / on fait / on lit / on s’amuse",
+      "Perfect: on a travaillé / on a fait / on a lu",
+      "Time clues decide present or past.",
+      "Normally/d’habitude signal habits.",
+      "Hier/ce matin/récemment can signal completed events.",
+      "Never write on travaillons.",
+      "In the perfect, use on a + past participle for avoir verbs."
+    ],
+    "mustMemoriseVocabulary": [],
+    "workedExamples": [
+      {
+        "prompt": "Change this taught form to the perfect tense: on a trop de devoirs",
+        "answer": "on a eu trop de devoirs",
+        "why": "Source pair: on a trop de devoirs → on a eu trop de devoirs (we have / had too much homework). Keep the auxiliary and past participle together.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Change this taught form to the perfect tense: on a des discussions intéressantes",
+        "answer": "on a eu des discussions intéressantes",
+        "why": "Source pair: on a des discussions intéressantes → on a eu des discussions intéressantes (we have / had interesting discussions). Keep the auxiliary and past participle together.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Change this taught form to the perfect tense: on travaille dur",
+        "answer": "on a travaillé dur",
+        "why": "Source pair: on travaille dur → on a travaillé dur (we work / worked hard). Keep the auxiliary and past participle together.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Change this taught form to the perfect tense: on fait des expériences",
+        "answer": "on a fait des expériences",
+        "why": "Source pair: on fait des expériences → on a fait des expériences (we do / did experiments). Keep the auxiliary and past participle together.",
+        "sourceStatus": "confirmed_learned"
+      }
+    ],
+    "commonMistakes": [
+      "Writing on travaillons instead of on travaille.",
+      "Ignoring the time phrase when choosing present or perfect.",
+      "Missing accents should trigger a reminder, not a wrong mark; wrong base letters still matter.",
+      "A correct subject + verb answer must not be rejected when the prompt only expected the bare verb form."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "question": "Change this taught form to the perfect tense: on s’amuse",
+        "answer": "on s’est amusé"
+      },
+      {
+        "question": "Change this taught form to the perfect tense: on lit des poèmes / des romans",
+        "answer": "on a lu des poèmes / des romans"
+      },
+      {
+        "question": "Change this taught form to the perfect tense: on apprend à lire / chanter / parler",
+        "answer": "on a appris à lire / chanter / parler"
+      },
+      {
+        "question": "Change this taught form to the perfect tense: on écrit beaucoup",
+        "answer": "on a écrit beaucoup"
+      },
+      {
+        "question": "Change this taught form to the perfect tense: on écoute le / la prof",
+        "answer": "on a écouté le / la prof"
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read the must-memorise rules once.",
+      "Cover the English and retrieve at least six French chunks aloud.",
+      "Do the 60-second self-check without looking back.",
+      "Start practice only after identifying the subject and likely time frame."
+    ],
+    "markingReminder": "Accents are taught and shown, but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement and negative order are still marked."
+  },
+  {
+    "id": "17-aug",
+    "day": "17 Aug",
+    "title": "Reflexive routines & extended negatives",
+    "sections": [
+      21
+    ],
+    "scope": {
+      "included": [
+        "21. Reflexives and negatives"
+      ],
+      "excludedByDefault": [
+        "Only slash/semicolon legacy rows that still need safe atomisation are excluded from automatic scoring. Their vocabulary remains visible in the reference bank."
+      ]
+    },
+    "overview": "Reflexive perfect forms and extended negatives require exact word order.",
+    "learningGoals": [
+      "Recall the key vocabulary and sentence chunks for Reflexive routines & extended negatives.",
+      "Apply the named grammar rule before adding extra detail.",
+      "Explain each correction using subject, tense, article or agreement language."
+    ],
+    "mustMemoriseRules": [
+      "subject + reflexive pronoun + être + participle",
+      "Negative goes around the auxiliary in the perfect.",
+      "ne…pas / ne…plus / ne…jamais / ne…rien",
+      "Choose both reflexive pronoun and être form from the subject.",
+      "Apply the taught agreement rule.",
+      "Nous n’avons rien écrit.",
+      "Do not put pas/jamais/rien after the past participle."
+    ],
+    "mustMemoriseVocabulary": [],
+    "workedExamples": [
+      {
+        "prompt": "Change this taught form to the perfect tense: je me réveille",
+        "answer": "je me suis réveillé(e)",
+        "why": "Source pair: je me réveille → je me suis réveillé(e). Keep the auxiliary and past participle together.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Change this taught form to the perfect tense: je me lève",
+        "answer": "je me suis levé(e)",
+        "why": "Source pair: je me lève → je me suis levé(e). Keep the auxiliary and past participle together.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Change this taught form to the perfect tense: je me lave",
+        "answer": "je me suis lavé(e)",
+        "why": "Source pair: je me lave → je me suis lavé(e). Keep the auxiliary and past participle together.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Change this taught form to the perfect tense: je me comporte bien / mal",
+        "answer": "je me suis bien / mal comporté(e)",
+        "why": "Source pair: je me comporte bien / mal → je me suis bien / mal comporté(e). Keep the auxiliary and past participle together.",
+        "sourceStatus": "confirmed_learned"
+      }
+    ],
+    "commonMistakes": [
+      "Putting jamais/rien after the participle.",
+      "Forgetting agreement with the taught reflexive perfect.",
+      "Missing accents should trigger a reminder, not a wrong mark; wrong base letters still matter.",
+      "A correct subject + verb answer must not be rejected when the prompt only expected the bare verb form."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "question": "Change this taught form to the perfect tense: je m’ennuie",
+        "answer": "je me suis ennuyé(e)"
+      },
+      {
+        "question": "Change this taught form to the perfect tense: on s’amuse",
+        "answer": "on s’est amusé"
+      },
+      {
+        "question": "Change this taught form to the perfect tense: je m’habille",
+        "answer": "je me suis habillé(e)"
+      },
+      {
+        "question": "Change this taught form to the perfect tense: je me détends",
+        "answer": "je me suis détendu(e)"
+      },
+      {
+        "question": "Change this taught form to the perfect tense: je me dépêche",
+        "answer": "je me suis dépêché(e)"
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read the must-memorise rules once.",
+      "Cover the English and retrieve at least six French chunks aloud.",
+      "Do the 60-second self-check without looking back.",
+      "Start practice only after identifying the subject and likely time frame."
+    ],
+    "markingReminder": "Accents are taught and shown, but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement and negative order are still marked."
+  },
+  {
+    "id": "18-aug-structures",
+    "day": "18 Aug",
+    "title": "High-scoring structures",
+    "sections": [
+      22
+    ],
+    "scope": {
+      "included": [
+        "22. High-scoring structures"
+      ],
+      "excludedByDefault": [
+        "Only slash/semicolon legacy rows that still need safe atomisation are excluded from automatic scoring. Their vocabulary remains visible in the reference bank."
+      ]
+    },
+    "overview": "Use stronger structures only when the basic sentence remains accurate.",
+    "learningGoals": [
+      "Recall the key vocabulary and sentence chunks for High-scoring structures.",
+      "Apply the named grammar rule before adding extra detail.",
+      "Explain each correction using subject, tense, article or agreement language."
+    ],
+    "mustMemoriseRules": [
+      "ce qui est / ce qui était",
+      "après avoir + past participle",
+      "bien que ce soit…",
+      "si j’avais le choix, je voudrais…",
+      "ce qui comments on the whole previous idea.",
+      "après avoir works when the same person performs both actions.",
+      "Use one secure super structure, then return to clear core French.",
+      "Keep time frames consistent inside each clause."
+    ],
+    "mustMemoriseVocabulary": [],
+    "workedExamples": [
+      {
+        "prompt": "Give one taught French option for this purpose: sequence.",
+        "answer": "d’abord, puis, ensuite, après, finalement",
+        "why": "The source groups « d’abord, puis, ensuite, après, finalement » under sequence. One complete option is enough.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Give one taught French option for this purpose: contrast.",
+        "answer": "mais, cependant, pourtant, en revanche",
+        "why": "The source groups « mais, cependant, pourtant, en revanche » under contrast. One complete option is enough.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Give one taught French option for this purpose: time.",
+        "answer": "le matin, le soir, à… heures, tout de suite, assez tôt, trop tard",
+        "why": "The source groups « le matin, le soir, à… heures, tout de suite, assez tôt, trop tard » under time. One complete option is enough.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Give one taught French option for this purpose: reaction.",
+        "answer": "heureusement, malheureusement",
+        "why": "The source groups « heureusement, malheureusement » under reaction. One complete option is enough.",
+        "sourceStatus": "confirmed_learned"
+      }
+    ],
+    "commonMistakes": [
+      "Adding a high-level structure while the basic clause is incomplete.",
+      "Mixing present and past inside one clause.",
+      "Missing accents should trigger a reminder, not a wrong mark; wrong base letters still matter.",
+      "A correct subject + verb answer must not be rejected when the prompt only expected the bare verb form."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "question": "Give one taught French option for this purpose: relative phrase.",
+        "answer": "ce qui est… / ce qui était…"
+      },
+      {
+        "question": "Give one taught French option for this purpose: higher-level link.",
+        "answer": "après avoir fini… / après avoir mangé…"
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read the must-memorise rules once.",
+      "Cover the English and retrieve at least six French chunks aloud.",
+      "Do the 60-second self-check without looking back.",
+      "Start practice only after identifying the subject and likely time frame."
+    ],
+    "markingReminder": "Accents are taught and shown, but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement and negative order are still marked."
+  },
+  {
+    "id": "18-aug-practice",
+    "day": "18 Aug",
+    "title": "Dictation, translation & accuracy",
+    "sections": [
+      23
+    ],
+    "scope": {
+      "included": [
+        "23. Targeted practice"
+      ],
+      "excludedByDefault": [
+        "Only slash/semicolon legacy rows that still need safe atomisation are excluded from automatic scoring. Their vocabulary remains visible in the reference bank."
+      ]
+    },
+    "overview": "Dictation and translation practice with targeted accuracy checks.",
+    "learningGoals": [
+      "Recall the key vocabulary and sentence chunks for Dictation, translation & accuracy.",
+      "Apply the named grammar rule before adding extra detail.",
+      "Explain each correction using subject, tense, article or agreement language."
+    ],
+    "mustMemoriseRules": [
+      "Find the subject and tense before translating.",
+      "Check auxiliary, participle and agreement.",
+      "Check negative word order.",
+      "Read the final French as a complete sentence.",
+      "Underline the time phrase, circle the subject, choose the tense, then add details.",
+      "Acceptable normal French word order may vary, but the grammatical jobs must all be present.",
+      "Missing accents are prompted but not deducted.",
+      "A missing article, wrong base spelling or wrong ending is still a real error."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "french": "Mon école est un collège de filles à Kingston qui s’appelle Tiffin.",
+        "english": "My school is a girls’ middle school in Kingston which is called Tiffin.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Il y a une chorale et un orchestre, mais il n’y a pas d’internat.",
+        "english": "There is a choir and an orchestra, but there is not a boarding house.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Mon école primaire était plus petite et plus tranquille.",
+        "english": "My primary school was smaller and quieter.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Ma matière préférée, c’est l’histoire parce que c’est passionnant.",
+        "english": "My favourite subject is history because it is exciting.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Je suis forte en musique, mais je ne comprends rien en français.",
+        "english": "I am strong in music, but I do not understand anything in French.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "En biologie, on fait des expériences et on travaille dur.",
+        "english": "In biology, we do experiments and we work hard.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Hier, on a lu un roman et on a écouté le / la prof.",
+        "english": "Yesterday, we read a novel and listened to the teacher.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Ce matin, je me suis réveillée à six heures trente et je me suis habillée tout de suite.",
+        "english": "This morning, I woke up at six thirty and got dressed immediately.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Les enfants ne parlent jamais car le prof est trop sévère.",
+        "english": "The children never talk because the teacher is too strict.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Nous n’avons rien écrit en espagnol.",
+        "english": "We did not write anything in Spanish.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Après avoir fini mes devoirs, je me suis détendue le soir.",
+        "english": "After finishing my homework, I relaxed in the evening.",
+        "sourceStatus": "confirmed_learned"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "My school is a girls’ middle school in Kingston which is called Tiffin.",
+        "answer": "Mon école est un collège de filles à Kingston qui s’appelle Tiffin.",
+        "why": "This is the printed answer-key structure. The marker checks the taught subject, tense, negative or linker structure; normal French accents are displayed but not deducted.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "There is a choir and an orchestra, but there is not a boarding house.",
+        "answer": "Il y a une chorale et un orchestre, mais il n’y a pas d’internat.",
+        "why": "This is the printed answer-key structure. The marker checks the taught subject, tense, negative or linker structure; normal French accents are displayed but not deducted.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "My primary school was smaller and quieter.",
+        "answer": "Mon école primaire était plus petite et plus tranquille.",
+        "why": "This is the printed answer-key structure. The marker checks the taught subject, tense, negative or linker structure; normal French accents are displayed but not deducted.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "My favourite subject is history because it is exciting.",
+        "answer": "Ma matière préférée, c’est l’histoire parce que c’est passionnant.",
+        "why": "This is the printed answer-key structure. The marker checks the taught subject, tense, negative or linker structure; normal French accents are displayed but not deducted.",
+        "sourceStatus": "confirmed_learned"
+      }
+    ],
+    "commonMistakes": [
+      "Missing accents should trigger a reminder, not a wrong mark; wrong base letters still matter.",
+      "A correct subject + verb answer must not be rejected when the prompt only expected the bare verb form."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "question": "I am strong in music, but I do not understand anything in French.",
+        "answer": "Je suis forte en musique, mais je ne comprends rien en français."
+      },
+      {
+        "question": "In biology, we do experiments and we work hard.",
+        "answer": "En biologie, on fait des expériences et on travaille dur."
+      },
+      {
+        "question": "Yesterday, we read a novel and listened to the teacher.",
+        "answer": "Hier, on a lu un roman et on a écouté le / la prof."
+      },
+      {
+        "question": "This morning, I woke up at six thirty and got dressed immediately.",
+        "answer": "Ce matin, je me suis réveillée à six heures trente et je me suis habillée tout de suite."
+      },
+      {
+        "question": "The children never talk because the teacher is too strict.",
+        "answer": "Les enfants ne parlent jamais car le prof est trop sévère."
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read the must-memorise rules once.",
+      "Cover the English and retrieve at least six French chunks aloud.",
+      "Do the 60-second self-check without looking back.",
+      "Start practice only after identifying the subject and likely time frame."
+    ],
+    "markingReminder": "Accents are taught and shown, but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement and negative order are still marked."
+  },
+  {
+    "id": "21-aug",
+    "day": "21 Aug",
+    "title": "Numbers, age & classroom objects",
+    "sections": [
+      24,
+      25
+    ],
+    "scope": {
+      "included": [
+        "24. Numbers and age",
+        "25. Classroom objects"
+      ],
+      "excludedByDefault": [
+        "Only slash/semicolon legacy rows that still need safe atomisation are excluded from automatic scoring. Their vocabulary remains visible in the reference bank."
+      ]
+    },
+    "overview": "Combine number patterns with correct plural classroom nouns.",
+    "learningGoals": [
+      "Recall the key vocabulary and sentence chunks for Numbers, age & classroom objects.",
+      "Apply the named grammar rule before adding extra detail.",
+      "Explain each correction using subject, tense, article or agreement language."
+    ],
+    "mustMemoriseRules": [
+      "J’ai + number + ans",
+      "Dans mon sac, il y a + number + plural noun",
+      "After a number, do not add un/une/des.",
+      "Most plural nouns add -s.",
+      "Recheck 70–99 patterns and quatre-vingt spelling.",
+      "Age always uses avoir.",
+      "The noun must be plural when the number is more than one.",
+      "Learn irregular or compound classroom-object spellings as whole chunks."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "french": "zéro",
+        "english": "0",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "un",
+        "english": "1",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "deux",
+        "english": "2",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "trois",
+        "english": "3",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "quatre",
+        "english": "4",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "cinq",
+        "english": "5",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "six",
+        "english": "6",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "sept",
+        "english": "7",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "huit",
+        "english": "8",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "neuf",
+        "english": "9",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "dix",
+        "english": "10",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "onze",
+        "english": "11",
+        "sourceStatus": "confirmed_learned"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "0",
+        "answer": "zéro",
+        "why": "The source-locked French is « zéro ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "zéro",
+        "answer": "0",
+        "why": "« zéro » means « 0 » in the teacher coverage. Use the complete chunk rather than guessing from one familiar word.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "1",
+        "answer": "un",
+        "why": "The source-locked French is « un ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "un",
+        "answer": "1",
+        "why": "« un » means « 1 » in the teacher coverage. Use the complete chunk rather than guessing from one familiar word.",
+        "sourceStatus": "confirmed_learned"
+      }
+    ],
+    "commonMistakes": [
+      "Using être for age.",
+      "Adding s to quatre-vingt when another number follows.",
+      "Using des after a number.",
+      "Forgetting the plural noun after a number greater than one.",
+      "Missing accents should trigger a reminder, not a wrong mark; wrong base letters still matter.",
+      "A correct subject + verb answer must not be rejected when the prompt only expected the bare verb form."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "question": "2",
+        "answer": "deux"
+      },
+      {
+        "question": "deux",
+        "answer": "2"
+      },
+      {
+        "question": "3",
+        "answer": "trois"
+      },
+      {
+        "question": "trois",
+        "answer": "3"
+      },
+      {
+        "question": "4",
+        "answer": "quatre"
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read the must-memorise rules once.",
+      "Cover the English and retrieve at least six French chunks aloud.",
+      "Do the 60-second self-check without looking back.",
+      "Start practice only after identifying the subject and likely time frame."
+    ],
+    "markingReminder": "Accents are taught and shown, but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement and negative order are still marked."
+  },
+  {
+    "id": "22-aug",
+    "day": "22 Aug",
+    "title": "Complete passé composé activity bank",
+    "sections": [
+      26
+    ],
+    "scope": {
+      "included": [
+        "26. Passé composé activity bank"
+      ],
+      "excludedByDefault": [
+        "Only slash/semicolon legacy rows that still need safe atomisation are excluded from automatic scoring. Their vocabulary remains visible in the reference bank."
+      ]
+    },
+    "overview": "A complete activity bank for choosing avoir, être and reflexive perfect forms.",
+    "learningGoals": [
+      "Recall the key vocabulary and sentence chunks for Complete passé composé activity bank.",
+      "Apply the named grammar rule before adding extra detail.",
+      "Explain each correction using subject, tense, article or agreement language."
+    ],
+    "mustMemoriseRules": [
+      "Most activities use avoir.",
+      "Movement verbs in the learned bank use être.",
+      "Reflexive perfect forms use être and a reflexive pronoun.",
+      "Negatives surround the auxiliary.",
+      "Do not choose by English meaning alone; learn the French verb pattern.",
+      "With être, recheck agreement.",
+      "Add a time phrase and detail only after the tense core is correct.",
+      "Read subject + auxiliary + participle together."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "french": "j’ai joué de la guitare / au foot / à un jeu vidéo",
+        "english": "I played guitar / football / a video game",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "j’ai parlé avec mes amis / à mon père / sur WhatsApp",
+        "english": "I talked with friends / to Dad / on WhatsApp",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "j’ai mangé du pain / de la viande / des bonbons / dans un restaurant",
+        "english": "I ate bread / meat / sweets / in a restaurant",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "j’ai écouté de la musique / un podcast / un livre audio",
+        "english": "I listened to music / a podcast / an audiobook",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "j’ai fini mes devoirs / un livre / un gâteau entier",
+        "english": "I finished homework / a book / a whole cake",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "j’ai regardé un épisode de ma série préférée / un film",
+        "english": "I watched an episode / a film",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "j’ai gagné / perdu un match de hockey / une partie",
+        "english": "I won / lost a hockey match / game",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "j’ai aimé / détesté ça; le film que j’ai regardé; le sandwich que j’ai mangé",
+        "english": "I liked / hated it; the film; the sandwich",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "j’ai fait du sport / de la natation / de l’équitation / mes devoirs",
+        "english": "I did sport / swimming / horse riding / homework",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "j’ai eu un problème / un sandwich / un accident / un examen",
+        "english": "I had a problem / sandwich / accident / exam",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "j’ai pris le bus / le petit déjeuner / des photos / une douche",
+        "english": "I took/had the bus / breakfast / photos / shower",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "j’ai lu un livre / un article / un blog / dans la bibliothèque",
+        "english": "I read a book / article / blog / in the library",
+        "sourceStatus": "confirmed_learned"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "Write the « j’ / je » form in the avoir column.",
+        "answer": "ai",
+        "why": "The source conjugation table gives j’ / je → ai for avoir. The subject decides the written ending.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Write the « tu » form in the avoir column.",
+        "answer": "as",
+        "why": "The source conjugation table gives tu → as for avoir. The subject decides the written ending.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Write the « il / elle / on » form in the avoir column.",
+        "answer": "a",
+        "why": "The source conjugation table gives il / elle / on → a for avoir. The subject decides the written ending.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Write the « nous » form in the avoir column.",
+        "answer": "avons",
+        "why": "The source conjugation table gives nous → avons for avoir. The subject decides the written ending.",
+        "sourceStatus": "confirmed_learned"
+      }
+    ],
+    "commonMistakes": [
+      "Choosing the auxiliary from English meaning rather than the French pattern.",
+      "Forgetting the reflexive pronoun.",
+      "Missing accents should trigger a reminder, not a wrong mark; wrong base letters still matter.",
+      "A correct subject + verb answer must not be rejected when the prompt only expected the bare verb form."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "question": "Write the « vous » form in the avoir column.",
+        "answer": "avez"
+      },
+      {
+        "question": "Write the « ils / elles » form in the avoir column.",
+        "answer": "ont"
+      },
+      {
+        "question": "Write the « j’ / je » form in the être column.",
+        "answer": "suis"
+      },
+      {
+        "question": "Write the « tu » form in the être column.",
+        "answer": "es"
+      },
+      {
+        "question": "Write the « il / elle / on » form in the être column.",
+        "answer": "est"
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read the must-memorise rules once.",
+      "Cover the English and retrieve at least six French chunks aloud.",
+      "Do the 60-second self-check without looking back.",
+      "Start practice only after identifying the subject and likely time frame."
+    ],
+    "markingReminder": "Accents are taught and shown, but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement and negative order are still marked."
+  },
+  {
+    "id": "23-aug",
+    "day": "23 Aug",
+    "title": "Teacher targets & super structures",
+    "sections": [
+      27
+    ],
+    "scope": {
+      "included": [
+        "27. Teacher targets/extension structures"
+      ],
+      "excludedByDefault": [
+        "Only slash/semicolon legacy rows that still need safe atomisation are excluded from automatic scoring. Their vocabulary remains visible in the reference bank."
+      ]
+    },
+    "overview": "Practise the exact teacher targets and four high-value structures.",
+    "learningGoals": [
+      "Recall the key vocabulary and sentence chunks for Teacher targets & super structures.",
+      "Apply the named grammar rule before adding extra detail.",
+      "Explain each correction using subject, tense, article or agreement language."
+    ],
+    "mustMemoriseRules": [
+      "Use several subjects, not only je.",
+      "Build accurate negative perfect forms.",
+      "Switch clearly between present and perfect.",
+      "Use one super structure accurately.",
+      "Underline the auxiliary mentally before choosing the participle.",
+      "Check non-je endings and agreements carefully.",
+      "ce qui est/était; après avoir; bien que ce soit; si j’avais le choix…",
+      "Accuracy in one structure is better than forcing all four into one answer."
+    ],
+    "mustMemoriseVocabulary": [],
+    "workedExamples": [
+      {
+        "prompt": "tu + finir les devoirs",
+        "answer": "Tu as fini tes devoirs.",
+        "why": "This model checks the exact taught structure. Keep the subject, auxiliary, participle and negative words in their correct jobs.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "elle + aller à la cantine",
+        "answer": "Elle est allée à la cantine.",
+        "why": "This model checks the exact taught structure. Keep the subject, auxiliary, participle and negative words in their correct jobs.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "nous (girls) + se lever tôt",
+        "answer": "Nous nous sommes levées tôt.",
+        "why": "This model checks the exact taught structure. Keep the subject, auxiliary, participle and negative words in their correct jobs.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "ils + lire un article",
+        "answer": "Ils ont lu un article.",
+        "why": "This model checks the exact taught structure. Keep the subject, auxiliary, participle and negative words in their correct jobs.",
+        "sourceStatus": "confirmed_learned"
+      }
+    ],
+    "commonMistakes": [
+      "Missing accents should trigger a reminder, not a wrong mark; wrong base letters still matter.",
+      "A correct subject + verb answer must not be rejected when the prompt only expected the bare verb form."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "question": "elles + arriver",
+        "answer": "Elles sont arrivées."
+      },
+      {
+        "question": "vous (one girl) + sortir",
+        "answer": "Vous êtes sortie."
+      },
+      {
+        "question": "ils + partir",
+        "answer": "Ils sont partis."
+      },
+      {
+        "question": "elle + naître",
+        "answer": "Elle est née."
+      },
+      {
+        "question": "nous (mixed) + rentrer",
+        "answer": "Nous sommes rentrés."
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read the must-memorise rules once.",
+      "Cover the English and retrieve at least six French chunks aloud.",
+      "Do the 60-second self-check without looking back.",
+      "Start practice only after identifying the subject and likely time frame."
+    ],
+    "markingReminder": "Accents are taught and shown, but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement and negative order are still marked."
+  },
+  {
+    "id": "25-aug",
+    "day": "25 Aug",
+    "title": "French-speaking school life",
+    "sections": [
+      28
+    ],
+    "scope": {
+      "included": [
+        "28. French-speaking school-life reading"
+      ],
+      "excludedByDefault": [
+        "Only slash/semicolon legacy rows that still need safe atomisation are excluded from automatic scoring. Their vocabulary remains visible in the reference bank."
+      ]
+    },
+    "overview": "Read and compare school life in France, Québec and Sénégal using only source evidence.",
+    "learningGoals": [
+      "Recall the key vocabulary and sentence chunks for French-speaking school life.",
+      "Apply the named grammar rule before adding extra detail.",
+      "Explain each correction using subject, tense, article or agreement language."
+    ],
+    "mustMemoriseRules": [
+      "France: collège, cantine, CDI",
+      "Québec: secondaire, cégep, hockey",
+      "Sénégal: collège, biology/health context in the source",
+      "A comparison needs evidence from both sides.",
+      "Answer the exact question from the text, not from general knowledge.",
+      "Identify time phrase and verb tense when retrieving evidence.",
+      "Use mais, tandis que, plus/moins/aussi where suitable.",
+      "Avoid claiming that every school in a country is identical."
+    ],
+    "mustMemoriseVocabulary": [],
+    "workedExamples": [
+      {
+        "prompt": "How old is Camille?",
+        "answer": "13",
+        "why": "The answer comes directly from this printed reading. Use the exact evidence and do not add a general claim about every school in that country.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Where does she eat at midday?",
+        "answer": "at the canteen",
+        "why": "The answer comes directly from this printed reading. Use the exact evidence and do not add a general claim about every school in that country.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Which subject is her favourite?",
+        "answer": "history",
+        "why": "The answer comes directly from this printed reading. Use the exact evidence and do not add a general claim about every school in that country.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Name two facilities or clubs. Give both in any order.",
+        "answer": "CDI, gym",
+        "why": "The answer comes directly from this printed reading. Use the exact evidence and do not add a general claim about every school in that country.",
+        "sourceStatus": "confirmed_learned"
+      }
+    ],
+    "commonMistakes": [
+      "Missing accents should trigger a reminder, not a wrong mark; wrong base letters still matter.",
+      "A correct subject + verb answer must not be rejected when the prompt only expected the bare verb form."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "question": "Give the two perfect-tense verb phrases in any order.",
+        "answer": "a fait, a lu"
+      },
+      {
+        "question": "Which school level is Émile in?",
+        "answer": "Secondaire II"
+      },
+      {
+        "question": "Why does he like science?",
+        "answer": "the experiments are interesting"
+      },
+      {
+        "question": "How does he travel to school?",
+        "answer": "by bus"
+      },
+      {
+        "question": "What two things does he do after lessons? Give both in any order.",
+        "answer": "hockey, homework"
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read the must-memorise rules once.",
+      "Cover the English and retrieve at least six French chunks aloud.",
+      "Do the 60-second self-check without looking back.",
+      "Start practice only after identifying the subject and likely time frame."
+    ],
+    "markingReminder": "Accents are taught and shown, but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement and negative order are still marked."
+  },
+  {
+    "id": "26-aug",
+    "day": "26 Aug",
+    "title": "Final teacher coverage & accuracy audit",
+    "sections": [
+      30,
+      31,
+      32,
+      33
+    ],
+    "scope": {
+      "included": [
+        "30. Supplementary teacher vocabulary",
+        "31. Regular present patterns",
+        "32. Accuracy repair",
+        "33. Coverage audit"
+      ],
+      "excludedByDefault": [
+        "Only slash/semicolon legacy rows that still need safe atomisation are excluded from automatic scoring. Their vocabulary remains visible in the reference bank."
+      ]
+    },
+    "overview": "Final source coverage, regular patterns and the latest accuracy repair.",
+    "learningGoals": [
+      "Recall the key vocabulary and sentence chunks for Final teacher coverage & accuracy audit.",
+      "Apply the named grammar rule before adding extra detail.",
+      "Explain each correction using subject, tense, article or agreement language."
+    ],
+    "mustMemoriseRules": [
+      "Retrieve one-off teacher vocabulary.",
+      "Separate -er, -ir and -re endings.",
+      "Use préférer + infinitive correctly.",
+      "Proofread five sentences for capitals, stops, agreement and reasons.",
+      "Learn je, nous and ils/elles forms as pattern anchors.",
+      "Silent written endings still matter in spelling.",
+      "Check every sentence against one explicit rule.",
+      "Missing accents are shown as a learning note, not deducted here."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "french": "dessiner",
+        "english": "to draw",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "travailler",
+        "english": "to work",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "un tigre",
+        "english": "a tiger",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "une maison",
+        "english": "a house",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "jouer",
+        "english": "to play",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "faire du vélo",
+        "english": "to cycle",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "un chat",
+        "english": "a cat",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "discuter",
+        "english": "to chat / discuss",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "un soleil",
+        "english": "a sun",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "la plage",
+        "english": "the beach",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "penser",
+        "english": "to think",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "un arc-en-ciel",
+        "english": "a rainbow",
+        "sourceStatus": "confirmed_learned"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "Write the « je » form in the -er: jouer column.",
+        "answer": "joue",
+        "why": "The source conjugation table gives je → joue for -er: jouer. The subject decides the written ending.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Write the « tu » form in the -er: jouer column.",
+        "answer": "joues",
+        "why": "The source conjugation table gives tu → joues for -er: jouer. The subject decides the written ending.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Write the « il / elle / on » form in the -er: jouer column.",
+        "answer": "joue",
+        "why": "The source conjugation table gives il / elle / on → joue for -er: jouer. The subject decides the written ending.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Write the « nous » form in the -er: jouer column.",
+        "answer": "jouons",
+        "why": "The source conjugation table gives nous → jouons for -er: jouer. The subject decides the written ending.",
+        "sourceStatus": "confirmed_learned"
+      }
+    ],
+    "commonMistakes": [
+      "Treating a supplementary word as already taught without confirmation.",
+      "Mixing -er, -ir and -re endings.",
+      "Ignoring silent written endings.",
+      "Counting commas as separate sentences.",
+      "Missing the infinitive after préférer.",
+      "Missing accents should trigger a reminder, not a wrong mark; wrong base letters still matter.",
+      "A correct subject + verb answer must not be rejected when the prompt only expected the bare verb form."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "question": "Write the « vous » form in the -er: jouer column.",
+        "answer": "jouez"
+      },
+      {
+        "question": "Write the « ils / elles » form in the -er: jouer column.",
+        "answer": "jouent"
+      },
+      {
+        "question": "Write the « je » form in the -ir: finir column.",
+        "answer": "finis"
+      },
+      {
+        "question": "Write the « tu » form in the -ir: finir column.",
+        "answer": "finis"
+      },
+      {
+        "question": "Write the « il / elle / on » form in the -ir: finir column.",
+        "answer": "finit"
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read the must-memorise rules once.",
+      "Cover the English and retrieve at least six French chunks aloud.",
+      "Do the 60-second self-check without looking back.",
+      "Start practice only after identifying the subject and likely time frame."
+    ],
+    "markingReminder": "Accents are taught and shown, but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement and negative order are still marked."
+  },
+  {
+    "id": "30-aug",
+    "day": "30 Aug",
+    "title": "Full mixed assessment",
+    "sections": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ],
+    "scope": {
+      "included": [
+        "1. Quick rules",
+        "2. Weather, activities and opinions",
+        "3. Home, family and descriptions",
+        "4. Food, drink and restaurants",
+        "5. Town, time and aller",
+        "6. Present tense",
+        "7. Passé composé",
+        "8. Expanded past-participle bank",
+        "9. Sentence building",
+        "10. Accuracy traps",
+        "11. Master vocabulary",
+        "12. KS3 extension irregular verbs",
+        "13. Reflexives and routine",
+        "14. Future time",
+        "15. Imperfect/conditional light exposure",
+        "16. Daily routine toolkit",
+        "17. Unit 3 overview",
+        "18. School descriptions",
+        "19. Subjects, opinions and reasons",
+        "20. School activities",
+        "21. Reflexives and negatives",
+        "22. High-scoring structures",
+        "23. Targeted practice",
+        "24. Numbers and age",
+        "25. Classroom objects",
+        "26. Passé composé activity bank",
+        "27. Teacher targets/extension structures",
+        "28. French-speaking school-life reading",
+        "29. Mixed assessment",
+        "30. Supplementary teacher vocabulary",
+        "31. Regular present patterns",
+        "32. Accuracy repair"
+      ],
+      "excludedByDefault": [
+        "Only slash/semicolon legacy rows that still need safe atomisation are excluded from automatic scoring. Their vocabulary remains visible in the reference bank."
+      ]
+    },
+    "overview": "The mixed assessment samples the whole taught range.",
+    "learningGoals": [
+      "Recall the key vocabulary and sentence chunks for Full mixed assessment.",
+      "Apply the named grammar rule before adding extra detail.",
+      "Explain each correction using subject, tense, article or agreement language."
+    ],
+    "mustMemoriseRules": [
+      "Identify topic, subject and time frame before answering.",
+      "Use source chunks and proofread.",
+      "Do the five-sentence writing task after the question session.",
+      "Answer easy retrieval items first without overthinking.",
+      "For writing, plan five sentence jobs before composing.",
+      "Articles; auxiliaries; participles; agreement; negative order; connectives.",
+      "Accent differences are still prompted but not deducted in this app version."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "french": "Quel temps fait-il ?",
+        "english": "What is the weather like?",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Il fait chaud",
+        "english": "It is hot",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Il fait froid",
+        "english": "It is cold",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Il fait mauvais",
+        "english": "The weather is bad",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Il fait gris",
+        "english": "It is grey",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Il fait beau",
+        "english": "The weather is nice",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Il y a du vent",
+        "english": "It is windy",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Il y a du soleil",
+        "english": "It is sunny",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Il y a du brouillard",
+        "english": "It is foggy",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Il neige",
+        "english": "It is snowing",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Il pleut",
+        "english": "It is raining",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "french": "Il gèle",
+        "english": "It is freezing",
+        "sourceStatus": "confirmed_learned"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "Give the taught example for: Opinions.",
+        "answer": "J’aime le riz. / Je préfère regarder la télé.",
+        "why": "With a noun after aimer / adorer / détester / préférer, use the definite article (le / la / l’ / les). With another verb, use the infinitive without an article.",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Give the taught example for: Food & drink.",
+        "answer": "Je bois de l’eau. / Je mange des frites.",
+        "why": "When eating or drinking, use du / de la / de l’ / des",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Give the taught example for: Negatives.",
+        "answer": "Je ne bois pas de coca. / Il n’y a plus de pain.",
+        "why": "After ne…pas / ne…plus, change to de / d’",
+        "sourceStatus": "confirmed_learned"
+      },
+      {
+        "prompt": "Give the taught example for: Places after aller.",
+        "answer": "Je vais au cinéma. / à la pharmacie. / à l’épicerie. / aux magasins.",
+        "why": "Choose au / à la / à l’ / aux carefully",
+        "sourceStatus": "confirmed_learned"
+      }
+    ],
+    "commonMistakes": [
+      "Using du/de la after an opinion instead of le/la/les.",
+      "Putting an article before an infinitive after préférer.",
+      "Giving a weather phrase without a matching verb.",
+      "Writing a one-word opinion with no reason.",
+      "Choosing mon/ma from the owner rather than the following noun.",
+      "Forgetting feminine/plural adjective agreement.",
+      "Mixing opinion articles with food quantity articles.",
+      "Forgetting de/d’ after a negative quantity.",
+      "Mixing au, à la, à l’ and aux.",
+      "Forgetting that en ville is a fixed chunk."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "question": "Give the taught example for: Passé composé.",
+        "answer": "J’ai mangé. / Je suis allé(e)."
+      },
+      {
+        "question": "Give the taught example for: Être verbs.",
+        "answer": "Elle est allée. / Ils sont sortis."
+      },
+      {
+        "question": "Write the « je » form in the aller column.",
+        "answer": "vais"
+      },
+      {
+        "question": "Write the « tu » form in the aller column.",
+        "answer": "vas"
+      },
+      {
+        "question": "Write the « il / elle / on » form in the aller column.",
+        "answer": "va"
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read the must-memorise rules once.",
+      "Cover the English and retrieve at least six French chunks aloud.",
+      "Do the 60-second self-check without looking back.",
+      "Start practice only after identifying the subject and likely time frame."
+    ],
+    "markingReminder": "Accents are taught and shown, but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement and negative order are still marked."
+  },
+  {
+    "id": "31-aug",
+    "day": "31 Aug",
+    "title": "Errors-only consolidation",
+    "sections": [],
+    "scope": {
+      "included": [],
+      "excludedByDefault": [
+        "Only slash/semicolon legacy rows that still need safe atomisation are excluded from automatic scoring. Their vocabulary remains visible in the reference bank."
+      ]
+    },
+    "overview": "Review only the questions scheduled from earlier mistakes.",
+    "learningGoals": [
+      "Recall the key vocabulary and sentence chunks for Errors-only consolidation.",
+      "Apply the named grammar rule before adding extra detail.",
+      "Explain each correction using subject, tense, article or agreement language."
+    ],
+    "mustMemoriseRules": [
+      "Attempt from memory first.",
+      "Read the detailed explanation after marking.",
+      "A correct due review advances the 2-day/7-day cycle.",
+      "Do not open the original notes before the first attempt.",
+      "If the answer is wrong again, use the explanation and write the correct form once."
+    ],
+    "mustMemoriseVocabulary": [],
+    "workedExamples": [],
+    "commonMistakes": [
+      "Missing accents should trigger a reminder, not a wrong mark; wrong base letters still matter.",
+      "A correct subject + verb answer must not be rejected when the prompt only expected the bare verb form."
+    ],
+    "sixtySecondSelfCheck": [],
+    "beforeStartingPractice": [
+      "Read the must-memorise rules once.",
+      "Cover the English and retrieve at least six French chunks aloud.",
+      "Do the 60-second self-check without looking back.",
+      "Start practice only after identifying the subject and likely time frame."
+    ],
+    "markingReminder": "Accents are taught and shown, but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement and negative order are still marked."
+  },
+  {
+    "id": "2-sep",
+    "day": "2 Sep",
+    "title": "48–72 hour retest",
+    "sections": [],
+    "scope": {
+      "included": [],
+      "excludedByDefault": [
+        "Only slash/semicolon legacy rows that still need safe atomisation are excluded from automatic scoring. Their vocabulary remains visible in the reference bank."
+      ]
+    },
+    "overview": "Review only the questions scheduled from earlier mistakes.",
+    "learningGoals": [
+      "Recall the key vocabulary and sentence chunks for 48–72 hour retest.",
+      "Apply the named grammar rule before adding extra detail.",
+      "Explain each correction using subject, tense, article or agreement language."
+    ],
+    "mustMemoriseRules": [
+      "Attempt from memory first.",
+      "Read the detailed explanation after marking.",
+      "A correct due review advances the 2-day/7-day cycle.",
+      "Do not open the original notes before the first attempt.",
+      "If the answer is wrong again, use the explanation and write the correct form once."
+    ],
+    "mustMemoriseVocabulary": [],
+    "workedExamples": [],
+    "commonMistakes": [
+      "Missing accents should trigger a reminder, not a wrong mark; wrong base letters still matter.",
+      "A correct subject + verb answer must not be rejected when the prompt only expected the bare verb form."
+    ],
+    "sixtySecondSelfCheck": [],
+    "beforeStartingPractice": [
+      "Read the must-memorise rules once.",
+      "Cover the English and retrieve at least six French chunks aloud.",
+      "Do the 60-second self-check without looking back.",
+      "Start practice only after identifying the subject and likely time frame."
+    ],
+    "markingReminder": "Accents are taught and shown, but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement and negative order are still marked."
+  }
+]

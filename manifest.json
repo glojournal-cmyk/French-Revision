@@ -1,0 +1,94 @@
+{
+  "name": "French Content Core V2",
+  "purpose": "UI-independent content, provenance and marking handoff for a separate Codex implementation.",
+  "authoritativeLearnedContentSource": "Year8_French_COMPLETE_Teacher_Coverage_Final(6).docx",
+  "parentConfirmationDate": "2026-09-05",
+  "defaultProfile": "confirmed_learned_safe_auto_mark",
+  "profiles": {
+    "confirmed_learned_safe_auto_mark": [
+      "confirmed_learned"
+    ],
+    "reference_only_needs_atomisation": [
+      "combined_slash_or_semicolon_entry"
+    ]
+  },
+  "accentPolicy": "Ignore French diacritics for scoring, but always display and teach the accented spelling.",
+  "counts": {
+    "vocabularyEntries": 617,
+    "vocabularyAutomaticSafe": 482,
+    "questionsAll": 1502,
+    "questionsEnabledByDefault": 1220,
+    "writingTasks": 19,
+    "datedNotes": 27,
+    "datedQuestionPools": 27,
+    "vocabularyByTier": {
+      "confirmed_learned": 617
+    },
+    "questionsByTier": {
+      "confirmed_learned": 1502
+    },
+    "defaultQuestionsBySection": {
+      "1": 6,
+      "2": 98,
+      "3": 88,
+      "4": 36,
+      "5": 56,
+      "6": 28,
+      "7": 78,
+      "8": 140,
+      "10": 8,
+      "11": 106,
+      "12": 18,
+      "13": 54,
+      "14": 20,
+      "15": 17,
+      "16": 20,
+      "17": 10,
+      "18": 8,
+      "19": 38,
+      "20": 9,
+      "21": 18,
+      "22": 6,
+      "23": 21,
+      "24": 78,
+      "25": 60,
+      "26": 31,
+      "27": 20,
+      "28": 15,
+      "29": 7,
+      "30": 98,
+      "31": 21,
+      "32": 7
+    },
+    "safePoolByDatedBlock": {
+      "18-jul": 85,
+      "19-jul": 141,
+      "21-jul": 238,
+      "25-jul": 192,
+      "26-jul": 222,
+      "27-jul": 208,
+      "28-jul-past": 302,
+      "28-jul-build": 226,
+      "31-jul": 553,
+      "9-aug": 922,
+      "10-aug": 178,
+      "11-aug-future": 91,
+      "11-aug-routine": 111,
+      "14-aug": 92,
+      "15-aug": 56,
+      "16-aug": 125,
+      "17-aug": 81,
+      "18-aug-structures": 71,
+      "18-aug-practice": 92,
+      "21-aug": 185,
+      "22-aug": 276,
+      "23-aug": 78,
+      "25-aug": 90,
+      "26-aug": 330,
+      "30-aug": 1220,
+      "31-aug": 0,
+      "2-sep": 0
+    },
+    "aug18To25FrenchBlockMinimumMet": true
+  }
+}

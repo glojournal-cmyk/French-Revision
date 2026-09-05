@@ -1,0 +1,1630 @@
+[
+  {
+    "id": "w-school-3",
+    "day": "19 Jul",
+    "title": "My school — 3 sentences",
+    "sentenceTarget": 3,
+    "sections": [
+      17,
+      18,
+      19
+    ],
+    "prompt": "Write 3 French sentences: describe your school, name one facility or club, and give an opinion with a reason.",
+    "requirements": [
+      {
+        "label": "3 complete sentences",
+        "kind": "sentences",
+        "count": 3,
+        "points": 2
+      },
+      {
+        "label": "school description",
+        "any": [
+          "mon école",
+          "mon collège",
+          "dans mon collège"
+        ],
+        "points": 1
+      },
+      {
+        "label": "facility or club",
+        "any": [
+          "gymnase",
+          "bibliothèque",
+          "laboratoire",
+          "chorale",
+          "orchestre",
+          "club"
+        ],
+        "points": 1
+      },
+      {
+        "label": "opinion",
+        "any": [
+          "j'aime",
+          "j'adore",
+          "je n'aime pas",
+          "je déteste",
+          "je préfère"
+        ],
+        "points": 1
+      },
+      {
+        "label": "reason",
+        "any": [
+          "parce que",
+          "car"
+        ],
+        "points": 1
+      }
+    ],
+    "model": "Mon collège est assez grand. Il y a un gymnase et une chorale. J’aime mon collège parce que les clubs sont amusants.",
+    "contentTier": "confirmed_learned",
+    "markingPolicy": {
+      "mode": "criterion_checklist_not_single-string-match",
+      "accentPolicy": "Do not deduct accents; show the corrected accented form.",
+      "sentenceCount": "Count separately punctuated clauses; do not count comma/and as a new sentence automatically.",
+      "feedback": "Report each criterion as met or missing, and name the missing feature.",
+      "safetyRule": "Do not label the whole composition wrong merely because it differs from the model. The model is an example, not the only accepted essay.",
+      "grammarChecks": [
+        "subject + finite verb",
+        "tense frame",
+        "negative placement",
+        "article choice",
+        "agreement where required"
+      ]
+    }
+  },
+  {
+    "id": "w-weather-3",
+    "day": "21 Jul",
+    "title": "Weather and activities — 3 sentences",
+    "sentenceTarget": 3,
+    "sections": [
+      2
+    ],
+    "prompt": "Write 3 sentences about weather, an activity, and an opinion with a reason.",
+    "requirements": [
+      {
+        "label": "3 complete sentences",
+        "kind": "sentences",
+        "count": 3,
+        "points": 2
+      },
+      {
+        "label": "weather phrase",
+        "any": [
+          "il fait",
+          "il y a du soleil",
+          "il pleut",
+          "il neige"
+        ],
+        "points": 1
+      },
+      {
+        "label": "activity",
+        "any": [
+          "je joue",
+          "je fais",
+          "je regarde",
+          "j’écoute",
+          "je vais"
+        ],
+        "points": 1
+      },
+      {
+        "label": "opinion",
+        "any": [
+          "j'aime",
+          "j'adore",
+          "je préfère",
+          "je n'aime pas"
+        ],
+        "points": 1
+      },
+      {
+        "label": "reason",
+        "any": [
+          "parce que",
+          "car"
+        ],
+        "points": 1
+      }
+    ],
+    "model": "Aujourd’hui, il y a du soleil. Je joue au tennis avec mes amis. J’aime le tennis parce que c’est amusant.",
+    "contentTier": "confirmed_learned",
+    "markingPolicy": {
+      "mode": "criterion_checklist_not_single-string-match",
+      "accentPolicy": "Do not deduct accents; show the corrected accented form.",
+      "sentenceCount": "Count separately punctuated clauses; do not count comma/and as a new sentence automatically.",
+      "feedback": "Report each criterion as met or missing, and name the missing feature.",
+      "safetyRule": "Do not label the whole composition wrong merely because it differs from the model. The model is an example, not the only accepted essay.",
+      "grammarChecks": [
+        "subject + finite verb",
+        "tense frame",
+        "negative placement",
+        "article choice",
+        "agreement where required"
+      ]
+    }
+  },
+  {
+    "id": "w-home-5",
+    "day": "25 Jul",
+    "title": "Home and family — 5 sentences",
+    "sentenceTarget": 5,
+    "sections": [
+      3
+    ],
+    "prompt": "Write 5 sentences about where you live, your home, one family member, two descriptions and one colour.",
+    "requirements": [
+      {
+        "label": "5 complete sentences",
+        "kind": "sentences",
+        "count": 5,
+        "points": 2
+      },
+      {
+        "label": "where you live",
+        "any": [
+          "j'habite",
+          "j’habite"
+        ],
+        "points": 1
+      },
+      {
+        "label": "home noun",
+        "any": [
+          "ma maison",
+          "mon appartement",
+          "chez moi"
+        ],
+        "points": 1
+      },
+      {
+        "label": "family word",
+        "any": [
+          "ma mère",
+          "mon père",
+          "ma sœur",
+          "mon frère",
+          "mes parents"
+        ],
+        "points": 1
+      },
+      {
+        "label": "description with être",
+        "any": [
+          "est",
+          "sont"
+        ],
+        "points": 1
+      },
+      {
+        "label": "colour",
+        "any": [
+          "rouge",
+          "bleu",
+          "bleue",
+          "vert",
+          "verte",
+          "noir",
+          "noire",
+          "blanc",
+          "blanche"
+        ],
+        "points": 1
+      }
+    ],
+    "model": "J’habite à Londres. Ma maison est assez grande. J’ai une sœur. Elle est gentille et amusante. Sa chambre est bleue.",
+    "contentTier": "confirmed_learned",
+    "markingPolicy": {
+      "mode": "criterion_checklist_not_single-string-match",
+      "accentPolicy": "Do not deduct accents; show the corrected accented form.",
+      "sentenceCount": "Count separately punctuated clauses; do not count comma/and as a new sentence automatically.",
+      "feedback": "Report each criterion as met or missing, and name the missing feature.",
+      "safetyRule": "Do not label the whole composition wrong merely because it differs from the model. The model is an example, not the only accepted essay.",
+      "grammarChecks": [
+        "subject + finite verb",
+        "tense frame",
+        "negative placement",
+        "article choice",
+        "agreement where required"
+      ]
+    }
+  },
+  {
+    "id": "w-food-3",
+    "day": "26 Jul",
+    "title": "Food and restaurant — 3 sentences",
+    "sentenceTarget": 3,
+    "sections": [
+      4
+    ],
+    "prompt": "Write 3 sentences: say what you eat or drink, give an opinion with a reason, then order something politely.",
+    "requirements": [
+      {
+        "label": "3 complete sentences",
+        "kind": "sentences",
+        "count": 3,
+        "points": 2
+      },
+      {
+        "label": "eat or drink",
+        "any": [
+          "je mange",
+          "je bois",
+          "je prends"
+        ],
+        "points": 1
+      },
+      {
+        "label": "opinion",
+        "any": [
+          "j'aime",
+          "j'adore",
+          "je n'aime pas",
+          "je préfère"
+        ],
+        "points": 1
+      },
+      {
+        "label": "reason",
+        "any": [
+          "parce que",
+          "car"
+        ],
+        "points": 1
+      },
+      {
+        "label": "polite order",
+        "any": [
+          "je voudrais",
+          "s’il vous plaît",
+          "sil vous plait"
+        ],
+        "points": 1
+      }
+    ],
+    "model": "Au petit déjeuner, je mange du pain. J’adore le chocolat parce que c’est délicieux. Je voudrais une limonade, s’il vous plaît.",
+    "contentTier": "confirmed_learned",
+    "markingPolicy": {
+      "mode": "criterion_checklist_not_single-string-match",
+      "accentPolicy": "Do not deduct accents; show the corrected accented form.",
+      "sentenceCount": "Count separately punctuated clauses; do not count comma/and as a new sentence automatically.",
+      "feedback": "Report each criterion as met or missing, and name the missing feature.",
+      "safetyRule": "Do not label the whole composition wrong merely because it differs from the model. The model is an example, not the only accepted essay.",
+      "grammarChecks": [
+        "subject + finite verb",
+        "tense frame",
+        "negative placement",
+        "article choice",
+        "agreement where required"
+      ]
+    }
+  },
+  {
+    "id": "w-town-5",
+    "day": "27 Jul",
+    "title": "A day in town — 5 sentences",
+    "sentenceTarget": 5,
+    "sections": [
+      5,
+      6
+    ],
+    "prompt": "Write 5 present-tense sentences about going into town. Include a place, a time phrase, two different subjects and one negative.",
+    "requirements": [
+      {
+        "label": "5 complete sentences",
+        "kind": "sentences",
+        "count": 5,
+        "points": 2
+      },
+      {
+        "label": "aller form",
+        "any": [
+          "je vais",
+          "nous allons",
+          "on va",
+          "ils vont",
+          "elles vont"
+        ],
+        "points": 1
+      },
+      {
+        "label": "town place",
+        "any": [
+          "au cinéma",
+          "à la piscine",
+          "à la bibliothèque",
+          "aux magasins",
+          "en ville"
+        ],
+        "points": 1
+      },
+      {
+        "label": "time phrase",
+        "any": [
+          "d'habitude",
+          "normalement",
+          "après",
+          "ensuite"
+        ],
+        "points": 1
+      },
+      {
+        "label": "second subject",
+        "any": [
+          "nous ",
+          "on ",
+          "il ",
+          "elle ",
+          "ils ",
+          "elles "
+        ],
+        "points": 1
+      },
+      {
+        "label": "negative",
+        "any": [
+          "ne ",
+          "n’",
+          "n'"
+        ],
+        "points": 1
+      }
+    ],
+    "model": "Normalement, je vais en ville le samedi. Je vais au cinéma avec mes amis. Ensuite, nous allons aux magasins. On mange au café. Je ne vais pas à la piscine.",
+    "contentTier": "confirmed_learned",
+    "markingPolicy": {
+      "mode": "criterion_checklist_not_single-string-match",
+      "accentPolicy": "Do not deduct accents; show the corrected accented form.",
+      "sentenceCount": "Count separately punctuated clauses; do not count comma/and as a new sentence automatically.",
+      "feedback": "Report each criterion as met or missing, and name the missing feature.",
+      "safetyRule": "Do not label the whole composition wrong merely because it differs from the model. The model is an example, not the only accepted essay.",
+      "grammarChecks": [
+        "subject + finite verb",
+        "tense frame",
+        "negative placement",
+        "article choice",
+        "agreement where required"
+      ]
+    }
+  },
+  {
+    "id": "w-past-5",
+    "day": "28 Jul",
+    "title": "What I did — 5 sentences",
+    "sentenceTarget": 5,
+    "sections": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "prompt": "Write 5 sentences in the passé composé about a recent day. Include a time phrase, an avoir verb, an être verb, an opinion and a reason.",
+    "requirements": [
+      {
+        "label": "5 complete sentences",
+        "kind": "sentences",
+        "count": 5,
+        "points": 2
+      },
+      {
+        "label": "past time phrase",
+        "any": [
+          "hier",
+          "samedi dernier",
+          "la semaine dernière",
+          "récemment"
+        ],
+        "points": 1
+      },
+      {
+        "label": "avoir perfect",
+        "any": [
+          "j'ai ",
+          "nous avons ",
+          "on a ",
+          "ils ont ",
+          "elles ont "
+        ],
+        "points": 1
+      },
+      {
+        "label": "être perfect",
+        "any": [
+          "je suis allé",
+          "je suis allée",
+          "nous sommes allé",
+          "nous sommes allée",
+          "ils sont allé",
+          "elles sont allée"
+        ],
+        "points": 1
+      },
+      {
+        "label": "past opinion",
+        "any": [
+          "c'était",
+          "c’etait"
+        ],
+        "points": 1
+      },
+      {
+        "label": "reason",
+        "any": [
+          "parce que",
+          "car"
+        ],
+        "points": 1
+      }
+    ],
+    "model": "Hier, je suis allée en ville. J’ai regardé un film. Ensuite, nous avons mangé au restaurant. C’était amusant parce que le film était intéressant. Je suis rentrée à six heures.",
+    "contentTier": "confirmed_learned",
+    "markingPolicy": {
+      "mode": "criterion_checklist_not_single-string-match",
+      "accentPolicy": "Do not deduct accents; show the corrected accented form.",
+      "sentenceCount": "Count separately punctuated clauses; do not count comma/and as a new sentence automatically.",
+      "feedback": "Report each criterion as met or missing, and name the missing feature.",
+      "safetyRule": "Do not label the whole composition wrong merely because it differs from the model. The model is an example, not the only accepted essay.",
+      "grammarChecks": [
+        "subject + finite verb",
+        "tense frame",
+        "negative placement",
+        "article choice",
+        "agreement where required"
+      ]
+    }
+  },
+  {
+    "id": "w-routine-3",
+    "day": "10 Aug",
+    "title": "Daily routine — 3 sentences",
+    "sentenceTarget": 3,
+    "sections": [
+      13
+    ],
+    "prompt": "Write 3 present-tense routine sentences with three different reflexive verbs and at least one time.",
+    "requirements": [
+      {
+        "label": "3 complete sentences",
+        "kind": "sentences",
+        "count": 3,
+        "points": 2
+      },
+      {
+        "label": "first reflexive action",
+        "any": [
+          "je me réveille",
+          "je me reveille",
+          "je me lève",
+          "je me leve"
+        ],
+        "points": 1
+      },
+      {
+        "label": "second reflexive action",
+        "any": [
+          "je me lave",
+          "je me douche",
+          "je me brosse"
+        ],
+        "points": 1
+      },
+      {
+        "label": "third reflexive action",
+        "any": [
+          "je m'habille",
+          "je m’habille",
+          "je me couche"
+        ],
+        "points": 1
+      },
+      {
+        "label": "time",
+        "any": [
+          "heure",
+          "heures",
+          "et demie",
+          "moins le quart"
+        ],
+        "points": 1
+      }
+    ],
+    "model": "Je me réveille à sept heures. Ensuite, je me lave et je me brosse les dents. Je m’habille à sept heures et demie.",
+    "contentTier": "confirmed_learned",
+    "markingPolicy": {
+      "mode": "criterion_checklist_not_single-string-match",
+      "accentPolicy": "Do not deduct accents; show the corrected accented form.",
+      "sentenceCount": "Count separately punctuated clauses; do not count comma/and as a new sentence automatically.",
+      "feedback": "Report each criterion as met or missing, and name the missing feature.",
+      "safetyRule": "Do not label the whole composition wrong merely because it differs from the model. The model is an example, not the only accepted essay.",
+      "grammarChecks": [
+        "subject + finite verb",
+        "tense frame",
+        "negative placement",
+        "article choice",
+        "agreement where required"
+      ]
+    }
+  },
+  {
+    "id": "w-future-5",
+    "day": "11 Aug",
+    "title": "Tomorrow’s routine — 5 sentences",
+    "sentenceTarget": 5,
+    "sections": [
+      14,
+      16
+    ],
+    "prompt": "Write 5 sentences about tomorrow. Use the near future at least three times, a time phrase, one opinion and one reason.",
+    "requirements": [
+      {
+        "label": "5 complete sentences",
+        "kind": "sentences",
+        "count": 5,
+        "points": 2
+      },
+      {
+        "label": "future time phrase",
+        "any": [
+          "demain",
+          "le week-end prochain",
+          "la semaine prochaine"
+        ],
+        "points": 1
+      },
+      {
+        "label": "three near-future forms",
+        "kind": "countAny",
+        "any": [
+          "je vais",
+          "nous allons",
+          "on va",
+          "il va",
+          "elle va",
+          "ils vont",
+          "elles vont"
+        ],
+        "count": 3,
+        "points": 2
+      },
+      {
+        "label": "opinion",
+        "any": [
+          "j'aime",
+          "j'adore",
+          "je préfère",
+          "ce sera"
+        ],
+        "points": 1
+      },
+      {
+        "label": "reason",
+        "any": [
+          "parce que",
+          "car"
+        ],
+        "points": 1
+      }
+    ],
+    "model": "Demain, je vais me réveiller à huit heures. Je vais prendre le petit déjeuner. Ensuite, je vais aller en ville. Nous allons regarder un film. J’aime ce programme parce que ce sera amusant.",
+    "contentTier": "confirmed_learned",
+    "markingPolicy": {
+      "mode": "criterion_checklist_not_single-string-match",
+      "accentPolicy": "Do not deduct accents; show the corrected accented form.",
+      "sentenceCount": "Count separately punctuated clauses; do not count comma/and as a new sentence automatically.",
+      "feedback": "Report each criterion as met or missing, and name the missing feature.",
+      "safetyRule": "Do not label the whole composition wrong merely because it differs from the model. The model is an example, not the only accepted essay.",
+      "grammarChecks": [
+        "subject + finite verb",
+        "tense frame",
+        "negative placement",
+        "article choice",
+        "agreement where required"
+      ]
+    }
+  },
+  {
+    "id": "w-schoolpast-5",
+    "day": "14 Aug",
+    "title": "School now and before — 5 sentences",
+    "sentenceTarget": 5,
+    "sections": [
+      17,
+      18
+    ],
+    "prompt": "Write 5 sentences comparing your school now with your primary school. Include two present details, two past descriptions and a comparison.",
+    "requirements": [
+      {
+        "label": "5 complete sentences",
+        "kind": "sentences",
+        "count": 5,
+        "points": 2
+      },
+      {
+        "label": "present school",
+        "any": [
+          "mon école est",
+          "mon collège est",
+          "il y a"
+        ],
+        "points": 1
+      },
+      {
+        "label": "primary school",
+        "any": [
+          "mon école primaire",
+          "mon ecole primaire"
+        ],
+        "points": 1
+      },
+      {
+        "label": "past description",
+        "any": [
+          "était",
+          "etait",
+          "il y avait"
+        ],
+        "points": 1
+      },
+      {
+        "label": "comparison",
+        "any": [
+          "plus ",
+          "moins ",
+          "aussi "
+        ],
+        "points": 1
+      },
+      {
+        "label": "linker",
+        "any": [
+          "mais",
+          "cependant",
+          "en revanche"
+        ],
+        "points": 1
+      }
+    ],
+    "model": "Mon collège est assez grand. Il y a un gymnase moderne. Mon école primaire était plus petite. Il y avait une grande cour. Cependant, mon collège est plus intéressant.",
+    "contentTier": "confirmed_learned",
+    "markingPolicy": {
+      "mode": "criterion_checklist_not_single-string-match",
+      "accentPolicy": "Do not deduct accents; show the corrected accented form.",
+      "sentenceCount": "Count separately punctuated clauses; do not count comma/and as a new sentence automatically.",
+      "feedback": "Report each criterion as met or missing, and name the missing feature.",
+      "safetyRule": "Do not label the whole composition wrong merely because it differs from the model. The model is an example, not the only accepted essay.",
+      "grammarChecks": [
+        "subject + finite verb",
+        "tense frame",
+        "negative placement",
+        "article choice",
+        "agreement where required"
+      ]
+    }
+  },
+  {
+    "id": "w-subjects-3",
+    "day": "15 Aug",
+    "title": "Subjects and reasons — 3 sentences",
+    "sentenceTarget": 3,
+    "sections": [
+      19
+    ],
+    "prompt": "Write 3 sentences about subjects: your favourite, a strength or weakness, and a preference followed by an infinitive.",
+    "requirements": [
+      {
+        "label": "3 complete sentences",
+        "kind": "sentences",
+        "count": 3,
+        "points": 2
+      },
+      {
+        "label": "favourite subject",
+        "any": [
+          "ma matière préférée",
+          "mes matières préférées"
+        ],
+        "points": 1
+      },
+      {
+        "label": "reason",
+        "any": [
+          "parce que",
+          "car"
+        ],
+        "points": 1
+      },
+      {
+        "label": "strength or weakness",
+        "any": [
+          "je suis fort",
+          "je suis forte",
+          "je suis faible",
+          "j’ai de bonnes notes",
+          "je ne comprends pas"
+        ],
+        "points": 1
+      },
+      {
+        "label": "préférer + infinitive",
+        "any": [
+          "je préfère regarder",
+          "je préfère écouter",
+          "je préfère faire",
+          "je préfère travailler",
+          "je prefere regarder",
+          "je prefere ecouter",
+          "je prefere faire",
+          "je prefere travailler"
+        ],
+        "points": 1
+      }
+    ],
+    "model": "Ma matière préférée, c’est l’histoire parce que c’est passionnant. Je suis forte en musique. Je préfère faire des expériences en sciences.",
+    "contentTier": "confirmed_learned",
+    "markingPolicy": {
+      "mode": "criterion_checklist_not_single-string-match",
+      "accentPolicy": "Do not deduct accents; show the corrected accented form.",
+      "sentenceCount": "Count separately punctuated clauses; do not count comma/and as a new sentence automatically.",
+      "feedback": "Report each criterion as met or missing, and name the missing feature.",
+      "safetyRule": "Do not label the whole composition wrong merely because it differs from the model. The model is an example, not the only accepted essay.",
+      "grammarChecks": [
+        "subject + finite verb",
+        "tense frame",
+        "negative placement",
+        "article choice",
+        "agreement where required"
+      ]
+    }
+  },
+  {
+    "id": "w-activities-5",
+    "day": "16 Aug",
+    "title": "Lessons today and yesterday — 5 sentences",
+    "sentenceTarget": 5,
+    "sections": [
+      20
+    ],
+    "prompt": "Write 5 sentences about school activities: two things you normally do and two things you did yesterday, using on for “we”.",
+    "requirements": [
+      {
+        "label": "5 complete sentences",
+        "kind": "sentences",
+        "count": 5,
+        "points": 2
+      },
+      {
+        "label": "present on form",
+        "any": [
+          "on fait",
+          "on lit",
+          "on écrit",
+          "on écoute",
+          "on travaille",
+          "on joue"
+        ],
+        "points": 1
+      },
+      {
+        "label": "second present activity",
+        "kind": "countAny",
+        "any": [
+          "on fait",
+          "on lit",
+          "on écrit",
+          "on écoute",
+          "on travaille",
+          "on joue"
+        ],
+        "count": 2,
+        "points": 1
+      },
+      {
+        "label": "past time phrase",
+        "any": [
+          "hier",
+          "ce matin",
+          "récemment"
+        ],
+        "points": 1
+      },
+      {
+        "label": "two perfect on forms",
+        "kind": "countAny",
+        "any": [
+          "on a fait",
+          "on a lu",
+          "on a écrit",
+          "on a écouté",
+          "on a travaillé",
+          "on a joué"
+        ],
+        "count": 2,
+        "points": 2
+      }
+    ],
+    "model": "Normalement, on lit des textes en français. On écoute aussi la prof. Hier, on a fait une expérience. On a écrit un résumé. C’était intéressant.",
+    "contentTier": "confirmed_learned",
+    "markingPolicy": {
+      "mode": "criterion_checklist_not_single-string-match",
+      "accentPolicy": "Do not deduct accents; show the corrected accented form.",
+      "sentenceCount": "Count separately punctuated clauses; do not count comma/and as a new sentence automatically.",
+      "feedback": "Report each criterion as met or missing, and name the missing feature.",
+      "safetyRule": "Do not label the whole composition wrong merely because it differs from the model. The model is an example, not the only accepted essay.",
+      "grammarChecks": [
+        "subject + finite verb",
+        "tense frame",
+        "negative placement",
+        "article choice",
+        "agreement where required"
+      ]
+    }
+  },
+  {
+    "id": "w-negatives-3",
+    "day": "17 Aug",
+    "title": "Routine and negatives — 3 sentences",
+    "sentenceTarget": 3,
+    "sections": [
+      21
+    ],
+    "prompt": "Write 3 routine sentences. Include one reflexive perfect tense and two different negatives.",
+    "requirements": [
+      {
+        "label": "3 complete sentences",
+        "kind": "sentences",
+        "count": 3,
+        "points": 2
+      },
+      {
+        "label": "reflexive perfect",
+        "any": [
+          "je me suis",
+          "tu t’es",
+          "tu t'es",
+          "elle s’est",
+          "elle s'est",
+          "nous nous sommes",
+          "ils se sont",
+          "elles se sont"
+        ],
+        "points": 1
+      },
+      {
+        "label": "first negative",
+        "any": [
+          "ne pas",
+          "n'ai pas",
+          "n’ai pas",
+          "ne suis pas",
+          "ne s'est pas",
+          "ne s’est pas"
+        ],
+        "points": 1
+      },
+      {
+        "label": "second negative type",
+        "any": [
+          "ne jamais",
+          "ne rien",
+          "n'ai jamais",
+          "n’ai jamais",
+          "n'ai rien",
+          "n’ai rien",
+          "ne plus"
+        ],
+        "points": 1
+      },
+      {
+        "label": "routine vocabulary",
+        "any": [
+          "réveillé",
+          "reveille",
+          "levé",
+          "leve",
+          "habillé",
+          "habille",
+          "couché",
+          "couche",
+          "brossé",
+          "brosse"
+        ],
+        "points": 1
+      }
+    ],
+    "model": "Ce matin, je me suis réveillée à sept heures. Je ne me suis pas levée tout de suite. Je n’ai rien mangé.",
+    "contentTier": "confirmed_learned",
+    "markingPolicy": {
+      "mode": "criterion_checklist_not_single-string-match",
+      "accentPolicy": "Do not deduct accents; show the corrected accented form.",
+      "sentenceCount": "Count separately punctuated clauses; do not count comma/and as a new sentence automatically.",
+      "feedback": "Report each criterion as met or missing, and name the missing feature.",
+      "safetyRule": "Do not label the whole composition wrong merely because it differs from the model. The model is an example, not the only accepted essay.",
+      "grammarChecks": [
+        "subject + finite verb",
+        "tense frame",
+        "negative placement",
+        "article choice",
+        "agreement where required"
+      ]
+    }
+  },
+  {
+    "id": "w-strong-5",
+    "day": "18 Aug",
+    "title": "High-scoring school paragraph — 5 sentences",
+    "sentenceTarget": 5,
+    "sections": [
+      22,
+      23
+    ],
+    "prompt": "Write 5 linked sentences about school and this morning. Include ce qui est/était, après avoir, present, perfect, a negative, an opinion and a reason.",
+    "requirements": [
+      {
+        "label": "5 complete sentences",
+        "kind": "sentences",
+        "count": 5,
+        "points": 2
+      },
+      {
+        "label": "ce qui est / était",
+        "any": [
+          "ce qui est",
+          "ce qui était",
+          "ce qui etait"
+        ],
+        "points": 1
+      },
+      {
+        "label": "après avoir",
+        "any": [
+          "après avoir",
+          "apres avoir"
+        ],
+        "points": 1
+      },
+      {
+        "label": "perfect tense",
+        "any": [
+          "j'ai ",
+          "je suis ",
+          "on a ",
+          "nous avons ",
+          "nous sommes "
+        ],
+        "points": 1
+      },
+      {
+        "label": "negative",
+        "any": [
+          "n'ai pas",
+          "n’ai pas",
+          "n'avons rien",
+          "n’avons rien",
+          "ne comprends pas"
+        ],
+        "points": 1
+      },
+      {
+        "label": "opinion + reason",
+        "allGroups": [
+          [
+            "j'aime",
+            "j'adore",
+            "je préfère"
+          ],
+          [
+            "parce que",
+            "car"
+          ]
+        ],
+        "points": 1
+      }
+    ],
+    "model": "J’aime mon collège parce que les cours sont intéressants. Je vais au collège à pied, ce qui est relaxant. Ce matin, je me suis réveillée tôt. Après avoir fini mon petit déjeuner, je suis allée au collège. Nous n’avons rien écrit en espagnol.",
+    "contentTier": "confirmed_learned",
+    "markingPolicy": {
+      "mode": "criterion_checklist_not_single-string-match",
+      "accentPolicy": "Do not deduct accents; show the corrected accented form.",
+      "sentenceCount": "Count separately punctuated clauses; do not count comma/and as a new sentence automatically.",
+      "feedback": "Report each criterion as met or missing, and name the missing feature.",
+      "safetyRule": "Do not label the whole composition wrong merely because it differs from the model. The model is an example, not the only accepted essay.",
+      "grammarChecks": [
+        "subject + finite verb",
+        "tense frame",
+        "negative placement",
+        "article choice",
+        "agreement where required"
+      ]
+    }
+  },
+  {
+    "id": "w-bag-3",
+    "day": "21 Aug",
+    "title": "Numbers and my bag — 3 sentences",
+    "sentenceTarget": 3,
+    "sections": [
+      24,
+      25
+    ],
+    "prompt": "Write 3 sentences using numbers: say your age and describe two different plural classroom objects in your bag.",
+    "requirements": [
+      {
+        "label": "3 complete sentences",
+        "kind": "sentences",
+        "count": 3,
+        "points": 2
+      },
+      {
+        "label": "age with avoir",
+        "any": [
+          "j'ai ",
+          "j’ai "
+        ],
+        "points": 1
+      },
+      {
+        "label": "age ending",
+        "any": [
+          "ans"
+        ],
+        "points": 1
+      },
+      {
+        "label": "two bag frames",
+        "kind": "countAny",
+        "any": [
+          "dans mon sac, il y a",
+          "dans mon sac il y a"
+        ],
+        "count": 2,
+        "points": 1
+      },
+      {
+        "label": "two plural object words",
+        "kind": "countAny",
+        "any": [
+          "crayons",
+          "stylos",
+          "cahiers",
+          "livres",
+          "gommes",
+          "trousses",
+          "règles",
+          "regles",
+          "calculatrices",
+          "calculatrices",
+          "ordinateurs"
+        ],
+        "count": 2,
+        "points": 1
+      }
+    ],
+    "model": "J’ai treize ans. Dans mon sac, il y a douze crayons. Dans mon sac, il y a cinq cahiers.",
+    "contentTier": "confirmed_learned",
+    "markingPolicy": {
+      "mode": "criterion_checklist_not_single-string-match",
+      "accentPolicy": "Do not deduct accents; show the corrected accented form.",
+      "sentenceCount": "Count separately punctuated clauses; do not count comma/and as a new sentence automatically.",
+      "feedback": "Report each criterion as met or missing, and name the missing feature.",
+      "safetyRule": "Do not label the whole composition wrong merely because it differs from the model. The model is an example, not the only accepted essay.",
+      "grammarChecks": [
+        "subject + finite verb",
+        "tense frame",
+        "negative placement",
+        "article choice",
+        "agreement where required"
+      ]
+    }
+  },
+  {
+    "id": "w-pc-5",
+    "day": "22 Aug",
+    "title": "Passé composé challenge — 5 sentences",
+    "sentenceTarget": 5,
+    "sections": [
+      26
+    ],
+    "prompt": "Write 5 past-tense sentences using two avoir verbs, one être verb, one reflexive verb and one negative.",
+    "requirements": [
+      {
+        "label": "5 complete sentences",
+        "kind": "sentences",
+        "count": 5,
+        "points": 2
+      },
+      {
+        "label": "two avoir perfect forms",
+        "kind": "countAny",
+        "any": [
+          "j'ai ",
+          "on a ",
+          "nous avons ",
+          "ils ont ",
+          "elles ont "
+        ],
+        "count": 2,
+        "points": 1
+      },
+      {
+        "label": "être perfect",
+        "any": [
+          "je suis allé",
+          "je suis allée",
+          "nous sommes allé",
+          "elles sont allée",
+          "ils sont allé"
+        ],
+        "points": 1
+      },
+      {
+        "label": "reflexive perfect",
+        "any": [
+          "je me suis",
+          "nous nous sommes",
+          "elle s’est",
+          "elle s'est",
+          "ils se sont",
+          "elles se sont"
+        ],
+        "points": 1
+      },
+      {
+        "label": "negative perfect",
+        "any": [
+          "n'ai pas",
+          "n’ai pas",
+          "n'avons pas",
+          "n’avons pas",
+          "ne suis pas",
+          "ne sommes pas"
+        ],
+        "points": 1
+      }
+    ],
+    "model": "Hier, j’ai lu un roman. J’ai aussi écouté de la musique. Ensuite, je suis allée en ville. Je me suis amusée avec mes amies. Je n’ai pas regardé la télé.",
+    "contentTier": "confirmed_learned",
+    "markingPolicy": {
+      "mode": "criterion_checklist_not_single-string-match",
+      "accentPolicy": "Do not deduct accents; show the corrected accented form.",
+      "sentenceCount": "Count separately punctuated clauses; do not count comma/and as a new sentence automatically.",
+      "feedback": "Report each criterion as met or missing, and name the missing feature.",
+      "safetyRule": "Do not label the whole composition wrong merely because it differs from the model. The model is an example, not the only accepted essay.",
+      "grammarChecks": [
+        "subject + finite verb",
+        "tense frame",
+        "negative placement",
+        "article choice",
+        "agreement where required"
+      ]
+    }
+  },
+  {
+    "id": "w-targets-5",
+    "day": "23 Aug",
+    "title": "Teacher-target paragraph — 5 sentences",
+    "sentenceTarget": 5,
+    "sections": [
+      27
+    ],
+    "prompt": "Write 5 school sentences using a non-je subject, a negative perfect, present and perfect tenses, and one taught super structure.",
+    "requirements": [
+      {
+        "label": "5 complete sentences",
+        "kind": "sentences",
+        "count": 5,
+        "points": 2
+      },
+      {
+        "label": "non-je subject",
+        "any": [
+          "tu ",
+          "elle ",
+          "on ",
+          "nous ",
+          "vous ",
+          "ils ",
+          "elles "
+        ],
+        "points": 1
+      },
+      {
+        "label": "negative perfect",
+        "any": [
+          "n'a pas",
+          "n’a pas",
+          "n'ont pas",
+          "n’ont pas",
+          "n'avons rien",
+          "n’avons rien",
+          "n’est jamais",
+          "n'est jamais"
+        ],
+        "points": 1
+      },
+      {
+        "label": "present form",
+        "any": [
+          "on fait",
+          "on lit",
+          "on écoute",
+          "on travaille",
+          "je parle",
+          "nous jouons"
+        ],
+        "points": 1
+      },
+      {
+        "label": "perfect form",
+        "any": [
+          "on a fait",
+          "on a lu",
+          "elle a ",
+          "nous avons ",
+          "ils ont ",
+          "elles sont "
+        ],
+        "points": 1
+      },
+      {
+        "label": "super structure",
+        "any": [
+          "ce qui est",
+          "ce qui était",
+          "après avoir",
+          "bien que ce soit",
+          "si j’avais le choix"
+        ],
+        "points": 1
+      }
+    ],
+    "model": "En français, on écoute la prof. Hier, on a lu un texte. Nous n’avons rien écrit. Ma sœur a fait une expérience, ce qui était intéressant. Si j’avais le choix, je voudrais faire plus de jeux.",
+    "contentTier": "confirmed_learned",
+    "markingPolicy": {
+      "mode": "criterion_checklist_not_single-string-match",
+      "accentPolicy": "Do not deduct accents; show the corrected accented form.",
+      "sentenceCount": "Count separately punctuated clauses; do not count comma/and as a new sentence automatically.",
+      "feedback": "Report each criterion as met or missing, and name the missing feature.",
+      "safetyRule": "Do not label the whole composition wrong merely because it differs from the model. The model is an example, not the only accepted essay.",
+      "grammarChecks": [
+        "subject + finite verb",
+        "tense frame",
+        "negative placement",
+        "article choice",
+        "agreement where required"
+      ]
+    }
+  },
+  {
+    "id": "w-culture-3",
+    "day": "25 Aug",
+    "title": "Compare school life — 3 sentences",
+    "sentenceTarget": 3,
+    "sections": [
+      28
+    ],
+    "prompt": "Write 3 French sentences comparing two school-life details from the France, Québec or Sénégal source texts. Include one evidence detail and one comparison.",
+    "requirements": [
+      {
+        "label": "3 complete sentences",
+        "kind": "sentences",
+        "count": 3,
+        "points": 2
+      },
+      {
+        "label": "two settings",
+        "kind": "countAny",
+        "any": [
+          "en france",
+          "au québec",
+          "au quebec",
+          "au sénégal",
+          "au senegal"
+        ],
+        "count": 2,
+        "points": 1
+      },
+      {
+        "label": "school-life evidence",
+        "any": [
+          "cantine",
+          "cégep",
+          "cegep",
+          "hockey",
+          "collège",
+          "college",
+          "secondaire",
+          "gymnase",
+          "chorale"
+        ],
+        "points": 1
+      },
+      {
+        "label": "comparison",
+        "any": [
+          "mais",
+          "tandis que",
+          "plus ",
+          "moins ",
+          "aussi "
+        ],
+        "points": 1
+      },
+      {
+        "label": "source tense/detail",
+        "any": [
+          "les cours commencent",
+          "je mange",
+          "elle est allée",
+          "elle est allee",
+          "nous avons étudié",
+          "nous avons etudie"
+        ],
+        "points": 1
+      }
+    ],
+    "model": "En France, Camille mange à la cantine. Au Québec, Émile joue au hockey après les cours. Son école est grande et moderne, mais le collège d’Awa au Sénégal n’est pas très grand.",
+    "contentTier": "confirmed_learned",
+    "markingPolicy": {
+      "mode": "criterion_checklist_not_single-string-match",
+      "accentPolicy": "Do not deduct accents; show the corrected accented form.",
+      "sentenceCount": "Count separately punctuated clauses; do not count comma/and as a new sentence automatically.",
+      "feedback": "Report each criterion as met or missing, and name the missing feature.",
+      "safetyRule": "Do not label the whole composition wrong merely because it differs from the model. The model is an example, not the only accepted essay.",
+      "grammarChecks": [
+        "subject + finite verb",
+        "tense frame",
+        "negative placement",
+        "article choice",
+        "agreement where required"
+      ]
+    }
+  },
+  {
+    "id": "w-final-5",
+    "day": "26 Aug",
+    "title": "Five-sentence accuracy rewrite",
+    "sentenceTarget": 5,
+    "sections": [
+      30,
+      31,
+      32,
+      33
+    ],
+    "prompt": "Write exactly 5 accurate sentences using: weather + activity, opinion + reason, favourite subject, school facility, and préférer + infinitive.",
+    "requirements": [
+      {
+        "label": "exactly 5 complete sentences",
+        "kind": "sentencesExact",
+        "count": 5,
+        "points": 2
+      },
+      {
+        "label": "weather + activity",
+        "allGroups": [
+          [
+            "il fait",
+            "il y a du soleil",
+            "il pleut"
+          ],
+          [
+            "je joue",
+            "je fais",
+            "je regarde"
+          ]
+        ],
+        "points": 1
+      },
+      {
+        "label": "opinion + reason",
+        "allGroups": [
+          [
+            "j'aime",
+            "j'adore",
+            "je déteste"
+          ],
+          [
+            "parce que",
+            "car"
+          ]
+        ],
+        "points": 1
+      },
+      {
+        "label": "favourite subject",
+        "any": [
+          "ma matière préférée",
+          "mes matières préférées"
+        ],
+        "points": 1
+      },
+      {
+        "label": "school facility",
+        "any": [
+          "gymnase",
+          "bibliothèque",
+          "laboratoire",
+          "chorale",
+          "orchestre"
+        ],
+        "points": 1
+      },
+      {
+        "label": "préférer + infinitive",
+        "any": [
+          "je préfère regarder",
+          "je préfère écouter",
+          "je préfère faire",
+          "je préfère jouer",
+          "je prefere regarder",
+          "je prefere ecouter",
+          "je prefere faire",
+          "je prefere jouer"
+        ],
+        "points": 1
+      }
+    ],
+    "model": "Quand il y a du soleil, je joue au tennis. J’aime écouter de la musique parce que c’est relaxant. Ma matière préférée est le français. Dans mon collège, il y a un grand gymnase. Je préfère regarder la télé le soir.",
+    "contentTier": "confirmed_learned",
+    "markingPolicy": {
+      "mode": "criterion_checklist_not_single-string-match",
+      "accentPolicy": "Do not deduct accents; show the corrected accented form.",
+      "sentenceCount": "Count separately punctuated clauses; do not count comma/and as a new sentence automatically.",
+      "feedback": "Report each criterion as met or missing, and name the missing feature.",
+      "safetyRule": "Do not label the whole composition wrong merely because it differs from the model. The model is an example, not the only accepted essay.",
+      "grammarChecks": [
+        "subject + finite verb",
+        "tense frame",
+        "negative placement",
+        "article choice",
+        "agreement where required"
+      ]
+    }
+  },
+  {
+    "id": "w-assess-5",
+    "day": "30 Aug",
+    "title": "Mixed assessment writing — 5 sentences",
+    "sentenceTarget": 5,
+    "sections": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "prompt": "Write 5 linked sentences about school, favourite subjects and what you did this morning. Include present, perfect, a reflexive verb, a negative and at least two connectives.",
+    "requirements": [
+      {
+        "label": "5 complete sentences",
+        "kind": "sentences",
+        "count": 5,
+        "points": 2
+      },
+      {
+        "label": "school + subject content",
+        "allGroups": [
+          [
+            "école",
+            "ecole",
+            "collège",
+            "college"
+          ],
+          [
+            "matière",
+            "matiere",
+            "français",
+            "francais",
+            "histoire",
+            "sciences"
+          ]
+        ],
+        "points": 1
+      },
+      {
+        "label": "present tense",
+        "any": [
+          "je suis",
+          "il y a",
+          "on fait",
+          "on travaille",
+          "j’aime",
+          "j'aime"
+        ],
+        "points": 1
+      },
+      {
+        "label": "perfect tense",
+        "any": [
+          "j'ai ",
+          "je suis ",
+          "on a ",
+          "nous avons ",
+          "nous sommes "
+        ],
+        "points": 1
+      },
+      {
+        "label": "reflexive form",
+        "any": [
+          "je me ",
+          "je me suis ",
+          "nous nous ",
+          "elle se ",
+          "elle s’est"
+        ],
+        "points": 1
+      },
+      {
+        "label": "negative",
+        "any": [
+          "ne pas",
+          "n'ai pas",
+          "n’ai pas",
+          "n'avons rien",
+          "n’avons rien",
+          "ne comprends pas"
+        ],
+        "points": 1
+      },
+      {
+        "label": "two connectives",
+        "kind": "countAny",
+        "any": [
+          "mais",
+          "parce que",
+          "car",
+          "ensuite",
+          "cependant",
+          "ce qui",
+          "après avoir"
+        ],
+        "count": 2,
+        "points": 1
+      }
+    ],
+    "model": "Mon collège est assez grand et ma matière préférée est l’histoire. J’aime l’histoire parce que c’est passionnant. Ce matin, je me suis réveillée à six heures trente. Ensuite, je suis allée au collège. Nous avons travaillé dur, mais nous n’avons rien écrit en espagnol.",
+    "contentTier": "confirmed_learned",
+    "markingPolicy": {
+      "mode": "criterion_checklist_not_single-string-match",
+      "accentPolicy": "Do not deduct accents; show the corrected accented form.",
+      "sentenceCount": "Count separately punctuated clauses; do not count comma/and as a new sentence automatically.",
+      "feedback": "Report each criterion as met or missing, and name the missing feature.",
+      "safetyRule": "Do not label the whole composition wrong merely because it differs from the model. The model is an example, not the only accepted essay.",
+      "grammarChecks": [
+        "subject + finite verb",
+        "tense frame",
+        "negative placement",
+        "article choice",
+        "agreement where required"
+      ]
+    }
+  }
+]

@@ -1,0 +1,8 @@
+GitHub Pages optimized build
+Before: 48.3 MiB
+After: 10.2 MiB
+Reduction: 79.0%
+Converted images: 30
+Broken asset references: 0
+Files over 100 MiB: 0
+Largest file: data/question-bank.json (2.70 MiB)

@@ -1,0 +1,160 @@
+[
+  {
+    "name": "bare conjugated form",
+    "mode": "exact_or_equivalent",
+    "accepted": [
+      "sont"
+    ],
+    "input": "sont",
+    "expected": "correct"
+  },
+  {
+    "name": "subject plus form accepted",
+    "mode": "exact_or_equivalent",
+    "accepted": [
+      "sont",
+      "ils sont",
+      "elles sont",
+      "ils sont / elles sont"
+    ],
+    "input": "Ils sont/Elles sont.",
+    "expected": "correct"
+  },
+  {
+    "name": "accents skipped for score",
+    "mode": "exact_or_equivalent",
+    "accepted": [
+      "je me suis réveillée"
+    ],
+    "input": "Je me suis reveillee.",
+    "expected": "correct_with_accent_feedback"
+  },
+  {
+    "name": "parenthetical label optional",
+    "mode": "exact_or_equivalent",
+    "accepted": [
+      "under (position)",
+      "under"
+    ],
+    "input": "under",
+    "expected": "correct"
+  },
+  {
+    "name": "three forms any order comma",
+    "mode": "unordered_required_groups",
+    "required": [
+      [
+        "suis"
+      ],
+      [
+        "sommes"
+      ],
+      [
+        "sont"
+      ]
+    ],
+    "input": "sont, suis, sommes",
+    "expected": "correct"
+  },
+  {
+    "name": "three forms any order slash",
+    "mode": "unordered_required_groups",
+    "required": [
+      [
+        "suis"
+      ],
+      [
+        "sommes"
+      ],
+      [
+        "sont"
+      ]
+    ],
+    "input": "sommes / sont / suis",
+    "expected": "correct"
+  },
+  {
+    "name": "three forms any order and",
+    "mode": "unordered_required_groups",
+    "required": [
+      [
+        "suis"
+      ],
+      [
+        "sommes"
+      ],
+      [
+        "sont"
+      ]
+    ],
+    "input": "suis and sont and sommes",
+    "expected": "correct"
+  },
+  {
+    "name": "three forms missing one",
+    "mode": "unordered_required_groups",
+    "required": [
+      [
+        "suis"
+      ],
+      [
+        "sommes"
+      ],
+      [
+        "sont"
+      ]
+    ],
+    "labels": [
+      "je",
+      "nous",
+      "ils/elles"
+    ],
+    "input": "suis, sont",
+    "expected": "incorrect_missing:nous"
+  },
+  {
+    "name": "case and spaces ignored",
+    "mode": "exact_or_equivalent",
+    "accepted": [
+      "Nous avons joué"
+    ],
+    "input": "  NOUS   AVONS JOUE. ",
+    "expected": "correct_with_accent_feedback"
+  },
+  {
+    "name": "wrong base spelling remains wrong",
+    "mode": "exact_or_equivalent",
+    "accepted": [
+      "nous avons joué"
+    ],
+    "input": "nous avons joui",
+    "expected": "incorrect"
+  },
+  {
+    "name": "wrong auxiliary remains wrong",
+    "mode": "exact_or_equivalent",
+    "accepted": [
+      "elle est allée"
+    ],
+    "input": "elle a allee",
+    "expected": "incorrect"
+  },
+  {
+    "name": "translation components flexible order",
+    "mode": "sentence_components",
+    "required": [
+      [
+        "hier"
+      ],
+      [
+        "nous avons lu",
+        "on a lu"
+      ],
+      [
+        "un roman"
+      ]
+    ],
+    "input": "Hier, un roman, nous avons lu.",
+    "expected": "correct_if_each_internal_chunk_is_preserved"
+  }
+]

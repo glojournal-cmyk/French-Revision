@@ -1,0 +1,25 @@
+[
+  {
+    "id": "writing-classroom-calculator-plural",
+    "old": "calculateurs",
+    "use": "calculatrices",
+    "reason": "The learned classroom noun is une calculatrice / des calculatrices. The old writing checker used the wrong noun.",
+    "action": "Reject calculateurs for the classroom-object requirement; accept calculatrice(s) as appropriate."
+  },
+  {
+    "id": "quel-est-qui-est-context-split",
+    "old": "quel est / qui est → which is",
+    "use": [
+      {
+        "french": "quel est",
+        "english": "what/which is (question form, depending on context)"
+      },
+      {
+        "french": "qui est",
+        "english": "who is, or which is in a relative clause"
+      }
+    ],
+    "reason": "The compact source row combines forms with different grammatical jobs. Do not test them as one interchangeable string.",
+    "action": "Keep the source row for reference; use contextual atomic questions only."
+  }
+]
