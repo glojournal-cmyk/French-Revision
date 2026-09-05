@@ -1,3 +1,4 @@
+console.info('Mon Jardin Français V3.3.3 Auto-check Renderer Fix');
 console.info('Mon Jardin Français V3.3.1 Local Tutor Hotfix');
 
 (() => {
@@ -247,15 +248,17 @@ function preparePractice(sec,note=noteForSection(sec)){
   const voc=(note.mustMemoriseVocabulary||[]).slice(0,18).map(x=>`<span class="req"><b>${esc(x.french)}</b> — ${esc(x.english)}</span>`).join('');
   const ex=(note.workedExamples||[]).map(x=>`<div class="model-box"><b>${esc(x.prompt)}</b><br>${esc(x.answer)}</div>`).join('');
   const mistakes=(note.commonMistakes||[]).map(x=>`<li>${esc(typeof x==='string'?x:(x.mistake||x.problem||JSON.stringify(x)))}</li>`).join('');
-  const self=(note.sixtySecondSelfCheck||note.selfCheck60Seconds||note.selfCheck||[]); 
-  const selfHtml=(Array.isArray(self)?self:[self]).map(x=>`<li>${esc(typeof x==='string'?x:JSON.stringify(x))}</li>`).join('');
+  const self=(note.sixtySecondSelfCheck||note.selfCheck60Seconds||note.selfCheck||[]);
+  const selfItems=Array.isArray(self)?self:[self];
+  const selfHtml=renderAutoCheckQA(selfItems);
   $('#quizBox').innerHTML=`<p class="eyebrow">${esc(note.day)} • Avant de commencer</p><h2>${esc(note.title)}</h2><p>${esc(note.overview)}</p>
     ${rules?`<h3>Règles à mémoriser</h3><ul>${rules}</ul>`:''}
     ${voc?`<h3>Vocabulaire essentiel</h3><div class="requirement-list">${voc}</div>`:''}
     ${ex?`<h3>Exemples travaillés</h3>${ex}`:''}
     ${mistakes?`<h3>Erreurs fréquentes</h3><ul>${mistakes}</ul>`:''}
-    ${selfHtml?`<h3>Auto-check 60 secondes</h3><ul>${selfHtml}</ul>`:''}
+    ${selfHtml?`<section class="lesson-note-block auto-check-block"><div class="lesson-note-heading"><span class="timer-dot">⏱</span><h3>Auto-check 60 secondes</h3></div><p class="muted auto-check-intro">Teste-toi sans regarder la réponse. <small>Try each one before revealing the answer.</small></p>${selfHtml}</section>`:''}
     <div class="quiz-actions"><button class="pill primary" id="beginPrepared">Je suis prête — commencer →</button><button class="pill ghost" id="cancelPrepared">Retour</button></div>`;
+  bindAutoCheckUI($('#quizBox'));
   $('#beginPrepared').onclick=()=>beginQuiz(sec);
   $('#cancelPrepared').onclick=()=>{$('#quizBox').classList.add('hidden');$('#practiceSetup').classList.remove('hidden')};
  } else beginQuiz(sec);

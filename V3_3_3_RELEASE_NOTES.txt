@@ -1,0 +1,14 @@
+Mon Jardin Français V3.3.3 — Auto-check Renderer Fix
+
+Root cause fixed:
+The previous patch added a structured-QA renderer, but the lesson preparation screen
+was still using its original line that converted self-check objects with JSON.stringify().
+That is why raw {"question":"...","answer":"..."} text was still visible.
+
+V3.3.3 now changes the actual preparePractice() renderer:
+- sixtySecondSelfCheck / selfCheck60Seconds / selfCheck are rendered as revision cards.
+- Raw JSON is no longer printed.
+- Each card has Show answer / Hide answer.
+- Revealed answers include the speech button.
+- The controls are bound immediately after the preparation screen is rendered.
+- Service-worker cache bumped.
