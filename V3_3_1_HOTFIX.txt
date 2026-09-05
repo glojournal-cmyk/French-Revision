@@ -1,0 +1,11 @@
+V3.3.1 Local Tutor Hotfix
+
+Fixed:
+- Explain button markup in quiz feedback.
+- The V3.3 build accidentally wrapped the button HTML in literal quote characters.
+- Explain button is now always rendered after marking.
+- Click handler is bound directly inside the feedback panel.
+- Service worker cache bumped so GitHub Pages browsers fetch the corrected app.js.
+
+Expected feedback actions:
+[✨ Explique-moi / Explain] [Question suivante →]

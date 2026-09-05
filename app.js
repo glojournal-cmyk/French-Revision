@@ -1,3 +1,4 @@
+console.info('Mon Jardin Français V3.3.1 Local Tutor Hotfix');
 
 (() => {
 'use strict';
@@ -122,6 +123,92 @@ function hydrate(){
  $('#dailyBtn').onclick=$('#startDaily').onclick=()=>startFromNote(note);
  currentVocab=[...DATA.vocab];
  renderLessons();renderVocab();renderWriting();
+}
+
+
+function parseStructuredQAItem(raw){
+ if(!raw)return null;
+ if(typeof raw==='object' && raw.question && raw.answer){
+   return {question:String(raw.question),answer:String(raw.answer)};
+ }
+ if(typeof raw!=='string')return null;
+ const s=raw.trim();
+ if(!s.startsWith('{')||!s.endsWith('}'))return null;
+ try{
+   const obj=JSON.parse(s);
+   if(obj && typeof obj.question==='string' && typeof obj.answer==='string'){
+     return {question:obj.question,answer:obj.answer};
+   }
+ }catch(e){}
+ return null;
+}
+function renderAutoCheckQA(items){
+ const parsed=items.map(parseStructuredQAItem).filter(Boolean);
+ if(!parsed.length)return '';
+ return `<div class="auto-check-cards">${parsed.map((qa,i)=>`
+   <article class="auto-check-card">
+     <div class="auto-check-qno">${i+1}</div>
+     <div class="auto-check-body">
+       <p class="auto-check-question">${esc(qa.question)}</p>
+       <button class="text-btn reveal-auto-answer" type="button" aria-expanded="false">
+         Voir la réponse <small>Show answer</small>
+       </button>
+       <div class="auto-check-answer hidden"><b>Réponse :</b> ${esc(qa.answer)}
+         <button class="icon-btn speak-auto-answer" type="button" data-answer="${esc(qa.answer)}" title="Écouter">🔈</button>
+       </div>
+     </div>
+   </article>`).join('')}</div>`;
+}
+function bindAutoCheckUI(root=document){
+ root.querySelectorAll('.reveal-auto-answer').forEach(btn=>{
+   if(btn.dataset.bound)return;btn.dataset.bound='1';
+   btn.addEventListener('click',()=>{
+     const ans=btn.parentElement.querySelector('.auto-check-answer');
+     const open=ans.classList.toggle('hidden')===false;
+     btn.setAttribute('aria-expanded',String(open));
+     btn.innerHTML=open?'Masquer la réponse <small>Hide answer</small>':'Voir la réponse <small>Show answer</small>';
+   });
+ });
+ root.querySelectorAll('.speak-auto-answer').forEach(btn=>{
+   if(btn.dataset.bound)return;btn.dataset.bound='1';
+   btn.addEventListener('click',()=>speak(btn.dataset.answer||''));
+ });
+}
+function renderLessonBlockSmart(block){
+ // Preserve existing block shapes while upgrading embedded QA JSON arrays/lines.
+ if(!block)return '';
+ const title=block.title||block.heading||block.label||'';
+ const rawItems=Array.isArray(block.items)?block.items:
+                Array.isArray(block.bullets)?block.bullets:
+                Array.isArray(block.content)?block.content:null;
+
+ const looksAutoCheck=/auto[- ]?check|60 secondes|60 seconds/i.test(title);
+ if(rawItems && looksAutoCheck){
+   const qaHTML=renderAutoCheckQA(rawItems);
+   if(qaHTML){
+     return `<section class="lesson-note-block auto-check-block">
+       <div class="lesson-note-heading"><span class="timer-dot">⏱</span><h3>${esc(title)}</h3></div>
+       <p class="muted auto-check-intro">Teste-toi sans regarder la réponse. <small>Try each one before revealing the answer.</small></p>
+       ${qaHTML}
+     </section>`;
+   }
+ }
+
+ // Generic structured QA even when the title is different.
+ if(rawItems){
+   const structured=rawItems.map(parseStructuredQAItem);
+   if(structured.some(Boolean)){
+     const qaHTML=renderAutoCheckQA(rawItems);
+     const nonStructured=rawItems.filter(x=>!parseStructuredQAItem(x));
+     return `<section class="lesson-note-block">
+       ${title?`<h3>${esc(title)}</h3>`:''}
+       ${nonStructured.length?`<ul>${nonStructured.map(x=>`<li>${esc(typeof x==='string'?x:JSON.stringify(x))}</li>`).join('')}</ul>`:''}
+       ${qaHTML}
+     </section>`;
+   }
+ }
+
+ return null;
 }
 
 function renderLessons(){
@@ -395,12 +482,13 @@ function checkAnswer(){
    ${ex.commonError?`<p><b>Erreur fréquente :</b> ${esc(ex.commonError)}</p>`:''}
    ${ex.remember?`<p><b>À retenir :</b> ${esc(ex.remember)}</p>`:''}
    <div class="feedback-actions">
-     '<button class="pill ghost ai-explain">✨ Explique-moi <small>Explain</small></button>'
+     <button class="pill ghost ai-explain" type="button">✨ Explique-moi <small>Explain</small></button>
      <button class="pill primary" id="nextQuestion">${quiz.index+1<quiz.questions.length?'Question suivante →':'Voir le résultat →'}</button>
    </div>
    <div class="ai-result"></div></div>`;
  $('.speak-answer').onclick=()=>speak(q.displayAnswer);
- const aiBtn=$('.ai-explain');if(aiBtn)aiBtn.onclick=()=>showLocalTutor(q,input||selected,result,$('#feedbackSlot'));
+ const aiBtn=$('#feedbackSlot .ai-explain');
+ if(aiBtn)aiBtn.addEventListener('click',()=>showLocalTutor(q,input||selected,result,$('#feedbackSlot')));
  $('#checkAnswer').disabled=true;$('#nextQuestion').onclick=nextQuestion;
 }
 function nextQuestion(){
@@ -579,3 +667,15 @@ $('#resetProgress').onclick=()=>{if(confirm('Effacer toute la progression enregi
 if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(console.warn));
 loadData();
 })();
+
+document.addEventListener('click',e=>{
+ const btn=e.target.closest?.('.reveal-auto-answer');
+ if(btn && !btn.dataset.bound){
+   const ans=btn.parentElement.querySelector('.auto-check-answer');
+   const open=ans.classList.toggle('hidden')===false;
+   btn.setAttribute('aria-expanded',String(open));
+   btn.innerHTML=open?'Masquer la réponse <small>Hide answer</small>':'Voir la réponse <small>Show answer</small>';
+ }
+ const speakBtn=e.target.closest?.('.speak-auto-answer');
+ if(speakBtn && !speakBtn.dataset.bound){speak(speakBtn.dataset.answer||'')}
+});

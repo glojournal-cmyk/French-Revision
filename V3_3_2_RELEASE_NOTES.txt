@@ -1,0 +1,12 @@
+Mon Jardin Français V3.3.2 — Lesson Renderer QA Fix
+
+Fixed:
+- Structured {"question","answer"} data is no longer shown as raw JSON in lesson notes.
+- Auto-check sections now render as proper revision cards.
+- Each question has a Show answer / Hide answer control.
+- Revealed answers can be spoken aloud.
+- Generic lesson blocks containing structured QA are also handled.
+- Service-worker cache bumped.
+
+Expected result:
+"Auto-check 60 secondes" shows clean self-test cards instead of developer JSON text.

@@ -398,3 +398,35 @@ textarea:focus-visible{
 
 /* V3.3 local tutor */
 .ai-card .eyebrow{margin-bottom:4px}
+
+
+/* V3.3.2 Lesson renderer QA fix */
+.auto-check-block{
+  border:1px solid var(--line);border-radius:20px;padding:20px;
+  background:linear-gradient(135deg,#fffdf8,#fff8f4);margin:18px 0
+}
+.lesson-note-heading{display:flex;gap:10px;align-items:center;margin-bottom:4px}
+.lesson-note-heading h3{margin:0}
+.timer-dot{font-size:20px}
+.auto-check-intro{margin:4px 0 14px}
+.auto-check-cards{display:grid;gap:12px}
+.auto-check-card{
+  display:grid;grid-template-columns:34px 1fr;gap:12px;
+  border:1px solid var(--line);border-radius:16px;padding:14px;background:#fff
+}
+.auto-check-qno{
+  width:30px;height:30px;border-radius:50%;display:grid;place-items:center;
+  background:#f6ece7;font-weight:800;color:var(--navy)
+}
+.auto-check-question{margin:2px 0 8px;line-height:1.45}
+.auto-check-answer{
+  margin-top:10px;padding:10px 12px;border-radius:12px;background:#eef4e9;line-height:1.5
+}
+.auto-check-answer .icon-btn{margin-left:6px}
+.reveal-auto-answer{padding:0;font-size:13px}
+.reveal-auto-answer small{font-size:10px;opacity:.65;display:inline}
+@media(max-width:560px){
+  .auto-check-block{padding:14px}
+  .auto-check-card{grid-template-columns:28px 1fr;padding:12px}
+  .auto-check-qno{width:26px;height:26px}
+}
