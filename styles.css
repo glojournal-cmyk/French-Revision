@@ -374,3 +374,27 @@ textarea:focus-visible{
   .weekly-grid{grid-template-columns:repeat(2,1fr)}
   .progress-tabs .pill{flex:1;min-width:0}
 }
+
+
+/* V3.2 Smart Marking + optional AI Tutor */
+.feedback.almost{
+  background:linear-gradient(135deg,#fff9e9,#f6f4e5);
+  border:1px solid #eadfb1;
+}
+.smart-reason{
+  padding:12px 14px;border-radius:14px;background:rgba(255,255,255,.72);
+  margin:10px 0 14px;line-height:1.5
+}
+.accent-ok{padding:8px 12px;border-radius:12px;background:#edf5e9}
+.feedback-actions{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:18px}
+.feedback-actions .pill small{display:block;font-size:9px;opacity:.65;margin-top:2px}
+.ai-result{margin-top:14px}
+.ai-card{
+  border:1px solid #d9d7e8;border-radius:18px;padding:18px;
+  background:linear-gradient(135deg,#fbfaff,#fff);
+}
+.ai-card h4{font-family:var(--serif);font-size:21px;margin:4px 0 10px}
+.ai-note{font-size:11px!important;color:var(--muted);margin-bottom:0!important}
+
+/* V3.3 local tutor */
+.ai-card .eyebrow{margin-bottom:4px}

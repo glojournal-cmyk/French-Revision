@@ -1,0 +1,10 @@
+Mon Jardin Français V3.2
+- Smart Marking: Correct / Almost / Review / Manual
+- Almost answers do not enter the wrong-answer spaced-review queue
+- More tolerant handling of incomplete but conceptually relevant Quick Rules answers
+- Existing Content Core accent-tolerance remains intact
+- Improved bilingual feedback
+- Optional Gemini AI Tutor button via secure Cloudflare Worker
+- Gemini key stays server-side as GEMINI_API_KEY secret
+- One-time cleanup for the exact old all-wrong Quick Rules QA test pattern (<=20 legacy attempts)
+- Parent Report accuracy excludes Almost and Manual answers

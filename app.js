@@ -8,7 +8,7 @@ let progress=loadProgress(), currentVocab=[], vocabIndex=0, flashFlipped=false;
 let quiz=null, selectedWriting=0;
 
 function loadProgress(){
-  const fresh={attempts:{},sessions:0,correct:0,answered:0,streak:0,lastDay:null,writing:{},history:[],createdAt:Date.now()};
+  const fresh={attempts:{},sessions:0,correct:0,answered:0,almost:0,streak:0,lastDay:null,writing:{},history:[],createdAt:Date.now(),markingVersion:1};
   try{
     const p=JSON.parse(localStorage.getItem(KEY)||'{}');
     return {...fresh,...p,
@@ -35,7 +35,8 @@ function lastNDays(n){
 }
 function dayStats(day){
   const rows=(progress.history||[]).filter(x=>x.day===day&&x.kind==='question');
-  return {answered:rows.length,correct:rows.filter(x=>x.correct===true).length};
+  const graded=rows.filter(x=>x.verdict!=='almost'&&x.verdict!=='manual');
+  return {answered:rows.length,graded:graded.length,correct:graded.filter(x=>x.correct===true||x.verdict==='correct').length};
 }
 function toast(msg){const t=$('#toast');t.textContent=msg;t.classList.add('show');clearTimeout(t._x);t._x=setTimeout(()=>t.classList.remove('show'),2200)}
 function esc(v){return String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
@@ -93,7 +94,21 @@ async function loadData(){
   document.body.innerHTML='<main style="padding:40px;font-family:sans-serif;max-width:760px"><h1>Impossible de charger le contenu</h1><p>Le site est bien ouvert, mais un fichier de contenu n’a pas pu être chargé.</p><p style="opacity:.7;font-size:14px">Recharge la page après le déploiement GitHub Pages. Si le problème continue, vérifie la console du navigateur.</p></main>';
  }
 }
+function migrateV32QuickRuleQA(){
+ if(progress.markingVersion>=2)return;
+ const qrows=(progress.history||[]).filter(x=>x.kind==='question');
+ const looksLikeOldQA=qrows.length>0&&qrows.length<=20&&qrows.every(x=>x.topic==='Quick rules'&&x.correct===false&&!x.verdict);
+ if(looksLikeOldQA){
+   const quickIds=new Set(DATA.questions.filter(q=>q.topic==='Quick rules').map(q=>q.id));
+   Object.keys(progress.attempts).forEach(id=>{if(quickIds.has(id))delete progress.attempts[id]});
+   progress.history=(progress.history||[]).filter(x=>!(x.kind==='question'&&x.topic==='Quick rules'&&!x.verdict));
+   progress.answered=Math.max(0,(progress.answered||0)-qrows.length);
+   toast('Ancien test Quick Rules nettoyé ✓ • Old QA results cleared');
+ }
+ progress.markingVersion=2;save();
+}
 function hydrate(){
+ migrateV32QuickRuleQA();
  const sections=[...new Map(enabledQuestions().map(q=>[q.section,q.topic])).entries()].sort((a,b)=>Number(a[0])-Number(b[0]));
  for(const id of ['lessonFilter','practiceTopic']){
    const sel=$('#'+id); sections.forEach(([s,n])=>sel.insertAdjacentHTML('beforeend',`<option value="${s}">${s}. ${esc(n)}</option>`));
@@ -172,7 +187,7 @@ function beginQuiz(sec){
  const ordered=[...shuffle(unseen),...shuffle(due),...shuffle(old)];
  const questions=ordered.slice(0,Math.min(count,ordered.length));
  if(!questions.length){toast('Aucune question disponible.');return}
- quiz={questions,index:0,score:0,selected:null,answered:false,sessionSeen:new Set()};
+ quiz={questions,index:0,score:0,almost:0,selected:null,answered:false,sessionSeen:new Set()};
  progress.sessions++;updateStreak();save();renderQuestion();
 }
 function updateStreak(){
@@ -195,49 +210,208 @@ function renderQuestion(){
  $('#checkAnswer').onclick=checkAnswer;$('#speakPrompt').onclick=()=>speak(q.prompt);
  $('#answerInput')?.addEventListener('keydown',e=>{if(e.key==='Enter')checkAnswer()});
 }
+
+function smartNormalise(v){
+ return FrenchReferenceMarker.normalise(v||'')
+   .replace(/[()]/g,' ')
+   .replace(/\s+/g,' ')
+   .trim();
+}
+function hasAny(text,patterns){return patterns.some(p=>p.test(text))}
+function tokenOverlap(a,b){
+ const stop=new Set(['je','j','tu','il','elle','on','nous','vous','ils','elles','le','la','les','un','une','de','des','du','a','à','au','aux','et']);
+ const A=new Set(smartNormalise(a).split(/\s+/).filter(x=>x.length>1&&!stop.has(x)));
+ const B=new Set(smartNormalise(b).split(/\s+/).filter(x=>x.length>1&&!stop.has(x)));
+ if(!A.size||!B.size)return 0;
+ let hit=0;A.forEach(x=>{if(B.has(x))hit++});
+ return hit/Math.min(A.size,B.size);
+}
+function quickRuleAlmost(q,input){
+ const t=smartNormalise(input), p=smartNormalise(q.prompt);
+ if(!t)return null;
+
+ // Fragment of a taught answer: concept recognised, but incomplete.
+ const accepted=(q.marking?.accepted||[]).map(smartNormalise);
+ if(accepted.some(a=>(a.includes(t)||t.includes(a)) && t.split(/\s+/).length>=2)){
+   return {verdict:'almost',reason:'You have part of the taught example, but the answer is incomplete.'};
+ }
+
+ // Six confirmed Quick Rules from Content Core.
+ if(p.includes('opinions')){
+   if(hasAny(t,[/\baime\b/,/\badore\b/,/\bdeteste\b/,/\bprefere\b/]))
+     return {verdict:'almost',reason:'You are using an opinion structure correctly, but the task asks for one complete taught example.'};
+ }
+ if(p.includes('food & drink')){
+   const hasFoodVerb=hasAny(t,[/\bbois\b/,/\bboit\b/,/\bmange\b/,/\bmanges\b/,/\bmangent\b/]);
+   const hasPartitive=hasAny(` ${t} `,[/\bdu\b/,/\bde la\b/,/\bde l[' ]/,/\bdes\b/]);
+   if(hasFoodVerb&&hasPartitive)
+     return {verdict:'almost',reason:'The food/drink structure is sensible, but it is not yet one complete taught example.'};
+ }
+ if(p.includes('negatives')){
+   if(hasAny(` ${t} `,[/\bpas\b/,/\bplus\b/]) && hasAny(t,[/\bne\b/,/\bn[' ]/,/\bnai\b/,/\bn y\b/]))
+     return {verdict:'almost',reason:'You have the negative structure, but the taught example needs to be completed.'};
+ }
+ if(p.includes('places after aller')){
+   if(hasAny(` ${t} `,[/\bau\b/,/\ba la\b/,/\ba l[' ]/,/\baux\b/]))
+     return {verdict:'almost',reason:'Your place preposition pattern is plausible. The exercise asks you to recall one complete taught example.'};
+ }
+ if(p.includes('passe compose')){
+   if(hasAny(t,[/\bj ai\b/,/\bje suis\b/,/\bil a\b/,/\belle est\b/,/\bnous avons\b/,/\bils sont\b/]))
+     return {verdict:'almost',reason:'You have started a passé composé structure, but the answer needs a complete auxiliary + past participle example.'};
+ }
+ if(p.includes('etre verbs')){
+   if(hasAny(` ${t} `,[/\bsuis\b/,/\bes\b/,/\best\b/,/\bsommes\b/,/\betes\b/,/\bsont\b/]))
+     return {verdict:'almost',reason:'You recognised an être form, but this question asks for a complete taught example with the past participle.'};
+ }
+ return null;
+}
+function smartMark(q,input,selected){
+ let base;
+ const confidence=q.autoMarkConfidence;
+ if(confidence==='medium'||confidence==='manual_review'){
+   return {verdict:'manual',correct:null,reviewNeeded:true,missing:[],unexpected:[],reason:'This answer needs human review and carries no penalty.'};
+ }
+ try{base=FrenchReferenceMarker.mark(q.marking,input,selected)}
+ catch(e){console.error(e);return {verdict:'manual',correct:null,reviewNeeded:true,missing:[],unexpected:[],reason:'Automatic marking was not confident enough.'}}
+ if(base.correct===true)return {...base,verdict:'correct'};
+ if(q.marking?.mode==='choice')return {...base,verdict:'wrong'};
+ if(q.topic==='Quick rules'&&q.marking?.mode==='one_of_complete_examples'){
+   const almost=quickRuleAlmost(q,input);
+   if(almost)return {...base,correct:null,...almost};
+ }
+ // Generic near-match: useful for free text outside Quick Rules, but deliberately conservative.
+ const accepted=q.marking?.accepted||[];
+ const best=accepted.reduce((m,a)=>Math.max(m,tokenOverlap(input,a)),0);
+ if(best>=0.72 && smartNormalise(input).split(/\s+/).length>=2){
+   return {...base,correct:null,verdict:'almost',reason:'Most of the key language is there, but check the complete form against the model answer.'};
+ }
+ return {...base,verdict:'wrong'};
+}
+function verdictLabel(v){
+ if(v==='correct')return 'Bravo ! 🌷';
+ if(v==='almost')return 'Presque ! 🌱 • Almost!';
+ if(v==='manual')return 'À vérifier sans pénalité ✨';
+ return 'À revoir 🌱 • Review';
+}
+function verdictClass(v){return v==='correct'?'ok':v==='almost'?'almost':v==='manual'?'manual':'wrong'}
+
+function localTutorExplain(q,input,result){
+ const p=smartNormalise(q.prompt), t=smartNormalise(input), model=q.displayAnswer||'';
+ let title='Explication • Explanation', explanation='', correction=model, tip='';
+
+ if(result.verdict==='correct'){
+   title='Très bien ! 🌷';
+   explanation='Your answer matches the taught pattern. Compare your spelling and accents with the model answer to reinforce the exact French form.';
+   tip='Say the model answer aloud once, then try to recall it without looking.';
+ }else if(p.includes('food & drink')){
+   if(hasAny(` ${t} `,[/\bau\b/,/\ba la\b/,/\baux\b/])){
+     explanation='You used a place-style preposition. For an unspecified amount of food or drink, French normally uses a partitive article such as du, de la, de l’ or des.';
+     tip='Think “some”: du pain, de la soupe, de l’eau, des frites.';
+   }else{
+     explanation='This rule is about using the correct article with food and drink. Match the noun with du, de la, de l’ or des, then build the complete sentence.';
+     tip='Learn the noun together with its article, not as a single isolated word.';
+   }
+ }else if(p.includes('negatives')){
+   if(hasAny(` ${t} `,[/\bpas\b/,/\bplus\b/])){
+     explanation='You have recognised the negative structure, but the answer needs to be a complete sentence. Remember that after ne…pas or ne…plus, partitive and indefinite articles often change to de/d’.';
+     tip='Build the whole frame: subject + ne/n’ + verb + pas/plus + de/d’ + noun.';
+   }else{
+     explanation='This question is testing a full negative sentence. The key pattern is ne…pas or ne…plus around the verb.';
+     tip='Spot the verb first, then put ne/n’ before it and pas/plus after it.';
+   }
+ }else if(p.includes('places after aller')){
+   explanation='After aller, the place expression changes with gender and number: au, à la, à l’ or aux. Your answer should also be a complete taught example.';
+   tip='au = masculine, à la = feminine, à l’ = vowel sound, aux = plural.';
+   if(t.includes('a la')) tip+=' Missing accents can be tolerated for marking, but write “à la” in standard French.';
+ }else if(p.includes('etre verbs')){
+   explanation='In the passé composé with être verbs, you need the correct form of être plus a past participle. A form such as “je suis” is only the beginning of the structure.';
+   tip='Think: subject + être + past participle, for example “elle est allée”.';
+ }else if(p.includes('passe compose')){
+   explanation='The passé composé needs an auxiliary verb plus a past participle. Starting with “j’ai” or “je suis” shows the right direction, but the answer is not complete yet.';
+   tip='Ask yourself: auxiliary first, then which past participle?';
+ }else if(p.includes('opinions')){
+   explanation='You have recognised an opinion verb, but this task asks for a complete taught example rather than only the opinion phrase.';
+   tip='Build a full sentence with an opinion verb plus the activity or noun.';
+ }else if(result.verdict==='almost'){
+   explanation=result.reason||'Most of the key idea is present, but the answer is incomplete or slightly different from the taught model.';
+   tip='Compare your answer with the model and notice the missing word, ending, article or verb form.';
+ }else if(result.verdict==='manual'){
+   explanation='This response needs human judgement, so the app does not penalise it automatically.';
+   tip='Compare your answer with the lesson notes and model answer.';
+ }else{
+   explanation='Your answer does not match the taught pattern closely enough yet. Use the model answer to identify the exact grammar or vocabulary difference.';
+   tip='Change one thing at a time: verb form, article, agreement, word order or spelling.';
+ }
+
+ return {title,explanation,correction,tip};
+}
+function showLocalTutor(q,input,result,slot){
+ const data=localTutorExplain(q,input,result);
+ const box=slot.querySelector('.ai-result');
+ box.innerHTML=`<div class="ai-card"><p class="eyebrow">✨ Tuteur local • Local Tutor</p>
+   <h4>${esc(data.title)}</h4>
+   <p>${esc(data.explanation)}</p>
+   ${data.correction?`<p><b>Correction :</b> ${esc(data.correction)}</p>`:''}
+   ${data.tip?`<p><b>💡 Tip :</b> ${esc(data.tip)}</p>`:''}
+   <p class="ai-note">Runs entirely on this device — no API key, account or external AI service required.</p></div>`;
+}
+
 function checkAnswer(){
  if(quiz.answered)return;
  const q=quiz.questions[quiz.index], input=$('#answerInput')?.value||'', selected=quiz.selected;
  if((q.type==='choice'||q.options?.length)&&!selected){toast('Choisis une réponse.');return}
  if(!(q.type==='choice'||q.options?.length)&&!input.trim()){toast('Écris une réponse.');return}
- let result;
- const confidence=q.autoMarkConfidence;
- if(confidence==='medium'||confidence==='manual_review'){
-   result={correct:null,reviewNeeded:true,missing:[],unexpected:[]};
- }else{
-   try{result=FrenchReferenceMarker.mark(q.marking,input,selected)}
-   catch(e){console.error(e);result={correct:null,reviewNeeded:true,missing:[],unexpected:[]}}
- }
+
+ const result=smartMark(q,input,selected);
  quiz.answered=true;
  const prev=progress.attempts[q.id]||{tries:0};prev.tries++;
- if(result.correct===true){
-   quiz.score++;progress.correct++;progress.answered++;prev.status='correct';prev.lastAt=Date.now();prev.dueAt=null;
- }else if(result.correct===false){
-   progress.answered++;prev.status='wrong';prev.lastAt=Date.now();prev.dueAt=Date.now()+48*60*60*1000;
+ progress.answered++;
+
+ if(result.verdict==='correct'){
+   quiz.score++;progress.correct++;prev.status='correct';prev.lastAt=Date.now();prev.dueAt=null;
+ }else if(result.verdict==='almost'){
+   quiz.almost=(quiz.almost||0)+1;progress.almost=(progress.almost||0)+1;
+   prev.status='almost';prev.lastAt=Date.now();prev.dueAt=null;
+ }else if(result.verdict==='wrong'){
+   prev.status='wrong';prev.lastAt=Date.now();prev.dueAt=Date.now()+48*60*60*1000;
  }else{
-   prev.status='review';prev.lastAt=Date.now();
+   prev.status='review';prev.lastAt=Date.now();prev.dueAt=null;
  }
+ prev.lastVerdict=result.verdict;
  progress.attempts[q.id]=prev;
- addActivity({kind:'question',id:q.id,section:q.section,topic:q.topic,category:q.category,correct:result.correct===true});
+ addActivity({kind:'question',id:q.id,section:q.section,topic:q.topic,category:q.category,
+   correct:result.verdict==='correct',verdict:result.verdict});
  save();
- const kind=result.correct===true?'ok':result.correct===false?'wrong':'manual';
- const title=result.correct===true?'Bravo ! 🌷':result.correct===false?'À revoir 🌱':'À vérifier sans pénalité ✨';
+
  const ex=q.explanation||{};
  const breakdown=(ex.breakdown||[]).map(x=>`<li>${esc(x)}</li>`).join('');
  const missing=result.missing?.length?`<p><b>Il manque :</b> ${result.missing.map(esc).join(', ')}</p>`:'';
- $('#feedbackSlot').innerHTML=`<div class="feedback ${kind==='ok'?'':kind}"><h3>${title}</h3>
+ const why=result.reason?`<div class="smart-reason"><b>${result.verdict==='almost'?'Why almost?':'Feedback'}:</b> ${esc(result.reason)}</div>`:'';
+ $('#feedbackSlot').innerHTML=`<div class="feedback ${verdictClass(result.verdict)}"><h3>${verdictLabel(result.verdict)}</h3>
+   ${why}
    <p>Réponse enseignée : <span class="model-answer">${esc(q.displayAnswer)}</span> <button class="icon-btn speak-answer" title="Écouter">🔈</button></p>
-   ${result.accentOnly?'<p>✓ Score correct. Pense simplement aux accents dans l’orthographe affichée.</p>':''}${missing}
+   ${result.accentOnly?'<p class="accent-ok">✓ Accent difference accepted for scoring. Check the displayed spelling.</p>':''}${missing}
    ${ex.short?`<p>${esc(ex.short)}</p>`:''}${breakdown?`<ul>${breakdown}</ul>`:''}
    ${ex.commonError?`<p><b>Erreur fréquente :</b> ${esc(ex.commonError)}</p>`:''}
    ${ex.remember?`<p><b>À retenir :</b> ${esc(ex.remember)}</p>`:''}
-   <button class="pill primary" id="nextQuestion">${quiz.index+1<quiz.questions.length?'Question suivante →':'Voir le résultat →'}</button></div>`;
- $('.speak-answer').onclick=()=>speak(q.displayAnswer);$('#checkAnswer').disabled=true;$('#nextQuestion').onclick=nextQuestion;
+   <div class="feedback-actions">
+     '<button class="pill ghost ai-explain">✨ Explique-moi <small>Explain</small></button>'
+     <button class="pill primary" id="nextQuestion">${quiz.index+1<quiz.questions.length?'Question suivante →':'Voir le résultat →'}</button>
+   </div>
+   <div class="ai-result"></div></div>`;
+ $('.speak-answer').onclick=()=>speak(q.displayAnswer);
+ const aiBtn=$('.ai-explain');if(aiBtn)aiBtn.onclick=()=>showLocalTutor(q,input||selected,result,$('#feedbackSlot'));
+ $('#checkAnswer').disabled=true;$('#nextQuestion').onclick=nextQuestion;
 }
 function nextQuestion(){
  if(quiz.index+1<quiz.questions.length){quiz.index++;renderQuestion();return}
- const pct=Math.round(quiz.score/quiz.questions.length*100);
- $('#quizBox').innerHTML=`<div style="text-align:center;padding:25px"><p class="eyebrow">Séance terminée</p><h2>${pct>=80?'Magnifique travail 🌷':'Ton jardin pousse 🌱'}</h2><div style="font-family:var(--serif);font-size:64px;font-weight:700">${quiz.score}/${quiz.questions.length}</div><p>Les erreurs reviendront plus tard dans le cycle de révision — pas immédiatement.</p><div class="quiz-actions" style="justify-content:center"><button class="pill primary" id="again">Nouvelle séance</button><button class="pill ghost" id="seeProgress">Mes progrès</button></div></div>`;
+ const graded=quiz.questions.length-(quiz.almost||0);
+ const pct=graded?Math.round(quiz.score/graded*100):100;
+ $('#quizBox').innerHTML=`<div style="text-align:center;padding:25px"><p class="eyebrow">Séance terminée • Session complete</p><h2>${pct>=80?'Magnifique travail 🌷':'Ton jardin pousse 🌱'}</h2>
+ <div style="font-family:var(--serif);font-size:64px;font-weight:700">${quiz.score}/${quiz.questions.length}</div>
+ ${(quiz.almost||0)?`<p><b>${quiz.almost} Presque / Almost</b> — not counted as a wrong answer.</p>`:''}
+ <p>Seules les vraies erreurs entrent dans la révision espacée.<br><small>Only genuine errors enter spaced review.</small></p>
+ <div class="quiz-actions" style="justify-content:center"><button class="pill primary" id="again">Nouvelle séance <small>New session</small></button><button class="pill ghost" id="seeProgress">Mes progrès <small>My progress</small></button></div></div>`;
  $('#again').onclick=()=>{$('#quizBox').classList.add('hidden');$('#practiceSetup').classList.remove('hidden')};
  $('#seeProgress').onclick=()=>showView('progress');
 }
@@ -314,15 +488,18 @@ function topicMetrics(){
 }
 function renderProgress(){
  const at=Object.values(progress.attempts), wrong=at.filter(x=>x.status==='wrong').length;
- const accuracy=progress.answered?Math.round(progress.correct/progress.answered*100):0;
+ const allQ=(progress.history||[]).filter(x=>x.kind==='question');
+ const gradedQ=allQ.filter(x=>(x.verdict|| (x.correct===true?'correct':x.correct===false?'wrong':'manual'))!=='almost' && (x.verdict||'')!=='manual');
+ const correctQ=gradedQ.filter(x=>x.correct===true || x.verdict==='correct').length;
+ const accuracy=gradedQ.length?Math.round(correctQ/gradedQ.length*100):0;
  const days7=lastNDays(7), weekRows=(progress.history||[]).filter(x=>days7.includes(x.day));
  const studyDays=new Set(weekRows.map(x=>x.day)).size;
- const q7=weekRows.filter(x=>x.kind==='question'), c7=q7.filter(x=>x.correct===true).length;
- const acc7=q7.length?Math.round(c7/q7.length*100):0;
+ const q7=weekRows.filter(x=>x.kind==='question'), graded7=q7.filter(x=>x.verdict!=='almost'&&x.verdict!=='manual'), c7=graded7.filter(x=>x.correct===true||x.verdict==='correct').length;
+ const acc7=graded7.length?Math.round(c7/graded7.length*100):0;
  const writing7=weekRows.filter(x=>x.kind==='writing').length;
  const due=Object.values(progress.attempts).filter(x=>x.status==='wrong'&&(x.dueAt||0)<=Date.now()).length;
 
- $('#progressStats').innerHTML=`<div class="stat"><b>${progress.sessions}</b><span>séances <small>sessions</small></span></div><div class="stat"><b>${progress.answered}</b><span>réponses <small>answers</small></span></div><div class="stat"><b>${accuracy}%</b><span>précision <small>accuracy</small></span></div><div class="stat"><b>${progress.streak||0} 🌱</b><span>série <small>day streak</small></span></div>`;
+ $('#progressStats').innerHTML=`<div class="stat"><b>${progress.sessions}</b><span>séances <small>sessions</small></span></div><div class="stat"><b>${allQ.length}</b><span>réponses <small>answers</small></span></div><div class="stat"><b>${accuracy}%</b><span>précision <small>accuracy</small></span></div><div class="stat"><b>${progress.streak||0} 🌱</b><span>série <small>day streak</small></span></div>`;
 
  const grouped=topicMetrics();
  $('#topicProgress').innerHTML=Object.entries(grouped).map(([s,g])=>{const p=Math.round(g.correct/g.total*100);return `<div class="topic-bar"><div class="topic-bar-head"><span>${esc(g.name)}</span><b>${p}%</b></div><div class="bar"><i style="width:${p}%"></i></div></div>`}).join('');
@@ -330,7 +507,7 @@ function renderProgress(){
  $('#reviewList').innerHTML=wrongQs.length?wrongQs.map(q=>`<div class="review-item"><b>${esc(q.topic)}</b><br>${esc(q.prompt)}</div>`).join(''):'<p class="muted">Aucune erreur en attente. 🌷<br><small>No mistakes waiting for review.</small></p>';
 
  $('#weeklyActivity').innerHTML=days7.map(day=>{
-   const s=dayStats(day),pct=s.answered?Math.round(s.correct/s.answered*100):0;
+   const s=dayStats(day),pct=s.graded?Math.round(s.correct/s.graded*100):0;
    return `<div class="week-day ${s.answered?'active':''}"><b>${localDayLabel(day)}</b><strong>${s.answered}</strong><span>${s.answered?`${pct}%`:'—'}</span></div>`;
  }).join('');
 
@@ -352,7 +529,7 @@ function renderProgress(){
 }
 function reportText(){
  const days=lastNDays(7), rows=(progress.history||[]).filter(x=>days.includes(x.day));
- const q=rows.filter(x=>x.kind==='question'), correct=q.filter(x=>x.correct===true).length;
+ const q=rows.filter(x=>x.kind==='question'), graded=q.filter(x=>x.verdict!=='almost'&&x.verdict!=='manual'), correct=graded.filter(x=>x.correct===true||x.verdict==='correct').length;
  const grouped=topicMetrics(), ranked=Object.values(grouped).filter(g=>g.attempted>0).map(g=>({...g,rate:Math.round(g.correct/g.attempted*100)}));
  const strong=[...ranked].sort((a,b)=>b.rate-a.rate).slice(0,3).map(g=>`${g.name} (${g.rate}%)`).join(', ')||'Not enough data yet';
  const needs=[...ranked].sort((a,b)=>a.rate-b.rate).filter(g=>g.rate<90||g.wrong).slice(0,3).map(g=>`${g.name} (${g.rate}%)`).join(', ')||'None currently';
@@ -360,7 +537,7 @@ function reportText(){
 Last 7 days: ${localDayLabel(days[0])} – ${localDayLabel(days[6])}
 Study days: ${new Set(rows.map(x=>x.day)).size}/7
 Questions answered: ${q.length}
-Accuracy: ${q.length?Math.round(correct/q.length*100):0}%
+Accuracy: ${graded.length?Math.round(correct/graded.length*100):0}%
 Writing checks: ${rows.filter(x=>x.kind==='writing').length}
 Current streak: ${progress.streak||0} days
 Strong areas: ${strong}

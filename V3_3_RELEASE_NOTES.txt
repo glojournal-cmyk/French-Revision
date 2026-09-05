@@ -1,0 +1,10 @@
+Mon Jardin Français V3.3 — No-API Local Tutor
+
+- Keeps V3.2 Smart Marking: Correct / Almost / Review / Manual
+- Adds Explain button that works entirely in the browser
+- No Gemini account, no API key, no Cloudflare Worker
+- Context-aware explanations for Quick Rules:
+  Être verbs, Passé composé, Negatives, Places after aller, Food & drink, Opinions
+- Generic explanation fallback for other free-text questions
+- Parent Report and progress remain local and automatic
+- Removed public AI configuration files
