@@ -9,9 +9,9 @@ Serve this folder over HTTP(S). For a quick local preview:
 Then open `http://localhost:8080`.
 
 ## Content integrity
-- `data/question-bank.json`: 1,502 source questions; ordinary practice only loads `enabledByDefault: true`.
-- `data/vocab-bank.json`: 617 learned vocabulary rows.
-- `data/writing-bank.json`: 19 checklist-marked writing tasks.
+- `question-bank.json`: 1,502 source questions; ordinary practice only loads `enabledByDefault: true`.
+- `vocab-bank.json`: 617 learned vocabulary rows.
+- `writing-bank.json`: 19 checklist-marked writing tasks.
 - `reference-marker.js`: copied unchanged from Content Core V2.
 - Medium/manual-review questions are never automatically marked wrong.
 - Wrong answers are scheduled for review after 48 hours and do not immediately repeat in-session.

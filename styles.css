@@ -268,7 +268,7 @@ textarea:focus-visible{
     bottom:-2px;
     width:270px;
     height:310px;
-    background:url("assets/girl-main.webp") right bottom/contain no-repeat;
+    background:url("girl-main.webp") right bottom/contain no-repeat;
     pointer-events:none;
     opacity:.98;
   }

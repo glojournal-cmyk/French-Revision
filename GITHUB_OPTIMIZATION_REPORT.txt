@@ -5,4 +5,4 @@ Reduction: 79.0%
 Converted images: 30
 Broken asset references: 0
 Files over 100 MiB: 0
-Largest file: data/question-bank.json (2.70 MiB)
+Largest file: question-bank.json (2.70 MiB)

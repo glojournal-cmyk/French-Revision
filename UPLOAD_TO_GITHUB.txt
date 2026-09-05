@@ -1,0 +1,14 @@
+MON JARDIN FRANÇAIS — GITHUB FLAT BUILD
+
+This package is specifically for a GitHub repository where every file is uploaded
+directly to the repository root.
+
+UPLOAD:
+1. Open the French-Revision repository.
+2. Upload ALL files inside this ZIP directly to the repository root.
+3. Replace files with the same names.
+4. Do not upload the ZIP itself.
+5. Wait for GitHub Pages deployment to finish.
+6. Hard refresh the site (Ctrl+Shift+R).
+
+All assets and Content Core JSON paths have been rewritten for this flat layout.
