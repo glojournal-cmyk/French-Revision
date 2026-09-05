@@ -50,11 +50,24 @@ $('#soundBtn').addEventListener('click',()=>toast('Appuie sur 🔈 à côté d�
 async function loadData(){
  try{
   const files=['question-bank.json','vocab-bank.json','notes-by-date.json','writing-bank.json','block-question-map.json'];
-  const [q,v,n,w,m]=await Promise.all(files.map(f=>fetch(`data/${f}`).then(r=>{if(!r.ok)throw Error(f);return r.json()})));
+  const loadJson=async(f)=>{
+    const candidates=[`./${f}`,`./data/${f}`];
+    let lastErr;
+    for(const url of candidates){
+      try{
+        const r=await fetch(url,{cache:'no-store'});
+        if(r.ok) return await r.json();
+        lastErr=new Error(`${url}: HTTP ${r.status}`);
+      }catch(e){ lastErr=e; }
+    }
+    throw lastErr||new Error(`Unable to load ${f}`);
+  };
+  const [q,v,n,w,m]=await Promise.all(files.map(loadJson));
   DATA.questions=q;DATA.vocab=v;DATA.notes=n;DATA.writing=w;DATA.map=m;
   hydrate();
  }catch(err){
-  console.error(err); document.body.innerHTML='<main style="padding:40px;font-family:sans-serif"><h1>Impossible de charger le contenu</h1><p>Ouvre cette app via un serveur web ou son installation PWA, pas directement en file://.</p></main>';
+  console.error('Content load failed:',err);
+  document.body.innerHTML='<main style="padding:40px;font-family:sans-serif;max-width:760px"><h1>Impossible de charger le contenu</h1><p>Le site est bien ouvert, mais un fichier de contenu n’a pas pu être chargé.</p><p style="opacity:.7;font-size:14px">Recharge la page après le déploiement GitHub Pages. Si le problème continue, vérifie la console du navigateur.</p></main>';
  }
 }
 function hydrate(){

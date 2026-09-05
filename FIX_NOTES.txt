@@ -1,0 +1,5 @@
+Loader fix:
+- Root-level JSON files are now loaded correctly on GitHub Pages.
+- The app also falls back to data/ paths for compatibility.
+- Service-worker cache version bumped.
+- All 5 required JSON files exist and parse successfully.
