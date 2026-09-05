@@ -1,0 +1,4862 @@
+[
+  {
+    "section": 1,
+    "title": "Quick rules",
+    "sourceStatus": "confirmed_learned",
+    "overview": "This lesson contains 50 enabled questions. It teaches Quick rules through explicit translation, recall, grammar and application tasks.",
+    "learningGoals": [
+      "Recall the core language for Quick rules.",
+      "Identify the task direction before writing.",
+      "Explain errors by naming the article, subject, tense, auxiliary, agreement or negative rule.",
+      "Use the material in a short controlled sentence."
+    ],
+    "mustMemoriseRules": [
+      "Opinion + noun takes le/la/l’/les.",
+      "Food and drink quantities take du/de la/de l’/des.",
+      "After ne…pas or ne…plus before a noun, use de/d’.",
+      "After aller, choose au/à la/à l’/aux from the place noun.",
+      "Passé composé = auxiliary + past participle.",
+      "Movement/reflexive verbs using être may require agreement."
+    ],
+    "mustMemoriseVocabulary": [],
+    "questionInstructions": [
+      {
+        "label": "APPLY THE RULE",
+        "whatToDo": "Produce the exact item requested by the rule prompt."
+      },
+      {
+        "label": "TRANSLATE INTO FRENCH",
+        "whatToDo": "Translate the quoted English and write the complete French answer."
+      },
+      {
+        "label": "CORRECT THE ERROR",
+        "whatToDo": "Find the error and rewrite the whole corrected sentence."
+      },
+      {
+        "label": "COMPLETE THE FRENCH",
+        "whatToDo": "Do not translate the whole line; write only the word/chunk replacing _____."
+      },
+      {
+        "label": "CHOOSE THE ANSWER",
+        "whatToDo": "Select exactly one option."
+      }
+    ],
+    "workedExamples": [
+      {
+        "task": "APPLY THE RULE",
+        "prompt": "Give the taught example for: Opinions.",
+        "answer": "J’aime le riz. / Je préfère regarder la télé.",
+        "why": "With a noun after aimer / adorer / détester / préférer, use the definite article (le / la / l’ / les). With another verb, use the infinitive without an article."
+      },
+      {
+        "task": "APPLY THE RULE",
+        "prompt": "Give the taught example for: Food & drink.",
+        "answer": "Je bois de l’eau. / Je mange des frites.",
+        "why": "When eating or drinking, use du / de la / de l’ / des"
+      },
+      {
+        "task": "APPLY THE RULE",
+        "prompt": "Give the taught example for: Negatives.",
+        "answer": "Je ne bois pas de coca. / Il n’y a plus de pain.",
+        "why": "After ne…pas / ne…plus, change to de / d’"
+      },
+      {
+        "task": "APPLY THE RULE",
+        "prompt": "Give the taught example for: Places after aller.",
+        "answer": "Je vais au cinéma. / à la pharmacie. / à l’épicerie. / aux magasins.",
+        "why": "Choose au / à la / à l’ / aux carefully"
+      },
+      {
+        "task": "APPLY THE RULE",
+        "prompt": "Give the taught example for: Passé composé.",
+        "answer": "J’ai mangé. / Je suis allé(e).",
+        "why": "Use auxiliary + past participle"
+      },
+      {
+        "task": "APPLY THE RULE",
+        "prompt": "Give the taught example for: Être verbs.",
+        "answer": "Elle est allée. / Ils sont sortis.",
+        "why": "Movement / state verbs often use être and may need agreement"
+      }
+    ],
+    "commonMistakes": [
+      "Using du after aimer + noun.",
+      "Keeping du/de la after a negative.",
+      "Using avoir with aller.",
+      "Forgetting agreement with elles."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "task": "CORRECT THE ERROR",
+        "question": "Elles ont sorti.",
+        "answer": "Elles sont sorties."
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Elles ___ sorties.\nWrite only the missing word or article.",
+        "answer": "sont"
+      },
+      {
+        "task": "APPLY THE RULE",
+        "question": "Correct sentence: Elles sont sorties.\nRequired grammar job: être verb + agreement",
+        "answer": "sont"
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "question": "“I like pizza, but I do not eat pizza.”",
+        "answer": "J’aime la pizza, mais je ne mange pas de pizza."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "question": "“She went to the pharmacy.”",
+        "answer": "Elle est allée à la pharmacie."
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read every must-memorise rule.",
+      "Cover the answer column and retrieve at least six chunks.",
+      "Complete the 60-second self-check.",
+      "On each card, read the task label before the French/English stimulus."
+    ],
+    "markingReminder": "Accents are displayed and corrected but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement, negative order and required content are still marked."
+  },
+  {
+    "section": 2,
+    "title": "Weather, activities and opinions",
+    "sourceStatus": "confirmed_learned",
+    "overview": "This lesson contains 138 enabled questions. It teaches Weather, activities and opinions through explicit translation, recall, grammar and application tasks.",
+    "learningGoals": [
+      "Recall the core language for Weather, activities and opinions.",
+      "Identify the task direction before writing.",
+      "Explain errors by naming the article, subject, tense, auxiliary, agreement or negative rule.",
+      "Use the material in a short controlled sentence."
+    ],
+    "mustMemoriseRules": [
+      "Weather chunks use il fait, il y a, il pleut, il neige or il gèle.",
+      "Jouer + sport normally uses au/à la/aux; jouer + instrument uses du/de la.",
+      "After aimer with a noun, keep the definite article.",
+      "A reason needs parce que/car plus a complete idea.",
+      "Learn activity verbs as complete je chunks."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "french": "Quel temps fait-il ?",
+        "english": "What is the weather like?"
+      },
+      {
+        "french": "Il fait chaud",
+        "english": "It is hot"
+      },
+      {
+        "french": "Il fait froid",
+        "english": "It is cold"
+      },
+      {
+        "french": "Il fait mauvais",
+        "english": "The weather is bad"
+      },
+      {
+        "french": "Il fait gris",
+        "english": "It is grey"
+      },
+      {
+        "french": "Il fait beau",
+        "english": "The weather is nice"
+      },
+      {
+        "french": "Il y a du vent",
+        "english": "It is windy"
+      },
+      {
+        "french": "Il y a du soleil",
+        "english": "It is sunny"
+      },
+      {
+        "french": "Il y a du brouillard",
+        "english": "It is foggy"
+      },
+      {
+        "french": "Il neige",
+        "english": "It is snowing"
+      },
+      {
+        "french": "Il pleut",
+        "english": "It is raining"
+      },
+      {
+        "french": "Il gèle",
+        "english": "It is freezing"
+      },
+      {
+        "french": "Je joue au badminton / au basket / au tennis / au foot / au ping-pong",
+        "english": "I play badminton / basketball / tennis / football / table tennis"
+      },
+      {
+        "french": "Je joue aux cartes",
+        "english": "I play cards"
+      },
+      {
+        "french": "Je pense",
+        "english": "I think"
+      },
+      {
+        "french": "Je danse",
+        "english": "I dance"
+      },
+      {
+        "french": "Je dessine",
+        "english": "I draw"
+      },
+      {
+        "french": "Je chante",
+        "english": "I sing"
+      }
+    ],
+    "questionInstructions": [
+      {
+        "label": "TRANSLATE INTO FRENCH",
+        "whatToDo": "Translate the quoted English and write the complete French answer."
+      },
+      {
+        "label": "TRANSLATE INTO ENGLISH",
+        "whatToDo": "Translate the quoted French and write the complete English meaning."
+      },
+      {
+        "label": "COMPLETE THE FRENCH",
+        "whatToDo": "Do not translate the whole line; write only the word/chunk replacing _____."
+      }
+    ],
+    "workedExamples": [
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "What is the weather like?",
+        "answer": "Quel temps fait-il ?",
+        "why": "The source-locked French is « Quel temps fait-il ? ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "It is hot",
+        "answer": "Il fait chaud",
+        "why": "The source-locked French is « Il fait chaud ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      },
+      {
+        "task": "TRANSLATE INTO ENGLISH",
+        "prompt": "Il fait chaud",
+        "answer": "It is hot",
+        "why": "« Il fait chaud » means « It is hot » in the teacher coverage. Use the complete chunk rather than guessing from one familiar word."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "It is cold",
+        "answer": "Il fait froid",
+        "why": "The source-locked French is « Il fait froid ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "The weather is bad",
+        "answer": "Il fait mauvais",
+        "why": "The source-locked French is « Il fait mauvais ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      },
+      {
+        "task": "TRANSLATE INTO ENGLISH",
+        "prompt": "Il fait mauvais",
+        "answer": "The weather is bad",
+        "why": "« Il fait mauvais » means « The weather is bad » in the teacher coverage. Use the complete chunk rather than guessing from one familiar word."
+      }
+    ],
+    "commonMistakes": [
+      "Mixing il fait and il y a patterns.",
+      "Dropping the article after an opinion.",
+      "Giving an adjective without parce que/car."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “I prefer”\nFrench: Je _____",
+        "answer": "préfère"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “I think that”\nFrench: je _____ que",
+        "answer": "pense"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “because”\nFrench: _____ que",
+        "answer": "parce"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “… because it is …”\nFrench: … parce que _____ …",
+        "answer": "c’est"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “… because it is not …”\nFrench: … parce que ce _____ pas …",
+        "answer": "n’est"
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read every must-memorise rule.",
+      "Cover the answer column and retrieve at least six chunks.",
+      "Complete the 60-second self-check.",
+      "On each card, read the task label before the French/English stimulus."
+    ],
+    "markingReminder": "Accents are displayed and corrected but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement, negative order and required content are still marked."
+  },
+  {
+    "section": 3,
+    "title": "Home, family and descriptions",
+    "sourceStatus": "confirmed_learned",
+    "overview": "This lesson contains 123 enabled questions. It teaches Home, family and descriptions through explicit translation, recall, grammar and application tasks.",
+    "learningGoals": [
+      "Recall the core language for Home, family and descriptions.",
+      "Identify the task direction before writing.",
+      "Explain errors by naming the article, subject, tense, auxiliary, agreement or negative rule.",
+      "Use the material in a short controlled sentence."
+    ],
+    "mustMemoriseRules": [
+      "Use habiter + place phrase; town names normally take à.",
+      "Country prepositions vary: en, au or aux.",
+      "Learn family nouns with mon/ma/mes.",
+      "Adjectives must agree where their feminine/plural form changes.",
+      "Distinguish énervé (feeling annoyed) from énervant (causing annoyance)."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "french": "Où habites-tu ?",
+        "english": "Where do you live?"
+      },
+      {
+        "french": "J’habite",
+        "english": "I live"
+      },
+      {
+        "french": "Il habite / Elle habite / Nous habitons",
+        "english": "He lives / She lives / We live"
+      },
+      {
+        "french": "Je voudrais habiter",
+        "english": "I would like to live"
+      },
+      {
+        "french": "dans un petit / grand appartement",
+        "english": "in a small / large flat"
+      },
+      {
+        "french": "dans une petite / grande maison",
+        "english": "in a small / large house"
+      },
+      {
+        "french": "dans une ville",
+        "english": "in a town / city"
+      },
+      {
+        "french": "dans un village",
+        "english": "in a village"
+      },
+      {
+        "french": "à la montagne",
+        "english": "in the mountains"
+      },
+      {
+        "french": "à la mer / au bord de la mer",
+        "english": "by the sea"
+      },
+      {
+        "french": "à la campagne",
+        "english": "in the countryside"
+      },
+      {
+        "french": "sur la lune",
+        "english": "on the moon"
+      },
+      {
+        "french": "sur une île",
+        "english": "on an island"
+      },
+      {
+        "french": "près de",
+        "english": "near"
+      },
+      {
+        "french": "à côté de",
+        "english": "next to"
+      },
+      {
+        "french": "à + name of town / city / village",
+        "english": "in / to + town or city name"
+      },
+      {
+        "french": "dans",
+        "english": "in / inside"
+      },
+      {
+        "french": "à",
+        "english": "at / to"
+      }
+    ],
+    "questionInstructions": [
+      {
+        "label": "TRANSLATE INTO FRENCH",
+        "whatToDo": "Translate the quoted English and write the complete French answer."
+      },
+      {
+        "label": "TRANSLATE INTO ENGLISH",
+        "whatToDo": "Translate the quoted French and write the complete English meaning."
+      },
+      {
+        "label": "COMPLETE THE FRENCH",
+        "whatToDo": "Do not translate the whole line; write only the word/chunk replacing _____."
+      }
+    ],
+    "workedExamples": [
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "Where do you live?",
+        "answer": "Où habites-tu ?",
+        "why": "The source-locked French is « Où habites-tu ? ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      },
+      {
+        "task": "TRANSLATE INTO ENGLISH",
+        "prompt": "Où habites-tu ?",
+        "answer": "Where do you live?",
+        "why": "« Où habites-tu ? » means « Where do you live? » in the teacher coverage. Use the complete chunk rather than guessing from one familiar word."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "I live",
+        "answer": "J’habite",
+        "why": "The source-locked French is « J’habite ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "I would like to live",
+        "answer": "Je voudrais habiter",
+        "why": "The source-locked French is « Je voudrais habiter ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "in a village",
+        "answer": "dans un village",
+        "why": "The source-locked French is « dans un village ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "in the mountains",
+        "answer": "à la montagne",
+        "why": "The source-locked French is « à la montagne ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      }
+    ],
+    "commonMistakes": [
+      "Guessing en/au/aux.",
+      "Using the wrong possessive article.",
+      "Mixing énervé and énervant."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “treasure box”\nFrench: une boîte de _____",
+        "answer": "trésor"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “walls”\nFrench: les _____",
+        "answer": "murs"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “a dog”\nFrench: un _____",
+        "answer": "chien"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “a spider”\nFrench: une _____",
+        "answer": "araignée"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “an armchair”\nFrench: un _____",
+        "answer": "fauteuil"
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read every must-memorise rule.",
+      "Cover the answer column and retrieve at least six chunks.",
+      "Complete the 60-second self-check.",
+      "On each card, read the task label before the French/English stimulus."
+    ],
+    "markingReminder": "Accents are displayed and corrected but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement, negative order and required content are still marked."
+  },
+  {
+    "section": 4,
+    "title": "Food, drink and restaurants",
+    "sourceStatus": "confirmed_learned",
+    "overview": "This lesson contains 53 enabled questions. It teaches Food, drink and restaurants through explicit translation, recall, grammar and application tasks.",
+    "learningGoals": [
+      "Recall the core language for Food, drink and restaurants.",
+      "Identify the task direction before writing.",
+      "Explain errors by naming the article, subject, tense, auxiliary, agreement or negative rule.",
+      "Use the material in a short controlled sentence."
+    ],
+    "mustMemoriseRules": [
+      "Food/drink quantities take partitive articles.",
+      "After a negative before food/drink, use de/d’.",
+      "Use j’ai mangé/bu/pris for completed meals.",
+      "Restaurant and shop chunks should be learned as whole phrases.",
+      "Prices use Ça fait… euros/centimes."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "french": "Pour le petit déjeuner, je prends …",
+        "english": "For breakfast, I have …"
+      },
+      {
+        "french": "Pour le déjeuner, je prends …",
+        "english": "For lunch, I have …"
+      },
+      {
+        "french": "Pour le dîner, je prends …",
+        "english": "For dinner, I have …"
+      },
+      {
+        "french": "Comme dessert, je prends …",
+        "english": "For dessert, I have …"
+      },
+      {
+        "french": "Qu’est-ce que tu manges ?",
+        "english": "What do you eat?"
+      },
+      {
+        "french": "Qu’est-ce que tu bois ?",
+        "english": "What do you drink?"
+      },
+      {
+        "french": "je mange / je bois / je prends / j’achète / je me fais",
+        "english": "I eat / drink / have / buy / make myself"
+      },
+      {
+        "french": "Qu’est-ce que tu as mangé / bu / pris ?",
+        "english": "What did you eat / drink / have?"
+      },
+      {
+        "french": "au petit déjeuner",
+        "english": "for breakfast"
+      },
+      {
+        "french": "hier / hier soir / ce matin",
+        "english": "yesterday / last night / this morning"
+      },
+      {
+        "french": "j’ai mangé / j’ai bu / j’ai pris",
+        "english": "I ate / drank / had"
+      },
+      {
+        "french": "c’était …",
+        "english": "it was …"
+      },
+      {
+        "french": "Vous désirez ?",
+        "english": "What would you like?"
+      },
+      {
+        "french": "Je voudrais … s’il vous plaît.",
+        "english": "I would like … please."
+      },
+      {
+        "french": "Donnez-moi un paquet de …",
+        "english": "Give me a packet of …"
+      },
+      {
+        "french": "un kilo de … / beaucoup de …",
+        "english": "a kilo of … / lots of …"
+      },
+      {
+        "french": "une bouteille de … / un litre de …",
+        "english": "a bottle of … / a litre of …"
+      },
+      {
+        "french": "Avez-vous du / de la / des … ?",
+        "english": "Do you have some … ?"
+      }
+    ],
+    "questionInstructions": [
+      {
+        "label": "TRANSLATE INTO FRENCH",
+        "whatToDo": "Translate the quoted English and write the complete French answer."
+      },
+      {
+        "label": "TRANSLATE INTO ENGLISH",
+        "whatToDo": "Translate the quoted French and write the complete English meaning."
+      },
+      {
+        "label": "COMPLETE THE FRENCH",
+        "whatToDo": "Do not translate the whole line; write only the word/chunk replacing _____."
+      }
+    ],
+    "workedExamples": [
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "For breakfast, I have …",
+        "answer": "Pour le petit déjeuner, je prends …",
+        "why": "The source-locked French is « Pour le petit déjeuner, je prends … ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      },
+      {
+        "task": "TRANSLATE INTO ENGLISH",
+        "prompt": "Pour le petit déjeuner, je prends …",
+        "answer": "For breakfast, I have …",
+        "why": "« Pour le petit déjeuner, je prends … » means « For breakfast, I have … » in the teacher coverage. Use the complete chunk rather than guessing from one familiar word."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "For lunch, I have …",
+        "answer": "Pour le déjeuner, je prends …",
+        "why": "The source-locked French is « Pour le déjeuner, je prends … ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "For dinner, I have …",
+        "answer": "Pour le dîner, je prends …",
+        "why": "The source-locked French is « Pour le dîner, je prends … ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      },
+      {
+        "task": "TRANSLATE INTO ENGLISH",
+        "prompt": "Pour le dîner, je prends …",
+        "answer": "For dinner, I have …",
+        "why": "« Pour le dîner, je prends … » means « For dinner, I have … » in the teacher coverage. Use the complete chunk rather than guessing from one familiar word."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "For dessert, I have …",
+        "answer": "Comme dessert, je prends …",
+        "why": "The source-locked French is « Comme dessert, je prends … ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      }
+    ],
+    "commonMistakes": [
+      "Using a definite article for an unspecified amount.",
+      "Forgetting de after a negative.",
+      "Using an infinitive after j’ai."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “A table for … people.”\nFrench: Une table pour … _____.",
+        "answer": "personnes"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “To start, I’ll have …”\nFrench: Pour commencer, je _____ …",
+        "answer": "prends"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “For dessert, I’ll have …”\nFrench: Comme dessert, je _____ …",
+        "answer": "prends"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “The bill, please.”\nFrench: L’addition, s’il vous _____.",
+        "answer": "plaît"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “Where are the toilets? Over there.”\nFrench: Où sont les _____ ? Par là.",
+        "answer": "toilettes"
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read every must-memorise rule.",
+      "Cover the answer column and retrieve at least six chunks.",
+      "Complete the 60-second self-check.",
+      "On each card, read the task label before the French/English stimulus."
+    ],
+    "markingReminder": "Accents are displayed and corrected but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement, negative order and required content are still marked."
+  },
+  {
+    "section": 5,
+    "title": "Town, time and aller",
+    "sourceStatus": "confirmed_learned",
+    "overview": "This lesson contains 76 enabled questions. It teaches Town, time and aller through explicit translation, recall, grammar and application tasks.",
+    "learningGoals": [
+      "Recall the core language for Town, time and aller.",
+      "Identify the task direction before writing.",
+      "Explain errors by naming the article, subject, tense, auxiliary, agreement or negative rule.",
+      "Use the material in a short controlled sentence."
+    ],
+    "mustMemoriseRules": [
+      "Aller must be conjugated before the place phrase.",
+      "à + le = au and à + les = aux.",
+      "Town and sequencing language should be placed around a complete verb clause.",
+      "Time/linking words change the relationship between ideas.",
+      "Do not confuse quel est and qui est; use them in context."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "french": "au centre commercial",
+        "english": "to the shopping centre"
+      },
+      {
+        "french": "au cinéma",
+        "english": "to the cinema"
+      },
+      {
+        "french": "au collège",
+        "english": "to school"
+      },
+      {
+        "french": "au marchand de glaces",
+        "english": "to the ice-cream shop"
+      },
+      {
+        "french": "au supermarché",
+        "english": "to the supermarket"
+      },
+      {
+        "french": "au tabac",
+        "english": "to the corner shop"
+      },
+      {
+        "french": "au café",
+        "english": "to the café"
+      },
+      {
+        "french": "à la bibliothèque",
+        "english": "to the library"
+      },
+      {
+        "french": "à la boucherie",
+        "english": "to the butcher’s"
+      },
+      {
+        "french": "à la boulangerie",
+        "english": "to the bakery"
+      },
+      {
+        "french": "à la boutique de vêtements",
+        "english": "to the clothes shop"
+      },
+      {
+        "french": "à la librairie",
+        "english": "to the bookshop"
+      },
+      {
+        "french": "à la papeterie",
+        "english": "to the stationery shop"
+      },
+      {
+        "french": "à la pharmacie",
+        "english": "to the pharmacy"
+      },
+      {
+        "french": "à la poissonnerie",
+        "english": "to the fishmonger"
+      },
+      {
+        "french": "à l’épicerie",
+        "english": "to the grocery shop"
+      },
+      {
+        "french": "aux magasins",
+        "english": "to the shops"
+      },
+      {
+        "french": "en ville",
+        "english": "in / to town"
+      }
+    ],
+    "questionInstructions": [
+      {
+        "label": "TRANSLATE INTO FRENCH",
+        "whatToDo": "Translate the quoted English and write the complete French answer."
+      },
+      {
+        "label": "TRANSLATE INTO ENGLISH",
+        "whatToDo": "Translate the quoted French and write the complete English meaning."
+      },
+      {
+        "label": "COMPLETE THE FRENCH",
+        "whatToDo": "Do not translate the whole line; write only the word/chunk replacing _____."
+      }
+    ],
+    "workedExamples": [
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "to the shopping centre",
+        "answer": "au centre commercial",
+        "why": "The source-locked French is « au centre commercial ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      },
+      {
+        "task": "TRANSLATE INTO ENGLISH",
+        "prompt": "au centre commercial",
+        "answer": "to the shopping centre",
+        "why": "« au centre commercial » means « to the shopping centre » in the teacher coverage. Use the complete chunk rather than guessing from one familiar word."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "to the cinema",
+        "answer": "au cinéma",
+        "why": "The source-locked French is « au cinéma ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "to school",
+        "answer": "au collège",
+        "why": "The source-locked French is « au collège ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      },
+      {
+        "task": "TRANSLATE INTO ENGLISH",
+        "prompt": "au collège",
+        "answer": "to school",
+        "why": "« au collège » means « to school » in the teacher coverage. Use the complete chunk rather than guessing from one familiar word."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "to the ice-cream shop",
+        "answer": "au marchand de glaces",
+        "why": "The source-locked French is « au marchand de glaces ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      }
+    ],
+    "commonMistakes": [
+      "Writing à le instead of au.",
+      "Using the wrong town/country preposition.",
+      "Selecting a linker with the wrong meaning."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “to the grocery shop”\nFrench: à _____",
+        "answer": "l’épicerie"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “to the shops”\nFrench: aux _____",
+        "answer": "magasins"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “in the morning”\nFrench: le _____",
+        "answer": "matin"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “in the evening”\nFrench: le _____",
+        "answer": "soir"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “from time to time”\nFrench: de temps en _____",
+        "answer": "temps"
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read every must-memorise rule.",
+      "Cover the answer column and retrieve at least six chunks.",
+      "Complete the 60-second self-check.",
+      "On each card, read the task label before the French/English stimulus."
+    ],
+    "markingReminder": "Accents are displayed and corrected but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement, negative order and required content are still marked."
+  },
+  {
+    "section": 6,
+    "title": "Present tense",
+    "sourceStatus": "confirmed_learned",
+    "overview": "This lesson contains 52 enabled questions. It teaches Present tense through explicit translation, recall, grammar and application tasks.",
+    "learningGoals": [
+      "Recall the core language for Present tense.",
+      "Identify the task direction before writing.",
+      "Explain errors by naming the article, subject, tense, auxiliary, agreement or negative rule.",
+      "Use the material in a short controlled sentence."
+    ],
+    "mustMemoriseRules": [
+      "Identify the subject before choosing a present-tense ending.",
+      "aller, avoir and être are irregular and must be memorised.",
+      "Regular -er endings: e, es, e, ons, ez, ent.",
+      "Regular -ir endings: is, is, it, issons, issez, issent.",
+      "Regular -re endings: s, s, no ending, ons, ez, ent.",
+      "Negatives wrap around the finite verb."
+    ],
+    "mustMemoriseVocabulary": [],
+    "questionInstructions": [
+      {
+        "label": "CONJUGATE",
+        "whatToDo": "Use the named subject/tense. The bare verb or correct subject + verb is accepted when stated."
+      },
+      {
+        "label": "APPLY THE RULE",
+        "whatToDo": "Produce the exact item requested by the rule prompt."
+      },
+      {
+        "label": "WRITE ALL FORMS",
+        "whatToDo": "Give every named form; reasonable order and separators are accepted."
+      }
+    ],
+    "workedExamples": [
+      {
+        "task": "CONJUGATE",
+        "prompt": "Write the « je » form in the aller column.",
+        "answer": "vais",
+        "why": "The source conjugation table gives je → vais for aller. The subject decides the written ending."
+      },
+      {
+        "task": "CONJUGATE",
+        "prompt": "Write the « tu » form in the aller column.",
+        "answer": "vas",
+        "why": "The source conjugation table gives tu → vas for aller. The subject decides the written ending."
+      },
+      {
+        "task": "CONJUGATE",
+        "prompt": "Write the « il / elle / on » form in the aller column.",
+        "answer": "va",
+        "why": "The source conjugation table gives il / elle / on → va for aller. The subject decides the written ending."
+      },
+      {
+        "task": "CONJUGATE",
+        "prompt": "Write the « nous » form in the aller column.",
+        "answer": "allons",
+        "why": "The source conjugation table gives nous → allons for aller. The subject decides the written ending."
+      },
+      {
+        "task": "CONJUGATE",
+        "prompt": "Write the « vous » form in the aller column.",
+        "answer": "allez",
+        "why": "The source conjugation table gives vous → allez for aller. The subject decides the written ending."
+      },
+      {
+        "task": "CONJUGATE",
+        "prompt": "Write the « ils / elles » form in the aller column.",
+        "answer": "vont",
+        "why": "The source conjugation table gives ils / elles → vont for aller. The subject decides the written ending."
+      }
+    ],
+    "commonMistakes": [
+      "Choosing an ending before identifying the subject.",
+      "Writing nous sont.",
+      "Forgetting ne…pas word order."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "task": "CONJUGATE",
+        "question": "Subject: tu",
+        "answer": "attends"
+      },
+      {
+        "task": "CONJUGATE",
+        "question": "Subject: il / elle / on",
+        "answer": "attend"
+      },
+      {
+        "task": "CONJUGATE",
+        "question": "Subject: nous",
+        "answer": "attendons"
+      },
+      {
+        "task": "CONJUGATE",
+        "question": "Subject: vous",
+        "answer": "attendez"
+      },
+      {
+        "task": "CONJUGATE",
+        "question": "Subject: ils / elles",
+        "answer": "attendent"
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read every must-memorise rule.",
+      "Cover the answer column and retrieve at least six chunks.",
+      "Complete the 60-second self-check.",
+      "On each card, read the task label before the French/English stimulus."
+    ],
+    "markingReminder": "Accents are displayed and corrected but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement, negative order and required content are still marked."
+  },
+  {
+    "section": 7,
+    "title": "Passé composé",
+    "sourceStatus": "confirmed_learned",
+    "overview": "This lesson contains 88 enabled questions. It teaches Passé composé through explicit translation, recall, grammar and application tasks.",
+    "learningGoals": [
+      "Recall the core language for Passé composé.",
+      "Identify the task direction before writing.",
+      "Explain errors by naming the article, subject, tense, auxiliary, agreement or negative rule.",
+      "Use the material in a short controlled sentence."
+    ],
+    "mustMemoriseRules": [
+      "Passé composé = present auxiliary + past participle.",
+      "Most activity verbs use avoir.",
+      "Movement verbs in the taught bank use être.",
+      "With être, add -e, -s or -es when required.",
+      "Time phrases such as hier and la semaine dernière signal completed past.",
+      "Some movement verbs use avoir when they take a direct object."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "french": "aller",
+        "english": "to go"
+      },
+      {
+        "french": "venir",
+        "english": "to come"
+      },
+      {
+        "french": "arriver",
+        "english": "to arrive"
+      },
+      {
+        "french": "partir",
+        "english": "to leave"
+      },
+      {
+        "french": "entrer",
+        "english": "to enter"
+      },
+      {
+        "french": "sortir",
+        "english": "to go out"
+      },
+      {
+        "french": "monter",
+        "english": "to go up / get on"
+      },
+      {
+        "french": "descendre",
+        "english": "to go down / get off"
+      },
+      {
+        "french": "naître",
+        "english": "to be born"
+      },
+      {
+        "french": "mourir",
+        "english": "to die"
+      },
+      {
+        "french": "tomber",
+        "english": "to fall"
+      },
+      {
+        "french": "rester",
+        "english": "to stay"
+      },
+      {
+        "french": "retourner",
+        "english": "to return"
+      },
+      {
+        "french": "revenir",
+        "english": "to come back"
+      },
+      {
+        "french": "rentrer",
+        "english": "to come home"
+      },
+      {
+        "french": "devenir",
+        "english": "to become"
+      },
+      {
+        "french": "passer",
+        "english": "to pass / spend"
+      },
+      {
+        "french": "hier",
+        "english": "yesterday"
+      }
+    ],
+    "questionInstructions": [
+      {
+        "label": "CONJUGATE",
+        "whatToDo": "Use the named subject/tense. The bare verb or correct subject + verb is accepted when stated."
+      },
+      {
+        "label": "APPLY THE RULE",
+        "whatToDo": "Produce the exact item requested by the rule prompt."
+      },
+      {
+        "label": "TRANSLATE INTO FRENCH",
+        "whatToDo": "Translate the quoted English and write the complete French answer."
+      },
+      {
+        "label": "TRANSLATE INTO ENGLISH",
+        "whatToDo": "Translate the quoted French and write the complete English meaning."
+      },
+      {
+        "label": "COMPLETE THE FRENCH",
+        "whatToDo": "Do not translate the whole line; write only the word/chunk replacing _____."
+      }
+    ],
+    "workedExamples": [
+      {
+        "task": "CONJUGATE",
+        "prompt": "Give the past participle of « aller ».",
+        "answer": "allé",
+        "why": "The teacher coverage gives aller → allé (to go). In the passé composé, the past participle follows the correct auxiliary."
+      },
+      {
+        "task": "CONJUGATE",
+        "prompt": "Give the past participle of « venir ».",
+        "answer": "venu",
+        "why": "The teacher coverage gives venir → venu (to come). In the passé composé, the past participle follows the correct auxiliary."
+      },
+      {
+        "task": "CONJUGATE",
+        "prompt": "Give the past participle of « arriver ».",
+        "answer": "arrivé",
+        "why": "The teacher coverage gives arriver → arrivé (to arrive). In the passé composé, the past participle follows the correct auxiliary."
+      },
+      {
+        "task": "CONJUGATE",
+        "prompt": "Give the past participle of « partir ».",
+        "answer": "parti",
+        "why": "The teacher coverage gives partir → parti (to leave). In the passé composé, the past participle follows the correct auxiliary."
+      },
+      {
+        "task": "CONJUGATE",
+        "prompt": "Give the past participle of « entrer ».",
+        "answer": "entré",
+        "why": "The teacher coverage gives entrer → entré (to enter). In the passé composé, the past participle follows the correct auxiliary."
+      },
+      {
+        "task": "CONJUGATE",
+        "prompt": "Give the past participle of « sortir ».",
+        "answer": "sorti",
+        "why": "The teacher coverage gives sortir → sorti (to go out). In the passé composé, the past participle follows the correct auxiliary."
+      }
+    ],
+    "commonMistakes": [
+      "Omitting the auxiliary.",
+      "Choosing avoir for a taught être movement verb.",
+      "Missing feminine/plural agreement."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “for three days”\nFrench: pendant trois _____",
+        "answer": "jours"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “two weeks ago”\nFrench: il y a deux _____",
+        "answer": "semaines"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “three days ago”\nFrench: il y a trois _____",
+        "answer": "jours"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “this morning”\nFrench: ce _____",
+        "answer": "matin"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “this afternoon”\nFrench: cet _____",
+        "answer": "après-midi"
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read every must-memorise rule.",
+      "Cover the answer column and retrieve at least six chunks.",
+      "Complete the 60-second self-check.",
+      "On each card, read the task label before the French/English stimulus."
+    ],
+    "markingReminder": "Accents are displayed and corrected but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement, negative order and required content are still marked."
+  },
+  {
+    "section": 8,
+    "title": "Expanded past-participle bank",
+    "sourceStatus": "confirmed_learned",
+    "overview": "This lesson contains 140 enabled questions. It teaches Expanded past-participle bank through explicit translation, recall, grammar and application tasks.",
+    "learningGoals": [
+      "Recall the core language for Expanded past-participle bank.",
+      "Identify the task direction before writing.",
+      "Explain errors by naming the article, subject, tense, auxiliary, agreement or negative rule.",
+      "Use the material in a short controlled sentence."
+    ],
+    "mustMemoriseRules": [
+      "Regular participles: -er→-é, -ir→-i, -re→-u often.",
+      "Learn irregular forms in families: prendre→pris, mettre→mis, voir→vu.",
+      "The past participle is not the same as a present-tense form.",
+      "A full passé composé still needs an auxiliary.",
+      "Accents are shown even though this app does not deduct them."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "french": "avoir",
+        "english": "to have"
+      },
+      {
+        "french": "être",
+        "english": "to be"
+      },
+      {
+        "french": "faire",
+        "english": "to do / make"
+      },
+      {
+        "french": "dire",
+        "english": "to say"
+      },
+      {
+        "french": "lire",
+        "english": "to read"
+      },
+      {
+        "french": "écrire",
+        "english": "to write"
+      },
+      {
+        "french": "prendre",
+        "english": "to take"
+      },
+      {
+        "french": "apprendre",
+        "english": "to learn"
+      },
+      {
+        "french": "comprendre",
+        "english": "to understand"
+      },
+      {
+        "french": "mettre",
+        "english": "to put"
+      },
+      {
+        "french": "voir",
+        "english": "to see"
+      },
+      {
+        "french": "boire",
+        "english": "to drink"
+      },
+      {
+        "french": "croire",
+        "english": "to believe"
+      },
+      {
+        "french": "devoir",
+        "english": "must / have to"
+      },
+      {
+        "french": "pouvoir",
+        "english": "can / be able to"
+      },
+      {
+        "french": "vouloir",
+        "english": "to want"
+      },
+      {
+        "french": "savoir",
+        "english": "to know (fact)"
+      },
+      {
+        "french": "connaître",
+        "english": "to know (person / place)"
+      }
+    ],
+    "questionInstructions": [
+      {
+        "label": "CONJUGATE",
+        "whatToDo": "Use the named subject/tense. The bare verb or correct subject + verb is accepted when stated."
+      },
+      {
+        "label": "TRANSLATE INTO FRENCH",
+        "whatToDo": "Translate the quoted English and write the complete French answer."
+      },
+      {
+        "label": "TRANSLATE INTO ENGLISH",
+        "whatToDo": "Translate the quoted French and write the complete English meaning."
+      }
+    ],
+    "workedExamples": [
+      {
+        "task": "CONJUGATE",
+        "prompt": "Give the past participle of « avoir ».",
+        "answer": "eu",
+        "why": "The teacher coverage gives avoir → eu (to have). In the passé composé, the past participle follows the correct auxiliary."
+      },
+      {
+        "task": "CONJUGATE",
+        "prompt": "Give the past participle of « être ».",
+        "answer": "été",
+        "why": "The teacher coverage gives être → été (to be). In the passé composé, the past participle follows the correct auxiliary."
+      },
+      {
+        "task": "CONJUGATE",
+        "prompt": "Give the past participle of « faire ».",
+        "answer": "fait",
+        "why": "The teacher coverage gives faire → fait (to do / make). In the passé composé, the past participle follows the correct auxiliary."
+      },
+      {
+        "task": "CONJUGATE",
+        "prompt": "Give the past participle of « dire ».",
+        "answer": "dit",
+        "why": "The teacher coverage gives dire → dit (to say). In the passé composé, the past participle follows the correct auxiliary."
+      },
+      {
+        "task": "CONJUGATE",
+        "prompt": "Give the past participle of « lire ».",
+        "answer": "lu",
+        "why": "The teacher coverage gives lire → lu (to read). In the passé composé, the past participle follows the correct auxiliary."
+      },
+      {
+        "task": "CONJUGATE",
+        "prompt": "Give the past participle of « écrire ».",
+        "answer": "écrit",
+        "why": "The teacher coverage gives écrire → écrit (to write). In the passé composé, the past participle follows the correct auxiliary."
+      }
+    ],
+    "commonMistakes": [
+      "Using an infinitive instead of a participle.",
+      "Regularising an irregular participle.",
+      "Writing the participle without an auxiliary in a sentence."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "task": "TRANSLATE INTO ENGLISH",
+        "question": "percevoir",
+        "answer": "to perceive"
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "question": "to surprise",
+        "answer": "surprendre"
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "question": "to promise",
+        "answer": "promettre"
+      },
+      {
+        "task": "TRANSLATE INTO ENGLISH",
+        "question": "promettre",
+        "answer": "to promise"
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "question": "to cover",
+        "answer": "couvrir"
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read every must-memorise rule.",
+      "Cover the answer column and retrieve at least six chunks.",
+      "Complete the 60-second self-check.",
+      "On each card, read the task label before the French/English stimulus."
+    ],
+    "markingReminder": "Accents are displayed and corrected but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement, negative order and required content are still marked."
+  },
+  {
+    "section": 9,
+    "title": "Model answers and sentence building",
+    "sourceStatus": "confirmed_learned",
+    "overview": "This lesson contains 50 enabled questions. It teaches Model answers and sentence building through explicit translation, recall, grammar and application tasks.",
+    "learningGoals": [
+      "Recall the core language for Model answers and sentence building.",
+      "Identify the task direction before writing.",
+      "Explain errors by naming the article, subject, tense, auxiliary, agreement or negative rule.",
+      "Use the material in a short controlled sentence."
+    ],
+    "mustMemoriseRules": [
+      "Use the five-step recipe: time phrase, tense, detail, opinion/reason, link.",
+      "Keep one time frame controlled before mixing tenses.",
+      "Reuse accurate source chunks.",
+      "Present models describe habits; passé composé models report completed actions; futur proche models give plans.",
+      "Proofread articles, auxiliaries, agreement and negatives."
+    ],
+    "mustMemoriseVocabulary": [],
+    "questionInstructions": [
+      {
+        "label": "TRANSLATE INTO ENGLISH",
+        "whatToDo": "Translate the quoted French and write the complete English meaning."
+      },
+      {
+        "label": "COMPLETE THE FRENCH",
+        "whatToDo": "Do not translate the whole line; write only the word/chunk replacing _____."
+      },
+      {
+        "label": "CHOOSE THE ANSWER",
+        "whatToDo": "Select exactly one option."
+      }
+    ],
+    "workedExamples": [
+      {
+        "task": "TRANSLATE INTO ENGLISH",
+        "prompt": "“Normalement, le matin, je vais au collège et je retrouve mes amis.”",
+        "answer": "Usually, in the morning, I go to school and meet my friends.",
+        "why": "The model sentence uses present: “Normalement, le matin, je vais au collège et je retrouve mes amis.”"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "prompt": "Complete the exact model sentence:\n_____, le matin, je vais au collège et je retrouve mes amis.",
+        "answer": "Normalement",
+        "why": "The model sentence uses present: “Normalement, le matin, je vais au collège et je retrouve mes amis.”"
+      },
+      {
+        "task": "TRANSLATE INTO ENGLISH",
+        "prompt": "“Je pense que c’est intéressant parce que c’est éducatif.”",
+        "answer": "I think it is interesting because it is educational.",
+        "why": "The model sentence uses present: “Je pense que c’est intéressant parce que c’est éducatif.”"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "prompt": "Complete the exact model sentence:\nJe pense que c’est intéressant _____ c’est éducatif.",
+        "answer": "parce que",
+        "why": "The model sentence uses present: “Je pense que c’est intéressant parce que c’est éducatif.”"
+      },
+      {
+        "task": "TRANSLATE INTO ENGLISH",
+        "prompt": "“Après le collège, je reste à la maison, je fais mes devoirs et j’écoute de la musique.”",
+        "answer": "After school, I stay at home, do my homework and listen to music.",
+        "why": "The model sentence uses present: “Après le collège, je reste à la maison, je fais mes devoirs et j’écoute de la musique.”"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "prompt": "Complete the exact model sentence:\n_____ le collège, je reste à la maison, je fais mes devoirs et j’écoute de la musique.",
+        "answer": "Après",
+        "why": "The model sentence uses present: “Après le collège, je reste à la maison, je fais mes devoirs et j’écoute de la musique.”"
+      }
+    ],
+    "commonMistakes": [
+      "Mixing time frames inside one verb phrase.",
+      "Adding detail before building an accurate tense core.",
+      "Listing connectives without complete clauses."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Complete the exact model sentence:\n_____, j’ai oublié ma trousse dans mon casier et j’ai perdu mon cahier.",
+        "answer": "Ce matin"
+      },
+      {
+        "task": "TRANSLATE INTO ENGLISH",
+        "question": "“Ce week-end, je vais aller en ville avec ma sœur.”",
+        "answer": "This weekend, I am going to go to town with my sister."
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Complete the exact model sentence:\nCe week-end, je _____ en ville avec ma sœur.",
+        "answer": "vais aller"
+      },
+      {
+        "task": "TRANSLATE INTO ENGLISH",
+        "question": "“Finalement, nous allons au cinéma parce que c’est fascinant.”",
+        "answer": "Finally, we go to the cinema because it is fascinating."
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Complete the exact model sentence:\n_____, nous allons au cinéma parce que c’est fascinant.",
+        "answer": "Finalement"
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read every must-memorise rule.",
+      "Cover the answer column and retrieve at least six chunks.",
+      "Complete the 60-second self-check.",
+      "On each card, read the task label before the French/English stimulus."
+    ],
+    "markingReminder": "Accents are displayed and corrected but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement, negative order and required content are still marked."
+  },
+  {
+    "section": 10,
+    "title": "Accuracy traps",
+    "sourceStatus": "confirmed_learned",
+    "overview": "This lesson contains 50 enabled questions. It teaches Accuracy traps through explicit translation, recall, grammar and application tasks.",
+    "learningGoals": [
+      "Recall the core language for Accuracy traps.",
+      "Identify the task direction before writing.",
+      "Explain errors by naming the article, subject, tense, auxiliary, agreement or negative rule.",
+      "Use the material in a short controlled sentence."
+    ],
+    "mustMemoriseRules": [
+      "Correct the grammar job, not only the visible spelling.",
+      "Check opinion articles and negative articles separately.",
+      "Every passé composé verb needs the right auxiliary.",
+      "Être participles may agree with the subject.",
+      "Irregular participles must be recalled exactly.",
+      "Rewrite the whole corrected sentence."
+    ],
+    "mustMemoriseVocabulary": [],
+    "questionInstructions": [
+      {
+        "label": "CORRECT THE ERROR",
+        "whatToDo": "Find the error and rewrite the whole corrected sentence."
+      },
+      {
+        "label": "CHOOSE THE ANSWER",
+        "whatToDo": "Select exactly one option."
+      },
+      {
+        "label": "COMPLETE THE FRENCH",
+        "whatToDo": "Do not translate the whole line; write only the word/chunk replacing _____."
+      },
+      {
+        "label": "APPLY THE RULE",
+        "whatToDo": "Produce the exact item requested by the rule prompt."
+      }
+    ],
+    "workedExamples": [
+      {
+        "task": "CORRECT THE ERROR",
+        "prompt": "Correct this: J’aime du pain.",
+        "answer": "J’aime le pain.",
+        "why": "After opinions, use the definite article."
+      },
+      {
+        "task": "CORRECT THE ERROR",
+        "prompt": "Correct this: Je ne bois pas du coca.",
+        "answer": "Je ne bois pas de coca.",
+        "why": "After ne…pas, change to de / d’."
+      },
+      {
+        "task": "CORRECT THE ERROR",
+        "prompt": "Correct this: J’ai allé au cinéma.",
+        "answer": "Je suis allé(e) au cinéma.",
+        "why": "aller uses être."
+      },
+      {
+        "task": "CORRECT THE ERROR",
+        "prompt": "Correct this: Elle a montée.",
+        "answer": "Elle est montée.",
+        "why": "Movement verb → être."
+      },
+      {
+        "task": "CORRECT THE ERROR",
+        "prompt": "Correct this: Nous sont arrivés.",
+        "answer": "Nous sommes arrivés.",
+        "why": "nous takes sommes."
+      },
+      {
+        "task": "CORRECT THE ERROR",
+        "prompt": "Correct this: Elles sont sorti.",
+        "answer": "Elles sont sorties.",
+        "why": "Feminine plural agreement needed."
+      }
+    ],
+    "commonMistakes": [
+      "Correcting only one word instead of rewriting the sentence.",
+      "Fixing spelling while leaving the grammar error.",
+      "Changing the intended meaning."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "task": "APPLY THE RULE",
+        "question": "Meaning is unchanged. Repair: Il est mouru.",
+        "answer": "Il est mort."
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Complete the corrected sentence with the missing word or chunk:\nTu _____ fini ton travail.",
+        "answer": "as"
+      },
+      {
+        "task": "APPLY THE RULE",
+        "question": "Meaning is unchanged. Repair: Tu fini ton travail.",
+        "answer": "Tu as fini ton travail."
+      },
+      {
+        "task": "CORRECT THE ERROR",
+        "question": "Je n’aime pas du français.",
+        "answer": "Je n’aime pas le français."
+      },
+      {
+        "task": "CORRECT THE ERROR",
+        "question": "Elles sont allé au cinéma.",
+        "answer": "Elles sont allées au cinéma."
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read every must-memorise rule.",
+      "Cover the answer column and retrieve at least six chunks.",
+      "Complete the 60-second self-check.",
+      "On each card, read the task label before the French/English stimulus."
+    ],
+    "markingReminder": "Accents are displayed and corrected but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement, negative order and required content are still marked."
+  },
+  {
+    "section": 11,
+    "title": "Master vocabulary",
+    "sourceStatus": "confirmed_learned",
+    "overview": "This lesson contains 125 enabled questions. It teaches Master vocabulary through explicit translation, recall, grammar and application tasks.",
+    "learningGoals": [
+      "Recall the core language for Master vocabulary.",
+      "Identify the task direction before writing.",
+      "Explain errors by naming the article, subject, tense, auxiliary, agreement or negative rule.",
+      "Use the material in a short controlled sentence."
+    ],
+    "mustMemoriseRules": [
+      "Use the master bank for retrieval, not passive rereading.",
+      "Learn numbers in construction families.",
+      "Learn phrases as complete chunks with articles/prepositions.",
+      "Translate in both directions.",
+      "When a source row contains alternatives, the task must state whether one or all are required."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "french": "un",
+        "english": "1"
+      },
+      {
+        "french": "deux",
+        "english": "2"
+      },
+      {
+        "french": "trois",
+        "english": "3"
+      },
+      {
+        "french": "quatre",
+        "english": "4"
+      },
+      {
+        "french": "cinq",
+        "english": "5"
+      },
+      {
+        "french": "six",
+        "english": "6"
+      },
+      {
+        "french": "sept",
+        "english": "7"
+      },
+      {
+        "french": "huit",
+        "english": "8"
+      },
+      {
+        "french": "neuf",
+        "english": "9"
+      },
+      {
+        "french": "dix",
+        "english": "10"
+      },
+      {
+        "french": "onze",
+        "english": "11"
+      },
+      {
+        "french": "douze",
+        "english": "12"
+      },
+      {
+        "french": "treize",
+        "english": "13"
+      },
+      {
+        "french": "quatorze",
+        "english": "14"
+      },
+      {
+        "french": "quinze",
+        "english": "15"
+      },
+      {
+        "french": "seize",
+        "english": "16"
+      },
+      {
+        "french": "dix-sept",
+        "english": "17"
+      },
+      {
+        "french": "dix-huit",
+        "english": "18"
+      }
+    ],
+    "questionInstructions": [
+      {
+        "label": "TRANSLATE INTO FRENCH",
+        "whatToDo": "Translate the quoted English and write the complete French answer."
+      },
+      {
+        "label": "TRANSLATE INTO ENGLISH",
+        "whatToDo": "Translate the quoted French and write the complete English meaning."
+      },
+      {
+        "label": "COMPLETE THE FRENCH",
+        "whatToDo": "Do not translate the whole line; write only the word/chunk replacing _____."
+      }
+    ],
+    "workedExamples": [
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "1",
+        "answer": "un",
+        "why": "The source-locked French is « un ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      },
+      {
+        "task": "TRANSLATE INTO ENGLISH",
+        "prompt": "un",
+        "answer": "1",
+        "why": "« un » means « 1 » in the teacher coverage. Use the complete chunk rather than guessing from one familiar word."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "2",
+        "answer": "deux",
+        "why": "The source-locked French is « deux ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "3",
+        "answer": "trois",
+        "why": "The source-locked French is « trois ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      },
+      {
+        "task": "TRANSLATE INTO ENGLISH",
+        "prompt": "trois",
+        "answer": "3",
+        "why": "« trois » means « 3 » in the teacher coverage. Use the complete chunk rather than guessing from one familiar word."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "4",
+        "answer": "quatre",
+        "why": "The source-locked French is « quatre ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      }
+    ],
+    "commonMistakes": [
+      "Passive recognition only.",
+      "Treating alternatives as all required without a clear instruction.",
+      "Ignoring articles/prepositions."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “I came into the room.”\nFrench: Je suis entré dans la _____.",
+        "answer": "salle"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “They went out to town.”\nFrench: Elles sont sorties en _____.",
+        "answer": "ville"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “Antoine was born in 1900.”\nFrench: _____ est né en 1900.",
+        "answer": "Antoine"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “He died in 1944.”\nFrench: Il est _____ en 1944.",
+        "answer": "mort"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “We arrived this morning.”\nFrench: Nous sommes arrivés ce _____.",
+        "answer": "matin"
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read every must-memorise rule.",
+      "Cover the answer column and retrieve at least six chunks.",
+      "Complete the 60-second self-check.",
+      "On each card, read the task label before the French/English stimulus."
+    ],
+    "markingReminder": "Accents are displayed and corrected but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement, negative order and required content are still marked."
+  },
+  {
+    "section": 12,
+    "title": "KS3 extension irregular verbs",
+    "sourceStatus": "confirmed_learned",
+    "overview": "This lesson contains 81 enabled questions. It teaches KS3 extension irregular verbs through explicit translation, recall, grammar and application tasks.",
+    "learningGoals": [
+      "Recall the core language for KS3 extension irregular verbs.",
+      "Identify the task direction before writing.",
+      "Explain errors by naming the article, subject, tense, auxiliary, agreement or negative rule.",
+      "Use the material in a short controlled sentence."
+    ],
+    "mustMemoriseRules": [
+      "The nine high-frequency verbs are irregular.",
+      "Learn all six subject forms, especially nous and ils/elles.",
+      "Faire, pouvoir, vouloir and devoir are frequent in speaking and writing.",
+      "Prendre, boire, lire, dire and venir support routine, school and food topics.",
+      "Do not add regular endings to an irregular stem."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "french": "Je fais mes devoirs après le collège.",
+        "english": "I do my homework after school."
+      },
+      {
+        "french": "Je peux aller au cinéma ce week-end.",
+        "english": "I can go to the cinema this weekend."
+      },
+      {
+        "french": "Je veux acheter une baguette.",
+        "english": "I want to buy a baguette."
+      },
+      {
+        "french": "Je dois finir mon travail.",
+        "english": "I must finish my work."
+      },
+      {
+        "french": "Je prends le petit déjeuner à sept heures.",
+        "english": "I have breakfast at seven o’clock."
+      },
+      {
+        "french": "Je bois de l’eau, pas du coca.",
+        "english": "I drink water, not cola."
+      },
+      {
+        "french": "Je lis un livre le soir.",
+        "english": "I read a book in the evening."
+      },
+      {
+        "french": "Je dis bonjour au professeur.",
+        "english": "I say hello to the teacher."
+      },
+      {
+        "french": "Je viens à l’école en bus.",
+        "english": "I come to school by bus."
+      }
+    ],
+    "questionInstructions": [
+      {
+        "label": "TRANSLATE INTO FRENCH",
+        "whatToDo": "Translate the quoted English and write the complete French answer."
+      },
+      {
+        "label": "TRANSLATE INTO ENGLISH",
+        "whatToDo": "Translate the quoted French and write the complete English meaning."
+      },
+      {
+        "label": "COMPLETE THE FRENCH",
+        "whatToDo": "Do not translate the whole line; write only the word/chunk replacing _____."
+      },
+      {
+        "label": "CONJUGATE",
+        "whatToDo": "Use the named subject/tense. The bare verb or correct subject + verb is accepted when stated."
+      }
+    ],
+    "workedExamples": [
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "I do my homework after school.",
+        "answer": "Je fais mes devoirs après le collège.",
+        "why": "The source-locked French is « Je fais mes devoirs après le collège. ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "I can go to the cinema this weekend.",
+        "answer": "Je peux aller au cinéma ce week-end.",
+        "why": "The source-locked French is « Je peux aller au cinéma ce week-end. ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      },
+      {
+        "task": "TRANSLATE INTO ENGLISH",
+        "prompt": "Je peux aller au cinéma ce week-end.",
+        "answer": "I can go to the cinema this weekend.",
+        "why": "« Je peux aller au cinéma ce week-end. » means « I can go to the cinema this weekend. » in the teacher coverage. Use the complete chunk rather than guessing from one familiar word."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "I want to buy a baguette.",
+        "answer": "Je veux acheter une baguette.",
+        "why": "The source-locked French is « Je veux acheter une baguette. ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "I must finish my work.",
+        "answer": "Je dois finir mon travail.",
+        "why": "The source-locked French is « Je dois finir mon travail. ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      },
+      {
+        "task": "TRANSLATE INTO ENGLISH",
+        "prompt": "Je dois finir mon travail.",
+        "answer": "I must finish my work.",
+        "why": "« Je dois finir mon travail. » means « I must finish my work. » in the teacher coverage. Use the complete chunk rather than guessing from one familiar word."
+      }
+    ],
+    "commonMistakes": [
+      "Applying regular endings.",
+      "Confusing nous and ils forms.",
+      "Writing an infinitive where a conjugated verb is required."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "task": "CONJUGATE",
+        "question": "Subject: tu",
+        "answer": "viens"
+      },
+      {
+        "task": "CONJUGATE",
+        "question": "Subject: il / elle / on",
+        "answer": "vient"
+      },
+      {
+        "task": "CONJUGATE",
+        "question": "Subject: nous",
+        "answer": "venons"
+      },
+      {
+        "task": "CONJUGATE",
+        "question": "Subject: vous",
+        "answer": "venez"
+      },
+      {
+        "task": "CONJUGATE",
+        "question": "Subject: ils / elles",
+        "answer": "viennent"
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read every must-memorise rule.",
+      "Cover the answer column and retrieve at least six chunks.",
+      "Complete the 60-second self-check.",
+      "On each card, read the task label before the French/English stimulus."
+    ],
+    "markingReminder": "Accents are displayed and corrected but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement, negative order and required content are still marked."
+  },
+  {
+    "section": 13,
+    "title": "Reflexives and routine",
+    "sourceStatus": "confirmed_learned",
+    "overview": "This lesson contains 80 enabled questions. It teaches Reflexives and routine through explicit translation, recall, grammar and application tasks.",
+    "learningGoals": [
+      "Recall the core language for Reflexives and routine.",
+      "Identify the task direction before writing.",
+      "Explain errors by naming the article, subject, tense, auxiliary, agreement or negative rule.",
+      "Use the material in a short controlled sentence."
+    ],
+    "mustMemoriseRules": [
+      "Reflexive verbs need me/te/se/nous/vous/se.",
+      "Before a vowel, me/te/se shorten to m’/t’/s’.",
+      "Reflexive passé composé normally uses être.",
+      "Keep the reflexive pronoun before the auxiliary.",
+      "Add agreement where required."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "french": "je me lève",
+        "english": "I get up"
+      },
+      {
+        "french": "tu te lèves",
+        "english": "you get up"
+      },
+      {
+        "french": "il se lève / elle se lève",
+        "english": "he / she gets up"
+      },
+      {
+        "french": "nous nous levons",
+        "english": "we get up"
+      },
+      {
+        "french": "vous vous levez",
+        "english": "you get up (pl/polite)"
+      },
+      {
+        "french": "ils se lèvent / elles se lèvent",
+        "english": "they get up"
+      },
+      {
+        "french": "se réveiller",
+        "english": "to wake up"
+      },
+      {
+        "french": "se lever",
+        "english": "to get up"
+      },
+      {
+        "french": "se laver",
+        "english": "to wash"
+      },
+      {
+        "french": "se doucher",
+        "english": "to have a shower"
+      },
+      {
+        "french": "se brosser les dents",
+        "english": "to brush one’s teeth"
+      },
+      {
+        "french": "se brosser les cheveux",
+        "english": "to brush one’s hair"
+      },
+      {
+        "french": "s'habiller",
+        "english": "to get dressed"
+      },
+      {
+        "french": "se maquiller",
+        "english": "to put on make-up"
+      },
+      {
+        "french": "se raser",
+        "english": "to shave"
+      },
+      {
+        "french": "se dépêcher",
+        "english": "to hurry"
+      },
+      {
+        "french": "se reposer",
+        "english": "to rest"
+      },
+      {
+        "french": "se coucher",
+        "english": "to go to bed"
+      }
+    ],
+    "questionInstructions": [
+      {
+        "label": "TRANSLATE INTO FRENCH",
+        "whatToDo": "Translate the quoted English and write the complete French answer."
+      },
+      {
+        "label": "TRANSLATE INTO ENGLISH",
+        "whatToDo": "Translate the quoted French and write the complete English meaning."
+      },
+      {
+        "label": "COMPLETE THE FRENCH",
+        "whatToDo": "Do not translate the whole line; write only the word/chunk replacing _____."
+      }
+    ],
+    "workedExamples": [
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "I get up",
+        "answer": "je me lève",
+        "why": "The source-locked French is « je me lève ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      },
+      {
+        "task": "TRANSLATE INTO ENGLISH",
+        "prompt": "je me lève",
+        "answer": "I get up",
+        "why": "« je me lève » means « I get up » in the teacher coverage. Use the complete chunk rather than guessing from one familiar word."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "you get up",
+        "answer": "tu te lèves",
+        "why": "The source-locked French is « tu te lèves ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "we get up",
+        "answer": "nous nous levons",
+        "why": "The source-locked French is « nous nous levons ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "you get up (pl/polite)",
+        "answer": "vous vous levez",
+        "why": "The source-locked French is « vous vous levez ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      },
+      {
+        "task": "TRANSLATE INTO ENGLISH",
+        "prompt": "vous vous levez",
+        "answer": "you get up (pl/polite)",
+        "why": "« vous vous levez » means « you get up (pl/polite) » in the teacher coverage. Use the complete chunk rather than guessing from one familiar word."
+      }
+    ],
+    "commonMistakes": [
+      "Dropping the reflexive pronoun.",
+      "Using avoir in the reflexive perfect.",
+      "Missing agreement."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “to listen to music”\nFrench: écouter de la _____",
+        "answer": "musique"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “I woke up.”\nFrench: Je me suis _____(e).",
+        "answer": "réveillé"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “She got up early.”\nFrench: Elle s’est _____ tôt.",
+        "answer": "levée"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “We went to bed late.”\nFrench: Nous nous sommes couchés _____.",
+        "answer": "tard"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “I did not wash.”\nFrench: Je ne me suis pas _____(e).",
+        "answer": "lavé"
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read every must-memorise rule.",
+      "Cover the answer column and retrieve at least six chunks.",
+      "Complete the 60-second self-check.",
+      "On each card, read the task label before the French/English stimulus."
+    ],
+    "markingReminder": "Accents are displayed and corrected but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement, negative order and required content are still marked."
+  },
+  {
+    "section": 14,
+    "title": "Future time",
+    "sourceStatus": "confirmed_learned",
+    "overview": "This lesson contains 50 enabled questions. It teaches Future time through explicit translation, recall, grammar and application tasks.",
+    "learningGoals": [
+      "Recall the core language for Future time.",
+      "Identify the task direction before writing.",
+      "Explain errors by naming the article, subject, tense, auxiliary, agreement or negative rule.",
+      "Use the material in a short controlled sentence."
+    ],
+    "mustMemoriseRules": [
+      "Core production target: futur proche = aller in the present + infinitive.",
+      "Only aller is conjugated; the action verb stays infinitive.",
+      "Use a future time phrase to make the frame clear.",
+      "Negatives wrap around aller: je ne vais pas + infinitive.",
+      "Simple-future items in this section are recognition/light exposure."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "french": "ce soir",
+        "english": "tonight"
+      },
+      {
+        "french": "demain",
+        "english": "tomorrow"
+      },
+      {
+        "french": "demain matin / demain soir",
+        "english": "tomorrow morning / tomorrow evening"
+      },
+      {
+        "french": "ce week-end",
+        "english": "this weekend"
+      },
+      {
+        "french": "la semaine prochaine",
+        "english": "next week"
+      },
+      {
+        "french": "le mois prochain",
+        "english": "next month"
+      },
+      {
+        "french": "l’année prochaine",
+        "english": "next year"
+      },
+      {
+        "french": "plus tard",
+        "english": "later"
+      }
+    ],
+    "questionInstructions": [
+      {
+        "label": "APPLY THE RULE",
+        "whatToDo": "Produce the exact item requested by the rule prompt."
+      },
+      {
+        "label": "TRANSLATE INTO FRENCH",
+        "whatToDo": "Translate the quoted English and write the complete French answer."
+      },
+      {
+        "label": "TRANSLATE INTO ENGLISH",
+        "whatToDo": "Translate the quoted French and write the complete English meaning."
+      },
+      {
+        "label": "COMPLETE THE FRENCH",
+        "whatToDo": "Do not translate the whole line; write only the word/chunk replacing _____."
+      },
+      {
+        "label": "CHOOSE THE ANSWER",
+        "whatToDo": "Select exactly one option."
+      }
+    ],
+    "workedExamples": [
+      {
+        "task": "APPLY THE RULE",
+        "prompt": "Write the taught French example meaning « I am going to watch a film. ».",
+        "answer": "Je vais regarder un film.",
+        "why": "Pattern: je vais + infinitive. The example places every grammar word in its taught position."
+      },
+      {
+        "task": "APPLY THE RULE",
+        "prompt": "Write the taught French example meaning « You are going to play tennis. ».",
+        "answer": "Tu vas jouer au tennis.",
+        "why": "Pattern: tu vas + infinitive. The example places every grammar word in its taught position."
+      },
+      {
+        "task": "APPLY THE RULE",
+        "prompt": "Write the taught French example meaning « She is going to buy a pizza. ».",
+        "answer": "Elle va acheter une pizza.",
+        "why": "Pattern: il / elle va + infinitive. The example places every grammar word in its taught position."
+      },
+      {
+        "task": "APPLY THE RULE",
+        "prompt": "Write the taught French example meaning « We are going to go out in town. ».",
+        "answer": "Nous allons sortir en ville.",
+        "why": "Pattern: nous allons + infinitive. The example places every grammar word in its taught position."
+      },
+      {
+        "task": "APPLY THE RULE",
+        "prompt": "Write the taught French example meaning « You are going to finish your homework. ».",
+        "answer": "Vous allez finir vos devoirs.",
+        "why": "Pattern: vous allez + infinitive. The example places every grammar word in its taught position."
+      },
+      {
+        "task": "APPLY THE RULE",
+        "prompt": "Write the taught French example meaning « They are going to drink orange juice. ».",
+        "answer": "Ils vont boire du jus d’orange.",
+        "why": "Pattern: ils / elles vont + infinitive. The example places every grammar word in its taught position."
+      }
+    ],
+    "commonMistakes": [
+      "Conjugating both verbs.",
+      "Using a future phrase with a completed-past verb.",
+      "Treating extension simple future as the core target."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "nous _____ sortir en ville\nWrite only the correct form of aller.",
+        "answer": "allons"
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "question": "“You are going to finish your homework.”",
+        "answer": "Vous allez finir vos devoirs."
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "vous _____ finir vos devoirs\nWrite only the correct form of aller.",
+        "answer": "allez"
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "question": "“They are going to drink orange juice.”",
+        "answer": "Ils vont boire du jus d’orange."
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "ils _____ boire du jus d’orange\nWrite only the correct form of aller.",
+        "answer": "vont"
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read every must-memorise rule.",
+      "Cover the answer column and retrieve at least six chunks.",
+      "Complete the 60-second self-check.",
+      "On each card, read the task label before the French/English stimulus."
+    ],
+    "markingReminder": "Accents are displayed and corrected but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement, negative order and required content are still marked."
+  },
+  {
+    "section": 15,
+    "title": "Imperfect/conditional light exposure",
+    "sourceStatus": "confirmed_learned",
+    "overview": "This lesson contains 51 enabled questions. It teaches Imperfect/conditional light exposure through explicit translation, recall, grammar and application tasks.",
+    "learningGoals": [
+      "Recall the core language for Imperfect/conditional light exposure.",
+      "Identify the task direction before writing.",
+      "Explain errors by naming the article, subject, tense, auxiliary, agreement or negative rule.",
+      "Use the material in a short controlled sentence."
+    ],
+    "mustMemoriseRules": [
+      "Imperfect gives background or repeated past habits.",
+      "Useful chunks: j’étais, j’avais, c’était, il y avait.",
+      "Conditional chunks je voudrais and j’aimerais express would like.",
+      "Perfect reports a completed event; imperfect describes background/habit.",
+      "Simple future/conditional forms are light exposure, not the main production target."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "french": "j’étais",
+        "english": "I was"
+      },
+      {
+        "french": "j’avais",
+        "english": "I had"
+      },
+      {
+        "french": "c’était",
+        "english": "it was"
+      },
+      {
+        "french": "il y avait",
+        "english": "there was / there were"
+      },
+      {
+        "french": "je jouais",
+        "english": "I used to play / I was playing"
+      },
+      {
+        "french": "je regardais",
+        "english": "I used to watch / I was watching"
+      },
+      {
+        "french": "Je voudrais une pizza, s’il vous plaît.",
+        "english": "I would like a pizza, please."
+      },
+      {
+        "french": "J’aimerais aller au cinéma.",
+        "english": "I would like to go to the cinema."
+      },
+      {
+        "french": "On pourrait aller au café.",
+        "english": "We could go to the café."
+      },
+      {
+        "french": "Ce serait intéressant.",
+        "english": "That would be interesting."
+      }
+    ],
+    "questionInstructions": [
+      {
+        "label": "CHANGE THE TENSE",
+        "whatToDo": "Rewrite the entire French phrase in the named tense."
+      },
+      {
+        "label": "TRANSLATE INTO FRENCH",
+        "whatToDo": "Translate the quoted English and write the complete French answer."
+      },
+      {
+        "label": "TRANSLATE INTO ENGLISH",
+        "whatToDo": "Translate the quoted French and write the complete English meaning."
+      },
+      {
+        "label": "COMPLETE THE FRENCH",
+        "whatToDo": "Do not translate the whole line; write only the word/chunk replacing _____."
+      },
+      {
+        "label": "CHOOSE THE ANSWER",
+        "whatToDo": "Select exactly one option."
+      }
+    ],
+    "workedExamples": [
+      {
+        "task": "CHANGE THE TENSE",
+        "prompt": "Change this taught form to the perfect tense: je mange",
+        "answer": "j’ai mangé",
+        "why": "Source pair: je mange → j’ai mangé (I eat / ate / used to eat / will eat). Keep the auxiliary and past participle together."
+      },
+      {
+        "task": "CHANGE THE TENSE",
+        "prompt": "Change this taught form to the perfect tense: je suis",
+        "answer": "j’ai été",
+        "why": "Source pair: je suis → j’ai été (I am / was / used to be / will be). Keep the auxiliary and past participle together."
+      },
+      {
+        "task": "CHANGE THE TENSE",
+        "prompt": "Change this taught form to the perfect tense: je vais",
+        "answer": "je suis allé(e)",
+        "why": "Source pair: je vais → je suis allé(e) (I go / went / used to go / will go). Keep the auxiliary and past participle together."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "I was",
+        "answer": "j’étais",
+        "why": "The source-locked French is « j’étais ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "I had",
+        "answer": "j’avais",
+        "why": "The source-locked French is « j’avais ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      },
+      {
+        "task": "TRANSLATE INTO ENGLISH",
+        "prompt": "j’avais",
+        "answer": "I had",
+        "why": "« j’avais » means « I had » in the teacher coverage. Use the complete chunk rather than guessing from one familiar word."
+      }
+    ],
+    "commonMistakes": [
+      "Calling every past phrase perfect.",
+      "Using imperfect for one completed action.",
+      "Confusing je voudrais with je voudrai."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "task": "TRANSLATE INTO ENGLISH",
+        "question": "“je vais”",
+        "answer": "I go"
+      },
+      {
+        "task": "TRANSLATE INTO ENGLISH",
+        "question": "“je suis allé(e)”",
+        "answer": "I went"
+      },
+      {
+        "task": "TRANSLATE INTO ENGLISH",
+        "question": "“j’allais”",
+        "answer": "I used to go"
+      },
+      {
+        "task": "TRANSLATE INTO ENGLISH",
+        "question": "“je vais aller”",
+        "answer": "I am going to go"
+      },
+      {
+        "task": "TRANSLATE INTO ENGLISH",
+        "question": "“j’irais”",
+        "answer": "I would go"
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read every must-memorise rule.",
+      "Cover the answer column and retrieve at least six chunks.",
+      "Complete the 60-second self-check.",
+      "On each card, read the task label before the French/English stimulus."
+    ],
+    "markingReminder": "Accents are displayed and corrected but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement, negative order and required content are still marked."
+  },
+  {
+    "section": 16,
+    "title": "Daily routine toolkit",
+    "sourceStatus": "confirmed_learned",
+    "overview": "This lesson contains 51 enabled questions. It teaches Daily routine toolkit through explicit translation, recall, grammar and application tasks.",
+    "learningGoals": [
+      "Recall the core language for Daily routine toolkit.",
+      "Identify the task direction before writing.",
+      "Explain errors by naming the article, subject, tense, auxiliary, agreement or negative rule.",
+      "Use the material in a short controlled sentence."
+    ],
+    "mustMemoriseRules": [
+      "Build routine sentences with time + action + detail.",
+      "Mix reflexive and non-reflexive verbs.",
+      "Use d’habitude for present habit, hier for completed past, demain for futur proche.",
+      "In reflexive perfect forms, check pronoun, être and agreement.",
+      "Finish with an opinion or reason."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "french": "d’habitude",
+        "english": "usually"
+      },
+      {
+        "french": "tous les jours",
+        "english": "every day"
+      },
+      {
+        "french": "le matin",
+        "english": "in the morning"
+      },
+      {
+        "french": "à sept heures",
+        "english": "at seven o’clock"
+      },
+      {
+        "french": "vers huit heures",
+        "english": "at around eight o’clock"
+      },
+      {
+        "french": "ensuite",
+        "english": "next / then"
+      },
+      {
+        "french": "après",
+        "english": "afterwards"
+      },
+      {
+        "french": "après le collège",
+        "english": "after school"
+      },
+      {
+        "french": "le soir",
+        "english": "in the evening"
+      },
+      {
+        "french": "avant de me coucher",
+        "english": "before going to bed"
+      },
+      {
+        "french": "finalement",
+        "english": "finally"
+      }
+    ],
+    "questionInstructions": [
+      {
+        "label": "TRANSLATE INTO FRENCH",
+        "whatToDo": "Translate the quoted English and write the complete French answer."
+      },
+      {
+        "label": "TRANSLATE INTO ENGLISH",
+        "whatToDo": "Translate the quoted French and write the complete English meaning."
+      },
+      {
+        "label": "COMPLETE THE FRENCH",
+        "whatToDo": "Do not translate the whole line; write only the word/chunk replacing _____."
+      },
+      {
+        "label": "CHOOSE THE ANSWER",
+        "whatToDo": "Select exactly one option."
+      }
+    ],
+    "workedExamples": [
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "usually",
+        "answer": "d’habitude",
+        "why": "The source-locked French is « d’habitude ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "every day",
+        "answer": "tous les jours",
+        "why": "The source-locked French is « tous les jours ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      },
+      {
+        "task": "TRANSLATE INTO ENGLISH",
+        "prompt": "tous les jours",
+        "answer": "every day",
+        "why": "« tous les jours » means « every day » in the teacher coverage. Use the complete chunk rather than guessing from one familiar word."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "in the morning",
+        "answer": "le matin",
+        "why": "The source-locked French is « le matin ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "at seven o’clock",
+        "answer": "à sept heures",
+        "why": "The source-locked French is « à sept heures ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      },
+      {
+        "task": "TRANSLATE INTO ENGLISH",
+        "prompt": "à sept heures",
+        "answer": "at seven o’clock",
+        "why": "« à sept heures » means « at seven o’clock » in the teacher coverage. Use the complete chunk rather than guessing from one familiar word."
+      }
+    ],
+    "commonMistakes": [
+      "Writing actions without time phrases.",
+      "Mixing reflexive pronouns.",
+      "Losing agreement in past routine."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "question": "“Tomorrow, I am going to wake up earlier.”",
+        "answer": "Demain, je vais me réveiller plus tôt."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "question": "“I am going to have breakfast at seven o’clock.”",
+        "answer": "Je vais prendre le petit déjeuner à sept heures."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "question": "“After school, I am going to go home.”",
+        "answer": "Après l’école, je vais rentrer à la maison."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "question": "“In the evening, I am going to rest a little.”",
+        "answer": "Le soir, je vais me reposer un peu."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "question": "“When I was younger, I used to go to bed later.”",
+        "answer": "Quand j’étais plus jeune, je me couchais plus tard."
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read every must-memorise rule.",
+      "Cover the answer column and retrieve at least six chunks.",
+      "Complete the 60-second self-check.",
+      "On each card, read the task label before the French/English stimulus."
+    ],
+    "markingReminder": "Accents are displayed and corrected but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement, negative order and required content are still marked."
+  },
+  {
+    "section": 17,
+    "title": "Unit 3 overview",
+    "sourceStatus": "confirmed_learned",
+    "overview": "This lesson contains 52 enabled questions. It teaches Unit 3 overview through explicit translation, recall, grammar and application tasks.",
+    "learningGoals": [
+      "Recall the core language for Unit 3 overview.",
+      "Identify the task direction before writing.",
+      "Explain errors by naming the article, subject, tense, auxiliary, agreement or negative rule.",
+      "Use the material in a short controlled sentence."
+    ],
+    "mustMemoriseRules": [
+      "Each essential question has a specific answer focus.",
+      "Mirror the time frame of the question in the answer.",
+      "School description combines topic vocabulary with grammar.",
+      "On can mean we but takes a third-person singular verb.",
+      "Use complete chunks and change one element at a time."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "french": "Comment est ton école ?",
+        "english": "What is your school like?"
+      },
+      {
+        "french": "Quelle est ta matière préférée ?",
+        "english": "What is your favourite subject?"
+      },
+      {
+        "french": "Qu’est-ce que tu fais en cours de français ?",
+        "english": "What do you do in French lessons?"
+      },
+      {
+        "french": "À quelle heure commencent / finissent les cours ?",
+        "english": "What time do lessons start / finish?"
+      },
+      {
+        "french": "Qu’est-ce que tu as fait au collège hier ?",
+        "english": "What did you do at school yesterday?"
+      },
+      {
+        "french": "À quelle heure t’es-tu réveillé(e) ce matin ?",
+        "english": "What time did you wake up this morning?"
+      }
+    ],
+    "questionInstructions": [
+      {
+        "label": "TRANSLATE INTO FRENCH",
+        "whatToDo": "Translate the quoted English and write the complete French answer."
+      },
+      {
+        "label": "TRANSLATE INTO ENGLISH",
+        "whatToDo": "Translate the quoted French and write the complete English meaning."
+      },
+      {
+        "label": "COMPLETE THE FRENCH",
+        "whatToDo": "Do not translate the whole line; write only the word/chunk replacing _____."
+      },
+      {
+        "label": "CHOOSE THE ANSWER",
+        "whatToDo": "Select exactly one option."
+      },
+      {
+        "label": "APPLY THE RULE",
+        "whatToDo": "Produce the exact item requested by the rule prompt."
+      }
+    ],
+    "workedExamples": [
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "What is your school like?",
+        "answer": "Comment est ton école ?",
+        "why": "The source-locked French is « Comment est ton école ? ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      },
+      {
+        "task": "TRANSLATE INTO ENGLISH",
+        "prompt": "Comment est ton école ?",
+        "answer": "What is your school like?",
+        "why": "« Comment est ton école ? » means « What is your school like? » in the teacher coverage. Use the complete chunk rather than guessing from one familiar word."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "What is your favourite subject?",
+        "answer": "Quelle est ta matière préférée ?",
+        "why": "The source-locked French is « Quelle est ta matière préférée ? ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "What do you do in French lessons?",
+        "answer": "Qu’est-ce que tu fais en cours de français ?",
+        "why": "The source-locked French is « Qu’est-ce que tu fais en cours de français ? ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      },
+      {
+        "task": "TRANSLATE INTO ENGLISH",
+        "prompt": "Qu’est-ce que tu fais en cours de français ?",
+        "answer": "What do you do in French lessons?",
+        "why": "« Qu’est-ce que tu fais en cours de français ? » means « What do you do in French lessons? » in the teacher coverage. Use the complete chunk rather than guessing from one familiar word."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "What did you do at school yesterday?",
+        "answer": "Qu’est-ce que tu as fait au collège hier ?",
+        "why": "The source-locked French is « Qu’est-ce que tu as fait au collège hier ? ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      }
+    ],
+    "commonMistakes": [
+      "Answering the topic but not the exact question.",
+      "Using the wrong time frame.",
+      "Giving one word instead of a complete answer."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "task": "APPLY THE RULE",
+        "question": "Quelle est ta matière préférée ?",
+        "answer": "Ma matière préférée, c’est l’histoire."
+      },
+      {
+        "task": "APPLY THE RULE",
+        "question": "Qu’est-ce que tu fais en cours de français ?",
+        "answer": "En cours de français, on lit des textes."
+      },
+      {
+        "task": "APPLY THE RULE",
+        "question": "À quelle heure commencent les cours ?",
+        "answer": "Les cours commencent à huit heures trente."
+      },
+      {
+        "task": "APPLY THE RULE",
+        "question": "Qu’est-ce que tu as fait au collège hier ?",
+        "answer": "Hier, on a fait des expériences."
+      },
+      {
+        "task": "APPLY THE RULE",
+        "question": "À quelle heure t’es-tu réveillée ce matin ?",
+        "answer": "Je me suis réveillée à six heures trente."
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read every must-memorise rule.",
+      "Cover the answer column and retrieve at least six chunks.",
+      "Complete the 60-second self-check.",
+      "On each card, read the task label before the French/English stimulus."
+    ],
+    "markingReminder": "Accents are displayed and corrected but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement, negative order and required content are still marked."
+  },
+  {
+    "section": 18,
+    "title": "School descriptions",
+    "sourceStatus": "confirmed_learned",
+    "overview": "This lesson contains 79 enabled questions. It teaches School descriptions through explicit translation, recall, grammar and application tasks.",
+    "learningGoals": [
+      "Recall the core language for School descriptions.",
+      "Identify the task direction before writing.",
+      "Explain errors by naming the article, subject, tense, auxiliary, agreement or negative rule.",
+      "Use the material in a short controlled sentence."
+    ],
+    "mustMemoriseRules": [
+      "École is feminine; adjective forms must match.",
+      "Learn facilities with articles.",
+      "After il n’y a pas/il n’y avait pas, use de/d’.",
+      "Present school: est/il y a; primary school past: était/il y avait.",
+      "Lesson times use commencent/finissent à."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "french": "Comme clubs, il y a / il y avait…",
+        "english": "As for clubs, there is / there was…"
+      },
+      {
+        "french": "un club de danse / de musique / de sciences / de théâtre / de gymnastique",
+        "english": "a dance / music / science / drama / gymnastics club"
+      },
+      {
+        "french": "un club de foot / de netball",
+        "english": "a football / netball club"
+      },
+      {
+        "french": "un orchestre / une chorale",
+        "english": "an orchestra / a choir"
+      },
+      {
+        "french": "un gymnase / un terrain de sport / une cour",
+        "english": "a gym / a sports field / a playground"
+      },
+      {
+        "french": "un CDI / une bibliothèque / une cantine / un internat",
+        "english": "an LRC / library / canteen / boarding house"
+      },
+      {
+        "french": "des salles de classe / des laboratoires",
+        "english": "classrooms / laboratories"
+      },
+      {
+        "french": "il n’y a pas de / il n’y avait pas de…",
+        "english": "there is not / there was not any…"
+      },
+      {
+        "french": "Les cours commencent / finissent à…",
+        "english": "Lessons start / finish at…"
+      },
+      {
+        "french": "Les cours durent une heure.",
+        "english": "Lessons last one hour."
+      }
+    ],
+    "questionInstructions": [
+      {
+        "label": "APPLY THE RULE",
+        "whatToDo": "Produce the exact item requested by the rule prompt."
+      },
+      {
+        "label": "TRANSLATE INTO FRENCH",
+        "whatToDo": "Translate the quoted English and write the complete French answer."
+      },
+      {
+        "label": "TRANSLATE INTO ENGLISH",
+        "whatToDo": "Translate the quoted French and write the complete English meaning."
+      },
+      {
+        "label": "COMPLETE THE FRENCH",
+        "whatToDo": "Do not translate the whole line; write only the word/chunk replacing _____."
+      },
+      {
+        "label": "CHANGE THE TENSE",
+        "whatToDo": "Rewrite the entire French phrase in the named tense."
+      }
+    ],
+    "workedExamples": [
+      {
+        "task": "APPLY THE RULE",
+        "prompt": "Give one taught continuation for: Mon école est…",
+        "answer": "un collège / un lycée / une école primaire",
+        "why": "The answer must be one of the useful choices given beside this exact source frame. Keep noun gender and adjective agreement."
+      },
+      {
+        "task": "APPLY THE RULE",
+        "prompt": "Give one taught continuation for: C’est…",
+        "answer": "une école de filles / une école de garçons / une école mixte",
+        "why": "The answer must be one of the useful choices given beside this exact source frame. Keep noun gender and adjective agreement."
+      },
+      {
+        "task": "APPLY THE RULE",
+        "prompt": "Give one taught continuation for: Elle est…",
+        "answer": "à Kingston / à Londres / dans une grande ville",
+        "why": "The answer must be one of the useful choices given beside this exact source frame. Keep noun gender and adjective agreement."
+      },
+      {
+        "task": "APPLY THE RULE",
+        "prompt": "Give one taught continuation for: Elle s’appelle…",
+        "answer": "Tiffin / [name of school]",
+        "why": "The answer must be one of the useful choices given beside this exact source frame. Keep noun gender and adjective agreement."
+      },
+      {
+        "task": "APPLY THE RULE",
+        "prompt": "Give one taught continuation for: Mon école est / n’est pas…",
+        "answer": "moderne, vieille, énorme, petite, géniale, ennuyeuse, amusante, passionnante, folle, tranquille",
+        "why": "The answer must be one of the useful choices given beside this exact source frame. Keep noun gender and adjective agreement."
+      },
+      {
+        "task": "APPLY THE RULE",
+        "prompt": "Give one taught continuation for: Mon école est / n’est pas trop…",
+        "answer": "sévère, grande, petite, ennuyeuse",
+        "why": "The answer must be one of the useful choices given beside this exact source frame. Keep noun gender and adjective agreement."
+      }
+    ],
+    "commonMistakes": [
+      "Forgetting école is feminine.",
+      "Using un/une/des after il n’y a pas.",
+      "Mixing est/était and il y a/il y avait."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "task": "CHANGE THE TENSE",
+        "question": "Mon école est petite.",
+        "answer": "Mon école primaire était petite."
+      },
+      {
+        "task": "CHANGE THE TENSE",
+        "question": "Elle est tranquille.",
+        "answer": "Elle était tranquille."
+      },
+      {
+        "task": "CHANGE THE TENSE",
+        "question": "Il y a une grande cour.",
+        "answer": "Il y avait une grande cour."
+      },
+      {
+        "task": "CHANGE THE TENSE",
+        "question": "Les cours commencent à huit heures.",
+        "answer": "Les cours commençaient à huit heures."
+      },
+      {
+        "task": "CHANGE THE TENSE",
+        "question": "Mon école est un collège de filles.",
+        "answer": "Mon école primaire était une école mixte."
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read every must-memorise rule.",
+      "Cover the answer column and retrieve at least six chunks.",
+      "Complete the 60-second self-check.",
+      "On each card, read the task label before the French/English stimulus."
+    ],
+    "markingReminder": "Accents are displayed and corrected but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement, negative order and required content are still marked."
+  },
+  {
+    "section": 19,
+    "title": "Subjects, opinions and reasons",
+    "sourceStatus": "confirmed_learned",
+    "overview": "This lesson contains 53 enabled questions. It teaches Subjects, opinions and reasons through explicit translation, recall, grammar and application tasks.",
+    "learningGoals": [
+      "Recall the core language for Subjects, opinions and reasons.",
+      "Identify the task direction before writing.",
+      "Explain errors by naming the article, subject, tense, auxiliary, agreement or negative rule.",
+      "Use the material in a short controlled sentence."
+    ],
+    "mustMemoriseRules": [
+      "Learn subject names with their articles.",
+      "After aimer/adorer/détester + subject noun, keep the article.",
+      "After fort(e)/faible en, drop the article.",
+      "A strong opinion includes parce que/car plus a reason.",
+      "Adjectives may need agreement with the noun/person."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "french": "le français",
+        "english": "French"
+      },
+      {
+        "french": "le théâtre",
+        "english": "drama"
+      },
+      {
+        "french": "la chimie",
+        "english": "chemistry"
+      },
+      {
+        "french": "la musique",
+        "english": "music"
+      },
+      {
+        "french": "la technologie",
+        "english": "DT"
+      },
+      {
+        "french": "les arts plastiques",
+        "english": "art"
+      },
+      {
+        "french": "l’EPS",
+        "english": "PE"
+      },
+      {
+        "french": "l’histoire",
+        "english": "history"
+      },
+      {
+        "french": "l’instruction religieuse",
+        "english": "RS"
+      },
+      {
+        "french": "le latin",
+        "english": "Latin"
+      },
+      {
+        "french": "la biologie",
+        "english": "biology"
+      },
+      {
+        "french": "la géographie / la géo",
+        "english": "geography"
+      },
+      {
+        "french": "la physique",
+        "english": "physics"
+      },
+      {
+        "french": "les maths",
+        "english": "maths"
+      },
+      {
+        "french": "l’espagnol",
+        "english": "Spanish"
+      },
+      {
+        "french": "l’informatique",
+        "english": "computing"
+      },
+      {
+        "french": "l’instruction civique",
+        "english": "pastoral / citizenship"
+      },
+      {
+        "french": "Ma matière préférée, c’est…",
+        "english": "My favourite subject is…"
+      }
+    ],
+    "questionInstructions": [
+      {
+        "label": "TRANSLATE INTO FRENCH",
+        "whatToDo": "Translate the quoted English and write the complete French answer."
+      },
+      {
+        "label": "TRANSLATE INTO ENGLISH",
+        "whatToDo": "Translate the quoted French and write the complete English meaning."
+      },
+      {
+        "label": "COMPLETE THE FRENCH",
+        "whatToDo": "Do not translate the whole line; write only the word/chunk replacing _____."
+      }
+    ],
+    "workedExamples": [
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "French",
+        "answer": "le français",
+        "why": "The source-locked French is « le français ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      },
+      {
+        "task": "TRANSLATE INTO ENGLISH",
+        "prompt": "le français",
+        "answer": "French",
+        "why": "« le français » means « French » in the teacher coverage. Use the complete chunk rather than guessing from one familiar word."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "drama",
+        "answer": "le théâtre",
+        "why": "The source-locked French is « le théâtre ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "chemistry",
+        "answer": "la chimie",
+        "why": "The source-locked French is « la chimie ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      },
+      {
+        "task": "TRANSLATE INTO ENGLISH",
+        "prompt": "la chimie",
+        "answer": "chemistry",
+        "why": "« la chimie » means « chemistry » in the teacher coverage. Use the complete chunk rather than guessing from one familiar word."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "music",
+        "answer": "la musique",
+        "why": "The source-locked French is « la musique ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      }
+    ],
+    "commonMistakes": [
+      "Keeping the article after fort(e) en.",
+      "Dropping the article after aimer + noun.",
+      "Giving an opinion without a reason."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “maths”\nFrench: les _____",
+        "answer": "maths"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “My favourite subject is…”\nFrench: Ma matière préférée, _____…",
+        "answer": "c’est"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “I am strong in…”\nFrench: Je suis _____(e) en…",
+        "answer": "fort"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “I am weak in…”\nFrench: Je suis _____ en…",
+        "answer": "faible"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “I understand nothing in…”\nFrench: Je ne comprends _____ en…",
+        "answer": "rien"
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read every must-memorise rule.",
+      "Cover the answer column and retrieve at least six chunks.",
+      "Complete the 60-second self-check.",
+      "On each card, read the task label before the French/English stimulus."
+    ],
+    "markingReminder": "Accents are displayed and corrected but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement, negative order and required content are still marked."
+  },
+  {
+    "section": 20,
+    "title": "School activities",
+    "sourceStatus": "confirmed_learned",
+    "overview": "This lesson contains 50 enabled questions. It teaches School activities through explicit translation, recall, grammar and application tasks.",
+    "learningGoals": [
+      "Recall the core language for School activities.",
+      "Identify the task direction before writing.",
+      "Explain errors by naming the article, subject, tense, auxiliary, agreement or negative rule.",
+      "Use the material in a short controlled sentence."
+    ],
+    "mustMemoriseRules": [
+      "On means we but takes il/elle grammar.",
+      "Present uses one finite verb; perfect uses auxiliary + participle.",
+      "avoir→eu, faire→fait, lire→lu, apprendre→appris, écrire→écrit.",
+      "Use time clues to select present or past.",
+      "Rewrite the whole phrase when changing tense."
+    ],
+    "mustMemoriseVocabulary": [],
+    "questionInstructions": [
+      {
+        "label": "CHANGE THE TENSE",
+        "whatToDo": "Rewrite the entire French phrase in the named tense."
+      },
+      {
+        "label": "TRANSLATE INTO FRENCH",
+        "whatToDo": "Translate the quoted English and write the complete French answer."
+      },
+      {
+        "label": "CHOOSE THE ANSWER",
+        "whatToDo": "Select exactly one option."
+      }
+    ],
+    "workedExamples": [
+      {
+        "task": "CHANGE THE TENSE",
+        "prompt": "Change this taught form to the perfect tense: on a trop de devoirs",
+        "answer": "on a eu trop de devoirs",
+        "why": "Source pair: on a trop de devoirs → on a eu trop de devoirs (we have / had too much homework). Keep the auxiliary and past participle together."
+      },
+      {
+        "task": "CHANGE THE TENSE",
+        "prompt": "Change this taught form to the perfect tense: on a des discussions intéressantes",
+        "answer": "on a eu des discussions intéressantes",
+        "why": "Source pair: on a des discussions intéressantes → on a eu des discussions intéressantes (we have / had interesting discussions). Keep the auxiliary and past participle together."
+      },
+      {
+        "task": "CHANGE THE TENSE",
+        "prompt": "Change this taught form to the perfect tense: on travaille dur",
+        "answer": "on a travaillé dur",
+        "why": "Source pair: on travaille dur → on a travaillé dur (we work / worked hard). Keep the auxiliary and past participle together."
+      },
+      {
+        "task": "CHANGE THE TENSE",
+        "prompt": "Change this taught form to the perfect tense: on fait des expériences",
+        "answer": "on a fait des expériences",
+        "why": "Source pair: on fait des expériences → on a fait des expériences (we do / did experiments). Keep the auxiliary and past participle together."
+      },
+      {
+        "task": "CHANGE THE TENSE",
+        "prompt": "Change this taught form to the perfect tense: on s’amuse",
+        "answer": "on s’est amusé",
+        "why": "Source pair: on s’amuse → on s’est amusé (we have / had fun). Keep the auxiliary and past participle together."
+      },
+      {
+        "task": "CHANGE THE TENSE",
+        "prompt": "Change this taught form to the perfect tense: on lit des poèmes / des romans",
+        "answer": "on a lu des poèmes / des romans",
+        "why": "Source pair: on lit des poèmes / des romans → on a lu des poèmes / des romans (we read / read poems or novels). Keep the auxiliary and past participle together."
+      }
+    ],
+    "commonMistakes": [
+      "Writing on travaillons.",
+      "Using an infinitive after on a.",
+      "Missing the past participle."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "question": "“we write a lot”",
+        "answer": "on écrit beaucoup"
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "question": "“we wrote a lot”",
+        "answer": "on a écrit beaucoup"
+      },
+      {
+        "task": "CHANGE THE TENSE",
+        "question": "on a écouté la prof",
+        "answer": "on écoute la prof"
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "question": "“we listen to the teacher”",
+        "answer": "on écoute la prof"
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "question": "“we listened to the teacher”",
+        "answer": "on a écouté la prof"
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read every must-memorise rule.",
+      "Cover the answer column and retrieve at least six chunks.",
+      "Complete the 60-second self-check.",
+      "On each card, read the task label before the French/English stimulus."
+    ],
+    "markingReminder": "Accents are displayed and corrected but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement, negative order and required content are still marked."
+  },
+  {
+    "section": 21,
+    "title": "Reflexives and negatives",
+    "sourceStatus": "confirmed_learned",
+    "overview": "This lesson contains 62 enabled questions. It teaches Reflexives and negatives through explicit translation, recall, grammar and application tasks.",
+    "learningGoals": [
+      "Recall the core language for Reflexives and negatives.",
+      "Identify the task direction before writing.",
+      "Explain errors by naming the article, subject, tense, auxiliary, agreement or negative rule.",
+      "Use the material in a short controlled sentence."
+    ],
+    "mustMemoriseRules": [
+      "Reflexive perfect: pronoun + être + participle.",
+      "Feminine/plural agreement is required where shown.",
+      "Body-part phrases such as brossé les dents normally keep brossé.",
+      "In perfect negatives, put pas/jamais/rien/plus around the auxiliary.",
+      "Keep the reflexive pronoun inside the negative frame."
+    ],
+    "mustMemoriseVocabulary": [],
+    "questionInstructions": [
+      {
+        "label": "CHANGE THE TENSE",
+        "whatToDo": "Rewrite the entire French phrase in the named tense."
+      },
+      {
+        "label": "CONJUGATE",
+        "whatToDo": "Use the named subject/tense. The bare verb or correct subject + verb is accepted when stated."
+      },
+      {
+        "label": "TRANSLATE INTO FRENCH",
+        "whatToDo": "Translate the quoted English and write the complete French answer."
+      },
+      {
+        "label": "COMPLETE THE FRENCH",
+        "whatToDo": "Do not translate the whole line; write only the word/chunk replacing _____."
+      }
+    ],
+    "workedExamples": [
+      {
+        "task": "CHANGE THE TENSE",
+        "prompt": "Change this taught form to the perfect tense: je me réveille",
+        "answer": "je me suis réveillé(e)",
+        "why": "Source pair: je me réveille → je me suis réveillé(e). Keep the auxiliary and past participle together."
+      },
+      {
+        "task": "CHANGE THE TENSE",
+        "prompt": "Change this taught form to the perfect tense: je me lève",
+        "answer": "je me suis levé(e)",
+        "why": "Source pair: je me lève → je me suis levé(e). Keep the auxiliary and past participle together."
+      },
+      {
+        "task": "CHANGE THE TENSE",
+        "prompt": "Change this taught form to the perfect tense: je me lave",
+        "answer": "je me suis lavé(e)",
+        "why": "Source pair: je me lave → je me suis lavé(e). Keep the auxiliary and past participle together."
+      },
+      {
+        "task": "CHANGE THE TENSE",
+        "prompt": "Change this taught form to the perfect tense: je me comporte bien / mal",
+        "answer": "je me suis bien / mal comporté(e)",
+        "why": "Source pair: je me comporte bien / mal → je me suis bien / mal comporté(e). Keep the auxiliary and past participle together."
+      },
+      {
+        "task": "CHANGE THE TENSE",
+        "prompt": "Change this taught form to the perfect tense: je m’ennuie",
+        "answer": "je me suis ennuyé(e)",
+        "why": "Source pair: je m’ennuie → je me suis ennuyé(e). Keep the auxiliary and past participle together."
+      },
+      {
+        "task": "CHANGE THE TENSE",
+        "prompt": "Change this taught form to the perfect tense: on s’amuse",
+        "answer": "on s’est amusé",
+        "why": "Source pair: on s’amuse → on s’est amusé. Keep the auxiliary and past participle together."
+      }
+    ],
+    "commonMistakes": [
+      "Putting the negative after the participle.",
+      "Dropping me/se.",
+      "Adding agreement to brossé les dents in the taught body-part example."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "question": "“There is no more homework.”",
+        "answer": "Il n’y a plus de devoirs."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "question": "“I did not wash.”",
+        "answer": "Je ne me suis pas lavé(e)."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "question": "“I was never bored.”",
+        "answer": "Je ne me suis jamais ennuyé(e)."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "question": "“I no longer spoke.”",
+        "answer": "Je n’ai plus parlé."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "question": "“The children never talk.”",
+        "answer": "Les enfants ne parlent jamais."
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read every must-memorise rule.",
+      "Cover the answer column and retrieve at least six chunks.",
+      "Complete the 60-second self-check.",
+      "On each card, read the task label before the French/English stimulus."
+    ],
+    "markingReminder": "Accents are displayed and corrected but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement, negative order and required content are still marked."
+  },
+  {
+    "section": 22,
+    "title": "High-scoring structures",
+    "sourceStatus": "confirmed_learned",
+    "overview": "This lesson contains 52 enabled questions. It teaches High-scoring structures through explicit translation, recall, grammar and application tasks.",
+    "learningGoals": [
+      "Recall the core language for High-scoring structures.",
+      "Identify the task direction before writing.",
+      "Explain errors by naming the article, subject, tense, auxiliary, agreement or negative rule.",
+      "Use the material in a short controlled sentence."
+    ],
+    "mustMemoriseRules": [
+      "Choose connectives by purpose: sequence, contrast, time, reaction or comment.",
+      "ce qui est/était comments on the preceding idea.",
+      "après avoir + participle links two actions by the same person.",
+      "A connective must join complete, meaningful ideas.",
+      "Do not list linkers without using them accurately in writing."
+    ],
+    "mustMemoriseVocabulary": [],
+    "questionInstructions": [
+      {
+        "label": "APPLY THE RULE",
+        "whatToDo": "Produce the exact item requested by the rule prompt."
+      },
+      {
+        "label": "TRANSLATE INTO FRENCH",
+        "whatToDo": "Translate the quoted English and write the complete French answer."
+      },
+      {
+        "label": "TRANSLATE INTO ENGLISH",
+        "whatToDo": "Translate the quoted French and write the complete English meaning."
+      },
+      {
+        "label": "COMPLETE THE FRENCH",
+        "whatToDo": "Do not translate the whole line; write only the word/chunk replacing _____."
+      }
+    ],
+    "workedExamples": [
+      {
+        "task": "APPLY THE RULE",
+        "prompt": "Give one taught French option for this purpose: sequence.",
+        "answer": "d’abord, puis, ensuite, après, finalement",
+        "why": "The source groups « d’abord, puis, ensuite, après, finalement » under sequence. One complete option is enough."
+      },
+      {
+        "task": "APPLY THE RULE",
+        "prompt": "Give one taught French option for this purpose: contrast.",
+        "answer": "mais, cependant, pourtant, en revanche",
+        "why": "The source groups « mais, cependant, pourtant, en revanche » under contrast. One complete option is enough."
+      },
+      {
+        "task": "APPLY THE RULE",
+        "prompt": "Give one taught French option for this purpose: time.",
+        "answer": "le matin, le soir, à… heures, tout de suite, assez tôt, trop tard",
+        "why": "The source groups « le matin, le soir, à… heures, tout de suite, assez tôt, trop tard » under time. One complete option is enough."
+      },
+      {
+        "task": "APPLY THE RULE",
+        "prompt": "Give one taught French option for this purpose: reaction.",
+        "answer": "heureusement, malheureusement",
+        "why": "The source groups « heureusement, malheureusement » under reaction. One complete option is enough."
+      },
+      {
+        "task": "APPLY THE RULE",
+        "prompt": "Give one taught French option for this purpose: relative phrase.",
+        "answer": "ce qui est… / ce qui était…",
+        "why": "The source groups « ce qui est… / ce qui était… » under relative phrase. One complete option is enough."
+      },
+      {
+        "task": "APPLY THE RULE",
+        "prompt": "Give one taught French option for this purpose: higher-level link.",
+        "answer": "après avoir fini… / après avoir mangé…",
+        "why": "The source groups « après avoir fini… / après avoir mangé… » under higher-level link. One complete option is enough."
+      }
+    ],
+    "commonMistakes": [
+      "Choosing a linker with the wrong job.",
+      "Writing après avoir + conjugated verb.",
+      "Using ce qui without a complete preceding idea."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Le cours était difficile, _____ était dommage.",
+        "answer": "ce qui"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "_____ fini mes devoirs, je me suis détendue.",
+        "answer": "Après avoir"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "J’aime le français. _____, la grammaire est difficile.",
+        "answer": "Cependant"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Je me suis réveillée _____.",
+        "answer": "trop tard"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "_____, nous avons fini le travail.",
+        "answer": "Finalement"
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read every must-memorise rule.",
+      "Cover the answer column and retrieve at least six chunks.",
+      "Complete the 60-second self-check.",
+      "On each card, read the task label before the French/English stimulus."
+    ],
+    "markingReminder": "Accents are displayed and corrected but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement, negative order and required content are still marked."
+  },
+  {
+    "section": 23,
+    "title": "Targeted practice",
+    "sourceStatus": "confirmed_learned",
+    "overview": "This lesson contains 58 enabled questions. It teaches Targeted practice through explicit translation, recall, grammar and application tasks.",
+    "learningGoals": [
+      "Recall the core language for Targeted practice.",
+      "Identify the task direction before writing.",
+      "Explain errors by naming the article, subject, tense, auxiliary, agreement or negative rule.",
+      "Use the material in a short controlled sentence."
+    ],
+    "mustMemoriseRules": [
+      "Dictation requires exact base spelling and grammar chunks.",
+      "Translate complete sentences, not isolated words.",
+      "For perfect negatives, check auxiliary and word order.",
+      "For reflexives, check pronoun, être and agreement.",
+      "After correction, record the error type and retest after 48–72 hours."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "french": "Mon école est un collège de filles à Kingston qui s’appelle Tiffin.",
+        "english": "My school is a girls’ middle school in Kingston which is called Tiffin."
+      },
+      {
+        "french": "Il y a une chorale et un orchestre, mais il n’y a pas d’internat.",
+        "english": "There is a choir and an orchestra, but there is not a boarding house."
+      },
+      {
+        "french": "Mon école primaire était plus petite et plus tranquille.",
+        "english": "My primary school was smaller and quieter."
+      },
+      {
+        "french": "Ma matière préférée, c’est l’histoire parce que c’est passionnant.",
+        "english": "My favourite subject is history because it is exciting."
+      },
+      {
+        "french": "Je suis forte en musique, mais je ne comprends rien en français.",
+        "english": "I am strong in music, but I do not understand anything in French."
+      },
+      {
+        "french": "En biologie, on fait des expériences et on travaille dur.",
+        "english": "In biology, we do experiments and we work hard."
+      },
+      {
+        "french": "Hier, on a lu un roman et on a écouté le / la prof.",
+        "english": "Yesterday, we read a novel and listened to the teacher."
+      },
+      {
+        "french": "Ce matin, je me suis réveillée à six heures trente et je me suis habillée tout de suite.",
+        "english": "This morning, I woke up at six thirty and got dressed immediately."
+      },
+      {
+        "french": "Les enfants ne parlent jamais car le prof est trop sévère.",
+        "english": "The children never talk because the teacher is too strict."
+      },
+      {
+        "french": "Nous n’avons rien écrit en espagnol.",
+        "english": "We did not write anything in Spanish."
+      },
+      {
+        "french": "Après avoir fini mes devoirs, je me suis détendue le soir.",
+        "english": "After finishing my homework, I relaxed in the evening."
+      }
+    ],
+    "questionInstructions": [
+      {
+        "label": "TRANSLATE INTO FRENCH",
+        "whatToDo": "Translate the quoted English and write the complete French answer."
+      },
+      {
+        "label": "TRANSLATE INTO ENGLISH",
+        "whatToDo": "Translate the quoted French and write the complete English meaning."
+      },
+      {
+        "label": "COMPLETE THE FRENCH",
+        "whatToDo": "Do not translate the whole line; write only the word/chunk replacing _____."
+      },
+      {
+        "label": "CHOOSE THE ANSWER",
+        "whatToDo": "Select exactly one option."
+      }
+    ],
+    "workedExamples": [
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "My school is a girls’ middle school in Kingston which is called Tiffin.",
+        "answer": "Mon école est un collège de filles à Kingston qui s’appelle Tiffin.",
+        "why": "This is the printed answer-key structure. The marker checks the taught subject, tense, negative or linker structure; normal French accents are displayed but not deducted."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "There is a choir and an orchestra, but there is not a boarding house.",
+        "answer": "Il y a une chorale et un orchestre, mais il n’y a pas d’internat.",
+        "why": "This is the printed answer-key structure. The marker checks the taught subject, tense, negative or linker structure; normal French accents are displayed but not deducted."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "My primary school was smaller and quieter.",
+        "answer": "Mon école primaire était plus petite et plus tranquille.",
+        "why": "This is the printed answer-key structure. The marker checks the taught subject, tense, negative or linker structure; normal French accents are displayed but not deducted."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "My favourite subject is history because it is exciting.",
+        "answer": "Ma matière préférée, c’est l’histoire parce que c’est passionnant.",
+        "why": "This is the printed answer-key structure. The marker checks the taught subject, tense, negative or linker structure; normal French accents are displayed but not deducted."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "I am strong in music, but I do not understand anything in French.",
+        "answer": "Je suis forte en musique, mais je ne comprends rien en français.",
+        "why": "This is the printed answer-key structure. The marker checks the taught subject, tense, negative or linker structure; normal French accents are displayed but not deducted."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "In biology, we do experiments and we work hard.",
+        "answer": "En biologie, on fait des expériences et on travaille dur.",
+        "why": "This is the printed answer-key structure. The marker checks the taught subject, tense, negative or linker structure; normal French accents are displayed but not deducted."
+      }
+    ],
+    "commonMistakes": [
+      "Treating accents as the only spelling check.",
+      "Losing auxiliary or negative words in dictation.",
+      "Translating only keywords."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Je me suis mal comportée en cours car j’ai été _____.",
+        "answer": "fatiguée"
+      },
+      {
+        "task": "TRANSLATE INTO ENGLISH",
+        "question": "“Les enfants ne parlent jamais car le prof est trop sévère.”",
+        "answer": "The children never talk because the teacher is too strict."
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Les enfants ne parlent jamais car le prof est trop _____.",
+        "answer": "sévère"
+      },
+      {
+        "task": "TRANSLATE INTO ENGLISH",
+        "question": "“Nous n’avons rien écrit en espagnol aujourd’hui.”",
+        "answer": "We did not write anything in Spanish today."
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Nous n’avons rien écrit en espagnol _____.",
+        "answer": "aujourd’hui"
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read every must-memorise rule.",
+      "Cover the answer column and retrieve at least six chunks.",
+      "Complete the 60-second self-check.",
+      "On each card, read the task label before the French/English stimulus."
+    ],
+    "markingReminder": "Accents are displayed and corrected but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement, negative order and required content are still marked."
+  },
+  {
+    "section": 24,
+    "title": "Numbers and age",
+    "sourceStatus": "confirmed_learned",
+    "overview": "This lesson contains 84 enabled questions. It teaches Numbers and age through explicit translation, recall, grammar and application tasks.",
+    "learningGoals": [
+      "Recall the core language for Numbers and age.",
+      "Identify the task direction before writing.",
+      "Explain errors by naming the article, subject, tense, auxiliary, agreement or negative rule.",
+      "Use the material in a short controlled sentence."
+    ],
+    "mustMemoriseRules": [
+      "Age uses avoir, never être.",
+      "70s build from 60 + 10; 90s build from 80 + 10.",
+      "quatre-vingts keeps s only at exact 80.",
+      "Compound numbers use the learned hyphen pattern.",
+      "Read the requested direction: numeral→French or French→numeral."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "french": "zéro",
+        "english": "0"
+      },
+      {
+        "french": "un",
+        "english": "1"
+      },
+      {
+        "french": "deux",
+        "english": "2"
+      },
+      {
+        "french": "trois",
+        "english": "3"
+      },
+      {
+        "french": "quatre",
+        "english": "4"
+      },
+      {
+        "french": "cinq",
+        "english": "5"
+      },
+      {
+        "french": "six",
+        "english": "6"
+      },
+      {
+        "french": "sept",
+        "english": "7"
+      },
+      {
+        "french": "huit",
+        "english": "8"
+      },
+      {
+        "french": "neuf",
+        "english": "9"
+      },
+      {
+        "french": "dix",
+        "english": "10"
+      },
+      {
+        "french": "onze",
+        "english": "11"
+      },
+      {
+        "french": "douze",
+        "english": "12"
+      },
+      {
+        "french": "treize",
+        "english": "13"
+      },
+      {
+        "french": "quatorze",
+        "english": "14"
+      },
+      {
+        "french": "quinze",
+        "english": "15"
+      },
+      {
+        "french": "seize",
+        "english": "16"
+      },
+      {
+        "french": "dix-sept",
+        "english": "17"
+      }
+    ],
+    "questionInstructions": [
+      {
+        "label": "TRANSLATE INTO FRENCH",
+        "whatToDo": "Translate the quoted English and write the complete French answer."
+      },
+      {
+        "label": "TRANSLATE INTO ENGLISH",
+        "whatToDo": "Translate the quoted French and write the complete English meaning."
+      },
+      {
+        "label": "COMPLETE THE FRENCH",
+        "whatToDo": "Do not translate the whole line; write only the word/chunk replacing _____."
+      }
+    ],
+    "workedExamples": [
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "0",
+        "answer": "zéro",
+        "why": "The source-locked French is « zéro ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      },
+      {
+        "task": "TRANSLATE INTO ENGLISH",
+        "prompt": "zéro",
+        "answer": "0",
+        "why": "« zéro » means « 0 » in the teacher coverage. Use the complete chunk rather than guessing from one familiar word."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "1",
+        "answer": "un",
+        "why": "The source-locked French is « un ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "2",
+        "answer": "deux",
+        "why": "The source-locked French is « deux ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      },
+      {
+        "task": "TRANSLATE INTO ENGLISH",
+        "prompt": "deux",
+        "answer": "2",
+        "why": "« deux » means « 2 » in the teacher coverage. Use the complete chunk rather than guessing from one familiar word."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "3",
+        "answer": "trois",
+        "why": "The source-locked French is « trois ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      }
+    ],
+    "commonMistakes": [
+      "Using être for age.",
+      "Keeping s in quatre-vingt-un.",
+      "Confusing quinze and seize."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “I am thirteen years old.”\nFrench: J’ai _____ ans.",
+        "answer": "treize"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “How old is he?”\nFrench: Quel âge _____ ?",
+        "answer": "a-t-il"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “He is nine years old.”\nFrench: Il a _____ ans.",
+        "answer": "neuf"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “How old is she?”\nFrench: Quel âge _____ ?",
+        "answer": "a-t-elle"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “She is fifteen years old.”\nFrench: Elle a _____ ans.",
+        "answer": "quinze"
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read every must-memorise rule.",
+      "Cover the answer column and retrieve at least six chunks.",
+      "Complete the 60-second self-check.",
+      "On each card, read the task label before the French/English stimulus."
+    ],
+    "markingReminder": "Accents are displayed and corrected but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement, negative order and required content are still marked."
+  },
+  {
+    "section": 25,
+    "title": "Classroom objects",
+    "sourceStatus": "confirmed_learned",
+    "overview": "This lesson contains 89 enabled questions. It teaches Classroom objects through explicit translation, recall, grammar and application tasks.",
+    "learningGoals": [
+      "Recall the core language for Classroom objects.",
+      "Identify the task direction before writing.",
+      "Explain errors by naming the article, subject, tense, auxiliary, agreement or negative rule.",
+      "Use the material in a short controlled sentence."
+    ],
+    "mustMemoriseRules": [
+      "Learn every classroom noun with un/une and its plural.",
+      "After a number above one, use a plural noun.",
+      "Plural articles use des.",
+      "Spelling of the noun still matters when the article is correct.",
+      "Dans mon sac, il y a… is the core sentence frame."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "french": "une calculatrice",
+        "english": "calculator"
+      },
+      {
+        "french": "des calculatrices",
+        "english": "calculator (plural)"
+      },
+      {
+        "french": "un crayon",
+        "english": "pencil"
+      },
+      {
+        "french": "des crayons",
+        "english": "pencil (plural)"
+      },
+      {
+        "french": "un stylo",
+        "english": "pen"
+      },
+      {
+        "french": "des stylos",
+        "english": "pen (plural)"
+      },
+      {
+        "french": "un ordinateur",
+        "english": "computer"
+      },
+      {
+        "french": "des ordinateurs",
+        "english": "computer (plural)"
+      },
+      {
+        "french": "un taille-crayon",
+        "english": "pencil sharpener"
+      },
+      {
+        "french": "des taille-crayons",
+        "english": "pencil sharpener (plural)"
+      },
+      {
+        "french": "une paire de ciseaux",
+        "english": "pair(s) of scissors"
+      },
+      {
+        "french": "des paires de ciseaux",
+        "english": "pair(s) of scissors (plural)"
+      },
+      {
+        "french": "un cahier",
+        "english": "exercise book"
+      },
+      {
+        "french": "des cahiers",
+        "english": "exercise book (plural)"
+      },
+      {
+        "french": "un sac à dos",
+        "english": "rucksack"
+      },
+      {
+        "french": "des sacs à dos",
+        "english": "rucksack (plural)"
+      },
+      {
+        "french": "une trousse",
+        "english": "pencil case"
+      },
+      {
+        "french": "des trousses",
+        "english": "pencil case (plural)"
+      }
+    ],
+    "questionInstructions": [
+      {
+        "label": "TRANSLATE INTO FRENCH",
+        "whatToDo": "Translate the quoted English and write the complete French answer."
+      },
+      {
+        "label": "TRANSLATE INTO ENGLISH",
+        "whatToDo": "Translate the quoted French and write the complete English meaning."
+      },
+      {
+        "label": "COMPLETE THE FRENCH",
+        "whatToDo": "Do not translate the whole line; write only the word/chunk replacing _____."
+      }
+    ],
+    "workedExamples": [
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "calculator",
+        "answer": "une calculatrice",
+        "why": "The source-locked French is « une calculatrice ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "calculator (plural)",
+        "answer": "des calculatrices",
+        "why": "The source-locked French is « des calculatrices ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      },
+      {
+        "task": "TRANSLATE INTO ENGLISH",
+        "prompt": "des calculatrices",
+        "answer": "calculator (plural)",
+        "why": "« des calculatrices » means « calculator (plural) » in the teacher coverage. Use the complete chunk rather than guessing from one familiar word."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "pencil",
+        "answer": "un crayon",
+        "why": "The source-locked French is « un crayon ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "pencil (plural)",
+        "answer": "des crayons",
+        "why": "The source-locked French is « des crayons ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      },
+      {
+        "task": "TRANSLATE INTO ENGLISH",
+        "prompt": "des crayons",
+        "answer": "pencil (plural)",
+        "why": "« des crayons » means « pencil (plural) » in the teacher coverage. Use the complete chunk rather than guessing from one familiar word."
+      }
+    ],
+    "commonMistakes": [
+      "Dropping the article.",
+      "Keeping a singular noun after a plural number.",
+      "Writing calculateurs instead of calculatrices."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “chair (plural)”\nFrench: des _____",
+        "answer": "chaises"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “table”\nFrench: une _____",
+        "answer": "table"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “table (plural)”\nFrench: des _____",
+        "answer": "tables"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “door”\nFrench: une _____",
+        "answer": "porte"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “door (plural)”\nFrench: des _____",
+        "answer": "portes"
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read every must-memorise rule.",
+      "Cover the answer column and retrieve at least six chunks.",
+      "Complete the 60-second self-check.",
+      "On each card, read the task label before the French/English stimulus."
+    ],
+    "markingReminder": "Accents are displayed and corrected but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement, negative order and required content are still marked."
+  },
+  {
+    "section": 26,
+    "title": "Passé composé activity bank",
+    "sourceStatus": "confirmed_learned",
+    "overview": "This lesson contains 102 enabled questions. It teaches Passé composé activity bank through explicit translation, recall, grammar and application tasks.",
+    "learningGoals": [
+      "Recall the core language for Passé composé activity bank.",
+      "Identify the task direction before writing.",
+      "Explain errors by naming the article, subject, tense, auxiliary, agreement or negative rule.",
+      "Use the material in a short controlled sentence."
+    ],
+    "mustMemoriseRules": [
+      "Learn each activity as auxiliary + participle + detail.",
+      "Most activities use avoir; taught movement/reflexive verbs use être.",
+      "With être, check agreement.",
+      "Do not reproduce a whole slash-separated row when one activity is requested.",
+      "Irregular participles must be recalled exactly."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "french": "j’ai joué de la guitare / au foot / à un jeu vidéo",
+        "english": "I played guitar / football / a video game"
+      },
+      {
+        "french": "j’ai parlé avec mes amis / à mon père / sur WhatsApp",
+        "english": "I talked with friends / to Dad / on WhatsApp"
+      },
+      {
+        "french": "j’ai mangé du pain / de la viande / des bonbons / dans un restaurant",
+        "english": "I ate bread / meat / sweets / in a restaurant"
+      },
+      {
+        "french": "j’ai écouté de la musique / un podcast / un livre audio",
+        "english": "I listened to music / a podcast / an audiobook"
+      },
+      {
+        "french": "j’ai fini mes devoirs / un livre / un gâteau entier",
+        "english": "I finished homework / a book / a whole cake"
+      },
+      {
+        "french": "j’ai regardé un épisode de ma série préférée / un film",
+        "english": "I watched an episode / a film"
+      },
+      {
+        "french": "j’ai gagné / perdu un match de hockey / une partie",
+        "english": "I won / lost a hockey match / game"
+      },
+      {
+        "french": "j’ai aimé / détesté ça; le film que j’ai regardé; le sandwich que j’ai mangé",
+        "english": "I liked / hated it; the film; the sandwich"
+      },
+      {
+        "french": "j’ai fait du sport / de la natation / de l’équitation / mes devoirs",
+        "english": "I did sport / swimming / horse riding / homework"
+      },
+      {
+        "french": "j’ai eu un problème / un sandwich / un accident / un examen",
+        "english": "I had a problem / sandwich / accident / exam"
+      },
+      {
+        "french": "j’ai pris le bus / le petit déjeuner / des photos / une douche",
+        "english": "I took/had the bus / breakfast / photos / shower"
+      },
+      {
+        "french": "j’ai lu un livre / un article / un blog / dans la bibliothèque",
+        "english": "I read a book / article / blog / in the library"
+      },
+      {
+        "french": "j’ai mis un tee-shirt et un jean / mon uniforme scolaire",
+        "english": "I put on a T-shirt and jeans / uniform"
+      },
+      {
+        "french": "j’ai bu de l’eau / du jus / du lait / du thé",
+        "english": "I drank water / juice / milk / tea"
+      },
+      {
+        "french": "j’ai vu un film / des amis / une vidéo",
+        "english": "I saw a film / friends / video"
+      },
+      {
+        "french": "j’ai écrit une histoire / dans un journal intime / un message",
+        "english": "I wrote a story / in a diary / a message"
+      },
+      {
+        "french": "j’ai été contente / triste / surprise / fâchée",
+        "english": "I was happy / sad / surprised / angry"
+      },
+      {
+        "french": "je suis allé(e) chez mon ami / en France / en vacances",
+        "english": "I went to a friend’s / France / on holiday"
+      }
+    ],
+    "questionInstructions": [
+      {
+        "label": "CONJUGATE",
+        "whatToDo": "Use the named subject/tense. The bare verb or correct subject + verb is accepted when stated."
+      },
+      {
+        "label": "CHANGE THE TENSE",
+        "whatToDo": "Rewrite the entire French phrase in the named tense."
+      },
+      {
+        "label": "TRANSLATE INTO FRENCH",
+        "whatToDo": "Translate the quoted English and write the complete French answer."
+      },
+      {
+        "label": "TRANSLATE INTO ENGLISH",
+        "whatToDo": "Translate the quoted French and write the complete English meaning."
+      },
+      {
+        "label": "COMPLETE THE FRENCH",
+        "whatToDo": "Do not translate the whole line; write only the word/chunk replacing _____."
+      }
+    ],
+    "workedExamples": [
+      {
+        "task": "CONJUGATE",
+        "prompt": "Write the « j’ / je » form in the avoir column.",
+        "answer": "ai",
+        "why": "The source conjugation table gives j’ / je → ai for avoir. The subject decides the written ending."
+      },
+      {
+        "task": "CONJUGATE",
+        "prompt": "Write the « tu » form in the avoir column.",
+        "answer": "as",
+        "why": "The source conjugation table gives tu → as for avoir. The subject decides the written ending."
+      },
+      {
+        "task": "CONJUGATE",
+        "prompt": "Write the « il / elle / on » form in the avoir column.",
+        "answer": "a",
+        "why": "The source conjugation table gives il / elle / on → a for avoir. The subject decides the written ending."
+      },
+      {
+        "task": "CONJUGATE",
+        "prompt": "Write the « nous » form in the avoir column.",
+        "answer": "avons",
+        "why": "The source conjugation table gives nous → avons for avoir. The subject decides the written ending."
+      },
+      {
+        "task": "CONJUGATE",
+        "prompt": "Write the « vous » form in the avoir column.",
+        "answer": "avez",
+        "why": "The source conjugation table gives vous → avez for avoir. The subject decides the written ending."
+      },
+      {
+        "task": "CONJUGATE",
+        "prompt": "Write the « ils / elles » form in the avoir column.",
+        "answer": "ont",
+        "why": "The source conjugation table gives ils / elles → ont for avoir. The subject decides the written ending."
+      }
+    ],
+    "commonMistakes": [
+      "Choosing the wrong auxiliary.",
+      "Copying a whole slash bank instead of the requested activity.",
+      "Missing agreement with être."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "je _____ monté(e) dans le bus",
+        "answer": "suis"
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "question": "“I got off the train”",
+        "answer": "je suis descendu(e) du train"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "je _____ descendu(e) du train",
+        "answer": "suis"
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "question": "“I went home”",
+        "answer": "je suis rentré(e) chez moi"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "je _____ rentré(e) chez moi",
+        "answer": "suis"
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read every must-memorise rule.",
+      "Cover the answer column and retrieve at least six chunks.",
+      "Complete the 60-second self-check.",
+      "On each card, read the task label before the French/English stimulus."
+    ],
+    "markingReminder": "Accents are displayed and corrected but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement, negative order and required content are still marked."
+  },
+  {
+    "section": 27,
+    "title": "Teacher targets/extension structures",
+    "sourceStatus": "confirmed_learned",
+    "overview": "This lesson contains 54 enabled questions. It teaches Teacher targets/extension structures through explicit translation, recall, grammar and application tasks.",
+    "learningGoals": [
+      "Recall the core language for Teacher targets/extension structures.",
+      "Identify the task direction before writing.",
+      "Explain errors by naming the article, subject, tense, auxiliary, agreement or negative rule.",
+      "Use the material in a short controlled sentence."
+    ],
+    "mustMemoriseRules": [
+      "Underline the auxiliary, not the participle.",
+      "Use non-je subjects accurately in the perfect tense.",
+      "Add agreement for taught être/reflexive verbs.",
+      "Negative perfect: ne + auxiliary + negative word + participle.",
+      "Learn Super Structures as fixed chunks.",
+      "Use cover–write–check for spelling targets."
+    ],
+    "mustMemoriseVocabulary": [],
+    "questionInstructions": [
+      {
+        "label": "APPLY THE RULE",
+        "whatToDo": "Produce the exact item requested by the rule prompt."
+      },
+      {
+        "label": "CHANGE THE TENSE",
+        "whatToDo": "Rewrite the entire French phrase in the named tense."
+      },
+      {
+        "label": "CORRECT THE ERROR",
+        "whatToDo": "Find the error and rewrite the whole corrected sentence."
+      },
+      {
+        "label": "TRANSLATE INTO FRENCH",
+        "whatToDo": "Translate the quoted English and write the complete French answer."
+      },
+      {
+        "label": "TRANSLATE INTO ENGLISH",
+        "whatToDo": "Translate the quoted French and write the complete English meaning."
+      },
+      {
+        "label": "CHOOSE THE ANSWER",
+        "whatToDo": "Select exactly one option."
+      }
+    ],
+    "workedExamples": [
+      {
+        "task": "APPLY THE RULE",
+        "prompt": "tu + finir les devoirs",
+        "answer": "Tu as fini tes devoirs.",
+        "why": "This model checks the exact taught structure. Keep the subject, auxiliary, participle and negative words in their correct jobs."
+      },
+      {
+        "task": "APPLY THE RULE",
+        "prompt": "elle + aller à la cantine",
+        "answer": "Elle est allée à la cantine.",
+        "why": "This model checks the exact taught structure. Keep the subject, auxiliary, participle and negative words in their correct jobs."
+      },
+      {
+        "task": "APPLY THE RULE",
+        "prompt": "nous (girls) + se lever tôt",
+        "answer": "Nous nous sommes levées tôt.",
+        "why": "This model checks the exact taught structure. Keep the subject, auxiliary, participle and negative words in their correct jobs."
+      },
+      {
+        "task": "APPLY THE RULE",
+        "prompt": "ils + lire un article",
+        "answer": "Ils ont lu un article.",
+        "why": "This model checks the exact taught structure. Keep the subject, auxiliary, participle and negative words in their correct jobs."
+      },
+      {
+        "task": "APPLY THE RULE",
+        "prompt": "elles + arriver",
+        "answer": "Elles sont arrivées.",
+        "why": "This model checks the exact taught structure. Keep the subject, auxiliary, participle and negative words in their correct jobs."
+      },
+      {
+        "task": "APPLY THE RULE",
+        "prompt": "vous (one girl) + sortir",
+        "answer": "Vous êtes sortie.",
+        "why": "This model checks the exact taught structure. Keep the subject, auxiliary, participle and negative words in their correct jobs."
+      }
+    ],
+    "commonMistakes": [
+      "Underlining the participle instead of auxiliary.",
+      "Using je-only forms for other subjects.",
+      "Breaking a Super Structure into mismatched halves."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "task": "TRANSLATE INTO ENGLISH",
+        "question": "“non seulement… mais aussi…”",
+        "answer": "not only… but also…"
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "question": "“what I like most is”",
+        "answer": "ce que j’aime le plus, c’est"
+      },
+      {
+        "task": "TRANSLATE INTO ENGLISH",
+        "question": "“ce que j’aime le plus, c’est”",
+        "answer": "what I like most is"
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "question": "“it must be said that”",
+        "answer": "il faut dire que"
+      },
+      {
+        "task": "TRANSLATE INTO ENGLISH",
+        "question": "“il faut dire que”",
+        "answer": "it must be said that"
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read every must-memorise rule.",
+      "Cover the answer column and retrieve at least six chunks.",
+      "Complete the 60-second self-check.",
+      "On each card, read the task label before the French/English stimulus."
+    ],
+    "markingReminder": "Accents are displayed and corrected but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement, negative order and required content are still marked."
+  },
+  {
+    "section": 28,
+    "title": "French-speaking school-life reading",
+    "sourceStatus": "confirmed_learned",
+    "overview": "This lesson contains 54 enabled questions. It teaches French-speaking school-life reading through explicit translation, recall, grammar and application tasks.",
+    "learningGoals": [
+      "Recall the core language for French-speaking school-life reading.",
+      "Identify the task direction before writing.",
+      "Explain errors by naming the article, subject, tense, auxiliary, agreement or negative rule.",
+      "Use the material in a short controlled sentence."
+    ],
+    "mustMemoriseRules": [
+      "Answer only from the printed passage.",
+      "For Find the French, copy the exact evidence.",
+      "For True/False, compare negatives, subjects and time phrases.",
+      "Auxiliary + participle identifies the passé composé.",
+      "Cultural reference points are broad context, not universal rules."
+    ],
+    "mustMemoriseVocabulary": [],
+    "questionInstructions": [
+      {
+        "label": "READ AND ANSWER",
+        "whatToDo": "Use the passage as evidence; answer in the language requested."
+      }
+    ],
+    "workedExamples": [
+      {
+        "task": "READ AND ANSWER",
+        "prompt": "How old is Camille?",
+        "answer": "13",
+        "why": "The answer comes directly from this printed reading. Use the exact evidence and do not add a general claim about every school in that country."
+      },
+      {
+        "task": "READ AND ANSWER",
+        "prompt": "Where does she eat at midday?",
+        "answer": "at the canteen",
+        "why": "The answer comes directly from this printed reading. Use the exact evidence and do not add a general claim about every school in that country."
+      },
+      {
+        "task": "READ AND ANSWER",
+        "prompt": "Which subject is her favourite?",
+        "answer": "history",
+        "why": "The answer comes directly from this printed reading. Use the exact evidence and do not add a general claim about every school in that country."
+      },
+      {
+        "task": "READ AND ANSWER",
+        "prompt": "Name two facilities or clubs. Give both in any order.",
+        "answer": "CDI, gym",
+        "why": "The answer comes directly from this printed reading. Use the exact evidence and do not add a general claim about every school in that country."
+      },
+      {
+        "task": "READ AND ANSWER",
+        "prompt": "Give the two perfect-tense verb phrases in any order.",
+        "answer": "a fait, a lu",
+        "why": "The answer comes directly from this printed reading. Use the exact evidence and do not add a general claim about every school in that country."
+      },
+      {
+        "task": "READ AND ANSWER",
+        "prompt": "Which school level is Émile in?",
+        "answer": "Secondaire II",
+        "why": "The answer comes directly from this printed reading. Use the exact evidence and do not add a general claim about every school in that country."
+      }
+    ],
+    "commonMistakes": [
+      "Answering from general knowledge.",
+      "Copying too much for a Find the French task.",
+      "Missing a negative in the passage."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "task": "READ AND ANSWER",
+        "question": "Sénégal — Awa\nJe m’appelle Awa et je suis au collège au Sénégal. Mon collège n’est pas très grand, mais il est animé. Ma matière préférée est la biologie car je voudrais travailler dans la santé. Le matin, je me lève tôt et je vais au collège avec ma cousine. Hier, nous avons étudié les plantes et nous avons écrit un résumé. Après les cours, je suis rentrée chez moi.\nFind the French for “not very big”.",
+        "answer": "n’est pas très grand"
+      },
+      {
+        "task": "READ AND ANSWER",
+        "question": "Sénégal — Awa\nJe m’appelle Awa et je suis au collège au Sénégal. Mon collège n’est pas très grand, mais il est animé. Ma matière préférée est la biologie car je voudrais travailler dans la santé. Le matin, je me lève tôt et je vais au collège avec ma cousine. Hier, nous avons étudié les plantes et nous avons écrit un résumé. Après les cours, je suis rentrée chez moi.\nFind the French for “I would like”.",
+        "answer": "je voudrais"
+      },
+      {
+        "task": "READ AND ANSWER",
+        "question": "Sénégal — Awa\nJe m’appelle Awa et je suis au collège au Sénégal. Mon collège n’est pas très grand, mais il est animé. Ma matière préférée est la biologie car je voudrais travailler dans la santé. Le matin, je me lève tôt et je vais au collège avec ma cousine. Hier, nous avons étudié les plantes et nous avons écrit un résumé. Après les cours, je suis rentrée chez moi.\nFind the French for “with my cousin”.",
+        "answer": "avec ma cousine"
+      },
+      {
+        "task": "READ AND ANSWER",
+        "question": "Sénégal — Awa\nJe m’appelle Awa et je suis au collège au Sénégal. Mon collège n’est pas très grand, mais il est animé. Ma matière préférée est la biologie car je voudrais travailler dans la santé. Le matin, je me lève tôt et je vais au collège avec ma cousine. Hier, nous avons étudié les plantes et nous avons écrit un résumé. Après les cours, je suis rentrée chez moi.\nFind the French for “yesterday”.",
+        "answer": "hier"
+      },
+      {
+        "task": "READ AND ANSWER",
+        "question": "Sénégal — Awa\nJe m’appelle Awa et je suis au collège au Sénégal. Mon collège n’est pas très grand, mais il est animé. Ma matière préférée est la biologie car je voudrais travailler dans la santé. Le matin, je me lève tôt et je vais au collège avec ma cousine. Hier, nous avons étudié les plantes et nous avons écrit un résumé. Après les cours, je suis rentrée chez moi.\nFind the être perfect-tense phrase meaning “I went home”.",
+        "answer": "je suis rentrée chez moi"
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read every must-memorise rule.",
+      "Cover the answer column and retrieve at least six chunks.",
+      "Complete the 60-second self-check.",
+      "On each card, read the task label before the French/English stimulus."
+    ],
+    "markingReminder": "Accents are displayed and corrected but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement, negative order and required content are still marked."
+  },
+  {
+    "section": 29,
+    "title": "Mixed assessment",
+    "sourceStatus": "confirmed_learned",
+    "overview": "This lesson contains 60 enabled questions. It teaches Mixed assessment through explicit translation, recall, grammar and application tasks.",
+    "learningGoals": [
+      "Recall the core language for Mixed assessment.",
+      "Identify the task direction before writing.",
+      "Explain errors by naming the article, subject, tense, auxiliary, agreement or negative rule.",
+      "Use the material in a short controlled sentence."
+    ],
+    "mustMemoriseRules": [
+      "Read the task label before answering.",
+      "Mixed practice includes translation, conjugation, cloze, correction and reading.",
+      "Use the named answer format.",
+      "Check two time frames, negatives and agreement.",
+      "Do not guess the task direction from the language shown."
+    ],
+    "mustMemoriseVocabulary": [],
+    "questionInstructions": [
+      {
+        "label": "MIXED ASSESSMENT",
+        "whatToDo": "Read the embedded original task type before answering."
+      }
+    ],
+    "workedExamples": [
+      {
+        "task": "MIXED ASSESSMENT",
+        "prompt": "Write 83 in French.",
+        "answer": "quatre-vingt-trois",
+        "why": "This is the source answer-key model. Check the exact job named in the prompt: number, age frame, tense, agreement, negative or high-level linker."
+      },
+      {
+        "task": "MIXED ASSESSMENT",
+        "prompt": "Ask a girl how old she is and give a possible answer.",
+        "answer": "Quel âge as-tu ? J’ai treize ans.",
+        "why": "This is the source answer-key model. Check the exact job named in the prompt: number, age frame, tense, agreement, negative or high-level linker."
+      },
+      {
+        "task": "MIXED ASSESSMENT",
+        "prompt": "Write: There are ninety-five pencils in my bag.",
+        "answer": "Dans mon sac, il y a quatre-vingt-quinze crayons.",
+        "why": "This is the source answer-key model. Check the exact job named in the prompt: number, age frame, tense, agreement, negative or high-level linker."
+      },
+      {
+        "task": "MIXED ASSESSMENT",
+        "prompt": "Conjugate jouer in the present for nous and in the perfect for nous.",
+        "answer": "nous jouons; nous avons joué",
+        "why": "This is the source answer-key model. Check the exact job named in the prompt: number, age frame, tense, agreement, negative or high-level linker."
+      },
+      {
+        "task": "MIXED ASSESSMENT",
+        "prompt": "Translate: Yesterday, they (girls) went to town.",
+        "answer": "Hier, elles sont allées en ville.",
+        "why": "This is the source answer-key model. Check the exact job named in the prompt: number, age frame, tense, agreement, negative or high-level linker."
+      },
+      {
+        "task": "MIXED ASSESSMENT",
+        "prompt": "Translate: We did not write anything in Spanish.",
+        "answer": "Nous n’avons rien écrit en espagnol.",
+        "why": "This is the source answer-key model. Check the exact job named in the prompt: number, age frame, tense, agreement, negative or high-level linker."
+      }
+    ],
+    "commonMistakes": [
+      "Not reading the task label.",
+      "Changing direction mid-answer.",
+      "Ignoring the requested number of forms/sentences."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "task": "MIXED ASSESSMENT",
+        "question": "Give the taught example for: Être verbs.",
+        "answer": "Elle est allée. / Ils sont sortis."
+      },
+      {
+        "task": "MIXED ASSESSMENT",
+        "question": "Write the « ils / elles » form in the aller column.",
+        "answer": "vont"
+      },
+      {
+        "task": "MIXED ASSESSMENT",
+        "question": "Correct this: Elles sont sorti.",
+        "answer": "Elles sont sorties."
+      },
+      {
+        "task": "MIXED ASSESSMENT",
+        "question": "Change this taught form to the perfect tense: on travaille dur",
+        "answer": "on a travaillé dur"
+      },
+      {
+        "task": "MIXED ASSESSMENT",
+        "question": "In biology, we do experiments and we work hard.",
+        "answer": "En biologie, on fait des expériences et on travaille dur."
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read every must-memorise rule.",
+      "Cover the answer column and retrieve at least six chunks.",
+      "Complete the 60-second self-check.",
+      "On each card, read the task label before the French/English stimulus."
+    ],
+    "markingReminder": "Accents are displayed and corrected but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement, negative order and required content are still marked."
+  },
+  {
+    "section": 30,
+    "title": "Supplementary teacher vocabulary",
+    "sourceStatus": "confirmed_learned",
+    "overview": "This lesson contains 106 enabled questions. It teaches Supplementary teacher vocabulary through explicit translation, recall, grammar and application tasks.",
+    "learningGoals": [
+      "Recall the core language for Supplementary teacher vocabulary.",
+      "Identify the task direction before writing.",
+      "Explain errors by naming the article, subject, tense, auxiliary, agreement or negative rule.",
+      "Use the material in a short controlled sentence."
+    ],
+    "mustMemoriseRules": [
+      "Supplementary items remain inside the confirmed parent-supplied source.",
+      "Learn verbs with their group clue.",
+      "Learn nouns with their article.",
+      "Distinguish similar meanings such as regarder and retrouver.",
+      "Use the bank for two-way retrieval and cloze practice."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "french": "dessiner",
+        "english": "to draw"
+      },
+      {
+        "french": "travailler",
+        "english": "to work"
+      },
+      {
+        "french": "un tigre",
+        "english": "a tiger"
+      },
+      {
+        "french": "une maison",
+        "english": "a house"
+      },
+      {
+        "french": "jouer",
+        "english": "to play"
+      },
+      {
+        "french": "faire du vélo",
+        "english": "to cycle"
+      },
+      {
+        "french": "un chat",
+        "english": "a cat"
+      },
+      {
+        "french": "discuter",
+        "english": "to chat / discuss"
+      },
+      {
+        "french": "un soleil",
+        "english": "a sun"
+      },
+      {
+        "french": "la plage",
+        "english": "the beach"
+      },
+      {
+        "french": "penser",
+        "english": "to think"
+      },
+      {
+        "french": "un arc-en-ciel",
+        "english": "a rainbow"
+      },
+      {
+        "french": "la barbe à papa",
+        "english": "candy floss"
+      },
+      {
+        "french": "sourire",
+        "english": "to smile"
+      },
+      {
+        "french": "s’amuser",
+        "english": "to have fun"
+      },
+      {
+        "french": "rire / rigoler",
+        "english": "to laugh"
+      },
+      {
+        "french": "danser",
+        "english": "to dance"
+      },
+      {
+        "french": "regarder",
+        "english": "to watch / look at"
+      }
+    ],
+    "questionInstructions": [
+      {
+        "label": "TRANSLATE INTO FRENCH",
+        "whatToDo": "Translate the quoted English and write the complete French answer."
+      },
+      {
+        "label": "TRANSLATE INTO ENGLISH",
+        "whatToDo": "Translate the quoted French and write the complete English meaning."
+      },
+      {
+        "label": "COMPLETE THE FRENCH",
+        "whatToDo": "Do not translate the whole line; write only the word/chunk replacing _____."
+      }
+    ],
+    "workedExamples": [
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "to draw",
+        "answer": "dessiner",
+        "why": "The source-locked French is « dessiner ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      },
+      {
+        "task": "TRANSLATE INTO ENGLISH",
+        "prompt": "dessiner",
+        "answer": "to draw",
+        "why": "« dessiner » means « to draw » in the teacher coverage. Use the complete chunk rather than guessing from one familiar word."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "to work",
+        "answer": "travailler",
+        "why": "The source-locked French is « travailler ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "a tiger",
+        "answer": "un tigre",
+        "why": "The source-locked French is « un tigre ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      },
+      {
+        "task": "TRANSLATE INTO ENGLISH",
+        "prompt": "un tigre",
+        "answer": "a tiger",
+        "why": "« un tigre » means « a tiger » in the teacher coverage. Use the complete chunk rather than guessing from one familiar word."
+      },
+      {
+        "task": "TRANSLATE INTO FRENCH",
+        "prompt": "a house",
+        "answer": "une maison",
+        "why": "The source-locked French is « une maison ». Keep any article, gender, plural and verb ending. Accents are shown for learning, but missing accents are not marked wrong in this version."
+      }
+    ],
+    "commonMistakes": [
+      "Assuming all verbs are regular.",
+      "Learning a noun without its article.",
+      "Confusing two similar English meanings."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “a cat”\nFrench: un _____",
+        "answer": "chat"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “a sun”\nFrench: un _____",
+        "answer": "soleil"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “the beach”\nFrench: la _____",
+        "answer": "plage"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “a rainbow”\nFrench: un _____",
+        "answer": "arc-en-ciel"
+      },
+      {
+        "task": "COMPLETE THE FRENCH",
+        "question": "Meaning: “candy floss”\nFrench: la barbe à _____",
+        "answer": "papa"
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read every must-memorise rule.",
+      "Cover the answer column and retrieve at least six chunks.",
+      "Complete the 60-second self-check.",
+      "On each card, read the task label before the French/English stimulus."
+    ],
+    "markingReminder": "Accents are displayed and corrected but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement, negative order and required content are still marked."
+  },
+  {
+    "section": 31,
+    "title": "Regular present patterns",
+    "sourceStatus": "confirmed_learned",
+    "overview": "This lesson contains 54 enabled questions. It teaches Regular present patterns through explicit translation, recall, grammar and application tasks.",
+    "learningGoals": [
+      "Recall the core language for Regular present patterns.",
+      "Identify the task direction before writing.",
+      "Explain errors by naming the article, subject, tense, auxiliary, agreement or negative rule.",
+      "Use the material in a short controlled sentence."
+    ],
+    "mustMemoriseRules": [
+      "Regular patterns depend on the subject.",
+      "-er: e/es/e/ons/ez/ent.",
+      "-ir: is/is/it/issons/issez/issent.",
+      "-re: s/s/zero/ons/ez/ent.",
+      "Silent endings still matter in writing.",
+      "Apply the pattern inside a complete sentence."
+    ],
+    "mustMemoriseVocabulary": [],
+    "questionInstructions": [
+      {
+        "label": "CONJUGATE",
+        "whatToDo": "Use the named subject/tense. The bare verb or correct subject + verb is accepted when stated."
+      },
+      {
+        "label": "WRITE ALL FORMS",
+        "whatToDo": "Give every named form; reasonable order and separators are accepted."
+      },
+      {
+        "label": "TRANSLATE INTO ENGLISH",
+        "whatToDo": "Translate the quoted French and write the complete English meaning."
+      },
+      {
+        "label": "COMPLETE THE FRENCH",
+        "whatToDo": "Do not translate the whole line; write only the word/chunk replacing _____."
+      },
+      {
+        "label": "CHOOSE THE ANSWER",
+        "whatToDo": "Select exactly one option."
+      },
+      {
+        "label": "CORRECT THE ERROR",
+        "whatToDo": "Find the error and rewrite the whole corrected sentence."
+      }
+    ],
+    "workedExamples": [
+      {
+        "task": "CONJUGATE",
+        "prompt": "Write the « je » form in the -er: jouer column.",
+        "answer": "joue",
+        "why": "The source conjugation table gives je → joue for -er: jouer. The subject decides the written ending."
+      },
+      {
+        "task": "CONJUGATE",
+        "prompt": "Write the « tu » form in the -er: jouer column.",
+        "answer": "joues",
+        "why": "The source conjugation table gives tu → joues for -er: jouer. The subject decides the written ending."
+      },
+      {
+        "task": "CONJUGATE",
+        "prompt": "Write the « il / elle / on » form in the -er: jouer column.",
+        "answer": "joue",
+        "why": "The source conjugation table gives il / elle / on → joue for -er: jouer. The subject decides the written ending."
+      },
+      {
+        "task": "CONJUGATE",
+        "prompt": "Write the « nous » form in the -er: jouer column.",
+        "answer": "jouons",
+        "why": "The source conjugation table gives nous → jouons for -er: jouer. The subject decides the written ending."
+      },
+      {
+        "task": "CONJUGATE",
+        "prompt": "Write the « vous » form in the -er: jouer column.",
+        "answer": "jouez",
+        "why": "The source conjugation table gives vous → jouez for -er: jouer. The subject decides the written ending."
+      },
+      {
+        "task": "CONJUGATE",
+        "prompt": "Write the « ils / elles » form in the -er: jouer column.",
+        "answer": "jouent",
+        "why": "The source conjugation table gives ils / elles → jouent for -er: jouer. The subject decides the written ending."
+      }
+    ],
+    "commonMistakes": [
+      "Relying on pronunciation.",
+      "Using nous endings with on.",
+      "Mixing -ir and -re endings."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "task": "CORRECT THE ERROR",
+        "question": "Elle choisissent la musique.",
+        "answer": "Elle choisit la musique."
+      },
+      {
+        "task": "CORRECT THE ERROR",
+        "question": "Ils regardez la télé.",
+        "answer": "Ils regardent la télé."
+      },
+      {
+        "task": "CORRECT THE ERROR",
+        "question": "Vous vendent des livres.",
+        "answer": "Vous vendez des livres."
+      },
+      {
+        "task": "CORRECT THE ERROR",
+        "question": "Tu jouons au foot.",
+        "answer": "Tu joues au foot."
+      },
+      {
+        "task": "CORRECT THE ERROR",
+        "question": "On finissons les devoirs.",
+        "answer": "On finit les devoirs."
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read every must-memorise rule.",
+      "Cover the answer column and retrieve at least six chunks.",
+      "Complete the 60-second self-check.",
+      "On each card, read the task label before the French/English stimulus."
+    ],
+    "markingReminder": "Accents are displayed and corrected but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement, negative order and required content are still marked."
+  },
+  {
+    "section": 32,
+    "title": "Accuracy repair",
+    "sourceStatus": "confirmed_learned",
+    "overview": "This lesson contains 50 enabled questions. It teaches Accuracy repair through explicit translation, recall, grammar and application tasks.",
+    "learningGoals": [
+      "Recall the core language for Accuracy repair.",
+      "Identify the task direction before writing.",
+      "Explain errors by naming the article, subject, tense, auxiliary, agreement or negative rule.",
+      "Use the material in a short controlled sentence."
+    ],
+    "mustMemoriseRules": [
+      "Use et in 71 and the learned hyphen pattern.",
+      "Gymnase is masculine: un grand gymnase.",
+      "préférer + action takes an infinitive.",
+      "An opinion needs a complete reason.",
+      "A real sentence needs its own capital letter and full stop.",
+      "Distinguish énervé from énervant."
+    ],
+    "mustMemoriseVocabulary": [],
+    "questionInstructions": [
+      {
+        "label": "APPLY THE RULE",
+        "whatToDo": "Produce the exact item requested by the rule prompt."
+      },
+      {
+        "label": "ACCURACY REPAIR",
+        "whatToDo": "Repair or apply the named accuracy point and use the stated format."
+      }
+    ],
+    "workedExamples": [
+      {
+        "task": "APPLY THE RULE",
+        "prompt": "Write the source example for this target: 70-99 numbers.",
+        "answer": "71 soixante et onze; 83 quatre-vingt-trois; 95 quatre-vingt-quinze",
+        "why": "Use et in 71; use hyphens in compound numbers."
+      },
+      {
+        "task": "APPLY THE RULE",
+        "prompt": "Write the source example for this target: Gender agreement.",
+        "answer": "un grand gymnase",
+        "why": "gymnase is masculine."
+      },
+      {
+        "task": "APPLY THE RULE",
+        "prompt": "Write the source example for this target: préférer + infinitive.",
+        "answer": "Je préfère regarder la télé.",
+        "why": "Conjugate préférer, then keep the second verb infinitive."
+      },
+      {
+        "task": "APPLY THE RULE",
+        "prompt": "Write the source example for this target: Opinion + reason.",
+        "answer": "J’aime la musique parce que c’est relaxant.",
+        "why": "Answer Pourquoi…? with parce que + a full reason."
+      },
+      {
+        "task": "APPLY THE RULE",
+        "prompt": "Write the source example for this target: Noun vs infinitive.",
+        "answer": "J’aime le tennis. / J’aime jouer au tennis.",
+        "why": "Use an article before a noun; no article before the infinitive."
+      },
+      {
+        "task": "APPLY THE RULE",
+        "prompt": "Write the source example for this target: énervé / énervant.",
+        "answer": "Je suis énervée. / Le bruit est énervant.",
+        "why": "énervé = annoyed; énervant = irritating."
+      }
+    ],
+    "commonMistakes": [
+      "Using feminine agreement with gymnase.",
+      "Conjugating the second verb after préférer.",
+      "Counting commas as separate sentences."
+    ],
+    "sixtySecondSelfCheck": [
+      {
+        "task": "ACCURACY REPAIR",
+        "question": "Change this taught form to the perfect tense: on lit des poèmes / des romans",
+        "answer": "on a lu des poèmes / des romans"
+      },
+      {
+        "task": "ACCURACY REPAIR",
+        "question": "Write the « ils / elles » form in the -er: jouer column.",
+        "answer": "jouent"
+      },
+      {
+        "task": "ACCURACY REPAIR",
+        "question": "J’aime du pain.",
+        "answer": "J’aime le pain."
+      },
+      {
+        "task": "ACCURACY REPAIR",
+        "question": "Write the « je » form in the avoir column.",
+        "answer": "ai"
+      },
+      {
+        "task": "ACCURACY REPAIR",
+        "question": "Correct this: Il est mouru.",
+        "answer": "Il est mort."
+      }
+    ],
+    "beforeStartingPractice": [
+      "Read every must-memorise rule.",
+      "Cover the answer column and retrieve at least six chunks.",
+      "Complete the 60-second self-check.",
+      "On each card, read the task label before the French/English stimulus."
+    ],
+    "markingReminder": "Accents are displayed and corrected but not deducted. Base spelling, article, subject, verb form, auxiliary, agreement, negative order and required content are still marked."
+  }
+]

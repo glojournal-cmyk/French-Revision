@@ -1626,5 +1626,796 @@
         "agreement where required"
       ]
     }
+  },
+  {
+    "id": "w-v3-routine-3",
+    "day": "Any time",
+    "title": "My morning routine — 3 sentences",
+    "sentenceTarget": 3,
+    "sections": [
+      13,
+      16,
+      21
+    ],
+    "prompt": "Write 3 French sentences: a normal morning action, a time, and one negative/reflexive detail.",
+    "requirements": [
+      {
+        "label": "3 complete sentences",
+        "kind": "sentences",
+        "count": 3,
+        "points": 2
+      },
+      {
+        "label": "time phrase",
+        "any": [
+          "le matin",
+          "d’habitude",
+          "à six heures",
+          "à sept heures"
+        ],
+        "points": 1
+      },
+      {
+        "label": "reflexive verb",
+        "any": [
+          "me réveille",
+          "me lève",
+          "me lave",
+          "m’habille"
+        ],
+        "points": 1
+      },
+      {
+        "label": "negative",
+        "any": [
+          "ne",
+          "n’"
+        ],
+        "points": 1
+      }
+    ],
+    "model": "D’habitude, je me réveille à six heures trente. Ensuite, je me lève et je m’habille. Je ne me couche pas tard.",
+    "contentTier": "confirmed_learned",
+    "markingPolicy": {
+      "mode": "criterion_checklist_not_single-string_match",
+      "accentPolicy": "Do not deduct accents; show the corrected accented form.",
+      "sentenceCount": "Count separately punctuated sentences; commas/et do not automatically create new sentences.",
+      "feedback": "Report every criterion as met or missing, then flag subject/verb, tense, article, agreement and negative errors sentence by sentence.",
+      "safetyRule": "The model is an example, not the only accepted response. If automatic judgement is uncertain, return review needed rather than wrong.",
+      "grammarChecks": [
+        "subject + finite verb",
+        "required time frame",
+        "negative placement",
+        "article choice",
+        "agreement where required"
+      ]
+    }
+  },
+  {
+    "id": "w-v3-school-5",
+    "day": "Any time",
+    "title": "My school — 5 sentences",
+    "sentenceTarget": 5,
+    "sections": [
+      17,
+      18,
+      19,
+      20
+    ],
+    "prompt": "Write 5 French sentences: type/location, two facilities, favourite subject with reason, one lesson activity and one negative.",
+    "requirements": [
+      {
+        "label": "5 complete sentences",
+        "kind": "sentences",
+        "count": 5,
+        "points": 2
+      },
+      {
+        "label": "facility",
+        "any": [
+          "gymnase",
+          "bibliothèque",
+          "cantine",
+          "laboratoire"
+        ],
+        "points": 1
+      },
+      {
+        "label": "reason",
+        "any": [
+          "parce que",
+          "car"
+        ],
+        "points": 1
+      },
+      {
+        "label": "lesson activity",
+        "any": [
+          "on fait",
+          "on lit",
+          "on travaille",
+          "on écoute"
+        ],
+        "points": 1
+      },
+      {
+        "label": "negative",
+        "any": [
+          "ne",
+          "n’"
+        ],
+        "points": 1
+      }
+    ],
+    "model": "Mon école est un collège de filles à Kingston. Il y a un gymnase et une bibliothèque. Ma matière préférée est l’histoire parce que c’est passionnant. En sciences, on fait des expériences. Il n’y a pas d’internat.",
+    "contentTier": "confirmed_learned",
+    "markingPolicy": {
+      "mode": "criterion_checklist_not_single-string_match",
+      "accentPolicy": "Do not deduct accents; show the corrected accented form.",
+      "sentenceCount": "Count separately punctuated sentences; commas/et do not automatically create new sentences.",
+      "feedback": "Report every criterion as met or missing, then flag subject/verb, tense, article, agreement and negative errors sentence by sentence.",
+      "safetyRule": "The model is an example, not the only accepted response. If automatic judgement is uncertain, return review needed rather than wrong.",
+      "grammarChecks": [
+        "subject + finite verb",
+        "required time frame",
+        "negative placement",
+        "article choice",
+        "agreement where required"
+      ]
+    }
+  },
+  {
+    "id": "w-v3-yesterday-5",
+    "day": "Any time",
+    "title": "Yesterday at school — 5 sentences",
+    "sentenceTarget": 5,
+    "sections": [
+      20,
+      21,
+      23,
+      26,
+      27
+    ],
+    "prompt": "Write 5 French sentences about yesterday. Include two avoir perfect verbs, one être/reflexive verb, a negative and a reaction.",
+    "requirements": [
+      {
+        "label": "5 complete sentences",
+        "kind": "sentences",
+        "count": 5,
+        "points": 2
+      },
+      {
+        "label": "perfect auxiliary",
+        "any": [
+          "ai",
+          "a",
+          "avons",
+          "ont",
+          "suis",
+          "sommes",
+          "sont"
+        ],
+        "points": 1
+      },
+      {
+        "label": "negative",
+        "any": [
+          "n’ai pas",
+          "n’avons rien",
+          "jamais"
+        ],
+        "points": 1
+      },
+      {
+        "label": "reaction",
+        "any": [
+          "heureusement",
+          "malheureusement",
+          "c’était"
+        ],
+        "points": 1
+      }
+    ],
+    "model": "Hier, on a lu un texte. Nous avons fait une expérience. Je me suis réveillée tôt. Nous n’avons rien écrit en espagnol. Heureusement, c’était intéressant.",
+    "contentTier": "confirmed_learned",
+    "markingPolicy": {
+      "mode": "criterion_checklist_not_single-string_match",
+      "accentPolicy": "Do not deduct accents; show the corrected accented form.",
+      "sentenceCount": "Count separately punctuated sentences; commas/et do not automatically create new sentences.",
+      "feedback": "Report every criterion as met or missing, then flag subject/verb, tense, article, agreement and negative errors sentence by sentence.",
+      "safetyRule": "The model is an example, not the only accepted response. If automatic judgement is uncertain, return review needed rather than wrong.",
+      "grammarChecks": [
+        "subject + finite verb",
+        "required time frame",
+        "negative placement",
+        "article choice",
+        "agreement where required"
+      ]
+    }
+  },
+  {
+    "id": "w-v3-future-3",
+    "day": "Any time",
+    "title": "Weekend plan — 3 sentences",
+    "sentenceTarget": 3,
+    "sections": [
+      14
+    ],
+    "prompt": "Write 3 French sentences about a future weekend using futur proche, a time phrase and a reason.",
+    "requirements": [
+      {
+        "label": "3 complete sentences",
+        "kind": "sentences",
+        "count": 3,
+        "points": 2
+      },
+      {
+        "label": "futur proche",
+        "any": [
+          "vais",
+          "vas",
+          "va",
+          "allons",
+          "allez",
+          "vont"
+        ],
+        "points": 2
+      },
+      {
+        "label": "reason",
+        "any": [
+          "parce que",
+          "car"
+        ],
+        "points": 1
+      }
+    ],
+    "model": "Ce week-end, je vais aller en ville. Je vais regarder un film avec mes amis. Je vais au cinéma parce que c’est amusant.",
+    "contentTier": "confirmed_learned",
+    "markingPolicy": {
+      "mode": "criterion_checklist_not_single-string_match",
+      "accentPolicy": "Do not deduct accents; show the corrected accented form.",
+      "sentenceCount": "Count separately punctuated sentences; commas/et do not automatically create new sentences.",
+      "feedback": "Report every criterion as met or missing, then flag subject/verb, tense, article, agreement and negative errors sentence by sentence.",
+      "safetyRule": "The model is an example, not the only accepted response. If automatic judgement is uncertain, return review needed rather than wrong.",
+      "grammarChecks": [
+        "subject + finite verb",
+        "required time frame",
+        "negative placement",
+        "article choice",
+        "agreement where required"
+      ]
+    }
+  },
+  {
+    "id": "w-v3-present-past-5",
+    "day": "Any time",
+    "title": "Now and before — 5 sentences",
+    "sentenceTarget": 5,
+    "sections": [
+      15,
+      18
+    ],
+    "prompt": "Write 5 French sentences comparing your current school and primary school. Use present and imperfect description frames.",
+    "requirements": [
+      {
+        "label": "5 complete sentences",
+        "kind": "sentences",
+        "count": 5,
+        "points": 2
+      },
+      {
+        "label": "present frame",
+        "any": [
+          "est",
+          "il y a"
+        ],
+        "points": 1
+      },
+      {
+        "label": "past description",
+        "any": [
+          "était",
+          "il y avait"
+        ],
+        "points": 2
+      },
+      {
+        "label": "comparison",
+        "any": [
+          "plus",
+          "moins"
+        ],
+        "points": 1
+      }
+    ],
+    "model": "Mon collège est assez grand. Il y a un gymnase. Mon école primaire était plus petite. Il y avait une grande cour. Elle était plus tranquille.",
+    "contentTier": "confirmed_learned",
+    "markingPolicy": {
+      "mode": "criterion_checklist_not_single-string_match",
+      "accentPolicy": "Do not deduct accents; show the corrected accented form.",
+      "sentenceCount": "Count separately punctuated sentences; commas/et do not automatically create new sentences.",
+      "feedback": "Report every criterion as met or missing, then flag subject/verb, tense, article, agreement and negative errors sentence by sentence.",
+      "safetyRule": "The model is an example, not the only accepted response. If automatic judgement is uncertain, return review needed rather than wrong.",
+      "grammarChecks": [
+        "subject + finite verb",
+        "required time frame",
+        "negative placement",
+        "article choice",
+        "agreement where required"
+      ]
+    }
+  },
+  {
+    "id": "w-v3-food-3",
+    "day": "Any time",
+    "title": "Food and opinion — 3 sentences",
+    "sentenceTarget": 3,
+    "sections": [
+      1,
+      4
+    ],
+    "prompt": "Write 3 French sentences: what you eat/drink, one negative, and an opinion with a reason.",
+    "requirements": [
+      {
+        "label": "3 complete sentences",
+        "kind": "sentences",
+        "count": 3,
+        "points": 2
+      },
+      {
+        "label": "food article",
+        "any": [
+          "du",
+          "de la",
+          "de l’",
+          "des"
+        ],
+        "points": 1
+      },
+      {
+        "label": "negative de",
+        "any": [
+          "pas de",
+          "pas d’"
+        ],
+        "points": 1
+      },
+      {
+        "label": "reason",
+        "any": [
+          "parce que",
+          "car"
+        ],
+        "points": 1
+      }
+    ],
+    "model": "Je mange du pain et je bois de l’eau. Je ne bois pas de coca. J’aime le poulet parce que c’est délicieux.",
+    "contentTier": "confirmed_learned",
+    "markingPolicy": {
+      "mode": "criterion_checklist_not_single-string_match",
+      "accentPolicy": "Do not deduct accents; show the corrected accented form.",
+      "sentenceCount": "Count separately punctuated sentences; commas/et do not automatically create new sentences.",
+      "feedback": "Report every criterion as met or missing, then flag subject/verb, tense, article, agreement and negative errors sentence by sentence.",
+      "safetyRule": "The model is an example, not the only accepted response. If automatic judgement is uncertain, return review needed rather than wrong.",
+      "grammarChecks": [
+        "subject + finite verb",
+        "required time frame",
+        "negative placement",
+        "article choice",
+        "agreement where required"
+      ]
+    }
+  },
+  {
+    "id": "w-v3-linkers-5",
+    "day": "Any time",
+    "title": "Five linked sentences",
+    "sentenceTarget": 5,
+    "sections": [
+      9,
+      22,
+      27
+    ],
+    "prompt": "Write 5 French sentences using at least four different taught connectives or Super Structures.",
+    "requirements": [
+      {
+        "label": "5 complete sentences",
+        "kind": "sentences",
+        "count": 5,
+        "points": 2
+      },
+      {
+        "label": "four linkers",
+        "any": [
+          "d’abord",
+          "puis",
+          "ensuite",
+          "finalement",
+          "ce qui",
+          "après avoir",
+          "cependant"
+        ],
+        "count": 4,
+        "points": 4
+      }
+    ],
+    "model": "D’abord, je vais au collège. Ensuite, on lit un texte. Le cours est intéressant, ce qui est amusant. Après avoir fini, je parle avec mes amis. Finalement, je rentre à la maison.",
+    "contentTier": "confirmed_learned",
+    "markingPolicy": {
+      "mode": "criterion_checklist_not_single-string_match",
+      "accentPolicy": "Do not deduct accents; show the corrected accented form.",
+      "sentenceCount": "Count separately punctuated sentences; commas/et do not automatically create new sentences.",
+      "feedback": "Report every criterion as met or missing, then flag subject/verb, tense, article, agreement and negative errors sentence by sentence.",
+      "safetyRule": "The model is an example, not the only accepted response. If automatic judgement is uncertain, return review needed rather than wrong.",
+      "grammarChecks": [
+        "subject + finite verb",
+        "required time frame",
+        "negative placement",
+        "article choice",
+        "agreement where required"
+      ]
+    }
+  },
+  {
+    "id": "w-v3-subjects-3",
+    "day": "Any time",
+    "title": "Subjects — 3 sentences",
+    "sentenceTarget": 3,
+    "sections": [
+      19
+    ],
+    "prompt": "Write 3 French sentences: favourite subject, a reason, and one strength or weakness.",
+    "requirements": [
+      {
+        "label": "3 complete sentences",
+        "kind": "sentences",
+        "count": 3,
+        "points": 2
+      },
+      {
+        "label": "subject",
+        "any": [
+          "histoire",
+          "musique",
+          "français",
+          "sciences",
+          "maths"
+        ],
+        "points": 1
+      },
+      {
+        "label": "reason",
+        "any": [
+          "parce que",
+          "car"
+        ],
+        "points": 1
+      },
+      {
+        "label": "performance",
+        "any": [
+          "forte en",
+          "fort en",
+          "faible en",
+          "bonnes notes",
+          "mauvaises notes"
+        ],
+        "points": 1
+      }
+    ],
+    "model": "Ma matière préférée, c’est l’histoire. J’adore l’histoire parce que c’est passionnant. Je suis forte en musique.",
+    "contentTier": "confirmed_learned",
+    "markingPolicy": {
+      "mode": "criterion_checklist_not_single-string_match",
+      "accentPolicy": "Do not deduct accents; show the corrected accented form.",
+      "sentenceCount": "Count separately punctuated sentences; commas/et do not automatically create new sentences.",
+      "feedback": "Report every criterion as met or missing, then flag subject/verb, tense, article, agreement and negative errors sentence by sentence.",
+      "safetyRule": "The model is an example, not the only accepted response. If automatic judgement is uncertain, return review needed rather than wrong.",
+      "grammarChecks": [
+        "subject + finite verb",
+        "required time frame",
+        "negative placement",
+        "article choice",
+        "agreement where required"
+      ]
+    }
+  },
+  {
+    "id": "w-v3-town-3",
+    "day": "Any time",
+    "title": "Going to town — 3 sentences",
+    "sentenceTarget": 3,
+    "sections": [
+      5,
+      14
+    ],
+    "prompt": "Write 3 French sentences about a trip to town: one present/future movement, two places and a sequence word.",
+    "requirements": [
+      {
+        "label": "3 complete sentences",
+        "kind": "sentences",
+        "count": 3,
+        "points": 2
+      },
+      {
+        "label": "place article",
+        "any": [
+          "au",
+          "à la",
+          "à l’",
+          "aux"
+        ],
+        "points": 1
+      },
+      {
+        "label": "sequence",
+        "any": [
+          "d’abord",
+          "puis",
+          "ensuite",
+          "finalement"
+        ],
+        "points": 1
+      }
+    ],
+    "model": "Demain, je vais aller en ville. D’abord, je vais au cinéma. Ensuite, je vais à la pharmacie.",
+    "contentTier": "confirmed_learned",
+    "markingPolicy": {
+      "mode": "criterion_checklist_not_single-string_match",
+      "accentPolicy": "Do not deduct accents; show the corrected accented form.",
+      "sentenceCount": "Count separately punctuated sentences; commas/et do not automatically create new sentences.",
+      "feedback": "Report every criterion as met or missing, then flag subject/verb, tense, article, agreement and negative errors sentence by sentence.",
+      "safetyRule": "The model is an example, not the only accepted response. If automatic judgement is uncertain, return review needed rather than wrong.",
+      "grammarChecks": [
+        "subject + finite verb",
+        "required time frame",
+        "negative placement",
+        "article choice",
+        "agreement where required"
+      ]
+    }
+  },
+  {
+    "id": "w-v3-reading-summary-3",
+    "day": "Any time",
+    "title": "Reading summary — 3 sentences",
+    "sentenceTarget": 3,
+    "sections": [
+      28
+    ],
+    "prompt": "Choose one Section 28 reading and write 3 French sentences summarising the person, school and one activity.",
+    "requirements": [
+      {
+        "label": "3 complete sentences",
+        "kind": "sentences",
+        "count": 3,
+        "points": 2
+      },
+      {
+        "label": "person/school",
+        "any": [
+          "Camille",
+          "Émile",
+          "Awa",
+          "collège",
+          "école"
+        ],
+        "points": 1
+      },
+      {
+        "label": "activity",
+        "any": [
+          "mange",
+          "fait",
+          "joue",
+          "étudié",
+          "écrit",
+          "lu"
+        ],
+        "points": 1
+      }
+    ],
+    "model": "Camille a treize ans et elle est au collège en France. Sa matière préférée est l’histoire. Hier, on a fait une expérience.",
+    "contentTier": "confirmed_learned",
+    "markingPolicy": {
+      "mode": "criterion_checklist_not_single-string_match",
+      "accentPolicy": "Do not deduct accents; show the corrected accented form.",
+      "sentenceCount": "Count separately punctuated sentences; commas/et do not automatically create new sentences.",
+      "feedback": "Report every criterion as met or missing, then flag subject/verb, tense, article, agreement and negative errors sentence by sentence.",
+      "safetyRule": "The model is an example, not the only accepted response. If automatic judgement is uncertain, return review needed rather than wrong.",
+      "grammarChecks": [
+        "subject + finite verb",
+        "required time frame",
+        "negative placement",
+        "article choice",
+        "agreement where required"
+      ]
+    }
+  },
+  {
+    "id": "w-v3-accuracy-5",
+    "day": "Any time",
+    "title": "Five accurate sentences",
+    "sentenceTarget": 5,
+    "sections": [
+      32
+    ],
+    "prompt": "Write exactly 5 separately punctuated French sentences using the five-sentence model targets.",
+    "requirements": [
+      {
+        "label": "5 complete sentences",
+        "kind": "sentences",
+        "count": 5,
+        "points": 2
+      },
+      {
+        "label": "préférer + infinitive",
+        "any": [
+          "préfère regarder",
+          "préfère jouer",
+          "préfère écouter"
+        ],
+        "points": 1
+      },
+      {
+        "label": "opinion + reason",
+        "any": [
+          "parce que",
+          "car"
+        ],
+        "points": 1
+      },
+      {
+        "label": "correct gymnase gender",
+        "any": [
+          "un grand gymnase"
+        ],
+        "points": 1
+      }
+    ],
+    "model": "Quand il pleut, je préfère regarder la télé. J’aime la musique parce que c’est relaxant. Ma matière préférée est le français. Dans mon collège, il y a un grand gymnase. Les sciences sont intéressantes.",
+    "contentTier": "confirmed_learned",
+    "markingPolicy": {
+      "mode": "criterion_checklist_not_single-string_match",
+      "accentPolicy": "Do not deduct accents; show the corrected accented form.",
+      "sentenceCount": "Count separately punctuated sentences; commas/et do not automatically create new sentences.",
+      "feedback": "Report every criterion as met or missing, then flag subject/verb, tense, article, agreement and negative errors sentence by sentence.",
+      "safetyRule": "The model is an example, not the only accepted response. If automatic judgement is uncertain, return review needed rather than wrong.",
+      "grammarChecks": [
+        "subject + finite verb",
+        "required time frame",
+        "negative placement",
+        "article choice",
+        "agreement where required"
+      ]
+    }
+  },
+  {
+    "id": "w-v3-reflexive-past-3",
+    "day": "Any time",
+    "title": "Reflexive past — 3 sentences",
+    "sentenceTarget": 3,
+    "sections": [
+      21,
+      27
+    ],
+    "prompt": "Write 3 French sentences in the passé composé with reflexive verbs. Include one feminine/plural agreement and one negative.",
+    "requirements": [
+      {
+        "label": "3 complete sentences",
+        "kind": "sentences",
+        "count": 3,
+        "points": 2
+      },
+      {
+        "label": "reflexive perfect",
+        "any": [
+          "me suis",
+          "s’est",
+          "nous sommes",
+          "se sont"
+        ],
+        "points": 2
+      },
+      {
+        "label": "negative",
+        "any": [
+          "ne me suis pas",
+          "ne s’est pas",
+          "jamais"
+        ],
+        "points": 1
+      }
+    ],
+    "model": "Je me suis réveillée tôt. Nous nous sommes levées à sept heures. Je ne me suis pas couchée tard.",
+    "contentTier": "confirmed_learned",
+    "markingPolicy": {
+      "mode": "criterion_checklist_not_single-string_match",
+      "accentPolicy": "Do not deduct accents; show the corrected accented form.",
+      "sentenceCount": "Count separately punctuated sentences; commas/et do not automatically create new sentences.",
+      "feedback": "Report every criterion as met or missing, then flag subject/verb, tense, article, agreement and negative errors sentence by sentence.",
+      "safetyRule": "The model is an example, not the only accepted response. If automatic judgement is uncertain, return review needed rather than wrong.",
+      "grammarChecks": [
+        "subject + finite verb",
+        "required time frame",
+        "negative placement",
+        "article choice",
+        "agreement where required"
+      ]
+    }
+  },
+  {
+    "id": "w-v3-full-mixed-5",
+    "day": "Any time",
+    "title": "Mixed-time challenge — 5 sentences",
+    "sentenceTarget": 5,
+    "sections": [
+      9,
+      14,
+      15,
+      22,
+      27
+    ],
+    "prompt": "Write 5 French sentences containing present, perfect and futur proche, plus a reason and two linkers.",
+    "requirements": [
+      {
+        "label": "5 complete sentences",
+        "kind": "sentences",
+        "count": 5,
+        "points": 2
+      },
+      {
+        "label": "present",
+        "any": [
+          "je vais",
+          "je joue",
+          "j’aime"
+        ],
+        "points": 1
+      },
+      {
+        "label": "perfect",
+        "any": [
+          "j’ai",
+          "je suis",
+          "nous avons"
+        ],
+        "points": 1
+      },
+      {
+        "label": "near future",
+        "any": [
+          "vais aller",
+          "vais jouer",
+          "allons regarder"
+        ],
+        "points": 1
+      },
+      {
+        "label": "reason",
+        "any": [
+          "parce que",
+          "car"
+        ],
+        "points": 1
+      }
+    ],
+    "model": "D’habitude, je vais au collège à pied. Hier, j’ai travaillé dur. Ensuite, je suis rentrée chez moi. Demain, je vais retrouver mes amis. Je suis contente parce que c’est amusant.",
+    "contentTier": "confirmed_learned",
+    "markingPolicy": {
+      "mode": "criterion_checklist_not_single-string_match",
+      "accentPolicy": "Do not deduct accents; show the corrected accented form.",
+      "sentenceCount": "Count separately punctuated sentences; commas/et do not automatically create new sentences.",
+      "feedback": "Report every criterion as met or missing, then flag subject/verb, tense, article, agreement and negative errors sentence by sentence.",
+      "safetyRule": "The model is an example, not the only accepted response. If automatic judgement is uncertain, return review needed rather than wrong.",
+      "grammarChecks": [
+        "subject + finite verb",
+        "required time frame",
+        "negative placement",
+        "article choice",
+        "agreement where required"
+      ]
+    }
   }
 ]

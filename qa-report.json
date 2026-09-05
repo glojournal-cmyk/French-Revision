@@ -1,15 +1,18 @@
 {
-  "name": "French Content Core V3",
-  "purpose": "UI-independent, source-locked expanded content and marking handoff.",
-  "authoritativeLearnedContentSource": "Year8_French_COMPLETE_Teacher_Coverage_Final(6).docx",
-  "parentConfirmationDate": "2026-09-05",
-  "accentPolicy": "Ignore French diacritics for scoring, but display and teach the accented spelling.",
-  "sessionPolicy": {
-    "drawWithoutReplacement": true,
-    "balanceByTaskLabel": true,
-    "maxSameLabelIn15": 6,
-    "minDifferentLabelsWhenAvailable": 4
-  },
+  "passed": true,
+  "errors": [],
+  "checks": [
+    "Every enabled question has a visible task label, instruction and answer format",
+    "Every practice section has at least 50 enabled questions",
+    "Section 9 model-answer practice exists",
+    "No unsafe manual split is enabled",
+    "MCQs have exactly four unique options and one correct answer",
+    "All questions trace to the confirmed coverage source",
+    "Section notes contain substantive rules, worked examples, common mistakes and task guidance",
+    "Exact duplicate content check",
+    "Reference-marker script validates every enabled canonical answer",
+    "Accent policy retained without relaxing base spelling/grammar"
+  ],
   "counts": {
     "vocabularyEntries": 617,
     "questionsAll": 2601,
