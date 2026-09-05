@@ -8,12 +8,35 @@ let progress=loadProgress(), currentVocab=[], vocabIndex=0, flashFlipped=false;
 let quiz=null, selectedWriting=0;
 
 function loadProgress(){
+  const fresh={attempts:{},sessions:0,correct:0,answered:0,streak:0,lastDay:null,writing:{},history:[],createdAt:Date.now()};
   try{
     const p=JSON.parse(localStorage.getItem(KEY)||'{}');
-    return {attempts:p.attempts||{}, sessions:p.sessions||0, correct:p.correct||0, answered:p.answered||0, streak:p.streak||0, lastDay:p.lastDay||null, writing:p.writing||{}};
-  }catch(e){return {attempts:{},sessions:0,correct:0,answered:0,streak:0,lastDay:null,writing:{}}}
+    return {...fresh,...p,
+      attempts:p.attempts||{}, writing:p.writing||{},
+      history:Array.isArray(p.history)?p.history:[],
+      createdAt:p.createdAt||Date.now()
+    };
+  }catch(e){return fresh}
 }
 function save(){localStorage.setItem(KEY,JSON.stringify(progress))}
+function addActivity(entry){
+  progress.history=Array.isArray(progress.history)?progress.history:[];
+  progress.history.push({at:Date.now(),day:todayKey(),...entry});
+  if(progress.history.length>1200)progress.history=progress.history.slice(-1200);
+}
+function localDayLabel(day){
+  const [y,m,d]=day.split('-').map(Number);
+  return new Intl.DateTimeFormat(undefined,{day:'2-digit',month:'short'}).format(new Date(y,m-1,d));
+}
+function lastNDays(n){
+  const out=[],d=new Date();
+  for(let i=n-1;i>=0;i--){const x=new Date(d);x.setDate(d.getDate()-i);out.push(`${x.getFullYear()}-${String(x.getMonth()+1).padStart(2,'0')}-${String(x.getDate()).padStart(2,'0')}`)}
+  return out;
+}
+function dayStats(day){
+  const rows=(progress.history||[]).filter(x=>x.day===day&&x.kind==='question');
+  return {answered:rows.length,correct:rows.filter(x=>x.correct===true).length};
+}
 function toast(msg){const t=$('#toast');t.textContent=msg;t.classList.add('show');clearTimeout(t._x);t._x=setTimeout(()=>t.classList.remove('show'),2200)}
 function esc(v){return String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
 function shuffle(a){a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
@@ -194,7 +217,9 @@ function checkAnswer(){
  }else{
    prev.status='review';prev.lastAt=Date.now();
  }
- progress.attempts[q.id]=prev;save();
+ progress.attempts[q.id]=prev;
+ addActivity({kind:'question',id:q.id,section:q.section,topic:q.topic,category:q.category,correct:result.correct===true});
+ save();
  const kind=result.correct===true?'ok':result.correct===false?'wrong':'manual';
  const title=result.correct===true?'Bravo ! 🌷':result.correct===false?'À revoir 🌱':'À vérifier sans pénalité ✨';
  const ex=q.explanation||{};
@@ -272,18 +297,106 @@ function checkWriting(w){
    if(met)earned+=r.points||1;
    return `<div class="req ${met?'met':''}">${met?'✓':'○'} ${esc(r.label)} <span style="margin-left:auto">${met?'+':''}${met?r.points||1:0}/${r.points||1}</span></div>`
  }).join('');
+ addActivity({kind:'writing',id:w.id,title:w.title,score:earned,total});
+ save();
  $('#writingFeedback').innerHTML=`<div class="feedback ${earned===total?'':'manual'}"><h3>${earned}/${total} critères repérés</h3><p>Cette checklist vérifie les éléments demandés ; elle ne considère pas le modèle comme l’unique bonne réponse.</p><div class="requirement-list">${rows}</div><div class="model-box"><b>Exemple modèle</b><br>${esc(w.model)}</div></div>`;
 }
 
-function renderProgress(){
- const at=Object.values(progress.attempts), correct=at.filter(x=>x.status==='correct').length, wrong=at.filter(x=>x.status==='wrong').length;
- const accuracy=progress.answered?Math.round(progress.correct/progress.answered*100):0;
- $('#progressStats').innerHTML=`<div class="stat"><b>${progress.sessions}</b><span>séances</span></div><div class="stat"><b>${progress.answered}</b><span>réponses corrigées</span></div><div class="stat"><b>${accuracy}%</b><span>précision</span></div><div class="stat"><b>${progress.streak||0} 🌱</b><span>jours de série</span></div>`;
- const grouped={};enabledQuestions().forEach(q=>{(grouped[q.section]??={name:q.topic,all:[],done:0}).all.push(q);if(progress.attempts[q.id]?.status==='correct')grouped[q.section].done++});
- $('#topicProgress').innerHTML=Object.entries(grouped).map(([s,g])=>{const p=Math.round(g.done/g.all.length*100);return `<div class="topic-bar"><div class="topic-bar-head"><span>${esc(g.name)}</span><b>${p}%</b></div><div class="bar"><i style="width:${p}%"></i></div></div>`}).join('');
- const wrongQs=enabledQuestions().filter(q=>progress.attempts[q.id]?.status==='wrong').slice(0,12);
- $('#reviewList').innerHTML=wrongQs.length?wrongQs.map(q=>`<div class="review-item"><b>${esc(q.topic)}</b><br>${esc(q.prompt)}</div>`).join(''):'<p class="muted">Aucune erreur en attente. 🌷</p>';
+function topicMetrics(){
+ const grouped={};
+ enabledQuestions().forEach(q=>{
+   const g=(grouped[q.section]??={name:q.topic,total:0,correct:0,wrong:0,attempted:0});
+   g.total++;
+   const a=progress.attempts[q.id];
+   if(a){g.attempted++;if(a.status==='correct')g.correct++;if(a.status==='wrong')g.wrong++}
+ });
+ return grouped;
 }
+function renderProgress(){
+ const at=Object.values(progress.attempts), wrong=at.filter(x=>x.status==='wrong').length;
+ const accuracy=progress.answered?Math.round(progress.correct/progress.answered*100):0;
+ const days7=lastNDays(7), weekRows=(progress.history||[]).filter(x=>days7.includes(x.day));
+ const studyDays=new Set(weekRows.map(x=>x.day)).size;
+ const q7=weekRows.filter(x=>x.kind==='question'), c7=q7.filter(x=>x.correct===true).length;
+ const acc7=q7.length?Math.round(c7/q7.length*100):0;
+ const writing7=weekRows.filter(x=>x.kind==='writing').length;
+ const due=Object.values(progress.attempts).filter(x=>x.status==='wrong'&&(x.dueAt||0)<=Date.now()).length;
+
+ $('#progressStats').innerHTML=`<div class="stat"><b>${progress.sessions}</b><span>séances <small>sessions</small></span></div><div class="stat"><b>${progress.answered}</b><span>réponses <small>answers</small></span></div><div class="stat"><b>${accuracy}%</b><span>précision <small>accuracy</small></span></div><div class="stat"><b>${progress.streak||0} 🌱</b><span>série <small>day streak</small></span></div>`;
+
+ const grouped=topicMetrics();
+ $('#topicProgress').innerHTML=Object.entries(grouped).map(([s,g])=>{const p=Math.round(g.correct/g.total*100);return `<div class="topic-bar"><div class="topic-bar-head"><span>${esc(g.name)}</span><b>${p}%</b></div><div class="bar"><i style="width:${p}%"></i></div></div>`}).join('');
+ const wrongQs=enabledQuestions().filter(q=>progress.attempts[q.id]?.status==='wrong').slice(0,12);
+ $('#reviewList').innerHTML=wrongQs.length?wrongQs.map(q=>`<div class="review-item"><b>${esc(q.topic)}</b><br>${esc(q.prompt)}</div>`).join(''):'<p class="muted">Aucune erreur en attente. 🌷<br><small>No mistakes waiting for review.</small></p>';
+
+ $('#weeklyActivity').innerHTML=days7.map(day=>{
+   const s=dayStats(day),pct=s.answered?Math.round(s.correct/s.answered*100):0;
+   return `<div class="week-day ${s.answered?'active':''}"><b>${localDayLabel(day)}</b><strong>${s.answered}</strong><span>${s.answered?`${pct}%`:'—'}</span></div>`;
+ }).join('');
+
+ $('#parentSummary').innerHTML=`<div class="stat"><b>${studyDays}/7</b><span>jours étudiés <small>study days</small></span></div><div class="stat"><b>${q7.length}</b><span>questions cette semaine <small>questions this week</small></span></div><div class="stat"><b>${acc7}%</b><span>précision hebdo <small>weekly accuracy</small></span></div><div class="stat"><b>${writing7}</b><span>défis d’écriture <small>writing checks</small></span></div><div class="stat"><b>${due}</b><span>révisions dues <small>reviews due</small></span></div><div class="stat"><b>${progress.streak||0}</b><span>jours de série <small>day streak</small></span></div>`;
+ $('#reportPeriod').textContent=`7 derniers jours • Last 7 days • ${localDayLabel(days7[0])} – ${localDayLabel(days7[6])}`;
+
+ const ranked=Object.values(grouped).filter(g=>g.attempted>0).map(g=>({...g,rate:g.attempted?Math.round(g.correct/g.attempted*100):0}));
+ const strong=[...ranked].sort((a,b)=>b.rate-a.rate||b.attempted-a.attempted).slice(0,3);
+ const needs=[...ranked].sort((a,b)=>a.rate-b.rate||b.wrong-a.wrong).filter(g=>g.rate<90||g.wrong>0).slice(0,3);
+ $('#strongAreas').innerHTML=strong.length?strong.map(g=>`<div class="report-item good"><b>✓ ${esc(g.name)}</b><span>${g.rate}% • ${g.attempted} attempted</span></div>`).join(''):'<p class="muted">Pas encore assez de données. <small>Not enough data yet.</small></p>';
+ $('#needsPractice').innerHTML=needs.length?needs.map(g=>`<div class="report-item"><b>• ${esc(g.name)}</b><span>${g.rate}% • ${g.wrong} to review</span></div>`).join(''):'<p class="muted">Rien de prioritaire pour le moment. 🌷</p>';
+
+ const recent=[...(progress.history||[])].reverse().slice(0,12);
+ $('#recentActivity').innerHTML=recent.length?recent.map(x=>{
+   const when=new Date(x.at).toLocaleString([], {day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit'});
+   if(x.kind==='writing')return `<div class="activity-row"><span>${when}</span><b>Writing • ${esc(x.title||'Défi')}</b><em>${x.score}/${x.total}</em></div>`;
+   return `<div class="activity-row"><span>${when}</span><b>${esc(x.topic||'Practice')}</b><em>${x.correct?'✓':'○'}</em></div>`;
+ }).join(''):'<p class="muted">Aucune activité enregistrée. <small>No activity recorded yet.</small></p>';
+}
+function reportText(){
+ const days=lastNDays(7), rows=(progress.history||[]).filter(x=>days.includes(x.day));
+ const q=rows.filter(x=>x.kind==='question'), correct=q.filter(x=>x.correct===true).length;
+ const grouped=topicMetrics(), ranked=Object.values(grouped).filter(g=>g.attempted>0).map(g=>({...g,rate:Math.round(g.correct/g.attempted*100)}));
+ const strong=[...ranked].sort((a,b)=>b.rate-a.rate).slice(0,3).map(g=>`${g.name} (${g.rate}%)`).join(', ')||'Not enough data yet';
+ const needs=[...ranked].sort((a,b)=>a.rate-b.rate).filter(g=>g.rate<90||g.wrong).slice(0,3).map(g=>`${g.name} (${g.rate}%)`).join(', ')||'None currently';
+ return `Mon Jardin Français — Parent Report
+Last 7 days: ${localDayLabel(days[0])} – ${localDayLabel(days[6])}
+Study days: ${new Set(rows.map(x=>x.day)).size}/7
+Questions answered: ${q.length}
+Accuracy: ${q.length?Math.round(correct/q.length*100):0}%
+Writing checks: ${rows.filter(x=>x.kind==='writing').length}
+Current streak: ${progress.streak||0} days
+Strong areas: ${strong}
+Needs more practice: ${needs}`;
+}
+function downloadJson(filename,obj){
+ const blob=new Blob([JSON.stringify(obj,null,2)],{type:'application/json'});
+ const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=filename;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(a.href),1000);
+}
+$$('.progress-tab').forEach(b=>b.addEventListener('click',()=>{
+ $$('.progress-tab').forEach(x=>{x.classList.toggle('active',x===b);x.classList.toggle('primary',x===b);x.classList.toggle('ghost',x!==b)});
+ $('#learnerProgressPanel').classList.toggle('hidden',b.dataset.progressTab!=='learner');
+ $('#parentProgressPanel').classList.toggle('hidden',b.dataset.progressTab!=='parent');
+ renderProgress();
+}));
+$('#shareReport').addEventListener('click',async()=>{
+ const text=reportText();
+ try{
+   if(navigator.share)await navigator.share({title:'Mon Jardin Français — Parent Report',text});
+   else{await navigator.clipboard.writeText(text);toast('Rapport copié ✓ • Report copied');}
+ }catch(e){if(e.name!=='AbortError'){try{await navigator.clipboard.writeText(text);toast('Rapport copié ✓')}catch(_){toast('Impossible de partager le rapport.') }}}
+});
+$('#backupProgress').addEventListener('click',()=>{
+ downloadJson(`mon-jardin-francais-backup-${todayKey()}.json`,{app:'Mon Jardin Français',version:3,exportedAt:new Date().toISOString(),progress});
+ toast('Sauvegarde créée ✓ • Backup created');
+});
+$('#restoreProgress').addEventListener('change',async(e)=>{
+ const file=e.target.files?.[0];if(!file)return;
+ try{
+  const data=JSON.parse(await file.text()), restored=data.progress||data;
+  if(!restored||typeof restored!=='object'||!restored.attempts)throw Error('Invalid backup');
+  progress={...loadProgress(),...restored,attempts:restored.attempts||{},writing:restored.writing||{},history:Array.isArray(restored.history)?restored.history:[]};
+  save();renderProgress();toast('Progression restaurée ✓ • Progress restored');
+ }catch(err){console.error(err);toast('Sauvegarde invalide • Invalid backup')}
+ e.target.value='';
+});
 $('#resetProgress').onclick=()=>{if(confirm('Effacer toute la progression enregistrée sur cet appareil ?')){localStorage.removeItem(KEY);progress=loadProgress();renderProgress();toast('Progression réinitialisée.')}};
 
 if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(console.warn));

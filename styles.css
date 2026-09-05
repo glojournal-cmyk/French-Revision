@@ -329,3 +329,48 @@ textarea:focus-visible{
   html{scroll-behavior:auto}
   *,*:before,*:after{transition:none!important;animation:none!important}
 }
+
+
+/* Progress + Parent Report + bilingual UI */
+.nav-link small,.topbar>.pill small,.hero-actions .pill small,.text-btn small,
+.progress-tab small,.report-actions .pill small,.file-pill small{
+  display:block;font-size:9px;font-weight:700;letter-spacing:.03em;opacity:.62;line-height:1.1;margin-top:2px
+}
+.nav-link{line-height:1.05}
+.hero-actions .pill{min-height:54px}
+.progress-tabs{display:flex;gap:10px;flex-wrap:wrap;margin:4px 0 22px}
+.progress-tabs .pill{min-width:160px}
+.panel h2 small,.report-columns h3 small,.activity-list small{display:block;font-size:12px;color:var(--muted);font-family:var(--sans);font-weight:600;margin-top:3px}
+.weekly-panel{margin-top:18px}
+.weekly-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:9px}
+.week-day{border:1px solid var(--line);border-radius:16px;padding:12px 8px;text-align:center;background:#fffaf7;display:grid;gap:4px}
+.week-day b{font-size:11px;color:var(--muted)}
+.week-day strong{font-family:var(--serif);font-size:24px}
+.week-day span{font-size:11px;color:var(--muted)}
+.week-day.active{box-shadow:0 8px 18px rgba(38,52,46,.07);background:#fff}
+.parent-report-card{padding:26px}
+.parent-report-head{display:flex;justify-content:space-between;gap:18px;align-items:flex-start}
+.report-badge{background:#edf3e8;color:#46604d;padding:8px 12px;border-radius:999px;font-size:12px;font-weight:800;white-space:nowrap}
+.report-stats{margin:20px 0}
+.report-columns{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:20px 0}
+.report-columns>div{border:1px solid var(--line);border-radius:18px;padding:18px;background:#fffcfa}
+.report-item{padding:10px 0;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:12px}
+.report-item:last-child{border-bottom:0}
+.report-item b{font-size:14px}.report-item span{font-size:12px;color:var(--muted);text-align:right}
+.report-item.good b{color:#55725b}
+.activity-list{display:grid;gap:8px;margin-top:12px}
+.activity-row{display:grid;grid-template-columns:125px 1fr 44px;gap:12px;align-items:center;padding:10px 12px;border-radius:14px;background:#fff8f5}
+.activity-row span{font-size:11px;color:var(--muted)}.activity-row b{font-size:13px}.activity-row em{text-align:center;font-style:normal;font-weight:900}
+.report-actions{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0 22px}
+.file-pill{position:relative;cursor:pointer;display:inline-flex;flex-direction:column;align-items:center;justify-content:center}
+.file-pill input{position:absolute;inset:0;opacity:0;cursor:pointer;width:100%}
+@media(max-width:760px){
+  .weekly-grid{grid-template-columns:repeat(4,1fr)}
+  .report-columns{grid-template-columns:1fr}
+  .activity-row{grid-template-columns:95px 1fr 32px}
+  .parent-report-head{display:block}.report-badge{display:inline-block;margin-top:10px}
+}
+@media(max-width:480px){
+  .weekly-grid{grid-template-columns:repeat(2,1fr)}
+  .progress-tabs .pill{flex:1;min-width:0}
+}

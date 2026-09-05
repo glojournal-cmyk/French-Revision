@@ -19,14 +19,14 @@
     <span><strong>Mon Jardin Français</strong><small>petits pas, grands rêves.</small></span>
   </a>
   <nav class="nav" aria-label="Navigation principale">
-    <button class="nav-link active" data-view="home">Accueil</button>
-    <button class="nav-link" data-view="lessons">Leçons</button>
-    <button class="nav-link" data-view="practice">Jeux</button>
-    <button class="nav-link" data-view="vocab">Vocabulaire</button>
-    <button class="nav-link" data-view="writing">Écriture</button>
+    <button class="nav-link active" data-view="home"><span>Accueil</span><small>Home</small></button>
+    <button class="nav-link" data-view="lessons"><span>Leçons</span><small>Lessons</small></button>
+    <button class="nav-link" data-view="practice"><span>Jeux</span><small>Games</small></button>
+    <button class="nav-link" data-view="vocab"><span>Vocabulaire</span><small>Vocabulary</small></button>
+    <button class="nav-link" data-view="writing"><span>Écriture</span><small>Writing</small></button>
   </nav>
   <button class="icon-btn" id="soundBtn" title="Prononciation">🔊</button>
-  <button class="pill ghost" data-view="progress">Mes progrès</button>
+  <button class="pill ghost" data-view="progress"><span>Mes progrès</span><small>My progress</small></button>
   <button class="menu-btn" id="menuBtn" aria-label="Menu" aria-expanded="false">☰</button>
 </header>
 
@@ -40,8 +40,8 @@
       <h1>Fais fleurir<br>ton français <span>♡</span></h1>
       <p>Des leçons simples, ludiques et motivantes pour réviser ce que tu as déjà appris.</p>
       <div class="hero-actions">
-        <button class="pill primary" id="startDaily">Commencer la leçon →</button>
-        <button class="pill light" data-view="vocab">Explorer le vocabulaire</button>
+        <button class="pill primary" id="startDaily"><span>Commencer la leçon →</span><small>Start lesson</small></button>
+        <button class="pill light" data-view="vocab"><span>Explorer le vocabulaire</span><small>Explore vocabulary</small></button>
       </div>
       <div class="hero-points">
         <span>🌱 À ton rythme</span><span>♡ Ludique et bienveillant</span><span>⭐ Des progrès concrets</span>
@@ -58,14 +58,14 @@
   </section>
 
   <section class="content section-pad">
-    <div class="section-head"><div><p class="eyebrow">Ton jardin d'apprentissage</p><h2>Découvre nos thèmes</h2></div><button class="text-btn" data-view="lessons">Voir toutes les leçons →</button></div>
+    <div class="section-head"><div><p class="eyebrow">Ton jardin d'apprentissage</p><h2>Découvre nos thèmes</h2></div><button class="text-btn" data-view="lessons"><span>Voir toutes les leçons →</span><small>View all lessons</small></button></div>
     <div class="home-grid">
       <div class="theme-grid">
-        <button class="theme-card" data-section="18"><img src="theme-school.webp" alt=""><span><b>Ma vie au collège</b><small>École, matières & activités</small></span></button>
-        <button class="theme-card" data-section="28"><img src="theme-paris.webp" alt=""><span><b>Paris & la culture</b><small>Lire et comprendre</small></span></button>
-        <button class="theme-card" data-section="3"><img src="theme-friends.webp" alt=""><span><b>Amis & famille</b><small>Parle de ce qui compte</small></span></button>
-        <button class="theme-card" data-section="5"><img src="theme-interests.webp" alt=""><span><b>Voyages & aventures</b><small>Ville, heure & déplacements</small></span></button>
-        <button class="theme-card" data-section="2"><img src="feature-vocab.webp" alt=""><span><b>Mes centres d'intérêt</b><small>Activités & opinions</small></span></button>
+        <button class="theme-card" data-section="18"><img src="theme-school.webp" alt=""><span><b>Ma vie au collège</b><small>School life • École, matières & activités</small></span></button>
+        <button class="theme-card" data-section="28"><img src="theme-paris.webp" alt=""><span><b>Paris & la culture</b><small>Paris & culture • Lire et comprendre</small></span></button>
+        <button class="theme-card" data-section="3"><img src="theme-friends.webp" alt=""><span><b>Amis & famille</b><small>Friends & family • Parle de ce qui compte</small></span></button>
+        <button class="theme-card" data-section="5"><img src="theme-interests.webp" alt=""><span><b>Voyages & aventures</b><small>Travel & adventures • Ville, heure & déplacements</small></span></button>
+        <button class="theme-card" data-section="2"><img src="feature-vocab.webp" alt=""><span><b>Mes centres d'intérêt</b><small>My interests • Activités & opinions</small></span></button>
       </div>
       <aside class="daily-card">
         <div class="daily-title"><span>🌿 Leçon du jour</span><em id="dailyLevel">Révision</em></div>
@@ -129,13 +129,44 @@
 </section>
 
 <section id="progressView" class="view content page">
-  <div class="page-head"><div><p class="eyebrow">Mes progrès</p><h1>Regarde comme ton jardin pousse 🌱</h1><p>Ta progression reste enregistrée sur cet appareil.</p></div><img src="decor-sprout.webp" alt=""></div>
-  <div id="progressStats" class="stats-grid"></div>
-  <div class="progress-layout">
-    <section class="panel"><h2>Progression par thème</h2><div id="topicProgress"></div></section>
-    <section class="panel"><h2>À revoir</h2><div id="reviewList"></div></section>
+  <div class="page-head"><div><p class="eyebrow">Mes progrès • My progress</p><h1>Regarde comme ton jardin pousse 🌱</h1><p>Ta progression est enregistrée automatiquement sur cet appareil.</p></div><img src="decor-sprout.webp" alt=""></div>
+
+  <div class="progress-tabs" role="tablist" aria-label="Progress views">
+    <button class="pill primary progress-tab active" data-progress-tab="learner">Mes progrès <small>My progress</small></button>
+    <button class="pill ghost progress-tab" data-progress-tab="parent">Rapport parents <small>Parent report</small></button>
   </div>
-  <button class="text-btn danger" id="resetProgress">Réinitialiser mes progrès</button>
+
+  <div id="learnerProgressPanel">
+    <div id="progressStats" class="stats-grid"></div>
+    <div class="progress-layout">
+      <section class="panel"><h2>Progression par thème <small>Progress by topic</small></h2><div id="topicProgress"></div></section>
+      <section class="panel"><h2>À revoir <small>Needs review</small></h2><div id="reviewList"></div></section>
+    </div>
+    <section class="panel weekly-panel">
+      <div class="section-head"><div><p class="eyebrow">Cette semaine • This week</p><h2>Activité des 7 derniers jours</h2></div></div>
+      <div id="weeklyActivity" class="weekly-grid"></div>
+    </section>
+  </div>
+
+  <div id="parentProgressPanel" class="hidden">
+    <section class="panel parent-report-card" id="parentReportCard">
+      <div class="parent-report-head"><div><p class="eyebrow">Rapport parents • Parent report</p><h2>Résumé d'apprentissage</h2><p id="reportPeriod" class="muted"></p></div><span class="report-badge">Auto-saved ✓</span></div>
+      <div id="parentSummary" class="stats-grid report-stats"></div>
+      <div class="report-columns">
+        <div><h3>Points forts <small>Strong areas</small></h3><div id="strongAreas"></div></div>
+        <div><h3>À renforcer <small>Needs practice</small></h3><div id="needsPractice"></div></div>
+      </div>
+      <h3>Activité récente <small>Recent activity</small></h3>
+      <div id="recentActivity" class="activity-list"></div>
+    </section>
+    <div class="report-actions">
+      <button class="pill primary" id="shareReport"><span>Partager le rapport</span><small>Share parent report</small></button>
+      <button class="pill ghost" id="backupProgress"><span>Sauvegarder</span><small>Backup progress</small></button>
+      <label class="pill ghost file-pill"><span>Restaurer</span><small>Restore backup</small><input id="restoreProgress" type="file" accept=".json,application/json"></label>
+    </div>
+  </div>
+
+  <button class="text-btn danger" id="resetProgress">Réinitialiser mes progrès • Reset progress</button>
 </section>
 </main>
 

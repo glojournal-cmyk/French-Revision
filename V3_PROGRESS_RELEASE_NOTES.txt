@@ -1,0 +1,11 @@
+V3 Progress + Parent Report
+- French + English subtitles on homepage navigation and main CTAs
+- Automatic per-question activity history
+- 7-day activity dashboard
+- Accuracy, streak, sessions and topic mastery
+- Parent report with strengths / needs-practice / recent activity
+- Native Share Parent Report (clipboard fallback)
+- Downloadable JSON progress backup
+- Restore progress backup
+- Existing local progress remains compatible
+- Service-worker cache bumped

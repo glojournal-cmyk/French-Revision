@@ -1,4 +1,4 @@
-const CACHE='mon-jardin-francais-flat-loaderfix-20260905-2';
+const CACHE='mon-jardin-francais-parent-progress-20260905-3';
 const SHELL=['./','index.html','styles.css','app.js','reference-marker.js','manifest.webmanifest',
 'icon-192.png','icon-512.png',
 'question-bank.json','vocab-bank.json','notes-by-date.json','writing-bank.json','block-question-map.json',
